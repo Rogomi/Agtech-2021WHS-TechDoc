@@ -63,13 +63,34 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **RecordTabsActivity** - handles the record tabs page
 - **ReferenceFormActivity** - contains the reference form
 - **ReferenceListActivity** - handles the reference list page
+- **TimeSheetActivity** - handles the time sheet page
+- **BeaconTimeInActivity** - handles the beacon time in page
+- **NFCTimeInActivity** - handles the NFC time in page
+- **QrTimeInActivity** - handles the QR time in page
+- **TaskFormActivity** - handles the task form page
+- **MobileVerificationActivity** - handles the mobile verification page
+- **SigneeFormActivity** - handles the signee form page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
+
+
+### TECHNICAL ARCHITECTURE
+
+https://docs.google.com/presentation/d/1zwyqjWj-pD5GhJBKlKkLHscQwNlRJe6SFR_hmEWbIPk/edit?usp=sharing
+
+#### **Model**
+
+The model houses the logic for the program, which is retrieved by the ViewModel upon its own receipt of input from the user through View.
+ 
+#### **View**
+
+View is the collection of visible elements, which also receives user input. This includes user interfaces (UI), animations and text. The content of View is not interacted with directly to change what is presented.
+#### **ViewModel**
+ViewModel is located between the View and Model layers. This is where the controls for interacting with View are housed, while binding is used to connect the UI elements in View to the controls in ViewModel.
 
 
 
