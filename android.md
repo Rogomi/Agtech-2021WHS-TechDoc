@@ -42,19 +42,36 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **AttachmentApi** - a class that contains attachment endpoints
 
 #### Activities/Fragments
+
 - **MainActivity** - is the main activity that contains the child fragments and sibling activities
 - **LoginActivity** - handles the login screen
 - **SearchActivity** - handles the search page
 - **SettingsActivity** - handles the settings page
 - **PdfViewerActivity** - handles the PDF viewer page
 - **HazardActivity** - handles the hazard page
-- **EmailReportActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
-- **LoginActivity** - handles the Google login page
+- **EmailReportActivity** - handles the email report page
+- **ActionListActivity** - handles the action list page
+- **AddEditActionActivity** - handles the add, edit action page
+- **AttachmentDetailActivity** - handles the attachment details page
+- **AttachmentListActivity** - handles the attachment list page
+- **ChangePasswordActivity** - handles the change password page
+- **ChemicalRegisterActivity** - handles the chemical registry page
+- **MsdsProductDetailActivity** - handles the product detail page
+- **MsdsSearchResultActivity** - handles the search result page
+- **RecordDetailActivity** - handles the record detail page
+- **RecordSearchResultActivity** - handles the record search result page
+- **RecordTabsActivity** - handles the record tabs page
+- **ReferenceFormActivity** - contains the reference form
+- **ReferenceListActivity** - handles the reference list page
+- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search page
+
+
+
+
 
