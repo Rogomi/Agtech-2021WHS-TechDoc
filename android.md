@@ -75,7 +75,7 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
+- **SearchActivity** - handles the main search pagekkkkkk
 
 
 ### TECHNICAL ARCHITECTURE
