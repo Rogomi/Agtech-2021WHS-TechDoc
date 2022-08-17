@@ -44,6 +44,7 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 #### Activities/Fragments
 
 - **MainActivity** - is the main activity that contains the child fragments and sibling activities
+    - `showVerification`
 - **LoginActivity** - handles the login screen
 - **SearchActivity** - handles the search page
 - **SettingsActivity** - handles the settings page
