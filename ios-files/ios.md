@@ -48,14 +48,18 @@ Some of the third party libraries are installed using SPM
     
 
 #### View Controllers
-  ##### **WHSAtmosphericMonitoringTypePickerViewController**
+  
+
+##### **WHSAtmosphericMonitoringTypePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddMonitoringTypeView`
 - `showEditMonitoringTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **MyStorageESQAddSuppliersViewController**
+- `editBarButtonItemDidTapped`
+
+##### **MyStorageESQAddSuppliersViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -80,7 +84,9 @@ Some of the third party libraries are installed using SPM
 - `didSelectAnExistingSupplier`
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
-- `trimLeadingTrailingWhiteSpace`##### **WHSAssetsAddServiceHistoryViewController**
+- `trimLeadingTrailingWhiteSpace`
+
+##### **WHSAssetsAddServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -108,11 +114,15 @@ Some of the third party libraries are installed using SPM
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`##### **WHSAssetsElectricalSearchViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAssetsElectricalSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList##### **WHSNoiseControlTabViewController**
+- `showSearchResultsViewWithDataList
+
+##### **WHSNoiseControlTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -127,7 +137,9 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showEditMeasurementView`
 - `showAssessmentView`
-- `showNewControlsView`##### **WHSAssetsSearchRecordResultsViewController**
+- `showNewControlsView`
+
+##### **WHSAssetsSearchRecordResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -136,7 +148,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `searchRecords`
-- `fetchNextPage`##### **WHSNoiseControlAddRecordViewController**
+- `fetchNextPage`
+
+##### **WHSNoiseControlAddRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -192,6 +206,8 @@ Some of the third party libraries are installed using SPM
 - `setSelectedItemWithIDs`
 - `appendSelectedItemWithIDs`
 - `discardSelectedItemWithStringOfIDs`
+
+
 ##### **WHSSafetyFireFightingSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
@@ -200,7 +216,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSNoiseControlEditMeasurementViewController**
+- `showTabView`
+
+##### **WHSNoiseControlEditMeasurementViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -225,6 +243,8 @@ Some of the third party libraries are installed using SPM
 - `showMeasurementLocalityPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
+
+
 ##### **WHSAISearchViewController**
 
 ###### **Methods and Calculated Variables**
@@ -245,11 +265,15 @@ Some of the third party libraries are installed using SPM
 - `showDatePickerWithIndexPath`
 - `showStatusPickerView`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`##### **WHSPAPLegislationsSearchViewController**
+- `searchBarButtonItemDidTapped`
+
+##### **WHSPAPLegislationsSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSSafetyFireFightingTabViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSSafetyFireFightingTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -261,10 +285,14 @@ Some of the third party libraries are installed using SPM
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSAssetsPlantAddServiceHistoryViewController**
+- `showActionsView`
+
+##### **WHSAssetsPlantAddServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
-- `viewDidLoad`##### **WHSSearchViewController**
+- `viewDidLoad`
+
+##### **WHSSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -272,7 +300,9 @@ Some of the third party libraries are installed using SPM
 - `initializeSearchBarButtonItem`
 - `showDatePicker`
 - `searchBarButtonItemDidTapped`
-- `formatPickedItems`##### **WHSSiteRiskAssessmentAddRecordViewController**
+- `formatPickedItems`
+
+##### **WHSSiteRiskAssessmentAddRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -313,7 +343,9 @@ Some of the third party libraries are installed using SPM
 - `showRelevantLegislationsPickeriew`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`##### **WHSSafetySpillKitSearchResultsViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetySpillKitSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -321,11 +353,15 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSAssetsVehiclesSearchRecordViewController**
+- `showTabView`
+
+##### **WHSAssetsVehiclesSearchRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSAssetsElectricalEditDetailsViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsElectricalEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -334,12 +370,16 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSSafetyPPEAddTestHistoryViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSSafetyPPEAddTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **WHSAIEditRecordViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSAIEditRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -347,7 +387,9 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`##### **MyStorageManifestViewController**
+- `initializeDataSource`
+
+##### **MyStorageManifestViewController**
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -385,6 +427,8 @@ Some of the third party libraries are installed using SPM
 - `summaryButtonPressed`
 - `segmentedControlValueChanged`
 - `switchDidValueChanged`
+
+
 
 ##### **WHSAIAddRecordViewController**
 
@@ -425,7 +469,9 @@ Some of the third party libraries are installed using SPM
 - `showRelevantLegislationsPickeriew`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`##### **WHSActionViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSActionViewController**
 
 ###### **Methods and Calculated Variables**
 - `enableEditingActions`
@@ -443,7 +489,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`##### **WHSAISearchResultsViewController**
+- `initializeDataSource`
+
+##### **WHSAISearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -457,7 +505,9 @@ Some of the third party libraries are installed using SPM
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSChemicalQChartViewController**
+- `showTabView`
+
+##### **WHSChemicalQChartViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -469,7 +519,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView``##### **WHSSafetyEmergencyWashingAddDetailsViewController**
+- `showTabView``
+
+##### **WHSSafetyEmergencyWashingAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -477,7 +529,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`##### **WHSAddAIInspectionSubTypeViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSAddAIInspectionSubTypeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -494,7 +548,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSChemicalRegisterProductDetailsViewController**
+- `createJSON`
+
+##### **WHSChemicalRegisterProductDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -511,11 +567,15 @@ Some of the third party libraries are installed using SPM
 - `fetchRegisterItemDetails`
 - `editStoredQuantityBarButtonItemDidTapped`
 - `sanitizeJSON`
-- `reorderSanitizedJSON`##### **WHSSafetyFireFightingSearchViewController**
+- `reorderSanitizedJSON`
+
+##### **WHSSafetyFireFightingSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
+
+
 ##### **WHSAddNotificationReceiverViewController**
 
 ###### **Methods and Calculated Variables**
@@ -533,7 +593,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createPOSTJSON`##### **WHSSafetyPPESearchResultsViewController**
+- `createPOSTJSON`
+
+##### **WHSSafetyPPESearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -542,7 +604,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSAssetsClassifiedViewController**
+- `showTabView`
+
+##### **WHSAssetsClassifiedViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -558,7 +622,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSHazardsCarcinogensEditRecordViewController**
+- `openAddRecordView`
+
+##### **WHSHazardsCarcinogensEditRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -566,7 +632,9 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`##### **WHSAtmosphericMonitoringEditRecordViewController**
+- `initializeDataSource`
+
+##### **WHSAtmosphericMonitoringEditRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -576,10 +644,14 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`##### **WHSPAPTraningSearchViewController**
+- `initializeDataSource`
+
+##### **WHSPAPTraningSearchViewController**
 
 ###### **Methods and Calculated Variables**
-- `showSearchResultsViewWithDataList`##### **MyStorageEditStoredQuantityViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **MyStorageEditStoredQuantityViewController**
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -634,6 +706,8 @@ Some of the third party libraries are installed using SPM
 - `addNewBatchRecToDataSource`
 - `appendWorkerInfos`
 - `isElegibleForFetchingBatchDetails`
+
+
 ##### **WHSAddCompetenciesViewController**
 
 ###### **Methods and Calculated Variables**
@@ -657,12 +731,16 @@ Some of the third party libraries are installed using SPM
 - `showLicencePickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSSafetyEmergencyWashingAddTestHistoryViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetyEmergencyWashingAddTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **MyStorageESQAddUnitSizesViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **MyStorageESQAddUnitSizesViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -680,7 +758,9 @@ Some of the third party libraries are installed using SPM
 - `doneBarButtonItemDidTapped`
 - `textFieldTextDidChanged`
 - `isAllRequiredDataFilledIn`
-- `trimLeadingTrailingWhitespace`##### **WHSSafeWorkProceduresViewController**
+- `trimLeadingTrailingWhitespace`
+
+##### **WHSSafeWorkProceduresViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -692,7 +772,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView`##### **MyStorageESQAddBatchViewController**
+- `showTabView`
+
+##### **MyStorageESQAddBatchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -726,7 +808,9 @@ Some of the third party libraries are installed using SPM
 - `isAllRequiredDataFilledIn`
 - `trimLeadingTrailingWhitespace`
 - `finishedBatchRec`
-- `showSamplePOST`##### **WHSSafetyFireFightingAddDetailsViewController**
+- `showSamplePOST`
+
+##### **WHSSafetyFireFightingAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -734,15 +818,21 @@ Some of the third party libraries are installed using SPM
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`##### **WHSSafetyPPESearchViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSSafetyPPESearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSAssetsLiftingSearchViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsLiftingSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSSafetyEmergencyWashingTabViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSSafetyEmergencyWashingTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -754,10 +844,14 @@ Some of the third party libraries are installed using SPM
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSPAPComplaintsSearchResultsViewController**
+- `showActionsView`
+
+##### **WHSPAPComplaintsSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
-- `showTabView`##### **WHSCauseHazardsViewController**
+- `showTabView`
+
+##### **WHSCauseHazardsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -786,7 +880,9 @@ Some of the third party libraries are installed using SPM
 - `showHazardsPickerView`
 - `showAgencyPickerView`
 - `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`##### **WHSAssetsLiftingAddDetailsViewController**
+- `saveBarButtonItemDidTapped`
+
+##### **WHSAssetsLiftingAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -794,7 +890,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSAssetsAddDetailsViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -845,24 +943,32 @@ Some of the third party libraries are installed using SPM
 - `handleAutoNumData`
 - `clearAssetSubType`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`##### **WHSSafetyPPEEditTestHistoryViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetyPPEEditTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **WHSSplitViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSSplitViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `supportedInterfaceOrientations`##### **WHSActionCategoryPickerViewController**
+- `supportedInterfaceOrientations`
+
+##### **WHSActionCategoryPickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddActionCategoryView`
 - `showEditActionCategoryView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **WHSNonChemicalRiskAssessmentViewController**
+- `editBarButtonItemDidTapped`
+
+##### **WHSNonChemicalRiskAssessmentViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -878,6 +984,8 @@ Some of the third party libraries are installed using SPM
 - `showPDFView`
 - `showEmailReportView`
 - `showTabView`
+
+
 ##### **WHSAddInspectionTypeViewController**
 
 ###### **Methods and Calculated Variables**
@@ -895,14 +1003,20 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSSafetyEmergencyWashingSearchViewController**
+- `createJSON`
+
+##### **WHSSafetyEmergencyWashingSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSSearchResultsRecordViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSSearchResultsRecordViewController**
 
 ###### **Methods and Calculated Variables**
-- `searchRecords`##### **WHSSiteRiskAssessmentSearchViewController**
+- `searchRecords`
+
+##### **WHSSiteRiskAssessmentSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -918,7 +1032,9 @@ Some of the third party libraries are installed using SPM
 - `showLocationPickerView`
 - `showStatusPickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`##### **WHSAssetsPlantSearchResultsViewController**
+- `searchBarButtonItemDidTapped`
+
+##### **WHSAssetsPlantSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -926,7 +1042,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController**
+- `showTabView`
+
+##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -953,13 +1071,17 @@ Some of the third party libraries are installed using SPM
 - `showExposureLimitsPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSSearchRecordViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSearchRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `initializeSearchBarButtonItem`
 - `searchBarButtonItemDidTapped`
-- `showSearchResultsViewWithDataList`##### **WHSHazardsAsbestosViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSHazardsAsbestosViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -975,7 +1097,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSAttachmentsViewController**
+- `openAddRecordView`
+
+##### **WHSAttachmentsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -988,7 +1112,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `openAddRecordView`
-- `showEditAttachmentsView`##### **WHSAddAIInspectionTypeViewController**
+- `showEditAttachmentsView`
+
+##### **WHSAddAIInspectionTypeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1005,7 +1131,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSAIEditPointsRaisedViewController**
+- `createJSON`
+
+##### **WHSAIEditPointsRaisedViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1017,6 +1145,8 @@ Some of the third party libraries are installed using SPM
 - `fetchPointRaisedDetailsData`
 - `initializeDataSource`
 - `showPointRaisedActionsView`
+
+
 ##### **WHSUtilitiesViewController**
 
 ###### **Methods and Calculated Variables**
@@ -1025,10 +1155,14 @@ Some of the third party libraries are installed using SPM
 - `callNumber`
 - `sendEmail`
 - `sendEmail: … delegate`
-- `openWebsite`##### **WHSPAPLegislationsSearchResultsViewController**
+- `openWebsite`
+
+##### **WHSPAPLegislationsSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
-- `showTabView`##### **WHSActionsMonitorSearchViewController**
+- `showTabView`
+
+##### **WHSActionsMonitorSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1049,7 +1183,9 @@ Some of the third party libraries are installed using SPM
 - `showActionPriorityPickerView`
 - `showPersonResponsiblePickerView`
 - `showStatusPickerView`
-- `searchBarButtonItemDidTapped`##### **WHSAssetsTestHistoryViewController**
+- `searchBarButtonItemDidTapped`
+
+##### **WHSAssetsTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1060,10 +1196,14 @@ Some of the third party libraries are installed using SPM
 - `fetchTestHistories`
 - `showTestHistoryDetailsView`
 - `showTestHistoryEditDetailsView`
-- `openAddRecordView`##### **WHSPAPDrillsSearchResultsViewController**
+- `openAddRecordView`
+
+##### **WHSPAPDrillsSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
-- `showTabView`##### **WHSAssetsSearchRecordViewController**
+- `showTabView`
+
+##### **WHSAssetsSearchRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1079,13 +1219,17 @@ Some of the third party libraries are installed using SPM
 - `textViewDidChange`
 - `initializeDataSource`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`##### **WHSWebViewController**
+- `searchBarButtonItemDidTapped`
+
+##### **WHSWebViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `prepareWebView`
-- `loadHTMLString: … baseURL`##### **MyStorageESQInputValueViewController**
+- `loadHTMLString: … baseURL`
+
+##### **MyStorageESQInputValueViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1107,11 +1251,15 @@ Some of the third party libraries are installed using SPM
 - `textFieldShouldReturn`
 - `doneBarButtonItemDidTapped`
 - `labelPreferredRateDidTapped`
-- `textFieldHiddenReceiverTextDidChange`##### **WHSPAPPlansSearchViewController**
+- `textFieldHiddenReceiverTextDidChange`
+
+##### **WHSPAPPlansSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSSafetySpillKitEditDetailsViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSSafetySpillKitEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1119,7 +1267,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`##### **MyStorageESQBatchDetailsViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **MyStorageESQBatchDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1139,7 +1289,9 @@ Some of the third party libraries are installed using SPM
 - `initializeTableBatchInfo`
 - `JSONSanitizerWithData: ... keys`
 - `getID: ... index`
-- `getID: ... arrayList: ... index`##### **WHSSafetySpillKitAddDetailsViewController**
+- `getID: ... arrayList: ... index`
+
+##### **WHSSafetySpillKitAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1147,14 +1299,18 @@ Some of the third party libraries are installed using SPM
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`##### **WHSAssetSubTypePickerViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSAssetSubTypePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddView`
 - `showEditView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **WHSActionsMonitorSearchResultsViewController**
+- `editBarButtonItemDidTapped`
+
+##### **WHSActionsMonitorSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1169,11 +1325,15 @@ Some of the third party libraries are installed using SPM
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showEditActionView##### **WHSPAPComplaintsSearchViewController**
+- `showEditActionView
+
+##### **WHSPAPComplaintsSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
+
+
 ##### **WHSLegislationsTabViewController**
 
 ###### **Methods and Calculated Variables**
@@ -1187,14 +1347,18 @@ Some of the third party libraries are installed using SPM
 - `showSignOffView`
 - `showEmailReportView`
 - `showEditDetailsView`
-- `showActionsView`##### **WHSAssetTypePickerViewController**
+- `showActionsView`
+
+##### **WHSAssetTypePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddView`
 - `showEditView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **SignatureViewController**
+- `editBarButtonItemDidTapped`
+
+##### **SignatureViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1204,7 +1368,9 @@ Some of the third party libraries are installed using SPM
 - `supportedInterfaceOrientations`
 - `shouldAutorotate`
 - `clearSignature`
-- `doneSigning`##### **WHSStartAuditViewController**
+- `doneSigning`
+
+##### **WHSStartAuditViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1248,7 +1414,9 @@ Some of the third party libraries are installed using SPM
 - `doneBarButtonItemDidTapped`
 - `uploadAttachment`
 - `clearDepartmentData`
-- `cellIndexForField`##### **WHSAddLocationViewController**
+- `cellIndexForField`
+
+##### **WHSAddLocationViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1266,7 +1434,9 @@ Some of the third party libraries are installed using SPM
 - `createJSON`
 - `showStatePickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSAddEmployeeDepartmentViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddEmployeeDepartmentViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1283,7 +1453,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **GenericTableViewController**
+- `createJSON`
+
+##### **GenericTableViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1292,6 +1464,8 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... numberOfRowsInSection`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
+
+
 ##### **WHSAddAtmosphericMonitoringTypeViewController**
 
 ###### **Methods and Calculated Variables**
@@ -1309,7 +1483,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSSiteRiskAssessmentViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSiteRiskAssessmentViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1325,7 +1501,9 @@ Some of the third party libraries are installed using SPM
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`##### **MyStorageESQAddPackSizeViewController**
+- `showTabView`
+
+##### **MyStorageESQAddPackSizeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1356,6 +1534,8 @@ Some of the third party libraries are installed using SPM
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
 - `trimLeadingTrailingWhiteSpace`
+
+
 ##### **WHSAddActionCategoryViewController**
 
 ###### **Methods and Calculated Variables**
@@ -1373,7 +1553,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSChecklistViewController**
+- `createJSON`
+
+##### **WHSChecklistViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1429,7 +1611,9 @@ Some of the third party libraries are installed using SPM
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `titleForSection`
-- `showSectionPicker`##### **WHSAddNoiseAssessmentSubTypeViewController**
+- `showSectionPicker`
+
+##### **WHSAddNoiseAssessmentSubTypeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1447,15 +1631,21 @@ Some of the third party libraries are installed using SPM
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `createJSON`
+
+
 ##### **WHSAssetsElectricalAddServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSAssetsClassifiedSearchViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsClassifiedSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSConfinedSpacesPermitsViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSConfinedSpacesPermitsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1470,7 +1660,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchPermitsData`
 - `initializeDataSource`
-- `showPermitsView`##### **WHSAssetsVehiclesTabViewController**
+- `showPermitsView`
+
+##### **WHSAssetsVehiclesTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1484,7 +1676,9 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistory`
-- `showActionsView`##### **WHSAddRecordViewController**
+- `showActionsView`
+
+##### **WHSAddRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1496,12 +1690,16 @@ Some of the third party libraries are installed using SPM
 - `needSwitchCell`
 - `saveButtonItemDidTapped`
 - `switchCellValueDidChanged`
-- `getPreferredIndexPath`##### **WHSAssetsClassifiedAddDetailsViewController**
+- `getPreferredIndexPath`
+
+##### **WHSAssetsClassifiedAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`##### **WHSChemicalRiskAssessmentConsequencesViewController**
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+
+##### **WHSChemicalRiskAssessmentConsequencesViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1514,16 +1712,22 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchConsequencesData`
-- `initializeDataSource`##### **WHSNoiseControlAddControlViewController**
+- `initializeDataSource`
+
+##### **WHSNoiseControlAddControlViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`##### **WHSPoliciesSearchViewController**
+- `prepareForSegue`
+
+##### **WHSPoliciesSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1566,7 +1770,9 @@ Some of the third party libraries are installed using SPM
 - `hideProgressHUD`
 - `getModuleAccessTypeWithID`
 - `getModuleAccessTypeWithMenuItem`
-- `moduleStateForAccessTypeString`##### **WHSChemicalRiskAssessmentCurrentControlsViewController**
+- `moduleStateForAccessTypeString`
+
+##### **WHSChemicalRiskAssessmentCurrentControlsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1580,13 +1786,17 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchCurrentControlsData`
 - `initializeDataSource`
-- `segregateCurrentControlsData`##### **WHSAssetsClassifiedEditDetailsViewController**
+- `segregateCurrentControlsData`
+
+##### **WHSAssetsClassifiedEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... didSelectRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`##### **WHSAddAttendeeViewController**
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+
+##### **WHSAddAttendeeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1609,7 +1819,9 @@ Some of the third party libraries are installed using SPM
 - `showCompetenciesPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSAssetsVehiclesSearchRecordResultsViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAssetsVehiclesSearchRecordResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1617,11 +1829,15 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSAssetsElectricalEditServiceHistoryViewController**
+- `showTabView`
+
+##### **WHSAssetsElectricalEditServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSAtmosphericMonitoringAddRecordViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAtmosphericMonitoringAddRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1668,7 +1884,9 @@ Some of the third party libraries are installed using SPM
 - `isSelectedItemsExists: ... selectedItemTypeID`
 - `appendSelectedItemWithIDs: ... itemNames: ... itemTypeID`
 - `changeSelectedItemWithIDs: ... itemNames: ... itemTypeID`
-- `discardSelectedItemWithStringOfIDs`##### **WHSActionsMonitorRecordViewController**
+- `discardSelectedItemWithStringOfIDs`
+
+##### **WHSActionsMonitorRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1683,6 +1901,8 @@ Some of the third party libraries are installed using SPM
 - `updateDataSource`
 - `showSearchView`
 - `showEditActionView`
+
+
 ##### **SubmittedByTableViewController**
 
 ###### **Methods and Calculated Variables**
@@ -1697,7 +1917,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `connection: ... willSendRequest: ... redirectResponse`
 - `connection: ... didReceiveData`
-- `connectionDidFinishLoading`##### **WHSAttendeesSearchViewController**
+- `connectionDidFinishLoading`
+
+##### **WHSAttendeesSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1715,7 +1937,9 @@ Some of the third party libraries are installed using SPM
 - `showTypePickerView`
 - `showResultPickerView`
 - `searchBarButtonItemDidTapped`
-- `showSearchResultsViewWithDataList`##### **WHSConfinedSpacesPermitDetailsViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSConfinedSpacesPermitDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1734,7 +1958,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `showEntriesView`
 - `showAttachmentsView`
-- `showPDFView`##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController**
+- `showPDFView`
+
+##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1745,7 +1971,9 @@ Some of the third party libraries are installed using SPM
 - `fetchMonitoringHistoryDetailsData`
 - `initializeDataSource`
 - `showMonitoringHistoryActionsView`
-- `showAttachmentsView`##### **WHSAssetsElectricalSearchResultsViewController**
+- `showAttachmentsView`
+
+##### **WHSAssetsElectricalSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1753,7 +1981,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSChemicalQChartSearchViewController**
+- `showTabView`
+
+##### **WHSChemicalQChartSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1769,7 +1999,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `showSearchResultsView`
 - `showGenericPickerViewWithType: ... returnedDataKey`
-- `searchBarButtonItemDidTapped`##### **SignOffTableViewController**
+- `searchBarButtonItemDidTapped`
+
+##### **SignOffTableViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1790,7 +2022,9 @@ Some of the third party libraries are installed using SPM
 - `viewSignature`
 - `validToSave`
 - `isCompletelySigned`
-- `allowedToSign`##### **WHSAssetsEditTestHistoryViewController**
+- `allowedToSign`
+
+##### **WHSAssetsEditTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1803,7 +2037,9 @@ Some of the third party libraries are installed using SPM
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions`
-- `showAttachmentsView`##### **WHSSiteRARisksTabViewController**
+- `showAttachmentsView`
+
+##### **WHSSiteRARisksTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1817,20 +2053,28 @@ Some of the third party libraries are installed using SPM
 - `showActionsView`
 - `showDetailsView`
 - `showControlsView`
-- `showRatingsView`##### **WHSPAPTrainingSearchResultsViewController**
+- `showRatingsView`
+
+##### **WHSPAPTrainingSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
-- `showTabView`##### **WHSWorkerTablePickerViewController**
+- `showTabView`
+
+##### **WHSWorkerTablePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddWorkerView`
 - `showEditWorker`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **WHSPAPPlansSearchResultsViewController**
+- `editBarButtonItemDidTapped`
+
+##### **WHSPAPPlansSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
-- `showTabView`##### **WHSAssetsLiftingEditDetailsViewController**
+- `showTabView`
+
+##### **WHSAssetsLiftingEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1839,7 +2083,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSAssetsServiceHistoryViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1851,7 +2097,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`##### **WHSAssetsClassifiedSearchResultsViewController**
+- `openAddRecordView`
+
+##### **WHSAssetsClassifiedSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1859,17 +2107,23 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSPAPDrillsSearchViewController**
+- `showTabView`
+
+##### **WHSPAPDrillsSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `showSearchResultsViewWithDataList`
+
+
 ##### **WHSControlMeasureTablePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `detailsView: … savedData`
 - `showAddControlMeasureView`
-- `openAddRecordView`##### **WHSStartupViewController**
+- `openAddRecordView`
+
+##### **WHSStartupViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1878,14 +2132,18 @@ Some of the third party libraries are installed using SPM
 - `finishedValidatingUserCredentials`
 - `prepareForSegue`
 - `unwindToWHSStartupView`
-- `isAnExistingUserLoggedIn`##### **WHSAiInspectionSubTypePickerViewController**
+- `isAnExistingUserLoggedIn`
+
+##### **WHSAiInspectionSubTypePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddInspectionSubTypeView`
 - `showEditInspectionSubTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **WHSSafetySpillKitViewController**
+- `editBarButtonItemDidTapped`
+
+##### **WHSSafetySpillKitViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1901,7 +2159,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSAIAddPointsRaisedViewController**
+- `openAddRecordView`
+
+##### **WHSAIAddPointsRaisedViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1918,7 +2178,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSAIPointsRaisedViewController**
+- `createJSON`
+
+##### **WHSAIPointsRaisedViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1938,7 +2200,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `showEditPointsRaisedView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`##### **WHSSafetyEmergencyWashingEditDetailsViewController**
+- `openAddRecordView`
+
+##### **WHSSafetyEmergencyWashingEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1947,6 +2211,8 @@ Some of the third party libraries are installed using SPM
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
 - `tableView: … heightForRowAtIndexPath`
+
+
 ##### **WHSSafetySpillKitTabViewController**
 
 ###### **Methods and Calculated Variables**
@@ -1959,10 +2225,14 @@ Some of the third party libraries are installed using SPM
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSActionDetails ManagerViewController**
+- `showActionsView`
+
+##### **WHSActionDetails ManagerViewController**
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`##### **WHSAttendeesSearchResultsViewController**
+- `initializeDataSource`
+
+##### **WHSAttendeesSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1974,7 +2244,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `searchRecords`
 - `initializeDataSource`
-- `showEditAttendeesDetailsView`##### **WHSSiteRARisksViewController**
+- `showEditAttendeesDetailsView`
+
+##### **WHSSiteRARisksViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1990,7 +2262,9 @@ Some of the third party libraries are installed using SPM
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`##### **WHSAtmosphericMonitoringTabViewController**
+- `showTabView`
+
+##### **WHSAtmosphericMonitoringTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2004,7 +2278,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showEditDetailsView`
 - `showMonitoringHistoryView`
-- `showRegisterActionsView`##### **WHSAssetsLiftingTabViewController**
+- `showRegisterActionsView`
+
+##### **WHSAssetsLiftingTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2018,7 +2294,9 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSAssetsPlantTabViewController**
+- `showActionsView`
+
+##### **WHSAssetsPlantTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2032,14 +2310,18 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSTemplatePickerViewController**
+- `showActionsView`
+
+##### **WHSTemplatePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddTemplateView`
 - `showEditTemplateView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **WHSSafetyEmergencyWashingSearchResultsViewController**
+- `editBarButtonItemDidTapped`
+
+##### **WHSSafetyEmergencyWashingSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2047,7 +2329,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSAddNoiseAssessmentTypeViewController**
+- `showTabView`
+
+##### **WHSAddNoiseAssessmentTypeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2064,12 +2348,16 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSSafetyFireFightingAddTestHistoryViewController**
+- `createJSON`
+
+##### **WHSSafetyFireFightingAddTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **WHSAtmosphericMonitoringHistoryViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSAtmosphericMonitoringHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2081,11 +2369,15 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
-- `openAddRecordView`##### **WHSAssetsPlantSearchViewController**
+- `openAddRecordView`
+
+##### **WHSAssetsPlantSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSAssetsPlantAddDetailsViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsPlantAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2093,7 +2385,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSChangePasswordViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSChangePasswordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2113,7 +2407,9 @@ Some of the third party libraries are installed using SPM
 - `updateNewApprovedPassword`
 - `validatePasswords: ... confirmNewPassword`
 - `updateStoredEncryptedPassword`
-- `handleChangePasswordResults`##### **WHSAddControlMeasureViewController**
+- `handleChangePasswordResults`
+
+##### **WHSAddControlMeasureViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2125,17 +2421,23 @@ Some of the third party libraries are installed using SPM
 - `acSheet: ... clickedButtonAtIndex`
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSSafetyFireFightingEditTestHistoryViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetyFireFightingEditTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **WHSProjectPickerViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSProjectPickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddProjectView`
-- `openAddRecordView`##### **WHSAuditInspectionsRecordViewController**
+- `openAddRecordView`
+
+##### **WHSAuditInspectionsRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2153,7 +2455,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSAssetsAddTestHistoryViewController**
+- `openAddRecordView`
+
+##### **WHSAssetsAddTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2188,6 +2492,8 @@ Some of the third party libraries are installed using SPM
 - `createJSON`
 - `saveSucceeded`
 - `saveFailed`
+
+
 ##### **WHSNoiseControlNewControlViewController**
 
 ###### **Methods and Calculated Variables**
@@ -2201,7 +2507,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `showEditRecordView`
 - `initializeDataSource`
-- `openAddRecordView`##### **WHSChemicalQChartSearchResultsViewController**
+- `openAddRecordView`
+
+##### **WHSChemicalQChartSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2215,12 +2523,16 @@ Some of the third party libraries are installed using SPM
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSSafetySpillKitEditTestHistoryViewController**
+- `showTabView`
+
+##### **WHSSafetySpillKitEditTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForRowAtIndexPath`
+
+
 ##### **WHSAddAssetTypeViewController**
 
 ###### **Methods and Calculated Variables**
@@ -2238,7 +2550,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **NewDynamicTemplateViewController**
+- `createJSON`
+
+##### **NewDynamicTemplateViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2256,7 +2570,9 @@ Some of the third party libraries are installed using SPM
 - `toggleTableView`
 - `organizeTemplateFields`
 - `tableView: ... heightForRowAtIndexPath`
-- `tablePickerDidFinishedPicking: ... dataPicked`##### **WHSSafetyPPEEmployeeViewController**
+- `tablePickerDidFinishedPicking: ... dataPicked`
+
+##### **WHSSafetyPPEEmployeeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2268,7 +2584,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchEmployees`
 - `showEditPPEDetailsView`
-- `openAddRecordView`##### **WHSAssetsEditDetailsViewController**
+- `openAddRecordView`
+
+##### **WHSAssetsEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2277,7 +2595,9 @@ Some of the third party libraries are installed using SPM
 - `connection: ... didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchDetailsData`
-- `initializeDataSource`##### **WHSAddAssetSubTypeViewController**
+- `initializeDataSource`
+
+##### **WHSAddAssetSubTypeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2294,14 +2614,18 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSNoiseControlEditAssessmentCommentViewController**
+- `createJSON`
+
+##### **WHSNoiseControlEditAssessmentCommentViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `tableView: … cellForRowAtIndexPath`
 - `tableView: … heightForRowAtIndexPath`
-- `initializeDataSource`##### **WHSAddAttachmentsViewController**
+- `initializeDataSource`
+
+##### **WHSAddAttachmentsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2329,7 +2653,9 @@ Some of the third party libraries are installed using SPM
 - `connection: ... didReceiveResponse`
 - `connectionDidFinishLoading`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSAssetsLiftingSearchResultsViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAssetsLiftingSearchResultsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2337,7 +2663,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`##### **WHSChemicalQChartChemicalSafetyViewController**
+- `showTabView`
+
+##### **WHSChemicalQChartChemicalSafetyViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2356,7 +2684,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `initializeCollectionViews`
 - `removeSubViewWithCell`
-- `processStorageLegends`##### **WHSAssetsElectricalTabViewController**
+- `processStorageLegends`
+
+##### **WHSAssetsElectricalTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2370,7 +2700,9 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSAssetsPlantEditDetailsViewController**
+- `showActionsView`
+
+##### **WHSAssetsPlantEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2379,7 +2711,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **MyStorageAddNewWorkerViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **MyStorageAddNewWorkerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2395,7 +2729,9 @@ Some of the third party libraries are installed using SPM
 - `doneBarButtonTapped`
 - `textFieldFirstNameDidChange`
 - `textFieldLastNameDidChange`
-- `validateEnteredName`##### **WHSAssetsEditServiceHistoryViewController**
+- `validateEnteredName`
+
+##### **WHSAssetsEditServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2408,14 +2744,18 @@ Some of the third party libraries are installed using SPM
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`##### **WHSAISplittedViewController**
+- `showAttachmentsView`
+
+##### **WHSAISplittedViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
 - `tableView: … heightForRowAtIndexPath`
 - `initializeDataSource`
-- `tableView: … didSelectRowAtIndexPath`##### **WHSNoiseControlEditRecordViewController**
+- `tableView: … didSelectRowAtIndexPath`
+
+##### **WHSNoiseControlEditRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2423,7 +2763,9 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchNoiseControlDetailsData`
-- `initializeDataSource`##### **WHSAssetsVehiclesAddDetailsViewController**
+- `initializeDataSource`
+
+##### **WHSAssetsVehiclesAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2431,7 +2773,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSAssetsPlantViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsPlantViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2447,14 +2791,18 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSAIInspectionTypePickerViewController**
+- `openAddRecordView`
+
+##### **WHSAIInspectionTypePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddInspectionTypeView`
 - `showEditInspectionTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **WHSActionManagerViewController**
+- `editBarButtonItemDidTapped`
+
+##### **WHSActionManagerViewController**
 
 ###### **Methods and Calculated Variables**
 - `connection: ... didReceiveResponse`
@@ -2480,7 +2828,9 @@ Some of the third party libraries are installed using SPM
 - `saveAction`
 - `saveActionButtonDidTapped`
 - `editActionButtonDidTapped`
-- `postURLConnectionDidFinished`##### **WHSChemicalQChartDetailViewController**
+- `postURLConnectionDidFinished`
+
+##### **WHSChemicalQChartDetailViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2488,14 +2838,18 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`##### **WHSLicencePickerViewController**
+- `initializeDataSource`
+
+##### **WHSLicencePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddLicenceView`
 - `showEditLicenceView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`##### **MyStorageCompatibilityViewControllerr**
+- `editBarButtonItemDidTapped`
+
+##### **MyStorageCompatibilityViewControllerr**
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -2527,6 +2881,8 @@ Some of the third party libraries are installed using SPM
 - `notesButtonPressed`
 - `reportButtonPressed`
 - `pickDGClassFromDictionary`
+
+
 ##### **WHSSafetyPPEAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
@@ -2536,6 +2892,8 @@ Some of the third party libraries are installed using SPM
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
 - `tableView: … heightForRowAtIndexPath`
+
+
 
 ##### **WHSSiteRARisksAddControlViewController**
 
@@ -2569,7 +2927,9 @@ Some of the third party libraries are installed using SPM
 - `initializeAddBarButtonItem`
 - `showAddActionView`
 - `showEditActionView`
-- `addBarButtonItemDidTapped`##### **WHSAddDynamicActionsViewController**
+- `addBarButtonItemDidTapped`
+
+##### **WHSAddDynamicActionsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2595,7 +2955,9 @@ Some of the third party libraries are installed using SPM
 - `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
 - `showWorkerPickerView: ... isNotification`
 - `showNotificationReceiverPickerView`
-- `createJSON`##### **WHSAttendeesViewController**
+- `createJSON`
+
+##### **WHSAttendeesViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2608,7 +2970,9 @@ Some of the third party libraries are installed using SPM
 - `fetchAttendeesData`
 - `initializeDataSource`
 - `showEditAttendeesDetailsView`
-- `openAddRecordView`##### **WHSConfinedSpacesTabViewController**
+- `openAddRecordView`
+
+##### **WHSConfinedSpacesTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2623,7 +2987,9 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showPermitsEntriesView`
 - `showMonitoringHistoryView`
-- `showActionsView`##### **WHSSafetyFireFightingViewController**
+- `showActionsView`
+
+##### **WHSSafetyFireFightingViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2639,7 +3005,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSAutoHazardViewController**
+- `openAddRecordView`
+
+##### **WHSAutoHazardViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2662,7 +3030,9 @@ Some of the third party libraries are installed using SPM
 - `createJSON`
 - `switchCellValueDidChanged`
 - `showSiteRAPicker`
-- `saveBarButtonItemDidTapped`##### **WHSAssetsViewController**
+- `saveBarButtonItemDidTapped`
+
+##### **WHSAssetsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2675,7 +3045,9 @@ Some of the third party libraries are installed using SPM
 - `showElectricalEquipmentView`
 - `showPlantEquipmentView`
 - `showLiftingEquipmentView`
-- `showClassifiedEquipmentView`##### **WHSAITabViewController**
+- `showClassifiedEquipmentView`
+
+##### **WHSAITabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2691,7 +3063,9 @@ Some of the third party libraries are installed using SPM
 - `showTasksObservedView`
 - `showChecklistView`
 - `showPointsRaisedView`
-- `showActionsView`##### **WHSAssetsElectricalViewController**
+- `showActionsView`
+
+##### **WHSAssetsElectricalViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2707,7 +3081,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSAssetsElectricalAddDetailsViewController**
+- `openAddRecordView`
+
+##### **WHSAssetsElectricalAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2715,7 +3091,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSAddEmployeeDivisionViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAddEmployeeDivisionViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2732,12 +3110,16 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSSafetyEmergencyWashingEditTestHistoryViewController**
+- `createJSON`
+
+##### **WHSSafetyEmergencyWashingEditTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **WHSAssetsVehiclesEditDetailsViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSAssetsVehiclesEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2746,7 +3128,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`##### **WHSTablePickerViewController**
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSTablePickerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2768,7 +3152,9 @@ Some of the third party libraries are installed using SPM
 - `showNoReferenceFetched`
 - `donePickingBarButtonItemDidTapped`
 - `editBarButtonItemDidTapped`
-- `deselectAllRows`##### **WHSAddLicenceViewController**
+- `deselectAllRows`
+
+##### **WHSAddLicenceViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2787,7 +3173,9 @@ Some of the third party libraries are installed using SPM
 - `createJSON`
 - `showLicenceCategoryPickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSSiteRiskAssessmentEditRecordViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSiteRiskAssessmentEditRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2795,7 +3183,9 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`##### **WHSAddWorkerViewController**
+- `initializeDataSource`
+
+##### **WHSAddWorkerViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2817,7 +3207,9 @@ Some of the third party libraries are installed using SPM
 - `createJSON`
 - `showEmployeeTypePickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSAssetsLiftingViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAssetsLiftingViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2833,7 +3225,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSChemicalQChartHazardsViewController**
+- `openAddRecordView`
+
+##### **WHSChemicalQChartHazardsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2849,7 +3243,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
 - `initializeDataSource`
-- `initializeCollectionViews`##### **WHSAddGenericViewController**
+- `initializeCollectionViews`
+
+##### **WHSAddGenericViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2866,7 +3262,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSAssetsVehiclesViewController**
+- `createJSON`
+
+##### **WHSAssetsVehiclesViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2882,7 +3280,9 @@ Some of the third party libraries are installed using SPM
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`##### **WHSChemicalRiskAssessmentDetailsViewController**
+- `openAddRecordView`
+
+##### **WHSChemicalRiskAssessmentDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2898,7 +3298,9 @@ Some of the third party libraries are installed using SPM
 - `tableView: ... heightForFooterInSection`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`##### **WHSChemicalRegisterViewController**
+- `initializeDataSource`
+
+##### **WHSChemicalRegisterViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2925,7 +3327,9 @@ Some of the third party libraries are installed using SPM
 - `fetchStorageListData`
 - `reportButtonDidTapped`
 - `riskAssessmentButtonDidTapped`
-- `qChartButtonDidTapped`##### **WHSNoiseControlAssessmentDetailsViewController**
+- `qChartButtonDidTapped`
+
+##### **WHSNoiseControlAssessmentDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2943,7 +3347,9 @@ Some of the third party libraries are installed using SPM
 - `showAddAssessmentView`
 - `showEditCommentView`
 - `cellRightUtitilityButtons`
-- `sanitizeAssessments`##### **WHSChemicalQChartDetailsViewController**
+- `sanitizeAssessments`
+
+##### **WHSChemicalQChartDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2958,7 +3364,9 @@ Some of the third party libraries are installed using SPM
 - `fetchDetailsData`
 - `initializeDataSource`
 - `showPDFView`
-- `getImageCellWithDequeuedCell: ... cellData`##### **WHSSafetyEmergencyWashingViewController**
+- `getImageCellWithDequeuedCell: ... cellData`
+
+##### **WHSSafetyEmergencyWashingViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2975,11 +3383,15 @@ Some of the third party libraries are installed using SPM
 - `showSearchView`
 - `showTabView`
 - `openPDFView`
-- `openAddRecordView`##### **WHSSafetySpillKitSearchViewController**
+- `openAddRecordView`
+
+##### **WHSSafetySpillKitSearchViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`##### **WHSNoiseControlAddAssessmentViewController**
+- `showSearchResultsViewWithDataList`
+
+##### **WHSNoiseControlAddAssessmentViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3000,12 +3412,16 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`##### **WHSSafetySpillKitAddTestHistoryViewController**
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetySpillKitAddTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`##### **DynamicFormTableViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **DynamicFormTableViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3061,14 +3477,20 @@ Some of the third party libraries are installed using SPM
 - `tableDatasetCellDidTapAddData`
 - `tableDatasetCellDidUpdateData: ... tableData`
 - `locationManager: ... didChangeAuthorizationStatus`
+
+
 ##### **WHSAuditInspectionsDetailsViewController**
 
 ###### **Methods and Calculated Variables**
+
+
 ##### **WHSPDFEditSigneeViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`##### **MyStorageSummaryViewController**
+- `initializeDataSource`
+
+##### **MyStorageSummaryViewController**
 
 ###### **Methods and Calculated Variables**
 - `initWithNibName: ... bundle`
@@ -3094,7 +3516,9 @@ Some of the third party libraries are installed using SPM
 - `connectionDidFinishLoading`
 - `connection: ... didFailWithError`
 - `toggledSwitch`
-- `fetchSummary`##### **WHSSafetyFireFightingEditDetailsViewController**
+- `fetchSummary`
+
+##### **WHSSafetyFireFightingEditDetailsViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3102,12 +3526,16 @@ Some of the third party libraries are installed using SPM
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`##### **WHSAssetsPlantEditServiceHistoryViewController**
+- `tableView: … heightForRowAtIndexPath`
+
+##### **WHSAssetsPlantEditServiceHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`##### **WHSTabViewController**
+- `prepareForSegue: ... sender`
+
+##### **WHSTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `processTabFlags`
@@ -3115,7 +3543,9 @@ Some of the third party libraries are installed using SPM
 - `viewWillAppear`
 - `initializeMoreOptionsBarButtonItem`
 - `presentMoreOptionsActionSheet`
-- `moreOptionsBarButtonItemDidTapped`##### **WHSAssetsClassifiedTabViewController**
+- `moreOptionsBarButtonItemDidTapped`
+
+##### **WHSAssetsClassifiedTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3129,7 +3559,9 @@ Some of the third party libraries are installed using SPM
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`##### **WHSAddPointsRaisedViewController**
+- `showActionsView`
+
+##### **WHSAddPointsRaisedViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3146,7 +3578,9 @@ Some of the third party libraries are installed using SPM
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`##### **WHSSiteRiskAssessmentTabViewController**
+- `createJSON`
+
+##### **WHSSiteRiskAssessmentTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3161,7 +3595,9 @@ Some of the third party libraries are installed using SPM
 - `showActionsView`
 - `showDetailsView`
 - `showHazardsView`
-- `showRisksView`##### **WHSChemicalQChartTabViewController**
+- `showRisksView`
+
+##### **WHSChemicalQChartTabViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3174,7 +3610,9 @@ Some of the third party libraries are installed using SPM
 - `showHazardsView`
 - `showChemicalSafetyView`
 - `showOperationalSafetyView`
-- `initializeDataSource`##### **WHSIncidentReportingRecordViewController**
+- `initializeDataSource`
+
+##### **WHSIncidentReportingRecordViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3191,7 +3629,9 @@ Some of the third party libraries are installed using SPM
 - `showSearchView`
 - `openPDFView`
 - `showEmailReport`
-- `openAddRecordView`##### **WHSChemicalQChartOperationalSafetyViewController**
+- `openAddRecordView`
+
+##### **WHSChemicalQChartOperationalSafetyViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3209,4 +3649,6 @@ Some of the third party libraries are installed using SPM
 - `fetchOperationalSafetyDetailsData`
 - `initializeDataSource`
 - `initializeCollectionViews`
-- `getCellDataWithKey: ... titleKey: ... detailKey`after uwu
+- `getCellDataWithKey: ... titleKey: ... detailKey`
+
+after uwu
