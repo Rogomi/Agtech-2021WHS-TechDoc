@@ -76,6 +76,9 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
+- **RegisterActionFragment** - handles the register page
+- **RiskAssessmentActionFragment** - handles the Risk Assessment Action page
+- ***SwmsActionFragment* - handles the SWMS Action page
 
 
 ### TECHNICAL ARCHITECTURE
