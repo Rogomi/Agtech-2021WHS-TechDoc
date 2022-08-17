@@ -71,15 +71,10 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **MobileVerificationActivity** - handles the mobile verification page
 - **SigneeFormActivity** - handles the signee form page
 - **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
-- **SearchActivity** - handles the main search page
 - **RegisterActionFragment** - handles the register page
 - **RiskAssessmentActionFragment** - handles the Risk Assessment Action page
-- ***SwmsActionFragment* - handles the SWMS Action page
-- **SearchActivity** - handles the main search pagekkkkkk
+- **SwmsActionFragment** - handles the SWMS Action page
+- **SearchActivity** - handles the main search page
 - **ActionListFragment** - handles list of actions
 - **AuditsAndInspectionFragment** - handles list of audits and inspections page
 - **BaseFragment** - contains snackbars and base fragment
