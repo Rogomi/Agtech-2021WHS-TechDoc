@@ -13,8 +13,15 @@ iosFile.close()
 beforeFile.close
 
 
-
+print("generating vc ...")
+iosFile = open(ios, "a")
+for filename in os.listdir(dirStr + "view-controllers"):
+  with open(os.path.join(dirStr, "view-controllers", filename), "r") as vc:
+    iosFile.write(vc.read())
+    vc.close
+iosFile.close
 print("generating after vc ...")
+iosFile = open(ios, "a")
 afterFile = open(af, "r")
 iosFile.write(afterFile.read())
 iosFile.close
