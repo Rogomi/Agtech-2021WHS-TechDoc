@@ -1,4 +1,4 @@
-##### **WHSChemicalQChartDetailViewController**
+##### **WHSChemicalQChartDetailViewController** - 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

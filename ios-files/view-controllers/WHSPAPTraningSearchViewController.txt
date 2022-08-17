@@ -1,4 +1,0 @@
-##### **WHSPAPTraningSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `showSearchResultsViewWithDataList`

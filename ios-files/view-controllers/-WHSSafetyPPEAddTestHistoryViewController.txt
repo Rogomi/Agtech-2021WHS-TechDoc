@@ -1,0 +1,6 @@
+##### **WHSSafetyPPEAddTestHistoryViewController** - handles adding test history of Safety PPEs
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`

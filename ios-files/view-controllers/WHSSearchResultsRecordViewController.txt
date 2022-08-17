@@ -1,4 +1,0 @@
-##### **WHSSearchResultsRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `searchRecords`

@@ -1,5 +1,0 @@
-##### **WHSSafetyFireFightingSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showSearchResultsViewWithDataList`

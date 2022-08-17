@@ -1,9 +1,0 @@
-##### **WHSSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `initializeSearchBarButtonItem`
-- `showDatePicker`
-- `searchBarButtonItemDidTapped`
-- `formatPickedItems`

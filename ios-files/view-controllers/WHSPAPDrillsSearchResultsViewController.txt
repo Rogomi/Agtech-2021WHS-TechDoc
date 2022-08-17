@@ -1,4 +1,0 @@
-##### **WHSPAPDrillsSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `showTabView`

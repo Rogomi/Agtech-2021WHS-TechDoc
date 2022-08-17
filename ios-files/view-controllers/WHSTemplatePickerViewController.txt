@@ -1,8 +1,0 @@
-##### **WHSTemplatePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddTemplateView`
-- `showEditTemplateView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`

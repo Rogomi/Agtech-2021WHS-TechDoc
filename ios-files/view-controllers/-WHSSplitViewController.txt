@@ -1,0 +1,6 @@
+##### **WHSSplitViewController** - logic behind split screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `supportedInterfaceOrientations`

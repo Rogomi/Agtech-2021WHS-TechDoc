@@ -1,7 +1,0 @@
-##### **WHSControlMeasureTablePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `detailsView: … savedData`
-- `showAddControlMeasureView`
-- `openAddRecordView`

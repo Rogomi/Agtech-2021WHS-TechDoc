@@ -1,6 +1,0 @@
-##### **WHSNoiseControlAddControlViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `prepareForSegue`
