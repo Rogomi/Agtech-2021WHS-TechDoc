@@ -12,7 +12,7 @@ In order to start the development, first, you need to start Android Studio. Impo
 
 ### PROGRAMMING LANGUAGE
 
-WHS uses Kotlin for development
+WHS uses Java for development
 
 ### MINIMUM VERSION
 
