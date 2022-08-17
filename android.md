@@ -111,11 +111,6 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **StartAuditFragment** - handles the starting of audit
 - **SwpDetailFragment** - contains details of SWP in the application
 
-
-### TECHNICAL ARCHITECTURE
-
-https://docs.google.com/presentation/d/1zwyqjWj-pD5GhJBKlKkLHscQwNlRJe6SFR_hmEWbIPk/edit?usp=sharing
-
 #### **Model**
 
 The model houses the logic for the program, which is retrieved by the ViewModel upon its own receipt of input from the user through View.
