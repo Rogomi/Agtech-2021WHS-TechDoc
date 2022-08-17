@@ -73,7 +73,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `openAddRecordView`
 - `editBarButtonItemDidTapped`
 
-##### **MyStorageESQAddSuppliersViewController**
+##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in mystorage
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -100,7 +100,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `isAllRequiredInformationFilledIn`
 - `trimLeadingTrailingWhiteSpace`
 
-##### **WHSAssetsAddServiceHistoryViewController**
+##### **WHSAssetsAddServiceHistoryViewController** - handles the adding of service history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -130,13 +130,13 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 
-##### **WHSAssetsElectricalSearchViewController**
+##### **WHSAssetsElectricalSearchViewController** - handles the electrical search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList
 
-##### **WHSNoiseControlTabViewController**
+##### **WHSNoiseControlTabViewController** - handles the noise control tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -153,7 +153,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showAssessmentView`
 - `showNewControlsView`
 
-##### **WHSAssetsSearchRecordResultsViewController**
+##### **WHSAssetsSearchRecordResultsViewController** - handles the search record results
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -164,7 +164,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `searchRecords`
 - `fetchNextPage`
 
-##### **WHSNoiseControlAddRecordViewController**
+##### **WHSNoiseControlAddRecordViewController** - handles the adding for noise control records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -222,7 +222,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `discardSelectedItemWithStringOfIDs`
 
 
-##### **WHSSafetyFireFightingSearchResultsViewController**
+##### **WHSSafetyFireFightingSearchResultsViewController** - handles the search results of safety fire fighting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -232,7 +232,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `updateDataSource`
 - `showTabView`
 
-##### **WHSNoiseControlEditMeasurementViewController**
+##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -259,7 +259,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `saveBarButtonItemDidTapped`
 
 
-##### **WHSAISearchViewController**
+##### **WHSAISearchViewController** - handles the search of audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -281,13 +281,13 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showSearchResultsViewWithDataList`
 - `searchBarButtonItemDidTapped`
 
-##### **WHSPAPLegislationsSearchViewController**
+##### **WHSPAPLegislationsSearchViewController** - handles the search of PAP Legislations
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
 
-##### **WHSSafetyFireFightingTabViewController**
+##### **WHSSafetyFireFightingTabViewController** - handles the safety fire fighting tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -301,12 +301,12 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showServiceHistoryView`
 - `showActionsView`
 
-##### **WHSAssetsPlantAddServiceHistoryViewController**
+##### **WHSAssetsPlantAddServiceHistoryViewController** - handles the adding of plant service history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 
-##### **WHSSearchViewController**
+##### **WHSSearchViewController** - is the interface of various search view controllers
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -316,7 +316,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `searchBarButtonItemDidTapped`
 - `formatPickedItems`
 
-##### **WHSSiteRiskAssessmentAddRecordViewController**
+##### **WHSSiteRiskAssessmentAddRecordViewController** - handles the adding of site risk assessment records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -359,7 +359,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 
-##### **WHSSafetySpillKitSearchResultsViewController**
+##### **WHSSafetySpillKitSearchResultsViewController** - handles the search results for safety spill kit
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -369,13 +369,13 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `updateDataSource`
 - `showTabView`
 
-##### **WHSAssetsVehiclesSearchRecordViewController**
+##### **WHSAssetsVehiclesSearchRecordViewController** - handles the search results of vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
 
-##### **WHSAssetsElectricalEditDetailsViewController**
+##### **WHSAssetsElectricalEditDetailsViewController** - handles the editing of details for electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
