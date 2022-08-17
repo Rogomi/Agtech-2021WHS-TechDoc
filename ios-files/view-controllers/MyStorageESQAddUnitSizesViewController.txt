@@ -1,0 +1,19 @@
+##### **MyStorageESQAddUnitSizesViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeUI`
+- `initializeTableViewNewUnitSizeInfo`
+- `doneBarButtonItemDidTapped`
+- `textFieldTextDidChanged`
+- `isAllRequiredDataFilledIn`
+- `trimLeadingTrailingWhitespace`

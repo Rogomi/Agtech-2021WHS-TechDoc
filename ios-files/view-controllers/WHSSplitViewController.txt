@@ -1,0 +1,6 @@
+##### **WHSSplitViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `supportedInterfaceOrientations`

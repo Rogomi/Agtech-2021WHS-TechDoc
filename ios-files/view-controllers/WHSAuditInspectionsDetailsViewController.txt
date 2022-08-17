@@ -1,0 +1,3 @@
+##### **WHSAuditInspectionsDetailsViewController**
+
+###### **Methods and Calculated Variables**

@@ -1,0 +1,13 @@
+##### **WHSAddRecordViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `textViewDidChange`
+- `createInData`
+- `initializeSaveBarButtonItem`
+- `needTextViewCell`
+- `needDropdownCell`
+- `needSwitchCell`
+- `saveButtonItemDidTapped`
+- `switchCellValueDidChanged`
+- `getPreferredIndexPath`

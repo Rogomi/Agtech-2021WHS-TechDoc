@@ -1,0 +1,5 @@
+##### **WHSAssetsElectricalEditServiceHistoryViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... heightForRowAtIndexPath`

@@ -1,0 +1,56 @@
+##### **DynamicFormTableViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `saveOrNext`
+- `submitToApi`
+- `checkAutoHazardWithRegID`
+- `mandatoryFieldsFilled`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `hasSignoffSection`
+- `titleForSection`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `textViewDidChange`
+- `proceedToFileUpload`
+- `openCamera`
+- `imagePickerControllerDidCancel`
+- `imagePickerController: ... didFinishPickingMediaWithInfo`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `formatPickedItems: ... dataToBeExtractedKey: ... indent: ... indentationString`
+- `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
+- `documentPickerWasCancelled`
+- `documentPicker: ... didPickDocumentAtURL`
+- `showDocumentPicker`
+- `setAllowedUTIs`
+- `uploadDTFile: ... sessionID: ... filename`
+- `switchCellValueDidChanged`
+- `moreButtonTapped`
+- `showTimelinePickerViewWithPickerType: ... indexPath`
+- `showDatePickerWithTitle: ... pickerMode: ... initialDate: ... doneBlock: ... cancelBlock: ... showInView: ... isTableGrouped`
+- `showDropdownPickerViewWithMultipleModifier`
+- `showSectionPicker`
+- `createJSON`
+- `didSelectUser`
+- `showSignatureViewController`
+- `didFinishSigningWithImage`
+- `saveSignOff `
+- `requiredFieldsValid`
+- `validToSave`
+- `showProgressHUD`
+- `showPersonInvolvedTypeView`
+- `refreshActionedByFields`
+- `uploadOfflineAttachmentsAndSubmit`
+- `adhocAddDataControllerDidFinish`
+- `adhocAddDataController: ... didSave`
+- `tableDatasetCellDidTapAddData`
+- `tableDatasetCellDidUpdateData: ... tableData`
+- `locationManager: ... didChangeAuthorizationStatus`

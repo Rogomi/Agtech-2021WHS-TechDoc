@@ -1,0 +1,13 @@
+##### **WHSSafetyPPEEmployeeViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchEmployees`
+- `showEditPPEDetailsView`
+- `openAddRecordView`

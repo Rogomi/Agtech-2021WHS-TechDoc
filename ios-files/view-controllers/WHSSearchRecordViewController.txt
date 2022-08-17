@@ -1,0 +1,7 @@
+##### **WHSSearchRecordViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeSearchBarButtonItem`
+- `searchBarButtonItemDidTapped`
+- `showSearchResultsViewWithDataList`

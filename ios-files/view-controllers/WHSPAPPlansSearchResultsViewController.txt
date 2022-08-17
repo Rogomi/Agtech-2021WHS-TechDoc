@@ -1,0 +1,4 @@
+##### **WHSPAPPlansSearchResultsViewController**
+
+###### **Methods and Calculated Variables**
+- `showTabView`

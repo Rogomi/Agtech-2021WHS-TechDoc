@@ -1,0 +1,6 @@
+##### **WHSSafetyPPEEditTestHistoryViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
