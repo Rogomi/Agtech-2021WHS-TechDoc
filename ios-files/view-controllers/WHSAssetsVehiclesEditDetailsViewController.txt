@@ -1,0 +1,10 @@
+##### **WHSAssetsVehiclesEditDetailsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`

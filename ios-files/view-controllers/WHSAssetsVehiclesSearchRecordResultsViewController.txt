@@ -1,0 +1,9 @@
+##### **WHSAssetsVehiclesSearchRecordResultsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`

@@ -1,0 +1,15 @@
+##### **WHSSiteRARisksTabViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: … didSelectRowAtIndexPath`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReport`
+- `showActionsView`
+- `showDetailsView`
+- `showControlsView`
+- `showRatingsView`

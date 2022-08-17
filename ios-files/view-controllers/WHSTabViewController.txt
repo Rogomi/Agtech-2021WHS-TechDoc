@@ -1,0 +1,9 @@
+##### **WHSTabViewController**
+
+###### **Methods and Calculated Variables**
+- `processTabFlags`
+- `fetchValidTabs`
+- `viewWillAppear`
+- `initializeMoreOptionsBarButtonItem`
+- `presentMoreOptionsActionSheet`
+- `moreOptionsBarButtonItemDidTapped`

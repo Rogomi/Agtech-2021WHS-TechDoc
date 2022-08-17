@@ -1,0 +1,6 @@
+##### **WHSProjectPickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddProjectView`
+- `openAddRecordView`

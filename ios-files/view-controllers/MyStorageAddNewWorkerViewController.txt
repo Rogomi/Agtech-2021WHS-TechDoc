@@ -1,0 +1,17 @@
+##### **MyStorageAddNewWorkerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeUI`
+- `initializeDoneBarButton`
+- `doneBarButtonTapped`
+- `textFieldFirstNameDidChange`
+- `textFieldLastNameDidChange`
+- `validateEnteredName`

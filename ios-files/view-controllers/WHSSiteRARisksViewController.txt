@@ -1,0 +1,17 @@
+##### **WHSSiteRARisksViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `fetchSiteRARisksListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `openAddRecordView`
+- `showSearchView`
+- `showPDFView`
+- `showEmailReportView`
+- `showTabView`
