@@ -1,0 +1,10 @@
+##### **WHSAssetsSearchRecordResultsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`

@@ -1,0 +1,12 @@
+##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchMonitoringHistoryDetailsData`
+- `initializeDataSource`
+- `showMonitoringHistoryActionsView`
+- `showAttachmentsView`

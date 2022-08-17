@@ -1,0 +1,13 @@
+##### **WHSSafeWorkProceduresViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAt`
+- `fetchSWPListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showSearchView`
+- `showTabView`

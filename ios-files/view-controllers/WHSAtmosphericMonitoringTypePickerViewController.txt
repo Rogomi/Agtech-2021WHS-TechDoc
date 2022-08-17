@@ -1,0 +1,8 @@
+##### **WHSAtmosphericMonitoringTypePickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddMonitoringTypeView`
+- `showEditMonitoringTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

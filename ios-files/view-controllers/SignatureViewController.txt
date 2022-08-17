@@ -1,0 +1,11 @@
+##### **SignatureViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `didReceiveMemoryWarning`
+- `positionForBar`
+- `supportedInterfaceOrientations`
+- `shouldAutorotate`
+- `clearSignature`
+- `doneSigning`
