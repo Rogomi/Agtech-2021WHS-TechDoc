@@ -76,6 +76,41 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
+- **ActionListFragment** - handles list of actions
+- **AuditsAndInspectionFragment** - handles list of audits and inspections page
+- **BaseFragment** - contains snackbars and base fragment
+- **BasePreferenceFragment** - handles navigator and part of base fragment
+- **ChangePasswordFragement** - handles change password
+- **ChangePinFragment** - handles changing of account pin
+- **DynamicTemplateFragment** - contains the template of application
+- **EmailReportFragment** - handles email reporting
+- **HomeFragment** - contains home page of application
+- **IncidentReportingFragment** - handles reporting of errors
+- **LoginFragment** - handles login page
+- **MenuListFragment** - handles the menu list page
+- **OfflinePdfFragment** - handles offline pdf viewer
+- **OperationalSafetyFragment** - handles recording of data
+- **PdfViewerFragment** - handles viewing of pdf files
+- **PoliciesFragment** - handles policies of application
+- **RecordAssessmentFragment** - handles recording of assessment
+- **RecordDetailFragment** - handles recording of detail
+- **RecordHazardFragment** - handles records of hazard
+- **RecordIncidentWitnessFragment** - handles recording of incident witness
+- **RecordListFragment** - handles list of records
+- **RecordQChartChemicalSafetyFragment** - handles recording of chemical safety
+- **RecordQChartDetailFragment** - handles Qchart detail recording
+- **RecordQChartHazard** - handles recording of Qchart hazards
+- **RecordSearchResultFragment** - handles recording of search results
+- **RecordTaskFragment** - Recording of tasks within the application
+- **RegistersFragment** - Handles registration of accounts
+- **RiskManagementFragment** - contains list of risk management policies
+- **SettingsFragment** - handles settings page
+- **SignatureListFragment** - contains list of signatures
+- **SigneeFragment** - handles signing page
+- **SigneesAndActionsFragment** - handles signee and their actions in application
+- **SignOffFragment** - handles the logging off page
+- **StartAuditFragment** - handles the starting of audit
+- **SwpDetailFragment** - contains details of SWP in the application
 
 
 ### TECHNICAL ARCHITECTURE
