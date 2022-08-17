@@ -1,0 +1,13 @@
+##### **WHSAddRecordViewController** - implementation that handles the adding of records
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `textViewDidChange`
+- `createInData`
+- `initializeSaveBarButtonItem`
+- `needTextViewCell`
+- `needDropdownCell`
+- `needSwitchCell`
+- `saveButtonItemDidTapped`
+- `switchCellValueDidChanged`
+- `getPreferredIndexPath`

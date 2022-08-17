@@ -1,0 +1,32 @@
+##### **MyStorageCompatibilityViewControllerr** - handles the storage compatibility view
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `viewWillDisappear`
+- `viewDidUnload`
+- `fetchProductCompatibility`
+- `prepareForSegue: ... sender`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `initializeViewStorageDetails`
+- `showStorageViewPicker`
+- `getStorageValueWithKey: ... index`
+- `legendButtonPressed`
+- `notesButtonPressed`
+- `reportButtonPressed`
+- `pickDGClassFromDictionary`

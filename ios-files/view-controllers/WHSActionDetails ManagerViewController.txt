@@ -1,4 +1,0 @@
-##### **WHSActionDetails ManagerViewController**
-
-###### **Methods and Calculated Variables**
-- `initializeDataSource`

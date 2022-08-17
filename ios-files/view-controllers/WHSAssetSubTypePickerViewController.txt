@@ -1,8 +1,0 @@
-##### **WHSAssetSubTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddView`
-- `showEditView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`

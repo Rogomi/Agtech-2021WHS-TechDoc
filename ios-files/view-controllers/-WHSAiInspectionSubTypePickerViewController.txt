@@ -1,0 +1,8 @@
+##### **WHSAiInspectionSubTypePickerViewController** - handles the inspection sub type picker in audits and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddInspectionSubTypeView`
+- `showEditInspectionSubTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

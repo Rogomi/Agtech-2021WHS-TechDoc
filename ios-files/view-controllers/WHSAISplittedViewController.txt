@@ -1,8 +1,0 @@
-##### **WHSAISplittedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: … heightForRowAtIndexPath`
-- `initializeDataSource`
-- `tableView: … didSelectRowAtIndexPath`

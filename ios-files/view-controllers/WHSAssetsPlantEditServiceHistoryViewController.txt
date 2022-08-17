@@ -1,6 +1,0 @@
-##### **WHSAssetsPlantEditServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`

@@ -1,8 +1,0 @@
-##### **WHSActionCategoryPickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddActionCategoryView`
-- `showEditActionCategoryView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`

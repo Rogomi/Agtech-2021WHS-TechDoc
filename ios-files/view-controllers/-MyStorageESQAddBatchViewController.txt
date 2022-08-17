@@ -1,4 +1,4 @@
-##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
+##### **MyStorageESQAddBatchViewController** - handles the batch adding in my storage edit stored quantity
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -14,13 +14,22 @@
 - `connection: ... didReceiveData`
 - `connectionDidFinishLoading`
 - `connection: ... didFailWithError`
-- `fetchExistingSuppliers`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `doneEditing`
+- `cancelledEditing`
 - `initializeDataReceivers`
 - `initializeUI`
-- `initializeTableSupplyInfo`
-- `refreshVisibleCells`
-- `doneBarButtonItemDidTapped`
-- `didSelectAnExistingSupplier`
+- `initializeTableBatch`
+- `showAddSuppliers`
+- `showAddPackSizes`
+- `showAddUnitSizes`
+- `refreshTotalPrice`
+- `doneBarbuttonItemDidTapped`
 - `textFieldTextDidChanged`
-- `isAllRequiredInformationFilledIn`
-- `trimLeadingTrailingWhiteSpace`
+- `fetchSuppliers`
+- `fetchPackSizes`
+- `fetchUnitSizes`
+- `isAllRequiredDataFilledIn`
+- `trimLeadingTrailingWhitespace`
+- `finishedBatchRec`
+- `showSamplePOST`

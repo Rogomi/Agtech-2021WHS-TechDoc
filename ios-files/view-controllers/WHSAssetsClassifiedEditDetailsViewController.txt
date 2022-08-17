@@ -1,7 +1,0 @@
-##### **WHSAssetsClassifiedEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`

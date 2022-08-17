@@ -1,7 +1,8 @@
-##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
+##### **MyStorageESQAddPackSizeViewController** - handles the adding of pack size in my storage ESQ
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
+- `viewWillAppear`
 - `viewDidAppear`
 - `didReceiveMemoryWarning`
 - `dealloc`
@@ -14,13 +15,17 @@
 - `connection: ... didReceiveData`
 - `connectionDidFinishLoading`
 - `connection: ... didFailWithError`
-- `fetchExistingSuppliers`
-- `initializeDataReceivers`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `doneEditing`
+- `cancelledEditing`
+- `fetchUnitSize`
 - `initializeUI`
-- `initializeTableSupplyInfo`
+- `initializeTablePackSizeNew`
 - `refreshVisibleCells`
+- `showAddUnitSizes`
+- `initializeDataReceivers`
 - `doneBarButtonItemDidTapped`
-- `didSelectAnExistingSupplier`
+- `didSelectedUnit`
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
 - `trimLeadingTrailingWhiteSpace`

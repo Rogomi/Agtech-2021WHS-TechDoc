@@ -1,9 +1,0 @@
-##### **GenericTableViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`

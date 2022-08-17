@@ -1,8 +1,0 @@
-##### **WHSAIInspectionTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddInspectionTypeView`
-- `showEditInspectionTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`
