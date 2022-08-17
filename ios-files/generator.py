@@ -16,7 +16,7 @@ beforeFile.close
 print("generating vc ...")
 iosFile = open(ios, "a")
 iosFile.write("\n\n")
-for filename in os.listdir(dirStr + "view-controllers"):
+for filename in sorted(os.listdir(dirStr + "view-controllers")):
   with open(os.path.join(dirStr, "view-controllers", filename), "r") as vc:
     iosFile.write(vc.read())
     iosFile.write("\n\n")
