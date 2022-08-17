@@ -1,4 +1,4 @@
-##### **WHSAssetsAddServiceHistoryViewController**
+##### **WHSAssetsAddServiceHistoryViewController** - handles the adding of service history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

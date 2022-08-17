@@ -1,4 +1,4 @@
-##### **MyStorageESQAddSuppliersViewController**
+##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in mystorage
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

@@ -1,4 +1,4 @@
-##### **WHSNoiseControlEditMeasurementViewController**
+##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

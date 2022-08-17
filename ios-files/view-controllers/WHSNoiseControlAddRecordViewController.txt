@@ -1,4 +1,4 @@
-##### **WHSNoiseControlAddRecordViewController**
+##### **WHSNoiseControlAddRecordViewController** - handles the adding for noise control records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

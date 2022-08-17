@@ -1,4 +1,4 @@
-##### **WHSNoiseControlTabViewController**
+##### **WHSNoiseControlTabViewController** - handles the noise control tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
