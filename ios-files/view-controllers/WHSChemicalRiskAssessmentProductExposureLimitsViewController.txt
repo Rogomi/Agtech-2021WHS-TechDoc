@@ -1,0 +1,8 @@
+##### **WHSChemicalRiskAssessmentProductExposureLimitsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `initializeDataSource`

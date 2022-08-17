@@ -1,0 +1,11 @@
+##### **WHSConfinedSpacesEditRecordViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `fetchConfinedSpacesDetailsData`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `presentDropdownList`

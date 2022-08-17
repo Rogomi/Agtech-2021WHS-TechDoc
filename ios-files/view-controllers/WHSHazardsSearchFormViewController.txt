@@ -1,0 +1,12 @@
+##### **WHSHazardsSearchFormViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showStatusPickerView`

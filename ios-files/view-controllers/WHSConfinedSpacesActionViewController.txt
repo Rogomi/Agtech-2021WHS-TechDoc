@@ -1,0 +1,18 @@
+##### **WHSConfinedSpacesActionViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `initializeAddRecord`
+- `openAddRecordView`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `showEditActionView`
+- `fetchActionsData`
+- `initializeDataSource`

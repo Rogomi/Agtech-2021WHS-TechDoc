@@ -1,0 +1,8 @@
+##### **WHSHazardsSearchResutlsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `searchRecords`
+- `fetchNextPage`

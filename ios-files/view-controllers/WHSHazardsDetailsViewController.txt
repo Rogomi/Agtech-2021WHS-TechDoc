@@ -1,0 +1,4 @@
+##### **WHSHazardsDetailsViewController**
+
+###### **Methods and Calculated Variables**
+- `initializeDataSource`

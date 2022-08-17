@@ -1,0 +1,15 @@
+##### **WHSChemicalRiskAssessmentNewControlsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `heightForRowAtIndexPath`
+- `didSelectRowAtIndexPath`
+- `fetchNewControlsData`
+- `initializeDataSource`
+- `initializeAddBarButtonItem`
+- `showAddActionView`
+- `showEditActionView`
+- `addBarButtonItemDidTapped`

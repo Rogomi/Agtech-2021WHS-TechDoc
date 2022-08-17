@@ -1,0 +1,12 @@
+##### **WHSRiskManagementViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `prepareForSegue`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `showChemicalRiskManagementView`
+- `showNonChemicalRiskManagementView`
+- `initializeDataSource`

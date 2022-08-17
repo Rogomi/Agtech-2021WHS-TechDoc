@@ -1,0 +1,8 @@
+##### **WHSRegisterServiceTypePickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddServiceTypeView`
+- `showEditServiceTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

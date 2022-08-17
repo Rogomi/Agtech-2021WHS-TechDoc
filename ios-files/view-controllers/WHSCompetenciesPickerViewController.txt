@@ -1,0 +1,8 @@
+##### **WHSCompetenciesPickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddCompetenciesView`
+- `showEditCompetenciesView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

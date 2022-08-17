@@ -1,0 +1,14 @@
+##### **WHSEmployeeServiceHistoryViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `serviceHistoryDidSaved: ... responseData`
+- `serviceHistorySavingDidFailed: ... responseData`
+- `initializeDataSource`
+- `showEditServiceHistoryDetailsView`
+- `openAddRecordView`
