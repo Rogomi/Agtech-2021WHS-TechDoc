@@ -1,4 +1,4 @@
-##### **WHSAttendeesSearchViewController**
+##### **WHSAttendeesSearchViewController** - handles the searching of Atendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

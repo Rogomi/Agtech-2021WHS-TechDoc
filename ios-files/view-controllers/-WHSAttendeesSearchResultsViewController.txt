@@ -1,16 +1,13 @@
-##### **WHSChemicalQChartDetailsViewController**
+##### **WHSAttendeesSearchResultsViewController** - handles the search results of atendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
 - `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
+- `searchRecords`
 - `initializeDataSource`
-- `showPDFView`
-- `getImageCellWithDequeuedCell: ... cellData`
+- `showEditAttendeesDetailsView`

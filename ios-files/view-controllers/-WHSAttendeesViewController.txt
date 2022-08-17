@@ -1,4 +1,4 @@
-##### **WHSAttendeesViewController**
+##### **WHSAttendeesViewController** - shows the Attendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

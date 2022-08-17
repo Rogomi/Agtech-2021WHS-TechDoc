@@ -1,4 +1,4 @@
-##### **WHSCauseHazardsViewController**
+##### **WHSCauseHazardsViewController** - handles the Cause Hazards view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

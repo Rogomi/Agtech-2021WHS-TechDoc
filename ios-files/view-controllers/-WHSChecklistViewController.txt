@@ -1,4 +1,4 @@
-##### **WHSChecklistViewController**
+##### **WHSChecklistViewController** - handles the Checklist view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

@@ -1,4 +1,4 @@
-##### **WHSAttachmentsViewController**
+##### **WHSAttachmentsViewController** - handles the showing of attatchments
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

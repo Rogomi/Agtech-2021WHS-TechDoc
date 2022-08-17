@@ -1,4 +1,4 @@
-##### **WHSAutoHazardViewController**
+##### **WHSAutoHazardViewController** - handles the Auto Hazard view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

@@ -1,4 +1,4 @@
-##### **WHSChemicalQChartDetailViewController** - 
+##### **WHSChemicalQChartDetailViewController** - shows the details view of the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

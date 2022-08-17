@@ -1,4 +1,4 @@
-##### **WHSAuditInspectionsRecordViewController**
+##### **WHSAuditInspectionsRecordViewController** - handles the recording of Audit Inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

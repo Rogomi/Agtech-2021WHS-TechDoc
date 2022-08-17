@@ -1,4 +1,4 @@
-##### **WHSChemicalQChartChemicalSafetyViewController**
+##### **WHSChemicalQChartChemicalSafetyViewController** - handles the Chemical Safety view of the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
