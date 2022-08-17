@@ -1,0 +1,10 @@
+##### **WHSStartupViewController** - shows the start up screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `finishedValidatingUserCredentials`
+- `prepareForSegue`
+- `unwindToWHSStartupView`
+- `isAnExistingUserLoggedIn`

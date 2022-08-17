@@ -1,0 +1,5 @@
+##### **WHSSafetySpillKitSearchViewController** - shows safety spill kit search
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`

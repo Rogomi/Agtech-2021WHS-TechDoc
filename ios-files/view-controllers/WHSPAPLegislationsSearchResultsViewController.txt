@@ -1,4 +1,0 @@
-##### **WHSPAPLegislationsSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `showTabView`

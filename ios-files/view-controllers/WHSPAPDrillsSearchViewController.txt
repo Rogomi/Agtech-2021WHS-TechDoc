@@ -1,4 +1,0 @@
-##### **WHSPAPDrillsSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `showSearchResultsViewWithDataList`

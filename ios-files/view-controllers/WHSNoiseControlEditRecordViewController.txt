@@ -1,9 +1,0 @@
-##### **WHSNoiseControlEditRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `fetchNoiseControlDetailsData`
-- `initializeDataSource`

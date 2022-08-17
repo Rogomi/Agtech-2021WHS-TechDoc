@@ -1,8 +1,0 @@
-##### **WHSNoiseControlEditAssessmentCommentViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `initializeDataSource`

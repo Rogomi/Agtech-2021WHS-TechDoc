@@ -1,0 +1,4 @@
+##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
+
+###### **Methods and Calculated Variables**
+- `showTabView`

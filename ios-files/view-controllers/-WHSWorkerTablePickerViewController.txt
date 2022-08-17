@@ -1,0 +1,8 @@
+##### **WHSWorkerTablePickerViewController** - shows the workers 
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddWorkerView`
+- `showEditWorker`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

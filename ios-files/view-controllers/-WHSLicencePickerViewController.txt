@@ -1,0 +1,8 @@
+##### **WHSLicencePickerViewController** - handles the License Picker
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddLicenceView`
+- `showEditLicenceView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

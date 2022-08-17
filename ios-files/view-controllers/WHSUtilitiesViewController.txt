@@ -1,9 +1,0 @@
-##### **WHSUtilitiesViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `mailComposeController: … didFinishWithResult`
-- `callNumber`
-- `sendEmail`
-- `sendEmail: … delegate`
-- `openWebsite`

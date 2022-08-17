@@ -1,0 +1,5 @@
+##### **WHSPAPComplaintsSearchViewController** handles the searching for the PAP Complaints section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`
