@@ -1,0 +1,17 @@
+##### **WHSEnvironmentalNoiseControlViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `fetchNoiseControlListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`

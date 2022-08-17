@@ -1,0 +1,14 @@
+##### **WHSCompatibilityProductDetailsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `prepareForSegue: ... sender`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `sanitizeJSON`
+- `reorderSanitizedJSON`
+- `fetchCompatibilityDetails`

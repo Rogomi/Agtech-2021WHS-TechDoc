@@ -1,0 +1,9 @@
+##### **WHSSafetyTestHistoryViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `fetchTestHistories`
+- `showTestHistoryDetailsView`
+- `showEditTestHistoryDetailsView`
+- `openAddRecordView`

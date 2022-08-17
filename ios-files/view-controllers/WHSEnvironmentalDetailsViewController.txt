@@ -1,0 +1,4 @@
+##### **WHSEnvironmentalDetailsViewController**
+
+###### **Methods and Calculated Variables**
+- `initializeDataSource`

@@ -1,0 +1,14 @@
+##### **WHSChemicalRiskAssessmentHazardsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `fetchHazardsData`
+- `initializeDataSource`

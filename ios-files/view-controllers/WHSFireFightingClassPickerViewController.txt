@@ -1,0 +1,8 @@
+##### **WHSFireFightingClassPickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddClassView`
+- `showEditClassView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

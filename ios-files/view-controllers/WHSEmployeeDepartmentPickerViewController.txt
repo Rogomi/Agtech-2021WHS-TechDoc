@@ -1,0 +1,8 @@
+##### **WHSEmployeeDepartmentPickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddEmployeeDeparmentView`
+- `showEditEmployeeDepartmentView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

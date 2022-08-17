@@ -1,0 +1,6 @@
+##### **WHSCompatibilityReportPDFViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `prepareForSegue: ... sender`

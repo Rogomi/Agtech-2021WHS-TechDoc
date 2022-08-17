@@ -1,0 +1,11 @@
+##### **WHSHazardsAsbestosEditRemovalHistoryViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchRemovalHistoryData`
+- `initializeDataSource`
+- `showAttachmentsView`

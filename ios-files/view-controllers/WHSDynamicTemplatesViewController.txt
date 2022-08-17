@@ -1,0 +1,42 @@
+##### **WHSDynamicTemplatesViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchTemplatesField`
+- `saveTemplateDetailsData`
+- `checkAutoHazardWithRegID`
+- `initializeDataSource`
+- `updateDataSource`
+- `createJSON`
+- `showTemplatesPickerView`
+- `showDropdownPickerViewWithMultipleModifier`
+- `showTimelinePickerViewWithPickerType: ... indexPath`
+- `showDatePickerWithTitle: ... pickerMode: ... initialDate: ... doneBlock: ... cancelBlock: ... showInView: ... isTableGrouped`
+- `showYesNoNAPickerView`
+- `proceedToFileUpload`
+- `openCamera`
+- `imagePickerControllerDidCancel`
+- `imagePickerController ... didFinishPickingMediaWithInfo`
+- `documentPickerWasCancelled`
+- `documentPicker: ... didPickDocumentAtURL`
+- `showDocumentPicker`
+- `setAllowedUTIs`
+- `uploadDTFile: ... sessionID: ... filename`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`

@@ -1,0 +1,10 @@
+##### **WHSChemicalRiskManagementViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showRiskAssessmentView`
+- `showQChartView`
