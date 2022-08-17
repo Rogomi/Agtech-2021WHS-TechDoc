@@ -1,6 +1,6 @@
 [Back](../index.md)
 
-# WHS Android
+# WHS iOS
 
 ## Technical Documentation
 
