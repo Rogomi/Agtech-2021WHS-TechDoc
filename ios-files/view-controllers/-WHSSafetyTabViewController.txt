@@ -1,4 +1,4 @@
-##### **WHSSafetyTabViewController**
+##### **WHSSafetyTabViewController** - handles the showing of the Safety view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

@@ -1,4 +1,4 @@
-##### **WHSSafetyFirstAidAddDetailsViewController**
+##### **WHSSafetyFirstAidAddDetailsViewController** - handles the adding of details in the Safety First Aid section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

@@ -1,4 +1,4 @@
-##### **WHSSideMenuViewController**
+##### **WHSSideMenuViewController** - the logic behind the Side Manu of the app
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

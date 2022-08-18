@@ -1,4 +1,4 @@
-##### **WHSSafetyFireDetectionViewController**
+##### **WHSSafetyFireDetectionViewController** - handles the display of the Safety Fire Detection screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

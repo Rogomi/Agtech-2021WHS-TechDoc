@@ -64,7 +64,197 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 #### View Controllers
   
 
-##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in mystorage
+##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `saveOrNext`
+- `submitToApi`
+- `checkAutoHazardWithRegID`
+- `mandatoryFieldsFilled`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `hasSignoffSection`
+- `titleForSection`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `textViewDidChange`
+- `proceedToFileUpload`
+- `openCamera`
+- `imagePickerControllerDidCancel`
+- `imagePickerController: ... didFinishPickingMediaWithInfo`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `formatPickedItems: ... dataToBeExtractedKey: ... indent: ... indentationString`
+- `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
+- `documentPickerWasCancelled`
+- `documentPicker: ... didPickDocumentAtURL`
+- `showDocumentPicker`
+- `setAllowedUTIs`
+- `uploadDTFile: ... sessionID: ... filename`
+- `switchCellValueDidChanged`
+- `moreButtonTapped`
+- `showTimelinePickerViewWithPickerType: ... indexPath`
+- `showDatePickerWithTitle: ... pickerMode: ... initialDate: ... doneBlock: ... cancelBlock: ... showInView: ... isTableGrouped`
+- `showDropdownPickerViewWithMultipleModifier`
+- `showSectionPicker`
+- `createJSON`
+- `didSelectUser`
+- `showSignatureViewController`
+- `didFinishSigningWithImage`
+- `saveSignOff `
+- `requiredFieldsValid`
+- `validToSave`
+- `showProgressHUD`
+- `showPersonInvolvedTypeView`
+- `refreshActionedByFields`
+- `uploadOfflineAttachmentsAndSubmit`
+- `adhocAddDataControllerDidFinish`
+- `adhocAddDataController: ... didSave`
+- `tableDatasetCellDidTapAddData`
+- `tableDatasetCellDidUpdateData: ... tableData`
+- `locationManager: ... didChangeAuthorizationStatus`
+
+
+##### **GenericTableViewController** - handles generic table view types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+
+
+##### **MyStorageAddNewWorkerViewController** - handles the adding of new workers in my storage
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeUI`
+- `initializeDoneBarButton`
+- `doneBarButtonTapped`
+- `textFieldFirstNameDidChange`
+- `textFieldLastNameDidChange`
+- `validateEnteredName`
+
+##### **MyStorageCompatibilityViewControllerr** - handles the storage compatibility view
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `viewWillDisappear`
+- `viewDidUnload`
+- `fetchProductCompatibility`
+- `prepareForSegue: ... sender`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `initializeViewStorageDetails`
+- `showStorageViewPicker`
+- `getStorageValueWithKey: ... index`
+- `legendButtonPressed`
+- `notesButtonPressed`
+- `reportButtonPressed`
+- `pickDGClassFromDictionary`
+
+
+##### **MyStorageESQAddBatchViewController** - handles the batch adding in my storage edit stored quantity
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `doneEditing`
+- `cancelledEditing`
+- `initializeDataReceivers`
+- `initializeUI`
+- `initializeTableBatch`
+- `showAddSuppliers`
+- `showAddPackSizes`
+- `showAddUnitSizes`
+- `refreshTotalPrice`
+- `doneBarbuttonItemDidTapped`
+- `textFieldTextDidChanged`
+- `fetchSuppliers`
+- `fetchPackSizes`
+- `fetchUnitSizes`
+- `isAllRequiredDataFilledIn`
+- `trimLeadingTrailingWhitespace`
+- `finishedBatchRec`
+- `showSamplePOST`
+
+##### **MyStorageESQAddPackSizeViewController** - handles the adding of pack size in my storage ESQ
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `doneEditing`
+- `cancelledEditing`
+- `fetchUnitSize`
+- `initializeUI`
+- `initializeTablePackSizeNew`
+- `refreshVisibleCells`
+- `showAddUnitSizes`
+- `initializeDataReceivers`
+- `doneBarButtonItemDidTapped`
+- `didSelectedUnit`
+- `textFieldTextDidChanged`
+- `isAllRequiredInformationFilledIn`
+- `trimLeadingTrailingWhiteSpace`
+
+
+##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -90,6 +280,1116 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
 - `trimLeadingTrailingWhiteSpace`
+
+##### **MyStorageESQAddUnitSizesViewController** - handles the adding of unit sizes in my storage ESQ
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeUI`
+- `initializeTableViewNewUnitSizeInfo`
+- `doneBarButtonItemDidTapped`
+- `textFieldTextDidChanged`
+- `isAllRequiredDataFilledIn`
+- `trimLeadingTrailingWhitespace`
+
+##### **MyStorageESQBatchDetailsViewController** - handles the display of batch details for my storage ESQ
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `showStringPickerWithKeyName`
+- `initializeUI`
+- `initializeBackBarButtonItem`
+- `initializeDoneBarButtonItem`
+- `showIncompleteDataWarning`
+- `initializeTableBatchInfo`
+- `JSONSanitizerWithData: ... keys`
+- `getID: ... index`
+- `getID: ... arrayList: ... index`
+
+##### **MyStorageESQInputValueViewController** - handles the input values for my storage ESQ
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `viewWillDisappear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `initializeUI`
+- `initializeBackBarButtonItem`
+- `initializeDoneBarButtonItem`
+- `initializeTextFieldHidden`
+- `initializeLabelOriginalQuantity`
+- `initializeLabelPreferredRate`
+- `initializeLabelOperation`
+- `initializeViewCalculator`
+- `adjustWidthLabelPreferredRate`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `textFieldShouldReturn`
+- `doneBarButtonItemDidTapped`
+- `labelPreferredRateDidTapped`
+- `textFieldHiddenReceiverTextDidChange`
+
+##### **MyStorageEditStoredQuantityViewController** - handles the editing of stored quantities in my storage
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `viewWillDisappear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `numberOfRowsInSection`
+- `cellForRowAtIndexPath`
+- `viewForHeaderInSection`
+- `heightForHeaderInSection`
+- `heightForRowAtIndexPath`
+- `didSelectRowAtIndexPath`
+- `accessoryButtonTappedForRowWithIndexPath`
+- `willSendRequest`
+- `didReceiveResponse`
+- `didReceiveData`
+- `connectionDidFinishLoading`
+- `didFailWithError`
+- `doneEditingCalculator`
+- `cancelledEditingCalculator`
+- `doneEditing`
+- `cancelledEditing`
+- `fetchWorkers`
+- `fetchBatchDetails`
+- `createPOSTRequest`
+- `initializeUI`
+- `initializeSaveBarButton`
+- `initializeBatchTable`
+- `showActionWorkerPicker`
+- `showActionWorkerPickerWithTitle`
+- `showDateAdjustedPicker`
+- `showPreferredEditModeAlertView`
+- `pushToESQInputValueView`
+- `showAddNewBatchView`
+- `showWarningMessage`
+- `showSuccessMessage`
+- `dismissHandler`
+- `showBatchDetailsViewWithData`
+- `showNoListFetchedAlertView`
+- `showErrorAlertView`
+- `addNewWorkerButtonTapped`
+- `saveBarButtonDidTapped`
+- `textFieldTextDidChanged`
+- `initializeTableDelegates`
+- `initializePOSTArguments`
+- `initializeDataReceivers`
+- `selectedBatchRec`
+- `addNewBatchRecToDataSource`
+- `appendWorkerInfos`
+- `isElegibleForFetchingBatchDetails`
+
+
+##### **MyStorageManifestViewController** - handles the my storage manifest
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `dealloc`
+- `didReceiveMemoryWarning`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `viewDidUnload`
+- `viewDidLayoutSubviews`
+- `shouldAutorotateToInterfaceOrientation`
+- `prepareForSegue: ... sender`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
+- `tableView: ... willSelectRowAtIndexPath`
+- `progressHUDDidTapped`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `fetchProductManifest`
+- `initializeAnimatedViews`
+- `initializeViewStorageDetails`
+- `showStorageViewPicker`
+- `getStorageValueWithKey: ... index`
+- `hideSwitchView`
+- `showSwitchView `
+- `reportButtonPressed`
+- `summaryButtonPressed`
+- `segmentedControlValueChanged`
+- `switchDidValueChanged`
+
+
+
+##### **MyStorageSummaryViewController** - handles the summary display of my storage
+
+###### **Methods and Calculated Variables**
+- `initWithNibName: ... bundle`
+- `dealloc`
+- `didReceiveMemoryWarning`
+- `viewWillDisappear`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `viewDidUnload`
+- `shouldAutorotateToInterfaceOrientation`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... viewForHeaderInSection`
+- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
+- `tableView: ... willSelectRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `progressHUDDidTapped`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `toggledSwitch`
+- `fetchSummary`
+
+##### **NewDynamicTemplateViewController** - is a dynamic template used in different views such as the side menu
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `didReceiveMemoryWarning`
+- `download`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `fetchTemplates`
+- `fetchTemplateFields`
+- `didSelectObject`
+- `toggleTableView`
+- `organizeTemplateFields`
+- `tableView: ... heightForRowAtIndexPath`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+
+##### **SignOffTableViewController** - handles the view of signing off of items
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `didReceiveMemoryWarning`
+- `saveSignOff`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `showSignatureViewController`
+- `prepareForSegue: ... sender`
+- `didFinishSigningWithImage`
+- `didSelectUser`
+- `connectionDidFinishLoading`
+- `connection: ... didReceiveResponse`
+- `viewSignature`
+- `validToSave`
+- `isCompletelySigned`
+- `allowedToSign`
+
+##### **SignatureViewController** - handles the view that allows the user to write signatures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `didReceiveMemoryWarning`
+- `positionForBar`
+- `supportedInterfaceOrientations`
+- `shouldAutorotate`
+- `clearSignature`
+- `doneSigning`
+
+##### **SubmittedByTableViewController** - handles the view that displays submitted by
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `fetchOffline`
+- `didReceiveMemoryWarning`
+- `showNoInternetConnectionView`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+
+##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `savePointsRaised`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAIAddRecordViewController** - handles the adding of records in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAutoNum`
+- `fetchLocationAddressData`
+- `saveRecordData`
+- `initializeDataSource`
+- `clearTypeData`
+- `clearLocationTypeData`
+- `createJSON`
+- `registerForOfflineSaving`
+- `showInspectionTypePickerView`
+- `showInspectionSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showStatusPickerView`
+- `showDatePickerWithIndexPath`
+- `showDateTimePickerWithIndexPath`
+- `showRelevantPoliciesPickerView`
+- `showRelevantLegislationsPickeriew`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAIEditPointsRaisedViewController** - handles the editing of points raised in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `registerActionDidSaved: ... responseData`
+- `fetchPointRaisedDetailsData`
+- `initializeDataSource`
+- `showPointRaisedActionsView`
+
+
+##### **WHSAIEditRecordViewController** - handles the editing of records in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSAIInspectionTypePickerViewController** - handles the inspection type picker in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddInspectionTypeView`
+- `showEditInspectionTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSAIPointsRaisedViewController** - handles the display of points raised view in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: .... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `swipeableTableViewCell: ... didTriggerRightUtilityButtonWithIndex`
+- `swipeableTableViewCell: ... canSwipeToState`
+- `fetchPointsRaisedRecordsData`
+- `deletePointsData`
+- `initializeDataSource`
+- `showEditPointsRaisedView`
+- `cellRightUtitilityButtons`
+- `openAddRecordView`
+
+##### **WHSAISearchResultsViewController** - handles the search results of audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchSearchResultsRecordData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSAISearchViewController** - handles the searching of audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showInspectionTypePickerView`
+- `showInspectionSubTypePickerView`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showSearchResultsViewWithDataList`
+- `searchBarButtonItemDidTapped`
+
+##### **WHSAISplittedViewController** - handles the split view of audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: … heightForRowAtIndexPath`
+- `initializeDataSource`
+- `tableView: … didSelectRowAtIndexPath`
+
+##### **WHSAITabViewController** - handles the audit and inspections tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTasksObservedView`
+- `showChecklistView`
+- `showPointsRaisedView`
+- `showActionsView`
+
+##### **WHSActionCategoryPickerViewController** - handles the action category picker
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddActionCategoryView`
+- `showEditActionCategoryView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSActionDetails ManagerViewController** - handles the managing of action details
+
+###### **Methods and Calculated Variables**
+- `initializeDataSource`
+
+##### **WHSActionManagerViewController** - handles the manager for actions
+
+###### **Methods and Calculated Variables**
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `textViewDidChange`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `initializeEditActionBarButtonItem`
+- `initializeSaveActionBarButtonItem`
+- `showActionCategoryPickerView`
+- `showActionStatusPickerView`
+- `showActionPriorityPickerView`
+- `showActionToBeImplementedByPickerView`
+- `showActionNotificationReceiverPickerView`
+- `showActionReviewedByPickerView`
+- `showActionApprovedByPickerView`
+- `showActionCompletedByPickerView`
+- `showActionDatePicker`
+- `fetchActionDetails`
+- `transferActionData
+- `createInData`
+- `formatRecipientIDs`
+- `saveAction`
+- `saveActionButtonDidTapped`
+- `editActionButtonDidTapped`
+- `postURLConnectionDidFinished`
+
+##### **WHSActionViewController** - handles the display of the action view
+
+###### **Methods and Calculated Variables**
+- `enableEditingActions`
+- `initializeEditActionBarButtonItem`
+- `initializeAddActionBarButtonItem`
+- `addActionBarButtonItemDidTapped`
+- `editActionBarButtonItemDidTapped`
+- `viewDidLoad`
+- `viewDidAppear`
+- `prepareForSegue: ... sender`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+
+##### **WHSActionsMonitorRecordViewController** - handles the display of action monitor records
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... numberOfRowsInSection`
+- `didSelectRowAtIndexPath`
+- `fetchActionRecordData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showSearchView`
+- `showEditActionView`
+
+
+##### **WHSActionsMonitorSearchResultsViewController** - handles the search results of actions monitor
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showEditActionView
+
+##### **WHSActionsMonitorSearchViewController** - handles the searching of actions monitor
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showSearchResultsViewWithDataList`
+- `showDatePickerWithIndexPath`
+- `showRecordGroupPickerView`
+- `showActionPriorityPickerView`
+- `showPersonResponsiblePickerView`
+- `showStatusPickerView`
+- `searchBarButtonItemDidTapped`
+
+##### **WHSAddAIInspectionSubTypeViewController** - handles the adding of inspection sub types in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddAIInspectionTypeViewController** - handles the adding of inspection types in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddActionCategoryViewController** - handles the adding of categories in actions
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveActionCategory`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddAssetSubTypeViewController** - handles the adding of asset sub types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddAssetTypeViewController** - handles the adding of asset types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddAtmosphericMonitoringTypeViewController** - handles the adding of atmospheric monitoring types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveServiceTypeData`
+- `initializeDataSource`
+- `createJSON`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddAttachmentsViewController** - handles the adding of attachments
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `documentPicker: ... didPickDocumentAtURL`
+- `documentPickerWasCancelled`
+- `showDocumentTypePickerView`
+- `showUploadOptions`
+- `showImagePicker`
+- `showDocumentPicker`
+- `setAllowedUTIs`
+- `refreshSelectedRow`
+- `imagePickerController: ... didFinishPickingMediaWithInfo`
+- `imagePickerControllerDidCancel`
+- `acSheet: ... clickedButtonAtIndex`
+- `sendPOSTRequest`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddAttendeeViewController** - handles the adding of attendees
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAttendeeData`
+- `initializeDataSource`
+- `createJSON`
+- `showEmployeePickerView`
+- `showAssessmentTypePickerView`
+- `showResultPickerView`
+- `showCompetenciesPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddCompetenciesViewController** - handles the adding of competencies
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath `
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveCompetencyData`
+- `initializeDataSource`
+- `createJSON`
+- `showLicencePickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddControlMeasureViewController** - handles the adding of control measures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddDynamicActionsViewController** - handles the adding of dynamic actions
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `fetchFlexibleForm`
+- `fetchOfflineConnection: ... data`
+- `connectionDidFinishLoading`
+- `handleFlexi`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `textView: ... replacementText`
+- `textViewDidChange`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `showActionTypePicker`
+- `showActionCategoryPickerView`
+- `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
+- `showWorkerPickerView: ... isNotification`
+- `showNotificationReceiverPickerView`
+- `createJSON`
+
+##### **WHSAddEmployeeDepartmentViewController** - handles the adding of employee departments
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddEmployeeDivisionViewController** - handles the adding of employee divisions
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddGenericViewController** - handles the adding of generic views
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddInspectionTypeViewController** - handles the adding of inspection types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonsAtIndex`
+- `saveInspectionType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddLicenceViewController** - handles the adding of licences
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveLicenceData`
+- `initializeDataSource`
+- `createJSON`
+- `showLicenceCategoryPickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddLocationViewController** - handles the adding of location
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveLocationData`
+- `initializeDataSource`
+- `createJSON`
+- `showStatePickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAddNoiseAssessmentSubTypeViewController** - handles the adding of noise assessment sub types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+
+##### **WHSAddNoiseAssessmentTypeViewController** - handles the adding of noise assessment types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddNotificationReceiverViewController** - handles the adding of notification receivers
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveNotificationReceiver`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createPOSTJSON`
+
+##### **WHSAddPointsRaisedViewController** - handles the adding of points raised
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `savePointsRaised`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSAddRecordViewController** - implementation that handles the adding of records
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `textViewDidChange`
+- `createInData`
+- `initializeSaveBarButtonItem`
+- `needTextViewCell`
+- `needDropdownCell`
+- `needSwitchCell`
+- `saveButtonItemDidTapped`
+- `switchCellValueDidChanged`
+- `getPreferredIndexPath`
+
+##### **WHSAddWorkerViewController** - handles the adding of workers
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `showActionEmployeeTypePicker`
+- `employeeListForPicker`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveWorkerData`
+- `initializeDataSource`
+- `createJSON`
+- `showEmployeeTypePickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAiInspectionSubTypePickerViewController** - handles the inspection sub type picker in audits and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddInspectionSubTypeView`
+- `showEditInspectionSubTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSAssetSubTypePickerViewController** - handles the asset sub type picker
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddView`
+- `showEditView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSAssetTypePickerViewController** - handles the picking of asset types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddView`
+- `showEditView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSAssetsAddDetailsViewController** - handles the adding of details in assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLocationAddressData`
+- `fetchAutoNum`
+- `saveDetails`
+- `initializeDataSource`
+- `createJSON`
+- `showAssetTypePickerView`
+- `showAssetSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showDatePickerWithIndexPath`
+- `showStatePickerView`
+- `showYesNoNotDeterminedPickerView`
+- `showAuthorityRegistrationPickerView`
+- `showLinkCompetenciesPickerView`
+- `showLinkJSAPickerView`
+- `showLinkSWMSPickerView`
+- `showLinkPPEPickerView`
+- `showTestingFrequencyPickerView`
+- `showServicingFrequencyPickerView`
+- `showWorkerPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantProceduresPickerView`
+- `showRelevantLegislationsPickeriew`
+- `showRelevantTrainingPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearAssetSubType`
+- `clearLocationData`
+- `isAllRequiredDataFilledUp`
 
 ##### **WHSAssetsAddServiceHistoryViewController** - handles the adding of service history
 
@@ -121,11 +1421,644 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 
+##### **WHSAssetsAddTestHistoryViewController** - handles the adding of test history in assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveData`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAutoNum`
+- `saveTestHistoryData`
+- `setupTestFrequency`
+- `initializeDataSource`
+- `showTestTypePickerView`
+- `showItemsTestedPickerView`
+- `showWorkerPicker`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showSaveSucceededView`
+- `showSaveFailedView`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `switchCellValueDidChanged`
+- `createJSON`
+- `saveSucceeded`
+- `saveFailed`
+
+
+##### **WHSAssetsClassifiedAddDetailsViewController** - handles the adding of details in classified assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+
+##### **WHSAssetsClassifiedEditDetailsViewController** - handles the editing of details in classified assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+
+##### **WHSAssetsClassifiedSearchResultsViewController** - handles the search results of classified assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSAssetsClassifiedSearchViewController** - handles the searching of classified assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsClassifiedTabViewController** - handles the tab functions in classified assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTestHistoryView`
+- `showServiceHistoryView`
+- `showActionsView`
+
+##### **WHSAssetsClassifiedViewController** - handles the display of classified assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchClassifiedEquipmentListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSAssetsEditDetailsViewController** - handles the editing of details in assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSAssetsEditServiceHistoryViewController** - handles the editing of service history in assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `registerActionDidSaved: ... responseData`
+- `registerActionSavingDidFailed: ... responseData`
+- `fetchServiceHistoryDetailsData`
+- `initializeDataSource`
+- `showServiceHistoryActions`
+- `showAttachmentsView`
+
+##### **WHSAssetsEditTestHistoryViewController** - handles the editing of test history in assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `registerActionDidSaved: ... responseData`
+- `registerActionSavingDidFailed: ... responseData`
+- `fetchTestHistoryDetailsData`
+- `initializeDataSource`
+- `showTestHistoryActions`
+- `showAttachmentsView`
+
+##### **WHSAssetsElectricalAddDetailsViewController** - handles the adding of details in electrical assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsElectricalAddServiceHistoryViewController** - handles the adding of service history in electrical assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsElectricalEditDetailsViewController** - handles the editing of details in electrical assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsElectricalEditServiceHistoryViewController** - handles the editing of service history in electrical assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsElectricalSearchResultsViewController** - handles the search results for electrical assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
 ##### **WHSAssetsElectricalSearchViewController** - handles the electrical search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList
+
+##### **WHSAssetsElectricalTabViewController** - handles the electrical assets tab view
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTestHistoryView`
+- `showServiceHistoryView`
+- `showActionsView`
+
+##### **WHSAssetsElectricalViewController** - handles the display of electrical assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchElectricalEquipmentListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSAssetsLiftingAddDetailsViewController** - handles the adding of details in lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsLiftingEditDetailsViewController** - handles the editing of details in lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsLiftingSearchResultsViewController** - handles the search results of lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSAssetsLiftingSearchViewController** - handles the search of lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsLiftingTabViewController** - handles the tab view for lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTestHistoryView`
+- `showServiceHistoryView`
+- `showActionsView`
+
+##### **WHSAssetsLiftingViewController** - handles the display of lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLiftingEquipmentListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSAssetsPlantAddDetailsViewController** - handles the adding of details in plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsPlantAddServiceHistoryViewController** - handles the adding of service history in plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+
+##### **WHSAssetsPlantEditDetailsViewController** - handles the editing of details in plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsPlantEditServiceHistoryViewController** - handles the editing of service history in plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `prepareForSegue: ... sender`
+
+##### **WHSAssetsPlantSearchResultsViewController** - handles the search results of plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSAssetsPlantSearchViewController** - handles the searching of plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsPlantTabViewController** - handles the tab view for plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTestHistoryView`
+- `showServiceHistoryView`
+- `showActionsView`
+
+##### **WHSAssetsPlantViewController** - handles the display of plant assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchPlantEquipmentListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSAssetsSearchRecordResultsViewController** - handles the search record results for assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+
+##### **WHSAssetsSearchRecordViewController** - handles the searching of records for assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showSearchResultsViewWithDataList`
+- `searchBarButtonItemDidTapped`
+
+##### **WHSAssetsServiceHistoryViewController** - handles the display of service history for assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPat`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchServiceHistories`
+- `showEditServiceHistoryDetailsView`
+- `openAddRecordView`
+
+##### **WHSAssetsTestHistoryViewController** - handles the display of test history for assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `testHistoryDidSaved: ...responseData`
+- `testHistorySavingDidFailed: ... responseData`
+- `fetchTestHistories`
+- `showTestHistoryDetailsView`
+- `showTestHistoryEditDetailsView`
+- `openAddRecordView`
+
+##### **WHSAssetsVehiclesAddDetailsViewController** - handles the adding of details for vehicle assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsVehiclesEditDetailsViewController** - handles the editing of details for vehicle assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSAssetsVehiclesSearchRecordResultsViewController** - handles the search record results of vehicle assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSAssetsVehiclesSearchRecordViewController** - handles the searching of vehicle assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`
+
+##### **WHSAssetsVehiclesTabViewController** - handles the tab view for vehicle assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `showSignOffView
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTestHistoryView`
+- `showServiceHistory`
+- `showActionsView`
+
+##### **WHSAssetsVehiclesViewController** - handles the display of vehicle assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchVehiclesListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSAssetsViewController** - handles the display of assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `prepareForSegue: ... sender`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showVehiclesView`
+- `showElectricalEquipmentView`
+- `showPlantEquipmentView`
+- `showLiftingEquipmentView`
+- `showClassifiedEquipmentView`
+
+##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController** - handles the adding of monitoring history for atmospheric monitoring
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `exposureLimitsDonePickingSubstances`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveMonitoringHistoryData`
+- `initializeDataSource`
+- `createJSON`
+- `showMonitoringPickerView`
+- `showDatePickerWithIndexPath`
+- `showExposureLimitsPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSAtmosphericMonitoringAddRecordViewController** - handles the adding of records for atmospheric monitoring
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `exposureLimitsDonePickingSubstances`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLocationAddressData`
+- `fetchAutoNum`
+- `fetchConfinedSpacesDetailsData`
+- `saveAtmosphericMonitoringData`
+- `initializeDataSource`
+- `createJSON`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showProductStoragePickerView`
+- `showProductPickerView`
+- `showProductListPickerView`
+- `showDatePickerWithIndexPath`
+- `showProjectPickerView`
+- `showStatusPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantProceduresPickerView`
+- `showRelevantLegislationsPickeriew`
+- `showRelevantTrainingPickerView`
+- `showExposureLimitsPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearLocationData`
+- `isAllRequiredDataFilledUp`
+- `isSelectedItemsExists: ... selectedItemTypeID`
+- `appendSelectedItemWithIDs: ... itemNames: ... itemTypeID`
+- `changeSelectedItemWithIDs: ... itemNames: ... itemTypeID`
+- `discardSelectedItemWithStringOfIDs`
+
+##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController** - handles the editing of monitoring history for atmospheric monitoring
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchMonitoringHistoryDetailsData`
+- `initializeDataSource`
+- `showMonitoringHistoryActionsView`
+- `showAttachmentsView`
+
+##### **WHSAtmosphericMonitoringEditRecordViewController** - handles the editing of records for atmospheric monitoring
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSAtmosphericMonitoringHistoryViewController** - handles the display of monitoring history for atmospheric monitoring
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchMonitoringHistories`
+- `showEditMonitoringHistoryViewController`
+- `openAddRecordView`
 
 ##### **WHSAtmosphericMonitoringTabViewController** - handles the logic of the atmospheric monitoring section
 
@@ -1175,6 +3108,30 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showAddProjectView`
 - `openAddRecordView`
 
+##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchNewControlsData`
+- `showAddActionView`
+- `showEditActionView`
+
+##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `fetchSWPData`
+- `initializeDataSource`
+
 ##### **WHSSafeWorkProceduresViewController** - shows share work procedures
 
 ###### **Methods and Calculated Variables**
@@ -1273,6 +3230,25 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `openPDFView`
 - `openAddRecordView`
 
+##### **WHSSafetyFireDetectionViewController** - handles the display of the Safety Fire Detection screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFireDetectionListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openPDFView`
+- `openAddRecordView`
+
 ##### **WHSSafetyFireFightingAddDetailsViewController** - shows the add details screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
@@ -1355,6 +3331,24 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showSearchView`
 - `showTabView`
 - `openAddRecordView`
+
+##### **WHSSafetyFirstAidAddDetailsViewController** - handles the adding of details in the Safety First Aid section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+
+##### **WHSSafetyFirstAidAddTestHistoryViewController** - handles the adding of a test history in the Safety First Aid section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+
 
 ##### **WHSSafetyFirstAidEditDetailsViewController** - handles the editing  of details in safety first aid
 
@@ -1553,6 +3547,20 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showServiceHistoryView`
 - `showActionsView`
 
+##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchServiceHistories`
+- `showEditServiceHistoryDetailsView`
+- `openAddRecordView`
+
 ##### **WHSSafetySpillKitAddDetailsViewController** - shows add details screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
@@ -1636,6 +3644,35 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showTabView`
 - `openAddRecordView`
 
+##### **WHSSafetyTabViewController** - handles the showing of the Safety view
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `initializeDataSource`
+- `disableEmployeeView`
+- `showDetailsView`
+- `showEmployeeView`
+- `showTestHistoryView`
+- `showServiceHistoryView`
+- `showActionsView`
+- `showPDFView`
+- `showAttachmentView`
+
+##### **WHSSafetyTestHistoryViewController** - handles the showing of the history in the Safety Test section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `fetchTestHistories`
+- `showTestHistoryDetailsView`
+- `showEditTestHistoryDetailsView`
+- `openAddRecordView`
+
+
 ##### **WHSSearchRecordViewController** - shows search record view
 
 ###### **Methods and Calculated Variables**
@@ -1658,6 +3695,167 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showDatePicker`
 - `searchBarButtonItemDidTapped`
 - `formatPickedItems`
+
+##### **WHSSettingViewController** - handles and shows the Settings screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `mailComposeController: ... didFinishWithResult`
+- `showCantEmailView`
+- `logoutButtonDidTapped`
+- `emailButtonDidTapped`
+- `callButtonDidTapped`
+- `switchValueDidChanged`
+
+##### **WHSSideMenuViewController** - the logic behind the Side Manu of the app
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeSideMenuItems`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `selectMenuCell`
+- `fetchedMenuDataDidProcessed`
+- `initializeDataSource`
+- `updateButtonSettingsView`
+- `goBackToHome`
+- `homeButtonDidTapped`
+- `riskManagementButtonDidTapped`
+- `registersButtonDidTapped`
+- `policiesAndProceduresButtonDidTapped`
+- `incidentReportingButtonDidTapped`
+- `auditAndInspectionsButtonDidTapped`
+- `dynamicTemplatesButtonDidTapped`
+- `settingsButtonDidTapped`
+- `actionMonitorButtonDidTapped`
+- `offlineDocumentsButtonDidTapped`
+- `localFormsButtonTapped`
+
+##### **WHSSiteRAControlsViewController** - handles the Controls screen of the Site RA section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `fetchControlCategoriesData`
+- `fetchCurrentControlsData`
+- `saveRecordData`
+- `createJSON`
+- `saveBarButtonItemDidTapped`
+- `acSheet: … clickedButtonAtIndex`
+- `textViewDidChange`
+- `initializeDataSource`
+- `initializeAddRecord`
+- `openAddRecordView`
+
+##### **WHSSiteRAHazardsAddHazardViewController** - handles the adding of a hazard in the Site RA Hazards section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: … didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: … clickedButtonAtIndex`
+- `saveHazardData`
+- `initializeDataSource`
+- `createJSON`
+- `showHazardTypePickerView`
+- `showHazardSubTypePickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `clearHazardData`
+
+##### **WHSSiteRAHazardsViewController** - handles the Hazards screen in the Site RA section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `initializeAddRecord`
+- `openAddRecordView`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `fetchDetailsHazardTemplateID`
+- `fetchTemplateName`
+- `fetchHazards`
+- `saveRecordData`
+- `tablePickerDidFinishedPicking`
+- `acSheet: … clickedButtonAtIndex`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `switchCellValueDidChanged`
+- `createJSON`
+- `showHazardTemplatePicker`
+- `textFieldDidChange`
+- `saveBarButtonItemDidTapped`
+- `initializeDataSource`
+- `updateTemplateCell`
+- `updateHazardSection`
+
+##### **WHSSiteRARiskDetailViewController** - handles the risk detail of the Site RA section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: … didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
+- `textViewDidChange`
+- `textView: … heightForHeaderInSection`
+- `textView: … heightForFooterInSection`
+- `textView: … estimatedHeightForRowAtIndexPath`
+- `textView: … heightForRowAtIndexPath`
+- `fetchDetailsData`
+- `createJSON`
+- `showHazardTypePickerView`
+- `showHazardSubTypePickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `acSheet: … clickedButtonAtIndex`
+- `saveRecordData`
+- `initializeDataSource`
+- `clearHazardData`
 
 ##### **WHSSiteRARisksAddControlViewController** - logic for the screen that shows add risk control in site risk assessment view controller
 
@@ -1693,6 +3891,41 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEditActionView`
 - `addBarButtonItemDidTapped`
 
+##### **WHSSiteRARisksRatingViewController** - handles the risk rating screen of the Site RA section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
+- `textViewDidChange`
+- `tableView: … heightForFooterInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `fetchDetailsData`
+- `fetchUserCustomRM`
+- `refreshRecommendedRisk`
+- `saveRecordData`
+- `createJSON`
+- `showTablePickerWithListKey`
+- `showFrequencyOfExposure`
+- `showPossibilityOfExposure`
+- `showPotentialImpactLevel`
+- `showRiskSignificance`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `acSheet: … clickedButtonAtIndex`
+- `initializeStaticFields`
+- `initializeCustomFields`
+
 ##### **WHSSiteRARisksTabViewController** - logic for the screen that shows the table view of risks in the site risks assessment section
 
 ###### **Methods and Calculated Variables**
@@ -1725,6 +3958,22 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
+- `showTabView`
+
+##### **WHSSiteRiskAsessmentSearchResultsViewController** - handles the search results of the Site Risk Assessment section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `prepareForSegue`
+- `connectionDidFinishLoading`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
 - `showTabView`
 
 ##### **WHSSiteRiskAssessmentAddRecordViewController** - logic behind the site risk assessment record screen
@@ -2011,1939 +4260,6 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEditWorker`
 - `openAddRecordView`
 - `editBarButtonItemDidTapped`
-
-##### **DynamicFormTableViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `saveOrNext`
-- `submitToApi`
-- `checkAutoHazardWithRegID`
-- `mandatoryFieldsFilled`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `hasSignoffSection`
-- `titleForSection`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `textViewDidChange`
-- `proceedToFileUpload`
-- `openCamera`
-- `imagePickerControllerDidCancel`
-- `imagePickerController: ... didFinishPickingMediaWithInfo`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `formatPickedItems: ... dataToBeExtractedKey: ... indent: ... indentationString`
-- `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
-- `documentPickerWasCancelled`
-- `documentPicker: ... didPickDocumentAtURL`
-- `showDocumentPicker`
-- `setAllowedUTIs`
-- `uploadDTFile: ... sessionID: ... filename`
-- `switchCellValueDidChanged`
-- `moreButtonTapped`
-- `showTimelinePickerViewWithPickerType: ... indexPath`
-- `showDatePickerWithTitle: ... pickerMode: ... initialDate: ... doneBlock: ... cancelBlock: ... showInView: ... isTableGrouped`
-- `showDropdownPickerViewWithMultipleModifier`
-- `showSectionPicker`
-- `createJSON`
-- `didSelectUser`
-- `showSignatureViewController`
-- `didFinishSigningWithImage`
-- `saveSignOff `
-- `requiredFieldsValid`
-- `validToSave`
-- `showProgressHUD`
-- `showPersonInvolvedTypeView`
-- `refreshActionedByFields`
-- `uploadOfflineAttachmentsAndSubmit`
-- `adhocAddDataControllerDidFinish`
-- `adhocAddDataController: ... didSave`
-- `tableDatasetCellDidTapAddData`
-- `tableDatasetCellDidUpdateData: ... tableData`
-- `locationManager: ... didChangeAuthorizationStatus`
-
-
-##### **GenericTableViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-
-
-##### **MyStorageAddNewWorkerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeUI`
-- `initializeDoneBarButton`
-- `doneBarButtonTapped`
-- `textFieldFirstNameDidChange`
-- `textFieldLastNameDidChange`
-- `validateEnteredName`
-
-##### **MyStorageCompatibilityViewControllerr**
-
-###### **Methods and Calculated Variables**
-- `initWithCoder`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `viewWillDisappear`
-- `viewDidUnload`
-- `fetchProductCompatibility`
-- `prepareForSegue: ... sender`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `connection: ... didFailWithError`
-- `initializeViewStorageDetails`
-- `showStorageViewPicker`
-- `getStorageValueWithKey: ... index`
-- `legendButtonPressed`
-- `notesButtonPressed`
-- `reportButtonPressed`
-- `pickDGClassFromDictionary`
-
-
-##### **MyStorageESQAddBatchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `connection: ... didFailWithError`
-- `textField: ... shouldChangeCharactersInRange: ... replacementString`
-- `doneEditing`
-- `cancelledEditing`
-- `initializeDataReceivers`
-- `initializeUI`
-- `initializeTableBatch`
-- `showAddSuppliers`
-- `showAddPackSizes`
-- `showAddUnitSizes`
-- `refreshTotalPrice`
-- `doneBarbuttonItemDidTapped`
-- `textFieldTextDidChanged`
-- `fetchSuppliers`
-- `fetchPackSizes`
-- `fetchUnitSizes`
-- `isAllRequiredDataFilledIn`
-- `trimLeadingTrailingWhitespace`
-- `finishedBatchRec`
-- `showSamplePOST`
-
-##### **MyStorageESQAddPackSizeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `connection: ... didFailWithError`
-- `textField: ... shouldChangeCharactersInRange: ... replacementString`
-- `doneEditing`
-- `cancelledEditing`
-- `fetchUnitSize`
-- `initializeUI`
-- `initializeTablePackSizeNew`
-- `refreshVisibleCells`
-- `showAddUnitSizes`
-- `initializeDataReceivers`
-- `doneBarButtonItemDidTapped`
-- `didSelectedUnit`
-- `textFieldTextDidChanged`
-- `isAllRequiredInformationFilledIn`
-- `trimLeadingTrailingWhiteSpace`
-
-
-##### **MyStorageESQAddUnitSizesViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeUI`
-- `initializeTableViewNewUnitSizeInfo`
-- `doneBarButtonItemDidTapped`
-- `textFieldTextDidChanged`
-- `isAllRequiredDataFilledIn`
-- `trimLeadingTrailingWhitespace`
-
-##### **MyStorageESQBatchDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `showStringPickerWithKeyName`
-- `initializeUI`
-- `initializeBackBarButtonItem`
-- `initializeDoneBarButtonItem`
-- `showIncompleteDataWarning`
-- `initializeTableBatchInfo`
-- `JSONSanitizerWithData: ... keys`
-- `getID: ... index`
-- `getID: ... arrayList: ... index`
-
-##### **MyStorageESQInputValueViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `viewWillDisappear`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `initializeUI`
-- `initializeBackBarButtonItem`
-- `initializeDoneBarButtonItem`
-- `initializeTextFieldHidden`
-- `initializeLabelOriginalQuantity`
-- `initializeLabelPreferredRate`
-- `initializeLabelOperation`
-- `initializeViewCalculator`
-- `adjustWidthLabelPreferredRate`
-- `textField: ... shouldChangeCharactersInRange: ... replacementString`
-- `textFieldShouldReturn`
-- `doneBarButtonItemDidTapped`
-- `labelPreferredRateDidTapped`
-- `textFieldHiddenReceiverTextDidChange`
-
-##### **MyStorageEditStoredQuantityViewController**
-
-###### **Methods and Calculated Variables**
-- `initWithCoder`
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `viewWillDisappear`
-- `didReceiveMemoryWarning`
-- `dealloc`
-- `numberOfSectionsInTableView`
-- `numberOfRowsInSection`
-- `cellForRowAtIndexPath`
-- `viewForHeaderInSection`
-- `heightForHeaderInSection`
-- `heightForRowAtIndexPath`
-- `didSelectRowAtIndexPath`
-- `accessoryButtonTappedForRowWithIndexPath`
-- `willSendRequest`
-- `didReceiveResponse`
-- `didReceiveData`
-- `connectionDidFinishLoading`
-- `didFailWithError`
-- `doneEditingCalculator`
-- `cancelledEditingCalculator`
-- `doneEditing`
-- `cancelledEditing`
-- `fetchWorkers`
-- `fetchBatchDetails`
-- `createPOSTRequest`
-- `initializeUI`
-- `initializeSaveBarButton`
-- `initializeBatchTable`
-- `showActionWorkerPicker`
-- `showActionWorkerPickerWithTitle`
-- `showDateAdjustedPicker`
-- `showPreferredEditModeAlertView`
-- `pushToESQInputValueView`
-- `showAddNewBatchView`
-- `showWarningMessage`
-- `showSuccessMessage`
-- `dismissHandler`
-- `showBatchDetailsViewWithData`
-- `showNoListFetchedAlertView`
-- `showErrorAlertView`
-- `addNewWorkerButtonTapped`
-- `saveBarButtonDidTapped`
-- `textFieldTextDidChanged`
-- `initializeTableDelegates`
-- `initializePOSTArguments`
-- `initializeDataReceivers`
-- `selectedBatchRec`
-- `addNewBatchRecToDataSource`
-- `appendWorkerInfos`
-- `isElegibleForFetchingBatchDetails`
-
-
-##### **MyStorageManifestViewController**
-
-###### **Methods and Calculated Variables**
-- `initWithCoder`
-- `dealloc`
-- `didReceiveMemoryWarning`
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewWillDisappear`
-- `viewDidUnload`
-- `viewDidLayoutSubviews`
-- `shouldAutorotateToInterfaceOrientation`
-- `prepareForSegue: ... sender`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
-- `tableView: ... willSelectRowAtIndexPath`
-- `progressHUDDidTapped`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `connection: ... didFailWithError`
-- `fetchProductManifest`
-- `initializeAnimatedViews`
-- `initializeViewStorageDetails`
-- `showStorageViewPicker`
-- `getStorageValueWithKey: ... index`
-- `hideSwitchView`
-- `showSwitchView `
-- `reportButtonPressed`
-- `summaryButtonPressed`
-- `segmentedControlValueChanged`
-- `switchDidValueChanged`
-
-
-
-##### **MyStorageSummaryViewController**
-
-###### **Methods and Calculated Variables**
-- `initWithNibName: ... bundle`
-- `dealloc`
-- `didReceiveMemoryWarning`
-- `viewWillDisappear`
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `viewDidUnload`
-- `shouldAutorotateToInterfaceOrientation`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... viewForHeaderInSection`
-- `tableView: ... willDisplayCell: ... forRowAtIndexPath`
-- `tableView: ... willSelectRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `progressHUDDidTapped`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `connection: ... didFailWithError`
-- `toggledSwitch`
-- `fetchSummary`
-
-##### **NewDynamicTemplateViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `didReceiveMemoryWarning`
-- `download`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... titleForHeaderInSection`
-- `fetchTemplates`
-- `fetchTemplateFields`
-- `didSelectObject`
-- `toggleTableView`
-- `organizeTemplateFields`
-- `tableView: ... heightForRowAtIndexPath`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-
-##### **SignOffTableViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewWillDisappear`
-- `didReceiveMemoryWarning`
-- `saveSignOff`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `showSignatureViewController`
-- `prepareForSegue: ... sender`
-- `didFinishSigningWithImage`
-- `didSelectUser`
-- `connectionDidFinishLoading`
-- `connection: ... didReceiveResponse`
-- `viewSignature`
-- `validToSave`
-- `isCompletelySigned`
-- `allowedToSign`
-
-##### **SignatureViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `didReceiveMemoryWarning`
-- `positionForBar`
-- `supportedInterfaceOrientations`
-- `shouldAutorotate`
-- `clearSignature`
-- `doneSigning`
-
-##### **SubmittedByTableViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `fetchOffline`
-- `didReceiveMemoryWarning`
-- `showNoInternetConnectionView`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-
-##### **WHSAIAddPointsRaisedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `savePointsRaised`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAIAddRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchAutoNum`
-- `fetchLocationAddressData`
-- `saveRecordData`
-- `initializeDataSource`
-- `clearTypeData`
-- `clearLocationTypeData`
-- `createJSON`
-- `registerForOfflineSaving`
-- `showInspectionTypePickerView`
-- `showInspectionSubTypePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showStatusPickerView`
-- `showDatePickerWithIndexPath`
-- `showDateTimePickerWithIndexPath`
-- `showRelevantPoliciesPickerView`
-- `showRelevantLegislationsPickeriew`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAIEditPointsRaisedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `registerActionDidSaved: ... responseData`
-- `fetchPointRaisedDetailsData`
-- `initializeDataSource`
-- `showPointRaisedActionsView`
-
-
-##### **WHSAIEditRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSAIInspectionTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddInspectionTypeView`
-- `showEditInspectionTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAIPointsRaisedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... willSendRequest: .... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `swipeableTableViewCell: ... didTriggerRightUtilityButtonWithIndex`
-- `swipeableTableViewCell: ... canSwipeToState`
-- `fetchPointsRaisedRecordsData`
-- `deletePointsData`
-- `initializeDataSource`
-- `showEditPointsRaisedView`
-- `cellRightUtitilityButtons`
-- `openAddRecordView`
-
-##### **WHSAISearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchSearchResultsRecordData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-
-##### **WHSAISearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `initializeDataSource`
-- `showInspectionTypePickerView`
-- `showInspectionSubTypePickerView`
-- `showDatePickerWithIndexPath`
-- `showStatusPickerView`
-- `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSAISplittedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: … heightForRowAtIndexPath`
-- `initializeDataSource`
-- `tableView: … didSelectRowAtIndexPath`
-
-##### **WHSAITabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
-- `showSignOffView`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showTasksObservedView`
-- `showChecklistView`
-- `showPointsRaisedView`
-- `showActionsView`
-
-##### **WHSActionCategoryPickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddActionCategoryView`
-- `showEditActionCategoryView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSActionDetails ManagerViewController**
-
-###### **Methods and Calculated Variables**
-- `initializeDataSource`
-
-##### **WHSActionManagerViewController**
-
-###### **Methods and Calculated Variables**
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `textViewDidChange`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `initializeEditActionBarButtonItem`
-- `initializeSaveActionBarButtonItem`
-- `showActionCategoryPickerView`
-- `showActionStatusPickerView`
-- `showActionPriorityPickerView`
-- `showActionToBeImplementedByPickerView`
-- `showActionNotificationReceiverPickerView`
-- `showActionReviewedByPickerView`
-- `showActionApprovedByPickerView`
-- `showActionCompletedByPickerView`
-- `showActionDatePicker`
-- `fetchActionDetails`
-- `transferActionData
-- `createInData`
-- `formatRecipientIDs`
-- `saveAction`
-- `saveActionButtonDidTapped`
-- `editActionButtonDidTapped`
-- `postURLConnectionDidFinished`
-
-##### **WHSActionViewController**
-
-###### **Methods and Calculated Variables**
-- `enableEditingActions`
-- `initializeEditActionBarButtonItem`
-- `initializeAddActionBarButtonItem`
-- `addActionBarButtonItemDidTapped`
-- `editActionBarButtonItemDidTapped`
-- `viewDidLoad`
-- `viewDidAppear`
-- `prepareForSegue: ... sender`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSActionsMonitorRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... numberOfRowsInSection`
-- `didSelectRowAtIndexPath`
-- `fetchActionRecordData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showSearchView`
-- `showEditActionView`
-
-
-##### **WHSActionsMonitorSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showEditActionView
-
-##### **WHSActionsMonitorSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `showSearchResultsViewWithDataList`
-- `showDatePickerWithIndexPath`
-- `showRecordGroupPickerView`
-- `showActionPriorityPickerView`
-- `showPersonResponsiblePickerView`
-- `showStatusPickerView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSAddAIInspectionSubTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAIInspectionTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddActionCategoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveActionCategory`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAssetSubTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAssetTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAtmosphericMonitoringTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveServiceTypeData`
-- `initializeDataSource`
-- `createJSON`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddAttachmentsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tablePickerDidFinishedPicking`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `initializeDataSource`
-- `documentPicker: ... didPickDocumentAtURL`
-- `documentPickerWasCancelled`
-- `showDocumentTypePickerView`
-- `showUploadOptions`
-- `showImagePicker`
-- `showDocumentPicker`
-- `setAllowedUTIs`
-- `refreshSelectedRow`
-- `imagePickerController: ... didFinishPickingMediaWithInfo`
-- `imagePickerControllerDidCancel`
-- `acSheet: ... clickedButtonAtIndex`
-- `sendPOSTRequest`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddAttendeeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAttendeeData`
-- `initializeDataSource`
-- `createJSON`
-- `showEmployeePickerView`
-- `showAssessmentTypePickerView`
-- `showResultPickerView`
-- `showCompetenciesPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddCompetenciesViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath `
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveCompetencyData`
-- `initializeDataSource`
-- `createJSON`
-- `showLicencePickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddControlMeasureViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddDynamicActionsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `fetchFlexibleForm`
-- `fetchOfflineConnection: ... data`
-- `connectionDidFinishLoading`
-- `handleFlexi`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `textView: ... replacementText`
-- `textViewDidChange`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `showActionTypePicker`
-- `showActionCategoryPickerView`
-- `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
-- `showWorkerPickerView: ... isNotification`
-- `showNotificationReceiverPickerView`
-- `createJSON`
-
-##### **WHSAddEmployeeDepartmentViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddEmployeeDivisionViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddGenericViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddInspectionTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonsAtIndex`
-- `saveInspectionType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddLicenceViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveLicenceData`
-- `initializeDataSource`
-- `createJSON`
-- `showLicenceCategoryPickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddLocationViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveLocationData`
-- `initializeDataSource`
-- `createJSON`
-- `showStatePickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddNoiseAssessmentSubTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-
-##### **WHSAddNoiseAssessmentTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddNotificationReceiverViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveNotificationReceiver`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createPOSTJSON`
-
-##### **WHSAddPointsRaisedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `savePointsRaised`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `textViewDidChange`
-- `createInData`
-- `initializeSaveBarButtonItem`
-- `needTextViewCell`
-- `needDropdownCell`
-- `needSwitchCell`
-- `saveButtonItemDidTapped`
-- `switchCellValueDidChanged`
-- `getPreferredIndexPath`
-
-##### **WHSAddWorkerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `showActionEmployeeTypePicker`
-- `employeeListForPicker`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveWorkerData`
-- `initializeDataSource`
-- `createJSON`
-- `showEmployeeTypePickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAiInspectionSubTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddInspectionSubTypeView`
-- `showEditInspectionSubTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAssetSubTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddView`
-- `showEditView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAssetTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddView`
-- `showEditView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAssetsAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... viewForHeaderInSection`
-- `sectionTapped`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchLocationAddressData`
-- `fetchAutoNum`
-- `saveDetails`
-- `initializeDataSource`
-- `createJSON`
-- `showAssetTypePickerView`
-- `showAssetSubTypePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showDatePickerWithIndexPath`
-- `showStatePickerView`
-- `showYesNoNotDeterminedPickerView`
-- `showAuthorityRegistrationPickerView`
-- `showLinkCompetenciesPickerView`
-- `showLinkJSAPickerView`
-- `showLinkSWMSPickerView`
-- `showLinkPPEPickerView`
-- `showTestingFrequencyPickerView`
-- `showServicingFrequencyPickerView`
-- `showWorkerPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantProceduresPickerView`
-- `showRelevantLegislationsPickeriew`
-- `showRelevantTrainingPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `clearAssetSubType`
-- `clearLocationData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAssetsAddTestHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveData`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchAutoNum`
-- `saveTestHistoryData`
-- `setupTestFrequency`
-- `initializeDataSource`
-- `showTestTypePickerView`
-- `showItemsTestedPickerView`
-- `showWorkerPicker`
-- `showDatePickerWithIndexPath`
-- `showStatusPickerView`
-- `showSaveSucceededView`
-- `showSaveFailedView`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `switchCellValueDidChanged`
-- `createJSON`
-- `saveSucceeded`
-- `saveFailed`
-
-
-##### **WHSAssetsClassifiedAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-
-##### **WHSAssetsClassifiedEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-
-##### **WHSAssetsClassifiedSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsClassifiedSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsClassifiedTabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `showSignOffView`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showTestHistoryView`
-- `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsClassifiedViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchClassifiedEquipmentListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSAssetsEditServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `registerActionDidSaved: ... responseData`
-- `registerActionSavingDidFailed: ... responseData`
-- `fetchServiceHistoryDetailsData`
-- `initializeDataSource`
-- `showServiceHistoryActions`
-- `showAttachmentsView`
-
-##### **WHSAssetsEditTestHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `registerActionDidSaved: ... responseData`
-- `registerActionSavingDidFailed: ... responseData`
-- `fetchTestHistoryDetailsData`
-- `initializeDataSource`
-- `showTestHistoryActions`
-- `showAttachmentsView`
-
-##### **WHSAssetsElectricalAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalAddServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalEditServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsElectricalTabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `showSignOffView`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showTestHistoryView`
-- `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsElectricalViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchElectricalEquipmentListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsLiftingAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsLiftingEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsLiftingSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsLiftingSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsLiftingTabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `showSignOffView`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showTestHistoryView`
-- `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsLiftingViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchLiftingEquipmentListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsPlantAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsPlantAddServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-
-##### **WHSAssetsPlantEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsPlantEditServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`
-
-##### **WHSAssetsPlantSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsPlantSearchViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsPlantTabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `showSignOffView`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showTestHistoryView`
-- `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsPlantViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchPlantEquipmentListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsSearchRecordResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-
-##### **WHSAssetsSearchRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `initializeDataSource`
-- `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSAssetsServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPat`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchServiceHistories`
-- `showEditServiceHistoryDetailsView`
-- `openAddRecordView`
-
-##### **WHSAssetsTestHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `testHistoryDidSaved: ...responseData`
-- `testHistorySavingDidFailed: ... responseData`
-- `fetchTestHistories`
-- `showTestHistoryDetailsView`
-- `showTestHistoryEditDetailsView`
-- `openAddRecordView`
-
-##### **WHSAssetsVehiclesAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsVehiclesEditDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsVehiclesSearchRecordResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsVehiclesSearchRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsVehiclesTabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `showSignOffView
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showTestHistoryView`
-- `showServiceHistory`
-- `showActionsView`
-
-##### **WHSAssetsVehiclesViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchVehiclesListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `prepareForSegue: ... sender`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `showVehiclesView`
-- `showElectricalEquipmentView`
-- `showPlantEquipmentView`
-- `showLiftingEquipmentView`
-- `showClassifiedEquipmentView`
-
-##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `exposureLimitsDonePickingSubstances`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveMonitoringHistoryData`
-- `initializeDataSource`
-- `createJSON`
-- `showMonitoringPickerView`
-- `showDatePickerWithIndexPath`
-- `showExposureLimitsPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAtmosphericMonitoringAddRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `exposureLimitsDonePickingSubstances`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchLocationAddressData`
-- `fetchAutoNum`
-- `fetchConfinedSpacesDetailsData`
-- `saveAtmosphericMonitoringData`
-- `initializeDataSource`
-- `createJSON`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showProductStoragePickerView`
-- `showProductPickerView`
-- `showProductListPickerView`
-- `showDatePickerWithIndexPath`
-- `showProjectPickerView`
-- `showStatusPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantProceduresPickerView`
-- `showRelevantLegislationsPickeriew`
-- `showRelevantTrainingPickerView`
-- `showExposureLimitsPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `clearLocationData`
-- `isAllRequiredDataFilledUp`
-- `isSelectedItemsExists: ... selectedItemTypeID`
-- `appendSelectedItemWithIDs: ... itemNames: ... itemTypeID`
-- `changeSelectedItemWithIDs: ... itemNames: ... itemTypeID`
-- `discardSelectedItemWithStringOfIDs`
-
-##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchMonitoringHistoryDetailsData`
-- `initializeDataSource`
-- `showMonitoringHistoryActionsView`
-- `showAttachmentsView`
-
-##### **WHSAtmosphericMonitoringEditRecordViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSAtmosphericMonitoringHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `fetchMonitoringHistories`
-- `showEditMonitoringHistoryViewController`
-- `openAddRecordView`
 
 ##### **WHSChemicalRiskAssessmentHazardsConsequencesViewController**
 
@@ -5593,30 +5909,6 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showNonChemicalRiskManagementView`
 - `initializeDataSource`
 
-##### **WHSSafeWorkProceduresActionViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: … didSelectRowAtIndexPath`
-- `fetchNewControlsData`
-- `showAddActionView`
-- `showEditActionView`
-
-##### **WHSSafeWorkProceduresListViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `fetchSWPData`
-- `initializeDataSource`
-
 ##### **WHSSafetyFireDetectionAddDetailsViewController**
 
 ###### **Methods and Calculated Variables**
@@ -5674,297 +5966,5 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showTestHistoryView`
 - `showServiceHistoryView`
 - `showActionsView`
-
-##### **WHSSafetyFireDetectionViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchFireDetectionListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openPDFView`
-- `openAddRecordView`
-
-##### **WHSSafetyFirstAidAddDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFirstAidAddTestHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-
-
-##### **WHSSafetyServiceHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `fetchServiceHistories`
-- `showEditServiceHistoryDetailsView`
-- `openAddRecordView`
-
-##### **WHSSafetyTabViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
-- `initializeDataSource`
-- `disableEmployeeView`
-- `showDetailsView`
-- `showEmployeeView`
-- `showTestHistoryView`
-- `showServiceHistoryView`
-- `showActionsView`
-- `showPDFView`
-- `showAttachmentView`
-
-##### **WHSSafetyTestHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `fetchTestHistories`
-- `showTestHistoryDetailsView`
-- `showEditTestHistoryDetailsView`
-- `openAddRecordView`
-
-
-##### **WHSSettingViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewWillDisappear`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `mailComposeController: ... didFinishWithResult`
-- `showCantEmailView`
-- `logoutButtonDidTapped`
-- `emailButtonDidTapped`
-- `callButtonDidTapped`
-- `switchValueDidChanged`
-
-##### **WHSSideMenuViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeSideMenuItems`
-- `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `selectMenuCell`
-- `fetchedMenuDataDidProcessed`
-- `initializeDataSource`
-- `updateButtonSettingsView`
-- `goBackToHome`
-- `homeButtonDidTapped`
-- `riskManagementButtonDidTapped`
-- `registersButtonDidTapped`
-- `policiesAndProceduresButtonDidTapped`
-- `incidentReportingButtonDidTapped`
-- `auditAndInspectionsButtonDidTapped`
-- `dynamicTemplatesButtonDidTapped`
-- `settingsButtonDidTapped`
-- `actionMonitorButtonDidTapped`
-- `offlineDocumentsButtonDidTapped`
-- `localFormsButtonTapped`
-
-##### **WHSSiteRAControlsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveData`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `fetchControlCategoriesData`
-- `fetchCurrentControlsData`
-- `saveRecordData`
-- `createJSON`
-- `saveBarButtonItemDidTapped`
-- `acSheet: … clickedButtonAtIndex`
-- `textViewDidChange`
-- `initializeDataSource`
-- `initializeAddRecord`
-- `openAddRecordView`
-
-##### **WHSSiteRAHazardsAddHazardViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: … didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
-- `saveHazardData`
-- `initializeDataSource`
-- `createJSON`
-- `showHazardTypePickerView`
-- `showHazardSubTypePickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `clearHazardData`
-
-##### **WHSSiteRAHazardsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `initializeAddRecord`
-- `openAddRecordView`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
-- `connectionDidFinishLoading`
-- `fetchDetailsHazardTemplateID`
-- `fetchTemplateName`
-- `fetchHazards`
-- `saveRecordData`
-- `tablePickerDidFinishedPicking`
-- `acSheet: … clickedButtonAtIndex`
-- `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `switchCellValueDidChanged`
-- `createJSON`
-- `showHazardTemplatePicker`
-- `textFieldDidChange`
-- `saveBarButtonItemDidTapped`
-- `initializeDataSource`
-- `updateTemplateCell`
-- `updateHazardSection`
-
-##### **WHSSiteRARiskDetailViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: … didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … viewForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
-- `textViewDidChange`
-- `textView: … heightForHeaderInSection`
-- `textView: … heightForFooterInSection`
-- `textView: … estimatedHeightForRowAtIndexPath`
-- `textView: … heightForRowAtIndexPath`
-- `fetchDetailsData`
-- `createJSON`
-- `showHazardTypePickerView`
-- `showHazardSubTypePickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `acSheet: … clickedButtonAtIndex`
-- `saveRecordData`
-- `initializeDataSource`
-- `clearHazardData`
-
-##### **WHSSiteRARisksRatingViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
-- `textViewDidChange`
-- `tableView: … heightForFooterInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `fetchDetailsData`
-- `fetchUserCustomRM`
-- `refreshRecommendedRisk`
-- `saveRecordData`
-- `createJSON`
-- `showTablePickerWithListKey`
-- `showFrequencyOfExposure`
-- `showPossibilityOfExposure`
-- `showPotentialImpactLevel`
-- `showRiskSignificance`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `acSheet: … clickedButtonAtIndex`
-- `initializeStaticFields`
-- `initializeCustomFields`
-
-##### **WHSSiteRiskAsessmentSearchResultsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `prepareForSegue`
-- `connectionDidFinishLoading`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
 
 after uwu

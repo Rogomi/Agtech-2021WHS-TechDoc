@@ -1,4 +1,4 @@
-##### **WHSSettingViewController**
+##### **WHSSettingViewController** - handles and shows the Settings screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
