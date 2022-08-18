@@ -1,0 +1,8 @@
+##### **WHSLocationPickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddLocationView`
+- `showEditLocationView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

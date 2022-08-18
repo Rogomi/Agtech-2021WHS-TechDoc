@@ -1,0 +1,8 @@
+##### **WHSNoiseAssessmentSubTypePickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddSubTypeView`
+- `showEditSubTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

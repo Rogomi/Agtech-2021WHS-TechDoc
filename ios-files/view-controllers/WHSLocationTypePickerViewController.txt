@@ -1,0 +1,6 @@
+##### **WHSLocationTypePickerViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddLocationView`
+- `openAddRecordView`

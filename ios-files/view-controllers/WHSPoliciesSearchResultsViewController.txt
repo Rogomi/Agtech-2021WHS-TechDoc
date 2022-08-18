@@ -1,0 +1,5 @@
+##### **WHSPoliciesSearchResultsViewController**
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showTabView`

@@ -1,0 +1,77 @@
+##### **WHSIncidentReportingAddRecordViewController** - handles the adding of record in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `dateOnlyFormatFromDateString`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... estimatedHeightForHeaderInSection`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchAutoNum`
+- `fetchProjectDetails`
+- `fetchLocationAddress`
+- `fetchEmployeeDetails`
+- `saveDetailsData`
+- `saveIRDetCData`
+- `saveIRAddDetData`
+- `saveIRDetRPData`
+- `saveIRAddDetNFData`
+- `initializeDataSourceWithCallback`
+- `initializeDataSource`
+- `updateEmployeeData`
+- `createIRDetJSON`
+- `createIRDetCJSON`
+- `createIRAddDetJSON`
+- `createIRDetRPJSON`
+- `createIRAddDetNFJSON`
+- `showTypePickerView`
+- `showDatePickerWithIndexPath`
+- `showDateTimePickerWithIndexPath`
+- `showProjectPickerView`
+- `showManagementSystemPicker`
+- `showPersonPickerView`
+- `showConsequenceRankingPicker`
+- `showPotentialOutcomePicker`
+- `showNotificationSeverityPicker`
+- `showEmployeeContractorsCompanyPickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showStatusPickerView`
+- `showWorkerPickerView`
+- `showImmediateTreatmentPicker`
+- `showGenderPickerView`
+- `showDivisionPickerView`
+- `showDepartmentPickerView`
+- `showJobTitlePickerView`
+- `showOccupationPickerView`
+- `showIndustryPickerView`
+- `showEmploymentCategoryPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearLocationTypeData`
+- `clearDivisionData`
+- `isSectionPersonInvolve`
+- `insertValuesFromCell: ... intoData: ... usingParam`
+- `setValuesForCell: ... fromData: ... usingParam`
+- `insertValue: ... forKeyPath: ... inData`
+- `insertValue: ... forKeyPath: ... inData`
+- `valueFromData: ... forKeyPath: ... withTransForm`
