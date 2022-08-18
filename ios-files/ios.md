@@ -702,17 +702,17 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `initializeDataSource`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 
 ##### **WHSAITabViewController** - handles the audit and inspections tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -2052,10 +2052,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
 - `openAddRecordView`
@@ -2092,10 +2092,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `openAddRecordView`
 - `showEditAttachmentsView`
@@ -2140,10 +2140,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchAttendeesData`
 - `initializeDataSource`
 - `showEditAttendeesDetailsView`
@@ -2991,13 +2991,13 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `connectionDidFinishLoading`
 - `fetchConfinedSpacesDetailsData`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `returnNullIfNull`
 - `initializeDataSource`
 - `showEntriesView`
@@ -3011,12 +3011,12 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchPermitsData`
 - `initializeDataSource`
 - `showPermitsView`
@@ -3026,8 +3026,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showAttachmentsView`
@@ -3042,7 +3042,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `detailsView: … savedData`
+- `detailsView: â¦ savedData`
 - `showAddControlMeasureView`
 - `openAddRecordView`
 
@@ -3589,10 +3589,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchSearchResultsData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -3611,8 +3611,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchNoiseControlListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -3647,8 +3647,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewWillAppear`
 - `prepareForSegue`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAtmosphericMonitoringView`
 - `showNoiseControlView`
@@ -3955,8 +3955,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchAsbestosListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4042,7 +4042,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`
 
@@ -4068,6 +4068,52 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showSearchResultsView`
 - `searchBarButtonItemDidTapped`
 
+##### **WHSHazardsCarcinogensSearchResultsViewController** - handles the search results in hazards carcinogens
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+
+##### **WHSHazardsCarcinogensTabViewController** - handles the hazards carcinogens tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showSignOffView`
+- `showEditDetailsView`
+- `showEmployeeExposureView`
+- `showActionsView`
+
+##### **WHSHazardsCarcinogensViewController** - controls the hazards carcinogens
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchCarcinogensListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
 ##### **WHSHazardsDetailsViewController** - handles the showing of the details in the hazards section
 
 ###### **Methods and Calculated Variables**
@@ -4079,9 +4125,9 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewWillAppear`
 - `tablePickerDidFinishedPicking`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
 - `showStatusPickerView`
@@ -4099,11 +4145,246 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAsbestosView`
 - `showCarcinogensView`
+
+##### **WHSIncidentReportingAddNewHazardsViewController** - handles the adding of new hazards in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveHazardData`
+- `initializeDataSource`
+- `createJSON`
+- `showHazardTypePickerView`
+- `showHazardSubTypePickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `clearHazardData`
+
+##### **WHSIncidentReportingAddNewWitnessViewController** - handles the adding of new witness in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking ... dataPicked`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchEmployeeDetails`
+- `saveWitnessData`
+- `initializeDataSource`
+- `updateDataSource`
+- `createJSON`
+- `showWorkerPickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `clearWitnessData`
+
+##### **WHSIncidentReportingAddRecordViewController** - handles the adding of record in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `dateOnlyFormatFromDateString`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... estimatedHeightForHeaderInSection`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchAutoNum`
+- `fetchProjectDetails`
+- `fetchLocationAddress`
+- `fetchEmployeeDetails`
+- `saveDetailsData`
+- `saveIRDetCData`
+- `saveIRAddDetData`
+- `saveIRDetRPData`
+- `saveIRAddDetNFData`
+- `initializeDataSourceWithCallback`
+- `initializeDataSource`
+- `updateEmployeeData`
+- `createIRDetJSON`
+- `createIRDetCJSON`
+- `createIRAddDetJSON`
+- `createIRDetRPJSON`
+- `createIRAddDetNFJSON`
+- `showTypePickerView`
+- `showDatePickerWithIndexPath`
+- `showDateTimePickerWithIndexPath`
+- `showProjectPickerView`
+- `showManagementSystemPicker`
+- `showPersonPickerView`
+- `showConsequenceRankingPicker`
+- `showPotentialOutcomePicker`
+- `showNotificationSeverityPicker`
+- `showEmployeeContractorsCompanyPickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showStatusPickerView`
+- `showWorkerPickerView`
+- `showImmediateTreatmentPicker`
+- `showGenderPickerView`
+- `showDivisionPickerView`
+- `showDepartmentPickerView`
+- `showJobTitlePickerView`
+- `showOccupationPickerView`
+- `showIndustryPickerView`
+- `showEmploymentCategoryPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearLocationTypeData`
+- `clearDivisionData`
+- `isSectionPersonInvolve`
+- `insertValuesFromCell: ... intoData: ... usingParam`
+- `setValuesForCell: ... fromData: ... usingParam`
+- `insertValue: ... forKeyPath: ... inData`
+- `insertValue: ... forKeyPath: ... inData`
+- `valueFromData: ... forKeyPath: ... withTransForm`
+
+##### **WHSIncidentReportingAddTypeViewController** - handles the adding of type in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveAssetType`
+- `initializeDataSource`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`
+
+##### **WHSIncidentReportingAdditionalDetailsViewController** - handles the additional details in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeDataSource`
+
+##### **WHSIncidentReportingDetailsViewController** - handles the details in incident reporting
+
+###### **Methods and Calculated Variables**
+- `initializeDataSource`
+
+##### **WHSIncidentReportingEditAdditionalDetailsViewController** - handles the editing of additional details in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `initializeDataSourceWithFields`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveData`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchAdditionalDetailsData`
+- `fetchProjectDetails`
+- `saveAdditionalDetailsData`
+- `initializeDataSource`
+- `createJSON`
+- `showProjectPickerView`
+- `showAssetEquipmentTypePickerView`
+- `showAssetEquipmentPickerView`
+- `showAssetEquipmentListPickerView`
+- `showChemicalStoragePickerView`
+- `showChemicalPickerView`
+- `showChemicalListPickerView`
+- `showWorkerPickerView`
+- `showWorkersPickerView`
+- `showLossPickerView`
+- `showIncidentIdentifierPickerView`
+- `showEnvironmentalIncidentCategoryPickerViewWithRow`
+- `showDatePickerWithIndexPath`
+- `showNatureInjuryPickerView`
+- `showMechanismInjuryPickerView`
+- `showBodyPartsHarmedPickerView`
+- `showDutyStatusPickerView`
+- `showTimeStartPickerView`
+- `showRotatingShiftManagementPickerView`
+- `showShiftLengthPickerView`
+- `showProportionWorkedPickerView`
+- `showEmployeeSupervisionPickerView`
+- `showAgencyIncidentPickerView`
+- `getHeaderAndFooterHeightForSection`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isProductExists`
+- `appendProducts: ... productNames`
+- `existingProductList`
+
+##### **WHSIncidentReportingEditDetailsViewController** - handles the editing of details in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `fetchDetails`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `fetchIRDetCData`
+- `fetchIRAddDetData`
+- `fetchIRDetRPData`
+- `fetchIRAddDetNFData`
+- `initializeDataSource`
+- `initializeWorkerDetails`
+- `initializeFirstReportDetails`
+- `initializeIntiialReportDetails`
+- `sendFetchRequest: ... delegate: ... dictionaryType`
 
 ##### **WHSIncidentReportingEditHazardsViewController** - handles the editing of a hazard in the incident reporting section
 
@@ -4111,7 +4392,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchHazardDetailsData`
 - `initializeDataSource`
 
@@ -4128,7 +4409,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchWitnessDetailsData`
 - `initializeDataSource`
 
@@ -4139,8 +4420,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `acSheet: … clickedButtonAtIndex`
-- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchIncidentReports`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4150,6 +4431,24 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `openPDFView`
 - `showEmailReport`
 - `openAddRecordView`
+
+##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddIncidentReportingTypeView`
+- `showEditIncidentReportingTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSInspectionTypePickerViewController** - handles the picker view for inspection types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddInspectionTypeView`
+- `showEditInspectionTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
 
 ##### **WHSLandingViewController** - handles the Landing screen
 
@@ -4179,8 +4478,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … didSelectRowAtIndexPath`
-- `tableView: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: â¦ clickedButtonAtIndex`
 - `initializeDataSource`
 - `showPDFView`
 - `showAttachmentView`
@@ -4197,6 +4496,22 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEditLicenceView`
 - `openAddRecordView`
 - `editBarButtonItemDidTapped`
+
+##### **WHSLocationPickerViewController** - handles the picker view for location
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddLocationView`
+- `showEditLocationView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSLocationTypePickerViewController** - handles the picker view for location types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddLocationView`
+- `openAddRecordView`
 
 ##### **WHSLoginViewController** - handles the Login screen and login in of a user
 
@@ -4218,23 +4533,54 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `validateUsername`
 - `validatePassword`
 
+##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `prepareForSegue`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `searchProducts`
+
+
+##### **WHSManifestsReportPDFViewController** - handles the PDF display for manifests reports
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `prepareForSegue`
+
+##### **WHSNoiseAssessmentSubTypePickerViewController** - handles the picker view for noise assessment sub types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddSubTypeView`
+- `showEditSubTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
 ##### **WHSNoiseControlAddAssessmentViewController** - handles adding an assessment in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: … didReceiveResponse`
+- `connection: â¦ didReceiveResponse`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `saveAssessmentDetailsData`
 - `initializeDataSource`
 - `createJSON`
@@ -4253,20 +4599,20 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: … dataPicked`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
 - `saveNoiseControlDetailsData`
@@ -4312,11 +4658,11 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `swipeableTableViewCell: â¦ didTriggerRightUtilityButtonWithIndex`
 - `deleteAssessment`
 - `initializeDataSource`
 - `showEditDetailsView`
@@ -4331,8 +4677,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `initializeDataSource`
 
 ##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
@@ -4340,19 +4686,19 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: … didReceiveResponse`
+- `connection: â¦ didReceiveResponse`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: … dataPicked`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchMeasurementDetailsData`
 - `saveMeasurementDetailsData`
 - `initializeDataSource`
@@ -4368,7 +4714,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchNoiseControlDetailsData`
 - `initializeDataSource`
 
@@ -4377,12 +4723,12 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `showEditRecordView`
 - `initializeDataSource`
 - `openAddRecordView`
@@ -4392,8 +4738,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -4404,14 +4750,67 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showAssessmentView`
 - `showNewControlsView`
 
+##### **WHSNonChemicalRiskAssessmentNewControlsViewController** - handles the new controls in non chemical risk assessment
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+
+##### **WHSNonChemicalRiskAssessmentSearchResultsViewController** - handles the search results in non chemical risk assessment
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSNonChemicalRiskAssessmentSearchViewController** - handles the search in non chemical risk assessment
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `showSearchResultsView`
+
+##### **WHSNonChemicalRiskAssessmentTabViewController** - handles the non chemical risk assessment tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchTabs`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showNewControlsView`
+- `showSignOffView`
+- `showDetailsView`
+- `showAssessmentView`
+- `showHazardsAndConsequencesView`
+- `showHazardsView`
+- `showConsequencesView`
+- `showCurrentControlsView`
+- `processTabFlags`
+
 ##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchNonChemicalRiskAssessmentListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4421,6 +4820,18 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEmailReportView`
 - `showTabView`
 
+
+##### **WHSNonChemicalRiskManagementViewController** - controls the non chemical risk management
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showHATRiskAssessmentView`
+- `showSWMSView`
+- `showSWPView`
 
 ##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
 
@@ -4434,6 +4845,34 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showSearchResultsViewWithDataList`
 
 
+##### **WHSPAPComplaintsTabViewController** - handles the PAP complaints tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentView`
+- `showEmailReportView`
+- `showSignOffView`
+- `showEditDetailsView`
+- `showChecklistView`
+- `showPointsRaisedView`
+- `showActionsView`
+
+
+##### **WHSPAPDetailsViewController** - handles the PAP details
+
+###### **Methods and Calculated Variables**
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `initializeDataSource`
+
 ##### **WHSPAPDrillsSearchResultsViewController** - handles the search results in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
@@ -4444,6 +4883,22 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `showSearchResultsViewWithDataList`
 
+
+##### **WHSPAPDrillsTabViewController** - handles the PAP drills tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentView`
+- `showSignOffView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showChecklistView`
+- `showActionsView`
 
 ##### **WHSPAPLegislationsSearchResultsViewController** - handles the search results in the PAP Legislations section
 
@@ -4456,6 +4911,24 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
 
+##### **WHSPAPPlansProceduresTabViewController** - handles the PAP plans procedures tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showSignOffView`
+- `showChecklistView`
+- `showEmergencyProcedureView`
+- `showActionsView`
+
 ##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
@@ -4466,6 +4939,22 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
+
+##### **WHSPAPSearchResultsViewController** - handles the search results in PAP
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
 
 ##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
 
@@ -4482,11 +4971,11 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `didSelectUser`
 - `didFinishSigningWithImage`
 - `saveBarButtonItemDidTapped`
@@ -4510,25 +4999,77 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `viewWillDisappear`
 - `handleBack`
-- `connection: … willSendRequest`
-- `connection: … didReceiveData`
-- `connection: … didReceiveResponse`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveData`
+- `connection: â¦ didReceiveResponse`
 - `connectionDidFinishLoading`
 - `openAddRecordView`
 - `toggleSubmitButton`
 - `submitSignatures`
 - `submitSignoffWithIndex`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `tableView: … editActionsForRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: â¦ editActionsForRowAtIndexPath`
 - `initializeDataSource`
 - `saveOnlineSignature`
+
+##### **WHSPoliciesSearchResultsViewController** - handles the display of search results for policies
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showTabView`
 
 ##### **WHSPoliciesSearchViewController** - handles the searching of policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
+
+##### **WHSPoliciesTrainingViewController** - controls the policies training
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchRecordsData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSPoliciesViewController** - controls the policies
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchRecordsData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSProductDetailsViewController** - handles the display of product details
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSProjectPickerViewController** - handles the project picker
 
@@ -4574,6 +5115,125 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `moreOptionsBarButtonItemDidTapped`
 - `searchItem`
 
+##### **WHSRegisterActionDetailsViewController** - handles the action details in register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `initializeDataSource`
+- `fetchActionDetails`
+
+##### **WHSRegisterActionManagerViewController** - handles the action manager of the register
+
+###### **Methods and Calculated Variables**
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `createInData`
+- `transferActionData`
+
+##### **WHSRegisterActionsViewController** - handles the actions of the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `reloadViewFromSavedAction`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `registerActionDidSaved: ... responseData`
+- `registerActionSavingDidFailed: ... responseData`
+- `fetchActionsData`
+- `initializeDataSource`
+- `showEditRecordView`
+- `openAddRecordView`
+
+##### **WHSRegisterAddActionViewController** - handles the adding of action in the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `saveActionButtonDidTapped`
+- `cellSwitchDidValueChanged`
+
+##### **WHSRegisterAddActionsViewController** - handles the adding of actions in the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchAutoNum`
+- `saveAction`
+- `initializeDataSource`
+- `showActionTypePicker`
+- `showActionCategoryPickerView`
+- `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
+- `showWorkerPickerView: ... isNotification`
+- `showNotificationReceiverPickerView`
+- `showSaveSucceedAlertView`
+- `showSaveFailedAlertView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `createJSON`
+
+##### **WHSRegisterAddServiceTypeViewController** - handles the adding of service type in the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveServiceTypeData`
+- `initializeDataSource`
+- `createJSON`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSRegisterAddTestTypeViewController** - handles the adding of test type in the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveTestTypeData`
+- `initializeDataSource`
+- `createJSON`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+
 ##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
 
 ###### **Methods and Calculated Variables**
@@ -4609,10 +5269,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchTestHistories`
 - `showTestHistoryDetailsView`
 
@@ -4632,8 +5292,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `didReceiveMemoryWarning`
 - `prepareForSegue`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showHazardsView`
 - `showAssetsView`
@@ -4648,9 +5308,9 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `download`
 - `fetchOfflineConnection`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `handleFlexi`
 - `connectionDidFinishLoading`
 - `dateOnlyFormatFromDateString`
@@ -4658,19 +5318,19 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `numberOfSectionsInTableView`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … viewForHeaderInSection`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ viewForHeaderInSection`
 - `sectionTapped`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchFlexibleForm`
 - `fetchFlexibleFormWithPageID`
@@ -4715,10 +5375,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showDocumentPicker`
 - `showImagePicker`
 - `setAllowedUTIs`
-- `documentPicker: … didPickDocumentAtURL`
+- `documentPicker: â¦ didPickDocumentAtURL`
 - `documentPickerWasCancelled`
 - `refreshSelectedRow`
-- `imagePickerController: … didFinishPickingMediaWithInfo`
+- `imagePickerController: â¦ didFinishPickingMediaWithInfo`
 - `imagePickerControllerDidCancel`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
@@ -4750,8 +5410,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `viewDidAppear`
 - `prepareForSegue`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `showChemicalRiskManagementView`
 - `showNonChemicalRiskManagementView`
 - `initializeDataSource`
@@ -4760,7 +5420,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`
@@ -4772,11 +5432,11 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `fetchSWPData`
 - `initializeDataSource`
 
@@ -4786,7 +5446,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAt`
+- `tableView: â¦ didSelectRowAt`
 - `fetchSWPListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4798,43 +5458,43 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyEmergencyWashingAddTestHistoryViewController** - handles the adding of test history in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyEmergencyWashingEditDetailsViewController** - handles the editing of the details in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 
 ##### **WHSSafetyEmergencyWashingEditTestHistoryViewController** - handles the editing of the history of safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyEmergencyWashingSearchResultsViewController** - handles the search results in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`
@@ -4849,7 +5509,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`
@@ -4865,8 +5525,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchEmergencyWashingListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4959,42 +5619,42 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyFireFightingAddTestHistoryViewController** -shows the add test history screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyFireFightingEditDetailsViewController** - shows the edit details screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyFireFightingEditTestHistoryViewController** - shows edit test history screen in safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyFireFightingSearchResultsViewController** - shows the search results screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`
@@ -5010,7 +5670,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`
@@ -5026,8 +5686,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchFireFightingEquipmentListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5125,11 +5785,11 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 
 
@@ -5167,8 +5827,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyPPEEditDetailsViewController** - handles the editing of details in safety ppe
 
@@ -5204,8 +5864,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetyPPEEmployeeViewController** - handles employee view of Safety PPEs
 
@@ -5213,10 +5873,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchEmployees`
 - `showEditPPEDetailsView`
 - `openAddRecordView`
@@ -5226,8 +5886,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`
@@ -5259,10 +5919,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
 - `openAddRecordView`
@@ -5271,43 +5931,43 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetySpillKitAddTestHistoryViewController** - shows ad test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetySpillKitEditDetailsViewController** - shows edit details screen of safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 ##### **WHSSafetySpillKitEditTestHistoryViewController** - shows edit test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 
 
 ##### **WHSSafetySpillKitSearchResultsViewController** - shows safety spill kit search results
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`
@@ -5322,7 +5982,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`
@@ -5338,8 +5998,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchSpillKitListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5355,9 +6015,9 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `initializeDataSource`
 - `disableEmployeeView`
 - `showDetailsView`
@@ -5427,10 +6087,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `initializeSideMenuItems`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `selectMenuCell`
 - `fetchedMenuDataDidProcessed`
 - `initializeDataSource`
@@ -5454,22 +6114,22 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewWillAppear`
 - `viewDidAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `fetchControlCategoriesData`
 - `fetchCurrentControlsData`
 - `saveRecordData`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `textViewDidChange`
 - `initializeDataSource`
 - `initializeAddRecord`
@@ -5480,15 +6140,15 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: … didReceiveResponse`
+- `connection: â¦ didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `saveHazardData`
 - `initializeDataSource`
 - `createJSON`
@@ -5506,23 +6166,23 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidAppear`
 - `initializeAddRecord`
 - `openAddRecordView`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchDetailsHazardTemplateID`
 - `fetchTemplateName`
 - `fetchHazards`
 - `saveRecordData`
 - `tablePickerDidFinishedPicking`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `switchCellValueDidChanged`
 - `createJSON`
 - `showHazardTemplatePicker`
@@ -5537,28 +6197,28 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: … didReceiveResponse`
+- `connection: â¦ didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … viewForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ viewForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
-- `textView: … heightForHeaderInSection`
-- `textView: … heightForFooterInSection`
-- `textView: … estimatedHeightForRowAtIndexPath`
-- `textView: … heightForRowAtIndexPath`
+- `textView: â¦ heightForHeaderInSection`
+- `textView: â¦ heightForFooterInSection`
+- `textView: â¦ estimatedHeightForRowAtIndexPath`
+- `textView: â¦ heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `createJSON`
 - `showHazardTypePickerView`
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `saveRecordData`
 - `initializeDataSource`
 - `clearHazardData`
@@ -5568,25 +6228,25 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `tablePickerDidFinishedPicking: … dataPicked`
-- `searchBar: … textDidChange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `searchBar: â¦ textDidChange`
 - `searchBarSearchButtonClicked`
 - `fetchControlsList`
 - `saveRecordData`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `switchCellValueDidChanged`
 - `showControlCategories`
 - `initializeDataSource`
@@ -5602,20 +6262,20 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
-- `tableView: … heightForFooterInSection`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `fetchUserCustomRM`
 - `refreshRecommendedRisk`
@@ -5628,7 +6288,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showRiskSignificance`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `initializeStaticFields`
 - `initializeCustomFields`
 
@@ -5637,7 +6297,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -5654,8 +6314,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchSiteRARisksListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5673,9 +6333,9 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidAppear`
 - `prepareForSegue`
 - `connectionDidFinishLoading`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `searchRecords`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5687,21 +6347,21 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: … dataPicked`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … titleForHeaderInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
 - `fetchWorkerPhone`
@@ -5731,7 +6391,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`
 
@@ -5740,11 +6400,11 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tablePickerDidFinishedPicking: … dataPicked`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
 - `showGenericPickerViewWithType`
@@ -5758,8 +6418,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -5776,8 +6436,8 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `acSheet: … clickedButtonAtIndex`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `fetchRiskAssessmentsListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5802,24 +6462,24 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillAppear`
 - `fetchFlexibleFormWithPageID`
 - `fetchOfflineConnection`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchAutoNum`
 - `fetchLocationAddress`
 - `handleFlexi`
 - `handleAutoNumData`
 - `clearLocationTypeData`
-- `tablePickerDidFinishedPicking: … dataPicked`
-- `tableView: … heightForRowAtIndexPath`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `tableView: â¦ heightForRowAtIndexPath`
 - `numberOfSectionsInTableView`
-- `tableView: … numberOfRowsInSection`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForHeaderInSection`
-- `textView: … shouldChangeTextInRange`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `textView: â¦ shouldChangeTextInRange`
 - `textViewDidChange`
 - `showDateTimePickerWithIndexPath`
 - `showLocationTypePickerView`
@@ -5831,10 +6491,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showDocumentPicker`
 - `showImagePicker`
 - `setAllowedUTIs`
-- `documentPicker: … didPickDocumentAtURL`
+- `documentPicker: â¦ didPickDocumentAtURL`
 - `documentPickerWasCancelled`
 - `refreshSelectedRow`
-- `imagePickerController: … didFinishPickingMediaWithInfo`
+- `imagePickerController: â¦ didFinishPickingMediaWithInfo`
 - `imagePickerControllerDidCancel`
 - `doneBarButtonItemDidTapped`
 - `uploadAttachment`
@@ -5870,10 +6530,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `fetchOffline`
-- `tableView: … cellForRowAtIndexPath`
-- `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`
-- `tableView: … didSelectRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
 - `searchBarShouldBeginEditing`
 - `searchBarCancelButtonClicked`
 - `initializeDataSource`
@@ -5899,10 +6559,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `mailComposeController: … didFinishWithResult`
+- `mailComposeController: â¦ didFinishWithResult`
 - `callNumber`
 - `sendEmail`
-- `sendEmail: … delegate`
+- `sendEmail: â¦ delegate`
 - `openWebsite`
 
 ##### **WHSViewController** - superclass of view controllers
@@ -5913,16 +6573,16 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewWillDisappear`
 - `didReceiveMemoryWarning`
 - `supportedInterfaceOrientations`
-- `connection: … willSendRequest`
-- `connection: … didReceiveResponse`
-- `connection: … didReceiveData`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
 - `connectionDidFinishLoading`
-- `connection: … didFailWithError`
+- `connection: â¦ didFailWithError`
 - `clearUserData`
 - `getActionsList`
 - `parseActionList`
 - `hamburgerBarButtonDidTapped`
-- `acSheet: … clickedButtonAtIndex`
+- `acSheet: â¦ clickedButtonAtIndex`
 - `initializeNavigationBarTintColor`
 - `initializeNavigationBarWithTintColor`
 - `initializeNavigationTitle`
@@ -5956,7 +6616,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewDidLoad`
 - `viewDidAppear`
 - `prepareWebView`
-- `loadHTMLString: … baseURL`
+- `loadHTMLString: â¦ baseURL`
 
 ##### **WHSWorkerTablePickerViewController** - shows the workers 
 
@@ -5966,5 +6626,35 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEditWorker`
 - `openAddRecordView`
 - `editBarButtonItemDidTapped`
+
+   Bud1  Ø      Ø   0  Ð                                              
+    H S A d d G                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @                                              @                                                @                                                @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              %   # - D y n a m i c F o r m T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A   .ÿÿÿÿÿÿ      - G e n e r i c T a b l e V i e w C o n t r o l l e r . t x tIlocblob      ¯   .ÿÿÿÿÿÿ     ( - M y S t o r a g e A d d N e w W o r k e r V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     ) - M y S t o r a g e C o m p a t i b i l i t y V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     . - M y S t o r a g e E d i t S t o r e d Q u a n t i t y V i e w C o n t r o l l e r . t x tIlocblob     ù   .ÿÿÿÿÿÿ     ' - M y S t o r a g e E S Q A d d B a t c h V i e w C o n t r o l l e r . t x tIlocblob     g   .ÿÿÿÿÿÿ     * - M y S t o r a g e E S Q A d d P a c k S i z e V i e w C o n t r o l l e r . t x tIlocblob      A   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d S u p p l i e r s V i e w C o n t r o l l e r . t x tIlocblob      ¯   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d U n i t S i z e s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q B a t c h D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ) - M y S t o r a g e E S Q I n p u t V a l u e V i e w C o n t r o l l e r . t x tIlocblob     ù   ÿÿÿÿÿÿ     $ - M y S t o r a g e M a n i f e s t V i e w C o n t r o l l e r . t x tIlocblob     g   ÿÿÿÿÿÿ     # - M y S t o r a g e S u m m a r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     % - N e w D y n a m i c T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - S i g n a t u r e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - S i g n O f f T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - S u b m i t t e d B y T a b l e V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     * - W H S A c t i o n C a t e g o r y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S A c t i o n D e t a i l s   M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     # - W H S A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     1 - W H S A c t i o n s M o n i t o r S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ      - W H S A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     ' - W H S A d d A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     , - W H S A d d A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ) - W H S A d d A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     % - W H S A d d A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     " - W H S A d d A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     2 - W H S A d d A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     $ - W H S A d d A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     ! - W H S A d d A t t e n d e e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     % - W H S A d d C o m p e t e n c i e s V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d C o n t r o l M e a s u r e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     + - W H S A d d E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ                                 #   ' - W H S A d d I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ       - W H S A d d L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     ! - W H S A d d L o c a t i o n V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S A d d N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     , - W H S A d d N o i s e A s s e s s m e n t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     - - W H S A d d N o t i f i c a t i o n R e c e i v e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     % - W H S A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d W o r k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     ' - W H S A I A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ! - W H S A I A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     ( - W H S A I E d i t P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     " - W H S A I E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     / - W H S A i I n s p e c t i o n S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     , - W H S A I I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     $ - W H S A I P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     % - W H S A I S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A I S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ       - W H S A I S p l i t t e d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - W H S A I T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     & - W H S A s s e t s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S A s s e t s A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S A s s e t s A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     0 - W H S A s s e t s C l a s s i f i e d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     1 - W H S A s s e t s C l a s s i f i e d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S A s s e t s C l a s s i f i e d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S A s s e t s C l a s s i f i e d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S A s s e t s C l a s s i f i e d T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S A s s e t s C l a s s i f i e d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S A s s e t s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S A s s e t s E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S A s s e t s E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     0 - W H S A s s e t s E l e c t r i c a l A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     7 - W H S A s s e t s E l e c t r i c a l A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     1 - W H S A s s e t s E l e c t r i c a l E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ       ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ                                 #    - W H S S e t t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - W H S S i d e M e n u V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     $ - W H S S i t e R A C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S S i t e R A H a z a r d s A d d H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     $ - W H S S i t e R A R i s k s T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S S i t e R A R i s k s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     4 - W H S S i t e R i s k A s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     1 - W H S S i t e R i s k A s s e s s m e n t A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     2 - W H S S i t e R i s k A s s e s s m e n t E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S S i t e R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S S i t e R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     ( - W H S S i t e R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ      - W H S S p l i t V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ       - W H S S t a r t A u d i t V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ      - W H S S t a r t u p V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ! - W H S T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ      - W H S T a b V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     $ - W H S T e m p l a t e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ      - W H S U t i l i t i e s V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ      - W H S V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ      - W H S W e b V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     ' - W H S W o r k e r T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     0 W H S I n c i d e n t R e p o r t i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ) W H S I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # W H S L o c a t i o n P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ     ' W H S L o c a t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ     ' W H S M a n i f e s t s R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     & W H S M S D S S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     1 W H S N o i s e A s s e s s m e n t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     * W H S P o l i c i e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  îÿÿÿÿÿÿ     # W H S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ   c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     1 - W H S A s s e t s E l e c t r i c a l E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ       ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ                                 "   3 - W H S A s s e t s E l e c t r i c a l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     , - W H S A s s e t s E l e c t r i c a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     ) - W H S A s s e t s E l e c t r i c a l T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ     & - W H S A s s e t s E l e c t r i c a l V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     - - W H S A s s e t s L i f t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     . - W H S A s s e t s L i f t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     0 - W H S A s s e t s L i f t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     ) - W H S A s s e t s L i f t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     & - W H S A s s e t s L i f t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     # - W H S A s s e t s L i f t i n g V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     + - W H S A s s e t s P l a n t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     2 - W H S A s s e t s P l a n t A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     , - W H S A s s e t s P l a n t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     3 - W H S A s s e t s P l a n t E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     . - W H S A s s e t s P l a n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     ' - W H S A s s e t s P l a n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     $ - W H S A s s e t s P l a n t T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     ! - W H S A s s e t s P l a n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     / - W H S A s s e t s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     ( - W H S A s s e t s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S A s s e t s S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ' - W H S A s s e t s T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     ( - W H S A s s e t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S A s s e t s V e h i c l e s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S A s s e t s V e h i c l e s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     0 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ' - W H S A s s e t s V e h i c l e s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     $ - W H S A s s e t s V e h i c l e s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A s s e t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     % - W H S A s s e t T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ? - W H S A t m o s p h e r i c M o n i t o r i n g A d d M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S A t m o s p h e r i c M o n i t o r i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     @ - W H S A t m o s p h e r i c M o n i t o r i n g E d i t M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ                         !   2 - W H S A t m o s p h e r i c M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S A t m o s p h e r i c M o n i t o r i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     , - W H S A t t e n d e e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     % - W H S A t t e n d e e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ      - W H S A t t e n d e e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     - - W H S A u d i t I n s p e c t i o n s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     , - W H S A u d i t I n s p e c t i o n s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ       - W H S A u t o H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     " - W H S C a u s e H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     $ - W H S C h a n g e P a s s w o r d V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ      - W H S C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     2 - W H S C h e m i c a l Q C h a r t C h e m i c a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     5 - W H S C h e m i c a l Q C h a r t O p e r a t i o n a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob      A  	^ÿÿÿÿÿÿ     1 - W H S C h e m i c a l Q C h a r t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	^ÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     ' - W H S C h e m i c a l Q C h a r t T a b V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     $ - W H S C h e m i c a l Q C h a r t V i e w C o n t r o l l e r . t x tIlocblob     ù  	^ÿÿÿÿÿÿ     4 - W H S C h e m i c a l R e g i s t e r P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  	^ÿÿÿÿÿÿ     & - W H S C h e m i c a l R e g i s t e r V i e w C o n t r o l l e r . t x tIlocblob      A  	Îÿÿÿÿÿÿ     8 - W H S C h e m i c a l R i s k A s s e s s m e n t C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	Îÿÿÿÿÿÿ     ; - W H S C h e m i c a l R i s k A s s e s s m e n t C u r r e n t C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     ? - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob     ù  	Îÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  	Îÿÿÿÿÿÿ     7 - W H S C h e m i c a l R i s k A s s e s s m e n t N e w C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob      A  
+>ÿÿÿÿÿÿ     A - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  
+>ÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t V i e w C o n t r o l l e r . t x tIlocblob       
+>ÿÿÿÿÿÿ     9 - W H S C h e m i c a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       
+>ÿÿÿÿÿÿ                     "   / - W H S C h e m i c a l R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob     g  
+>ÿÿÿÿÿÿ     , - W H S C h e m i c a l R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob      A  
+®ÿÿÿÿÿÿ     , - W H S C h e m i c a l R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  
+®ÿÿÿÿÿÿ      - W H S C h e m i c a l s V i e w C o n t r o l l e r . t x tIlocblob       
+®ÿÿÿÿÿÿ     * - W H S C o m p a t i b i l i t y L e g e n d s V i e w C o n t r o l l e r . t x tIlocblob       
+®ÿÿÿÿÿÿ     & - W H S C o m p a t i b i l i t y P D F V i e w C o n t r o l l e r . t x tIlocblob     ù  
+®ÿÿÿÿÿÿ     1 - W H S C o m p a t i b i l i t y P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  
+®ÿÿÿÿÿÿ     , - W H S C o m p a t i b i l i t y R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     ( - W H S C o m p e t e n c i e s P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     * - W H S C o n f i n e d S p a c e s A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S C o n f i n e d S p a c e s A d d E n t r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     . - W H S C o n f i n e d S p a c e s E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s E d i t E n t r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S C o n f i n e d S p a c e s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S C o n f i n e d S p a c e s E n t r i e s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S C o n f i n e d S p a c e s M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     1 - W H S C o n f i n e d S p a c e s P e r m i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S C o n f i n e d S p a c e s P e r m i t s V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S C o n f i n e d S p a c e s T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     / - W H S C o n t r o l M e a s u r e T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ      - W H S D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     $ - W H S D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     ( - W H S D y n a m i c S i g n A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S D y n a m i c S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S D y n a m i c T e m p l a t e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ( - W H S E d i t A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     - - W H S E d i t A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     * - W H S E d i t A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ     & - W H S E d i t A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     # - W H S E d i t A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     3 - W H S E d i t A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     % - W H S E d i t A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ   a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       
+>ÿÿÿÿÿÿ                     !   , - W H S E d i t E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     * - W H S E d i t E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     ! - W H S E d i t G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      A  
+Nÿÿÿÿÿÿ     ( - W H S E d i t I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  
+Nÿÿÿÿÿÿ     ! - W H S E d i t L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       
+Nÿÿÿÿÿÿ     0 - W H S E d i t N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       
+Nÿÿÿÿÿÿ     - - W H S E d i t N o i s e A s s e s s m e n t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  
+Nÿÿÿÿÿÿ     . - W H S E d i t N o t i f i c a t i o n R e c e i v e r V i e w C o n t r o l l e r . t x tIlocblob     g  
+Nÿÿÿÿÿÿ     & - W H S E d i t P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob      A  
+¾ÿÿÿÿÿÿ       - W H S E d i t W o r k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  
+¾ÿÿÿÿÿÿ     ! - W H S E m a i l R e p o r t V i e w C o n t r o l l e r . t x tIlocblob       
+¾ÿÿÿÿÿÿ     ( - W H S E m e r g e n c y P r o c e d u r e V i e w C o n t r o l l e r . t x tIlocblob       
+¾ÿÿÿÿÿÿ     / - W H S E m p l o y e e A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  
+¾ÿÿÿÿÿÿ     , - W H S E m p l o y e e A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  
+¾ÿÿÿÿÿÿ     5 - W H S E m p l o y e e C o n t r a c t o r C o m p a n y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S E m p l o y e e D e p a r t m e n t P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     0 - W H S E m p l o y e e E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     - - W H S E m p l o y e e E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     , - W H S E m p l o y e e S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ) - W H S E m p l o y e e T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     E - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     > - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     8 - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     > - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     7 - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     1 - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S E n v i r o n m e n t a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     < - W H S E n v i r o n m e n t a l N o i s e C o n t r o l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     5 - W H S E n v i r o n m e n t a l N o i s e C o n t r o l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     / - W H S E n v i r o n m e n t a l N o i s e C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ) - W H S E n v i r o n m e n t a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S E n v i r o n m e n t a l V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     ' - W H S E x p o s u r e L i m i t s A d d V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ                     $ - W H S E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     - - W H S F i r e F i g h t i n g C l a s s P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     . - W H S F i r e F i g h t i n g R a t i n g P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     # - W H S G e n e r i c P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     " - W H S G r o u p e d T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     / - W H S H a z a r d s A s b e s t o s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     9 - W H S H a z a r d s A s b e s t o s A d d I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     6 - W H S H a z a r d s A s b e s t o s A d d R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     0 - W H S H a z a r d s A s b e s t o s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     : - W H S H a z a r d s A s b e s t o s E d i t I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     7 - W H S H a z a r d s A s b e s t o s E d i t R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     6 - W H S H a z a r d s A s b e s t o s I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     3 - W H S H a z a r d s A s b e s t o s R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     / - W H S H a z a r d s A s b e s t o s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     2 - W H S H a z a r d s A s b e s t o s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     ( - W H S H a z a r d s A s b e s t o s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     % - W H S H a z a r d s A s b e s t o s V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ     ; - W H S H a z a r d s C a r c i n o g e n s A d d E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     1 - W H S H a z a r d s C a r c i n o g e n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     < - W H S H a z a r d s C a r c i n o g e n s E d i t E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     2 - W H S H a z a r d s C a r c i n o g e n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     8 - W H S H a z a r d s C a r c i n o g e n s E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     2 - W H S H a z a r d s C a r c i n o g e n s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     5 - W H S H a z a r d s C a r c i n o g e n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Ëÿÿÿÿÿÿÿÿ   + - W H S H a z a r d s C a r c i n o g e n s T a b V i e w C o n t r o l l e r . t x tIlocblob     o  Ëÿÿÿÿÿÿÿÿ   ( - W H S H a z a r d s C a r c i n o g e n s V i e w C o n t r o l l e r . t x tIlocblob     Ý  Ëÿÿÿÿÿÿÿÿ   $ - W H S H a z a r d s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     ' - W H S H a z a r d s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     * - W H S H a z a r d s S e a r c h R e s u t l s V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     8 - W H S I n c i d e n t R e p o r t i n g A d d i t i o n a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     K  Ëÿÿÿÿÿÿÿÿ   4 - W H S I n c i d e n t R e p o r t i n g A d d N e w H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     ¹  Ëÿÿÿÿÿÿÿÿ e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ                 !   0 - W H S I n c i d e n t R e p o r t i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ;ÿÿÿÿÿÿÿÿ   . - W H S I n c i d e n t R e p o r t i n g A d d T y p e V i e w C o n t r o l l e r . t x tIlocblob     o  ;ÿÿÿÿÿÿÿÿ   . - W H S I n c i d e n t R e p o r t i n g D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Ý  ;ÿÿÿÿÿÿÿÿ   < - W H S I n c i d e n t R e p o r t i n g E d i t A d d i t i o n a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     K  ;ÿÿÿÿÿÿÿÿ   2 - W H S I n c i d e n t R e p o r t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ¹  ;ÿÿÿÿÿÿÿÿ   2 - W H S I n c i d e n t R e p o r t i n g E d i t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     / - W H S I n c i d e n t R e p o r t i n g E d i t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     2 - W H S I n c i d e n t R e p o r t i n g E d i t W i t n e s s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     - - W H S I n c i d e n t R e p o r t i n g R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ      - W H S L a n d i n g V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     % - W H S L e g i s l a t i o n s T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     # - W H S L i c e n c e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ      - W H S L o g i n V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     / - W H S N o i s e C o n t r o l A d d A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S N o i s e C o n t r o l A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S N o i s e C o n t r o l A s s e s s m e n t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     7 - W H S N o i s e C o n t r o l E d i t A s s e s s m e n t C o m m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     1 - W H S N o i s e C o n t r o l E d i t M e a s u r e m e n t V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l N e w C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     % - W H S N o i s e C o n t r o l T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     : - W H S N o n C h e m i c a l R i s k A s s e s s m e n t N e w C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob     '  ;ÿÿÿÿÿÿÿÿ   < - W H S N o n C h e m i c a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       «ÿÿÿÿÿÿÿÿ   5 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     o  «ÿÿÿÿÿÿÿÿ   2 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob     Ý  «ÿÿÿÿÿÿÿÿ   / - W H S N o n C h e m i c a l R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     / - W H S N o n C h e m i c a l R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob     K  «ÿÿÿÿÿÿÿÿ   0 - W H S P A P C o m p l a i n t s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     ) - W H S P A P C o m p l a i n t s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     & - W H S P A P C o m p l a i n t s T a b V i e w C o n t r o l l e r . t x tIlocblob     ¹  «ÿÿÿÿÿÿÿÿ     - W H S P A P D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     '  «ÿÿÿÿÿÿÿÿ   , - W H S P A P D r i l l s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ        A  ~ÿÿÿÿÿÿ                 $   " - W H S P A P D r i l l s T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   2 - W H S P A P L e g i s l a t i o n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S P A P L e g i s l a t i o n s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     + - W H S P A P P l a n s P r o c e d u r e s T a b V i e w C o n t r o l l e r . t x tIlocblob     Õ   .ÿÿÿÿÿÿ     + - W H S P A P P l a n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S P A P P l a n s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S P A P S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     C   .ÿÿÿÿÿÿ     . - W H S P A P T r a i n i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     & - W H S P A P T r a n i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     # - W H S P D F A d d S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     # - W H S P D F E d i t S i g n e e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ       - W H S P D F S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     $ - W H S P o l i c i e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     & - W H S P o l i c i e s T r a i n i n g V i e w C o n t r o l l e r . t x tIlocblob     ±   .ÿÿÿÿÿÿ      - W H S P o l i c i e s V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     # - W H S P r o j e c t P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ      - W H S R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     + - W H S R e g i s t e r A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ   ÿÿÿÿÿÿ     + - W H S R e g i s t e r A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     C   ÿÿÿÿÿÿ     % - W H S R e g i s t e r A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ±   ÿÿÿÿÿÿ     ( - W H S R e g i s t e r A d d A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ' - W H S R e g i s t e r A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     , - W H S R e g i s t e r A d d S e r v i c e T y p e V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     ) - W H S R e g i s t e r A d d T e s t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     - - W H S R e g i s t e r E d i t S e r v i c e T y p e V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     * - W H S R e g i s t e r E d i t T e s t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     / - W H S R e g i s t e r S e r v i c e T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ      - W H S R e g i s t e r s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     0 - W H S R e g i s t e r T e s t H i s t o r y D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     ) - W H S R e g i s t e r T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     , - W H S R e g i s t e r T e s t T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     $ - W H S R e p o r t I n c i d e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     $ - W H S R i c h T e x t E d i t o r V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     , - W H S R i s k A s s e s s m e n t P i c t u r e s V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     $ - W H S R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     6 - W H S S a f e t y E m e r g e n c y W a s h i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ   o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ        A  ~ÿÿÿÿÿÿ                    7 - W H S S a f e t y E m e r g e n c y W a s h i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ; - W H S S a f e t y E m e r g e n c y W a s h i n g E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     9 - W H S S a f e t y E m e r g e n c y W a s h i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     2 - W H S S a f e t y E m e r g e n c y W a s h i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S S a f e t y E m e r g e n c y W a s h i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     , - W H S S a f e t y E m e r g e n c y W a s h i n g V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r e D e t e c t i o n A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     7 - W H S S a f e t y F i r e D e t e c t i o n A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     4 - W H S S a f e t y F i r e D e t e c t i o n E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     8 - W H S S a f e t y F i r e D e t e c t i o n E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     6 - W H S S a f e t y F i r e D e t e c t i o n S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     / - W H S S a f e t y F i r e D e t e c t i o n S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S S a f e t y F i r e D e t e c t i o n T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S S a f e t y F i r e D e t e c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r e F i g h t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     6 - W H S S a f e t y F i r e F i g h t i n g A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r e F i g h t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     7 - W H S S a f e t y F i r e F i g h t i n g E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S S a f e t y F i r e F i g h t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S S a f e t y F i r e F i g h t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S S a f e t y F i r e F i g h t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     ( - W H S S a f e t y F i r e F i g h t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     . - W H S S a f e t y F i r s t A i d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r s t A i d A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     / - W H S S a f e t y F i r s t A i d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r s t A i d E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     1 - W H S S a f e t y F i r s t A i d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     * - W H S S a f e t y F i r s t A i d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ' - W H S S a f e t y F i r s t A i d T a b V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     ) - W H S S a f e t y P P E A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ    ¾ÿÿÿÿÿÿ   o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ        A  ~ÿÿÿÿÿÿ                    - - W H S S a f e t y P P E A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     * - W H S S a f e t y P P E E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     + - W H S S a f e t y P P E E d i t E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     . - W H S S a f e t y P P E E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S S a f e t y P P E E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     , - W H S S a f e t y P P E S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     % - W H S S a f e t y P P E S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ     " - W H S S a f e t y P P E T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     * - W H S S a f e t y S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     . - W H S S a f e t y S p i l l K i t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     2 - W H S S a f e t y S p i l l K i t A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S S a f e t y S p i l l K i t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     3 - W H S S a f e t y S p i l l K i t E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     1 - W H S S a f e t y S p i l l K i t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     * - W H S S a f e t y S p i l l K i t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     ' - W H S S a f e t y S p i l l K i t T a b V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     $ - W H S S a f e t y S p i l l K i t V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ      - W H S S a f e t y T a b V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ' - W H S S a f e t y T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     . - W H S S a f e W o r k P r o c e d u r e s A c t i o n V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     , - W H S S a f e W o r k P r o c e d u r e s L i s t V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     ( - W H S S a f e W o r k P r o c e d u r e s V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     " - W H S S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     ) - W H S S e a r c h R e s u l t s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ      A  ~ÿÿÿÿÿÿ     ( - W H S S a f e t y F i r e F i g h t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     . - W H S S a f e t y F i r s t A i d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r s t A i d A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     / - W H S S a f e t y F i r s t A i d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r s t A i d E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     1 - W H S S a f e t y F i r s t A i d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     * - W H S S a f e t y F i r s t A i d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ' - W H S S a f e t y F i r s t A i d T a b V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     ) - W H S S a f e t y P P E A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ    ¾ÿÿÿÿÿÿ   o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ        A  ~ÿÿÿÿÿÿ                        - W H S A d d G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ        8 - W H S A s s e t s E l e c t r i c a l E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ        5 - W H S A t m o s p h e r i c M o n i t o r i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ        2 - W H S C h e m i c a l R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  
+>ÿÿÿÿÿÿ        " - W H S E d i t A t t e n d e e V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     	   1 - W H S E x p o s u r e L i m i t s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     
+   4 - W H S I n c i d e n t R e p o r t i n g A d d N e w W i t n e s s V i e w C o n t r o l l e r . t x tIlocblob     '  Ëÿÿÿÿÿÿÿÿ      % - W H S P A P D r i l l s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ        : - W H S S a f e t y E m e r g e n c y W a s h i n g A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     
+   * - W H S S a f e t y P P E A d d E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ         - W H S S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ   . t x tIlocblob     g  Îÿÿÿÿÿÿ     3 - W H S S a f e t y S p i l l K i t E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     1 - W H S S a f e t y S p i l l K i t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     * - W H S S a f e t y S p i l l K i t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     ' - W H S S a f e t y S p i l l K i t T a b V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     $ - W H S S a f e t y S p i l l K i t V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ      - W H S S a f e t y T a b V         Ø   E  0  Ð       @  P  `  p         °  À                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       DSDB                                 `                                           à                                                  @                                                @       tIlocblob     g  îÿÿÿÿÿÿ         - W H S S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ   . t x tIlocblob     g  Îÿÿÿÿÿÿ     3 - W H S S a f e t y S p i l l K i t E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     1 - W H S S a f e t y S p i l l K i t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     * - W H S S a f e t y S p i l l K i t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     ' - W H S S a f e t y S p i l l K i t T a b V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     $ - W H S S a f e t y S p i l l K i t V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ      - W H S S a f e t y T a b V
 
 after uwu
