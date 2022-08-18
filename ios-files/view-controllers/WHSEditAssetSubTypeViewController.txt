@@ -1,5 +1,0 @@
-##### **WHSEditAssetSubTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`

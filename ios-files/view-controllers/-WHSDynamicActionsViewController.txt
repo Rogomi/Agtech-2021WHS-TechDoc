@@ -1,0 +1,12 @@
+##### **WHSDynamicActionsViewController** - handles the logic behind dynamic actions
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `openAddRecordView`
+- `didSaveAction: ... isNew`

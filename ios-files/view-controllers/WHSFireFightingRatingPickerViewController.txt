@@ -1,8 +1,0 @@
-##### **WHSFireFightingRatingPickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddRatingView`
-- `showEditRatingView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`

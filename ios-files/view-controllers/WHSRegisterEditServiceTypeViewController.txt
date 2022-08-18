@@ -1,5 +1,0 @@
-##### **WHSRegisterEditServiceTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`

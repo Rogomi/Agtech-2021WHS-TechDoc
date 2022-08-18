@@ -1,0 +1,20 @@
+##### **WHSPDFSigneesViewController** - handles the showing of the PDF Signees screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `handleBack`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
+- `connection: … didReceiveResponse`
+- `connectionDidFinishLoading`
+- `openAddRecordView`
+- `toggleSubmitButton`
+- `submitSignatures`
+- `submitSignoffWithIndex`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … editActionsForRowAtIndexPath`
+- `initializeDataSource`
+- `saveOnlineSignature`

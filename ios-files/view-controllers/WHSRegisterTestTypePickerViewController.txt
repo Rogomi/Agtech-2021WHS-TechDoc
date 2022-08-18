@@ -1,8 +1,0 @@
-##### **WHSRegisterTestTypePickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddTestTypeView`
-- `showEditTestTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`

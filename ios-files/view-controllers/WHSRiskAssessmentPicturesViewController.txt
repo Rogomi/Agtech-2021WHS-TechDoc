@@ -1,8 +1,0 @@
-##### **WHSRiskAssessmentPicturesViewController**
-
-###### **Methods and Calculated Variables**
-- `collectionCellIdentifier`
-- `initializeCollectionViews`
-- `preferredCollectionViewFrame`
-- `processPictures`
-- `processHeadersAndDetails`

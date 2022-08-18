@@ -1,8 +1,0 @@
-##### **WHSRegisterTestHistoryDetailsViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `connectionDidFinishLoading`
-- `processActionRecordCount`
-- `initializeEditDetailsView`
-- `showEditDetailsView`

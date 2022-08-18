@@ -1,9 +1,0 @@
-##### **WHSEditAttendeeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchAttendeeDetailsData`
-- `initializeDataSource`

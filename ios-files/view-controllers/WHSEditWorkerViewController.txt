@@ -1,6 +1,0 @@
-##### **WHSEditWorkerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `initializeDataSource`

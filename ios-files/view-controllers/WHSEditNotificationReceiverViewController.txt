@@ -1,5 +1,0 @@
-##### **WHSEditNotificationReceiverViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`

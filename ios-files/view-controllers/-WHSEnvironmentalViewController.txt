@@ -1,0 +1,14 @@
+##### **WHSEnvironmentalViewController** - handles the environmental screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `prepareForSegue`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showAtmosphericMonitoringView`
+- `showNoiseControlView`
+- `showConfinedSpaces`
+- `showAsbestosView`
+- `showCarcinogensView`

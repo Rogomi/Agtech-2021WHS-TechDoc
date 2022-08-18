@@ -1,7 +1,0 @@
-##### **WHSConfinedSpacesEditEntryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`

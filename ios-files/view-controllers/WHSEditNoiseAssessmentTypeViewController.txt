@@ -1,5 +1,0 @@
-##### **WHSEditNoiseAssessmentTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`

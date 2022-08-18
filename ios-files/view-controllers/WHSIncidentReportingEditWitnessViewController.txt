@@ -1,9 +1,0 @@
-##### **WHSIncidentReportingEditWitnessViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: … didSelectRowAtIndexPath`
-- `fetchWitnessDetailsData`
-- `initializeDataSource`

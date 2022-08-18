@@ -1,8 +1,0 @@
-##### **WHSGenericPickerViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddGenericView`
-- `showEditGenericView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`

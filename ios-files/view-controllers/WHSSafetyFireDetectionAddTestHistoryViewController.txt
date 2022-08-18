@@ -1,6 +1,0 @@
-##### **WHSSafetyFireDetectionAddTestHistoryViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`

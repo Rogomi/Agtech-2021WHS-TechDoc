@@ -1,6 +1,0 @@
-##### **WHSEditInspectionTypeViewController**
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`
-- `createJSON`
