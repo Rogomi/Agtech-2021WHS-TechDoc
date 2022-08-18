@@ -1,4 +1,4 @@
-##### **WHSProductDetailsViewController**
+##### **WHSProductDetailsViewController** - handles the display of product details
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

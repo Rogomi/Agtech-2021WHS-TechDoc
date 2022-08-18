@@ -1,4 +1,4 @@
-##### **WHSMSDSSearchResultsViewController**
+##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`

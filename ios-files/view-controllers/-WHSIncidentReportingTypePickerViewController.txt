@@ -1,4 +1,4 @@
-##### **WHSIncidentReportingTypePickerViewController**
+##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
