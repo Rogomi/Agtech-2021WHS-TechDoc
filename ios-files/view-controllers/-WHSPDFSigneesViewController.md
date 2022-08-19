@@ -5,16 +5,16 @@
 - `viewWillAppear`
 - `viewWillDisappear`
 - `handleBack`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveData`
-- `connection: â¦ didReceiveResponse`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `openAddRecordView`
 - `toggleSubmitButton`
 - `submitSignatures`
 - `submitSignoffWithIndex`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `tableView: â¦ editActionsForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … editActionsForRowAtIndexPath`
 - `initializeDataSource`
 - `saveOnlineSignature`

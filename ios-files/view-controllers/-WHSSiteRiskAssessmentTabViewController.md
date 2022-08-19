@@ -3,8 +3,8 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`

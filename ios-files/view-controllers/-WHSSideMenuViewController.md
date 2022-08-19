@@ -4,10 +4,10 @@
 - `viewDidLoad`
 - `initializeSideMenuItems`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `selectMenuCell`
 - `fetchedMenuDataDidProcessed`
 - `initializeDataSource`

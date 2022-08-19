@@ -3,11 +3,11 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `didSelectUser`
 - `didFinishSigningWithImage`
 - `saveBarButtonItemDidTapped`

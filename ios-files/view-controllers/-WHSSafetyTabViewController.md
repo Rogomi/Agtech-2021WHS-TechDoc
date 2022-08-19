@@ -3,9 +3,9 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `initializeDataSource`
 - `disableEmployeeView`
 - `showDetailsView`

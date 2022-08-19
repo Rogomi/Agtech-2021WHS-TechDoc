@@ -2,5 +2,5 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`

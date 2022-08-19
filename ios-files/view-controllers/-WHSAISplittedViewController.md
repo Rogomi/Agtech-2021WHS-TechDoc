@@ -3,6 +3,6 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `initializeDataSource`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`

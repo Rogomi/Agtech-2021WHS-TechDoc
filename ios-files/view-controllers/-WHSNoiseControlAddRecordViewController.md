@@ -3,20 +3,20 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `tablePickerDidFinishedPicking: … dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
 - `saveNoiseControlDetailsData`

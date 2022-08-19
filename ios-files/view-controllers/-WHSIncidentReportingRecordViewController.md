@@ -5,8 +5,8 @@
 - `viewWillAppear`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchIncidentReports`
 - `fetchNextPage`
 - `initializeDataSource`

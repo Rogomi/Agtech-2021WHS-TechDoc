@@ -5,24 +5,24 @@
 - `viewWillAppear`
 - `fetchFlexibleFormWithPageID`
 - `fetchOfflineConnection`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchAutoNum`
 - `fetchLocationAddress`
 - `handleFlexi`
 - `handleAutoNumData`
 - `clearLocationTypeData`
-- `tablePickerDidFinishedPicking: â¦ dataPicked`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `tableView: … heightForRowAtIndexPath`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `textView: â¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
 - `showDateTimePickerWithIndexPath`
 - `showLocationTypePickerView`
@@ -34,10 +34,10 @@
 - `showDocumentPicker`
 - `showImagePicker`
 - `setAllowedUTIs`
-- `documentPicker: â¦ didPickDocumentAtURL`
+- `documentPicker: … didPickDocumentAtURL`
 - `documentPickerWasCancelled`
 - `refreshSelectedRow`
-- `imagePickerController: â¦ didFinishPickingMediaWithInfo`
+- `imagePickerController: … didFinishPickingMediaWithInfo`
 - `imagePickerControllerDidCancel`
 - `doneBarButtonItemDidTapped`
 - `uploadAttachment`

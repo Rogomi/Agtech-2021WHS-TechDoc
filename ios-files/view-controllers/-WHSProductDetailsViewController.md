@@ -4,6 +4,6 @@
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`

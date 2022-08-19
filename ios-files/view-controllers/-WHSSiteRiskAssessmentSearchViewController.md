@@ -3,11 +3,11 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tablePickerDidFinishedPicking: â¦ dataPicked`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
 - `showGenericPickerViewWithType`

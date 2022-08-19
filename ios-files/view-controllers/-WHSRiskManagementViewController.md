@@ -5,8 +5,8 @@
 - `viewWillAppear`
 - `viewDidAppear`
 - `prepareForSegue`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `showChemicalRiskManagementView`
 - `showNonChemicalRiskManagementView`
 - `initializeDataSource`

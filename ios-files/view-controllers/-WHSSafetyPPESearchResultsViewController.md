@@ -3,8 +3,8 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`

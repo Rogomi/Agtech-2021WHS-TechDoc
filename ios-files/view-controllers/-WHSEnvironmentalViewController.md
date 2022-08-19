@@ -4,8 +4,8 @@
 - `viewDidLoad`
 - `viewWillAppear`
 - `prepareForSegue`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAtmosphericMonitoringView`
 - `showNoiseControlView`

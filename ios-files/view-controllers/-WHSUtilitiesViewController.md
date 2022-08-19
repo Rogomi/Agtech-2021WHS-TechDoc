@@ -2,8 +2,8 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `mailComposeController: â¦ didFinishWithResult`
+- `mailComposeController: … didFinishWithResult`
 - `callNumber`
 - `sendEmail`
-- `sendEmail: â¦ delegate`
+- `sendEmail: … delegate`
 - `openWebsite`

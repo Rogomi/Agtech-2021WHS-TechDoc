@@ -6,16 +6,16 @@
 - `viewWillDisappear`
 - `didReceiveMemoryWarning`
 - `supportedInterfaceOrientations`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `connection: â¦ didFailWithError`
+- `connection: … didFailWithError`
 - `clearUserData`
 - `getActionsList`
 - `parseActionList`
 - `hamburgerBarButtonDidTapped`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `initializeNavigationBarTintColor`
 - `initializeNavigationBarWithTintColor`
 - `initializeNavigationTitle`

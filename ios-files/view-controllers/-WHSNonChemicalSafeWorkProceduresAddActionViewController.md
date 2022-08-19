@@ -3,18 +3,18 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: â¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `sendPOSTRequest`
 - `initializeDataSource`
 - `showCategoryPickerView`

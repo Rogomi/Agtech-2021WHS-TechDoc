@@ -5,13 +5,13 @@
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ viewForHeaderInSection`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
 - `sectionTapped`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`

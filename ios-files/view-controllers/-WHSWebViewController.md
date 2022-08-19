@@ -4,4 +4,4 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `prepareWebView`
-- `loadHTMLString: â¦ baseURL`
+- `loadHTMLString: … baseURL`

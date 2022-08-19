@@ -6,13 +6,13 @@
 - `connectionDidFinishLoading`
 - `fetchConfinedSpacesDetailsData`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `returnNullIfNull`
 - `initializeDataSource`
 - `showEntriesView`

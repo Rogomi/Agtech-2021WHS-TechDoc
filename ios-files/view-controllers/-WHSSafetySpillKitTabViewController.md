@@ -2,7 +2,7 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`

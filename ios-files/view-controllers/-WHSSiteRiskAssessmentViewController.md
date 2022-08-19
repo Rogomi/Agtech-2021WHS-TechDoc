@@ -4,8 +4,8 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchRiskAssessmentsListData`
 - `fetchNextPage`
 - `initializeDataSource`

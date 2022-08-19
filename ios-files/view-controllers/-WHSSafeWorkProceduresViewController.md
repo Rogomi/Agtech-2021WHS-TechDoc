@@ -4,7 +4,7 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: â¦ didSelectRowAt`
+- `tableView: … didSelectRowAt`
 - `fetchSWPListData`
 - `fetchNextPage`
 - `initializeDataSource`

@@ -5,9 +5,9 @@
 - `viewDidAppear`
 - `prepareForSegue`
 - `connectionDidFinishLoading`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `searchRecords`
 - `fetchNextPage`
 - `initializeDataSource`

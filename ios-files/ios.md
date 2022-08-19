@@ -771,17 +771,17 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `initializeDataSource`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`.. 
+- `tableView: … didSelectRowAtIndexPath`.. 
 
 ##### **WHSAITabViewController** - handles the audit and inspections tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -2121,10 +2121,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
 - `openAddRecordView`.. 
@@ -2161,10 +2161,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `openAddRecordView`
 - `showEditAttachmentsView`.. 
@@ -2209,10 +2209,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchAttendeesData`
 - `initializeDataSource`
 - `showEditAttendeesDetailsView`
@@ -3060,13 +3060,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `fetchConfinedSpacesDetailsData`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `returnNullIfNull`
 - `initializeDataSource`
 - `showEntriesView`
@@ -3080,12 +3080,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchPermitsData`
 - `initializeDataSource`
 - `showPermitsView`.. 
@@ -3095,8 +3095,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showAttachmentsView`
@@ -3111,7 +3111,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `detailsView: Ã¢ÂÂ¦ savedData`
+- `detailsView: … savedData`
 - `showAddControlMeasureView`
 - `openAddRecordView`.. 
 
@@ -3658,10 +3658,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchSearchResultsData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -3680,8 +3680,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchNoiseControlListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -3716,8 +3716,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewWillAppear`
 - `prepareForSegue`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAtmosphericMonitoringView`
 - `showNoiseControlView`
@@ -4024,8 +4024,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAsbestosListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4111,7 +4111,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`.. 
 
@@ -4194,9 +4194,9 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewWillAppear`
 - `tablePickerDidFinishedPicking`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
 - `showStatusPickerView`.. 
@@ -4214,8 +4214,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAsbestosView`
 - `showCarcinogensView`.. 
@@ -4497,7 +4497,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchHazardDetailsData`
 - `initializeDataSource`
 .. 
@@ -4514,7 +4514,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchWitnessDetailsData`
 - `initializeDataSource`.. 
 
@@ -4524,14 +4524,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `viewWillDisappear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: Ã¢ÂÂ¦ didTriggerRightUtilityButtonWithIndex`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
 - `fetchHazardsData`
 - `initializeDataSource`
 - `showEditHazardView`
@@ -4543,23 +4543,23 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchFlexibleForm`
 - `fetchIncidentAssessmentDetailsData`
 - `fetchRecommendedRiskSignificanceData`
@@ -4597,8 +4597,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchIncidentReports`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -4614,13 +4614,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `connectionDidFinishLoading`
 - `fetchFlexForm`
 - `registerActionDidSaved`
 - `registerActionSavingDidFailed`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -4639,19 +4639,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchTreatmentsDetailsData`
 - `fetchFlexibleForm`
 - `saveTreatmentData`
@@ -4679,14 +4679,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: Ã¢ÂÂ¦ didTriggerRightUtilityButtonWithIndex`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
 - `fetchWitnessesData`
 - `deleteWitnessData`
 - `initializeDataSource`
@@ -4730,8 +4730,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … clickedButtonAtIndex`
 - `initializeDataSource`
 - `showPDFView`
 - `showAttachmentView`
@@ -4809,10 +4809,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `prepareForSegue`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `searchProducts`
 .. 
 
@@ -4897,18 +4897,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `saveAssessmentDetailsData`
 - `initializeDataSource`
 - `createJSON`
@@ -4927,20 +4927,20 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: Ã¢ÂÂ¦ dataPicked`
+- `tablePickerDidFinishedPicking: … dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
 - `saveNoiseControlDetailsData`
@@ -4986,11 +4986,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: Ã¢ÂÂ¦ didTriggerRightUtilityButtonWithIndex`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
 - `deleteAssessment`
 - `initializeDataSource`
 - `showEditDetailsView`
@@ -5005,8 +5005,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `initializeDataSource`.. 
 
 ##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
@@ -5014,19 +5014,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: Ã¢ÂÂ¦ dataPicked`
+- `tablePickerDidFinishedPicking: … dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchMeasurementDetailsData`
 - `saveMeasurementDetailsData`
 - `initializeDataSource`
@@ -5042,7 +5042,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchNoiseControlDetailsData`
 - `initializeDataSource`.. 
 
@@ -5051,12 +5051,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `showEditRecordView`
 - `initializeDataSource`
 - `openAddRecordView`.. 
@@ -5066,8 +5066,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -5085,11 +5085,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchAssessmentData`
 - `initializeDataSource`
 .. 
@@ -5101,14 +5101,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ viewForHeaderInSection`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
 - `sectionTapped`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`.. 
 
@@ -5171,8 +5171,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchNonChemicalRiskAssessmentListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5199,7 +5199,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`
@@ -5210,19 +5210,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `sendPOSTRequest`
 - `initializeDataSource`
 - `showCategoryPickerView`
@@ -5242,7 +5242,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchActionDetailsData`
 - `initializeDataSource`.. 
 
@@ -5251,18 +5251,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `sendPOSTRequest`
 - `initializeDataSource`
 - `showCategoryPickerView`
@@ -5502,11 +5502,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `didSelectUser`
 - `didFinishSigningWithImage`
 - `saveBarButtonItemDidTapped`
@@ -5530,17 +5530,17 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `viewWillDisappear`
 - `handleBack`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `openAddRecordView`
 - `toggleSubmitButton`
 - `submitSignatures`
 - `submitSignoffWithIndex`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ editActionsForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … editActionsForRowAtIndexPath`
 - `initializeDataSource`
 - `saveOnlineSignature`.. 
 
@@ -5551,13 +5551,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `viewWillDisappear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `webView: Ã¢ÂÂ¦ decidePolicyForNavigationAction`
-- `webView: Ã¢ÂÂ¦ didFinishNavigation`
-- `mailComposeController: Ã¢ÂÂ¦ didFinishWithResult`
+- `webView: … decidePolicyForNavigationAction`
+- `webView: … didFinishNavigation`
+- `mailComposeController: … didFinishWithResult`
 - `initializeNavigationBarButtonItems`
 - `showFileNotFoundView`
 - `showExperiencedErrorView`
@@ -5602,19 +5602,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `saveDetailsData`
 - `fetchAutoNum`
 - `initializeDataSource`
@@ -5637,21 +5637,21 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddress`
 - `saveDetailsData`
@@ -5685,7 +5685,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`.. 
 
@@ -5695,8 +5695,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchRecordsData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -5712,21 +5712,21 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddress`
 - `saveDetailsData`
@@ -5796,19 +5796,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `saveDetailsData`
 - `fetchAutoNum`
 - `initializeDataSource`
@@ -5976,21 +5976,21 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddress`
 - `saveDetailsData`
@@ -6068,9 +6068,9 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSProjectPickerViewController** - handles the project picker
 
@@ -6295,10 +6295,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchTestHistories`
 - `showTestHistoryDetailsView`.. 
 
@@ -6322,8 +6322,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `didReceiveMemoryWarning`
 - `prepareForSegue`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showHazardsView`
 - `showAssetsView`
@@ -6338,9 +6338,9 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `download`
 - `fetchOfflineConnection`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `handleFlexi`
 - `connectionDidFinishLoading`
 - `dateOnlyFormatFromDateString`
@@ -6348,19 +6348,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `numberOfSectionsInTableView`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ viewForHeaderInSection`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
 - `sectionTapped`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchFlexibleForm`
 - `fetchFlexibleFormWithPageID`
@@ -6405,10 +6405,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDocumentPicker`
 - `showImagePicker`
 - `setAllowedUTIs`
-- `documentPicker: Ã¢ÂÂ¦ didPickDocumentAtURL`
+- `documentPicker: … didPickDocumentAtURL`
 - `documentPickerWasCancelled`
 - `refreshSelectedRow`
-- `imagePickerController: Ã¢ÂÂ¦ didFinishPickingMediaWithInfo`
+- `imagePickerController: … didFinishPickingMediaWithInfo`
 - `imagePickerControllerDidCancel`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
@@ -6560,8 +6560,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `viewDidAppear`
 - `prepareForSegue`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `showChemicalRiskManagementView`
 - `showNonChemicalRiskManagementView`
 - `initializeDataSource`.. 
@@ -6728,7 +6728,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`.. 
@@ -6773,11 +6773,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchSWPData`
 - `initializeDataSource`.. 
 
@@ -6838,7 +6838,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAt`
+- `tableView: … didSelectRowAt`
 - `fetchSWPListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -6964,43 +6964,43 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyEmergencyWashingAddTestHistoryViewController** - handles the adding of test history in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyEmergencyWashingEditDetailsViewController** - handles the editing of the details in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
 .. 
 
 ##### **WHSSafetyEmergencyWashingEditTestHistoryViewController** - handles the editing of the history of safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyEmergencyWashingSearchResultsViewController** - handles the search results in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`.. 
@@ -7015,7 +7015,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`
@@ -7031,8 +7031,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchEmergencyWashingListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -7125,42 +7125,42 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyFireFightingAddTestHistoryViewController** -shows the add test history screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyFireFightingEditDetailsViewController** - shows the edit details screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyFireFightingEditTestHistoryViewController** - shows edit test history screen in safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyFireFightingSearchResultsViewController** - shows the search results screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`.. 
@@ -7176,7 +7176,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`
@@ -7192,8 +7192,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchFireFightingEquipmentListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -7291,11 +7291,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
 
 .. 
 
@@ -7333,8 +7333,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyPPEEditDetailsViewController** - handles the editing of details in safety ppe
 
@@ -7370,8 +7370,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetyPPEEmployeeViewController** - handles employee view of Safety PPEs
 
@@ -7379,10 +7379,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchEmployees`
 - `showEditPPEDetailsView`
 - `openAddRecordView`.. 
@@ -7392,8 +7392,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`.. 
@@ -7443,10 +7443,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
 - `openAddRecordView`.. 
@@ -7455,43 +7455,43 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetySpillKitAddTestHistoryViewController** - shows ad test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetySpillKitEditDetailsViewController** - shows edit details screen of safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`.. 
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`.. 
 
 ##### **WHSSafetySpillKitEditTestHistoryViewController** - shows edit test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 .. 
 
 ##### **WHSSafetySpillKitSearchResultsViewController** - shows safety spill kit search results
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`.. 
@@ -7506,7 +7506,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `showPDFView`
 - `showAttachmentsView`
@@ -7522,8 +7522,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchSpillKitListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -7539,9 +7539,9 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `initializeDataSource`
 - `disableEmployeeView`
 - `showDetailsView`
@@ -7626,10 +7626,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `initializeSideMenuItems`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `selectMenuCell`
 - `fetchedMenuDataDidProcessed`
 - `initializeDataSource`
@@ -7653,22 +7653,22 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewWillAppear`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchControlCategoriesData`
 - `fetchCurrentControlsData`
 - `saveRecordData`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `textViewDidChange`
 - `initializeDataSource`
 - `initializeAddRecord`
@@ -7679,15 +7679,15 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `saveHazardData`
 - `initializeDataSource`
 - `createJSON`
@@ -7705,23 +7705,23 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `initializeAddRecord`
 - `openAddRecordView`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchDetailsHazardTemplateID`
 - `fetchTemplateName`
 - `fetchHazards`
 - `saveRecordData`
 - `tablePickerDidFinishedPicking`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `switchCellValueDidChanged`
 - `createJSON`
 - `showHazardTemplatePicker`
@@ -7736,28 +7736,28 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ viewForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `textView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `textView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `textView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `textView: … heightForHeaderInSection`
+- `textView: … heightForFooterInSection`
+- `textView: … estimatedHeightForRowAtIndexPath`
+- `textView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `createJSON`
 - `showHazardTypePickerView`
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `saveRecordData`
 - `initializeDataSource`
 - `clearHazardData`.. 
@@ -7767,25 +7767,25 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `tablePickerDidFinishedPicking: Ã¢ÂÂ¦ dataPicked`
-- `searchBar: Ã¢ÂÂ¦ textDidChange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `searchBar: … textDidChange`
 - `searchBarSearchButtonClicked`
 - `fetchControlsList`
 - `saveRecordData`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `switchCellValueDidChanged`
 - `showControlCategories`
 - `initializeDataSource`
@@ -7801,20 +7801,20 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `tableView: Ã¢ÂÂ¦ heightForFooterInSection`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tableView: … heightForFooterInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `fetchUserCustomRM`
 - `refreshRecommendedRisk`
@@ -7827,7 +7827,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRiskSignificance`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `initializeStaticFields`
 - `initializeCustomFields`.. 
 
@@ -7836,7 +7836,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -7853,8 +7853,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchSiteRARisksListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -7872,9 +7872,9 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `prepareForSegue`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `searchRecords`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -7886,21 +7886,21 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: Ã¢ÂÂ¦ dataPicked`
+- `tablePickerDidFinishedPicking: … dataPicked`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ titleForHeaderInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
 - `fetchWorkerPhone`
@@ -7930,7 +7930,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`.. 
 
@@ -7939,11 +7939,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tablePickerDidFinishedPicking: Ã¢ÂÂ¦ dataPicked`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
 - `showGenericPickerViewWithType`
@@ -7957,8 +7957,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`
@@ -7975,8 +7975,8 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchRiskAssessmentsListData`
 - `fetchNextPage`
 - `initializeDataSource`
@@ -8001,24 +8001,24 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `fetchFlexibleFormWithPageID`
 - `fetchOfflineConnection`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchAutoNum`
 - `fetchLocationAddress`
 - `handleFlexi`
 - `handleAutoNumData`
 - `clearLocationTypeData`
-- `tablePickerDidFinishedPicking: Ã¢ÂÂ¦ dataPicked`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `tableView: … heightForRowAtIndexPath`
 - `numberOfSectionsInTableView`
-- `tableView: Ã¢ÂÂ¦ numberOfRowsInSection`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForHeaderInSection`
-- `textView: Ã¢ÂÂ¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
 - `showDateTimePickerWithIndexPath`
 - `showLocationTypePickerView`
@@ -8030,10 +8030,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDocumentPicker`
 - `showImagePicker`
 - `setAllowedUTIs`
-- `documentPicker: Ã¢ÂÂ¦ didPickDocumentAtURL`
+- `documentPicker: … didPickDocumentAtURL`
 - `documentPickerWasCancelled`
 - `refreshSelectedRow`
-- `imagePickerController: Ã¢ÂÂ¦ didFinishPickingMediaWithInfo`
+- `imagePickerController: … didFinishPickingMediaWithInfo`
 - `imagePickerControllerDidCancel`
 - `doneBarButtonItemDidTapped`
 - `uploadAttachment`
@@ -8069,10 +8069,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `fetchOffline`
-- `tableView: Ã¢ÂÂ¦ cellForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ estimatedHeightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ heightForRowAtIndexPath`
-- `tableView: Ã¢ÂÂ¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `searchBarShouldBeginEditing`
 - `searchBarCancelButtonClicked`
 - `initializeDataSource`
@@ -8098,10 +8098,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `mailComposeController: Ã¢ÂÂ¦ didFinishWithResult`
+- `mailComposeController: … didFinishWithResult`
 - `callNumber`
 - `sendEmail`
-- `sendEmail: Ã¢ÂÂ¦ delegate`
+- `sendEmail: … delegate`
 - `openWebsite`.. 
 
 ##### **WHSViewController** - superclass of view controllers
@@ -8112,16 +8112,16 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillDisappear`
 - `didReceiveMemoryWarning`
 - `supportedInterfaceOrientations`
-- `connection: Ã¢ÂÂ¦ willSendRequest`
-- `connection: Ã¢ÂÂ¦ didReceiveResponse`
-- `connection: Ã¢ÂÂ¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `connection: Ã¢ÂÂ¦ didFailWithError`
+- `connection: … didFailWithError`
 - `clearUserData`
 - `getActionsList`
 - `parseActionList`
 - `hamburgerBarButtonDidTapped`
-- `acSheet: Ã¢ÂÂ¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `initializeNavigationBarTintColor`
 - `initializeNavigationBarWithTintColor`
 - `initializeNavigationTitle`
@@ -8155,7 +8155,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `prepareWebView`
-- `loadHTMLString: Ã¢ÂÂ¦ baseURL`.. 
+- `loadHTMLString: … baseURL`.. 
 
 ##### **WHSWorkerTablePickerViewController** - shows the workers 
 

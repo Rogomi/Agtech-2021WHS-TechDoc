@@ -3,13 +3,13 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `connectionDidFinishLoading`
 - `fetchFlexForm`
 - `registerActionDidSaved`
 - `registerActionSavingDidFailed`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`

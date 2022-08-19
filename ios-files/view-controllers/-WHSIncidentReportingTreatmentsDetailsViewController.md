@@ -3,19 +3,19 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: â¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchTreatmentsDetailsData`
 - `fetchFlexibleForm`
 - `saveTreatmentData`

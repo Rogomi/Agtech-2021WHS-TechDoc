@@ -4,11 +4,11 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: â¦ didTriggerRightUtilityButtonWithIndex`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
 - `deleteAssessment`
 - `initializeDataSource`
 - `showEditDetailsView`

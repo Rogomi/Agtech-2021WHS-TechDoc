@@ -4,14 +4,14 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `viewWillDisappear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: â¦ didTriggerRightUtilityButtonWithIndex`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
 - `fetchHazardsData`
 - `initializeDataSource`
 - `showEditHazardView`

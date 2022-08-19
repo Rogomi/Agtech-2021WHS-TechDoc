@@ -5,8 +5,8 @@
 - `viewWillAppear`
 - `didReceiveMemoryWarning`
 - `prepareForSegue`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showHazardsView`
 - `showAssetsView`

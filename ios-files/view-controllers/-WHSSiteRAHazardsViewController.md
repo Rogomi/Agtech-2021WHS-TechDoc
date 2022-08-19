@@ -6,23 +6,23 @@
 - `viewDidAppear`
 - `initializeAddRecord`
 - `openAddRecordView`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchDetailsHazardTemplateID`
 - `fetchTemplateName`
 - `fetchHazards`
 - `saveRecordData`
 - `tablePickerDidFinishedPicking`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `switchCellValueDidChanged`
 - `createJSON`
 - `showHazardTemplatePicker`

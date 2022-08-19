@@ -4,6 +4,6 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchHazardDetailsData`
 - `initializeDataSource`

@@ -3,25 +3,25 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `tablePickerDidFinishedPicking: â¦ dataPicked`
-- `searchBar: â¦ textDidChange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `searchBar: … textDidChange`
 - `searchBarSearchButtonClicked`
 - `fetchControlsList`
 - `saveRecordData`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `switchCellValueDidChanged`
 - `showControlCategories`
 - `initializeDataSource`

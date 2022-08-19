@@ -5,9 +5,9 @@
 - `viewWillAppear`
 - `download`
 - `fetchOfflineConnection`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `handleFlexi`
 - `connectionDidFinishLoading`
 - `dateOnlyFormatFromDateString`
@@ -15,19 +15,19 @@
 - `numberOfSectionsInTableView`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ viewForHeaderInSection`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
 - `sectionTapped`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `fetchAutoNum`
 - `fetchFlexibleForm`
 - `fetchFlexibleFormWithPageID`
@@ -72,10 +72,10 @@
 - `showDocumentPicker`
 - `showImagePicker`
 - `setAllowedUTIs`
-- `documentPicker: â¦ didPickDocumentAtURL`
+- `documentPicker: … didPickDocumentAtURL`
 - `documentPickerWasCancelled`
 - `refreshSelectedRow`
-- `imagePickerController: â¦ didFinishPickingMediaWithInfo`
+- `imagePickerController: … didFinishPickingMediaWithInfo`
 - `imagePickerControllerDidCancel`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`

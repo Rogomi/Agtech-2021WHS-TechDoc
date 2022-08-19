@@ -2,9 +2,9 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`

@@ -3,9 +3,9 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `connectionDidFinishLoading`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchTestHistories`
 - `showTestHistoryDetailsView`

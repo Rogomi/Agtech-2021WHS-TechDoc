@@ -2,8 +2,8 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAsbestosView`
 - `showCarcinogensView`

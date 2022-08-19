@@ -5,13 +5,13 @@
 - `viewDidLoad`
 - `viewDidAppear`
 - `viewWillDisappear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
-- `webView: â¦ decidePolicyForNavigationAction`
-- `webView: â¦ didFinishNavigation`
-- `mailComposeController: â¦ didFinishWithResult`
+- `webView: … decidePolicyForNavigationAction`
+- `webView: … didFinishNavigation`
+- `mailComposeController: … didFinishWithResult`
 - `initializeNavigationBarButtonItems`
 - `showFileNotFoundView`
 - `showExperiencedErrorView`

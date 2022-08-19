@@ -3,7 +3,7 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `showSignOffView`
 - `initializeDataSource`
 - `showPDFView`

@@ -4,9 +4,9 @@
 - `viewDidLoad`
 - `viewWillAppear`
 - `tablePickerDidFinishedPicking`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
 - `showStatusPickerView`

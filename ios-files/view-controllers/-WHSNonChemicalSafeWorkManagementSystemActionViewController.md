@@ -2,7 +2,7 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`

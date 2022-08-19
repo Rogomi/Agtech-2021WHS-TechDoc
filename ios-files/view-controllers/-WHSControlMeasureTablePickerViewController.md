@@ -2,6 +2,6 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `detailsView: â¦ savedData`
+- `detailsView: … savedData`
 - `showAddControlMeasureView`
 - `openAddRecordView`

@@ -3,20 +3,20 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … heightForFooterInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `fetchUserCustomRM`
 - `refreshRecommendedRisk`
@@ -29,6 +29,6 @@
 - `showRiskSignificance`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `initializeStaticFields`
 - `initializeCustomFields`

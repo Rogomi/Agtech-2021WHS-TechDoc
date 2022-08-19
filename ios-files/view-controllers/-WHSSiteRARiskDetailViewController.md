@@ -3,28 +3,28 @@
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `connection: â¦ didReceiveResponse`
+- `connection: … didReceiveResponse`
 - `connectionDidFinishLoading`
 - `tablePickerDidFinishedPicking`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ viewForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … viewForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
 - `textViewDidChange`
-- `textView: â¦ heightForHeaderInSection`
-- `textView: â¦ heightForFooterInSection`
-- `textView: â¦ estimatedHeightForRowAtIndexPath`
-- `textView: â¦ heightForRowAtIndexPath`
+- `textView: … heightForHeaderInSection`
+- `textView: … heightForFooterInSection`
+- `textView: … estimatedHeightForRowAtIndexPath`
+- `textView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
 - `createJSON`
 - `showHazardTypePickerView`
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `saveRecordData`
 - `initializeDataSource`
 - `clearHazardData`

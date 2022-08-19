@@ -4,22 +4,22 @@
 - `viewDidLoad`
 - `viewWillAppear`
 - `viewDidAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveData`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
 - `connectionDidFinishLoading`
 - `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
 - `fetchControlCategoriesData`
 - `fetchCurrentControlsData`
 - `saveRecordData`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `acSheet: â¦ clickedButtonAtIndex`
+- `acSheet: … clickedButtonAtIndex`
 - `textViewDidChange`
 - `initializeDataSource`
 - `initializeAddRecord`

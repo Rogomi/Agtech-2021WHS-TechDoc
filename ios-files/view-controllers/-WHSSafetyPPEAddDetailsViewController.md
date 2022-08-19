@@ -2,9 +2,9 @@
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForHeaderInSection`
+- `tableView: … heightForFooterInSection`
+- `tableView: … heightForRowAtIndexPath`
 
