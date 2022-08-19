@@ -64,6 +64,34 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 #### View Controllers
   
 
+##### **AIMandatoryTableViewController** - handles AI Mandatory screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `allRequiredFilled`
+- `tableView(... heightForRowAt)`
+- `tableView(didSelectRowAt)`
+- `textFieldShouldBeginEditing`
+- `textField(...shouldChangeCharactersIn)`
+- `getLocAddr`
+- `clearLocation`
+- `clearType`
+- `showDateInput`
+
+
+##### **AISelectTemplateViewController** - handles the selection of the Risk Template
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `toggleTopFive`
+- `fetchTemplate`
+- `numberOfSections(in tableView...)`
+- `tableView(...didSelectRowAt)`
+- `fetchFields`
+- `organizeFields`
+
 ##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
 
 ###### **Methods and Calculated Variables**
@@ -543,6 +571,48 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `connection: ... willSendRequest: ... redirectResponse`
 - `connection: ... didReceiveData`
 - `connectionDidFinishLoading`
+
+##### **WHSSafetyAddServiceHistoryViewController** - handles the adding of service history in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAutoNum`
+- `saveServiceHistoryData`
+- `initializeDataSource`
+- `createJSON`
+- `showRecordTypePickerView`
+- `showFaultServicedOrRepairedPickerView`
+- `showServiceHistoryTypePickerView`
+- `showServicedByPickerView`
+- `showDatePickerWithIndexPath`
+- `showStatusOrResultPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+
+WHS2MenuViewController
+viewDidLoad
+prepare(for segue: UIStoryboardSegue, sender: Any?)
+
+
+##### **WHS2RecordViewController** - handles the display of Record screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+
+
 
 ##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
 
@@ -4151,6 +4221,42 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showAsbestosView`
 - `showCarcinogensView`
 
+##### **WHSIRSearchResultsViewController** - handles the search results in IR
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `searchRecords`
+- `initializeDataSource`
+- `showTabView`
+
+##### **WHSIRSearchViewController** - handles the IR search
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showDatePickerWithIndexPath`
+- `showIncidentTypePickerView`
+- `showRiskRatingPickerView`
+- `showStatusPickerView`
+- `showSearchResultsViewWithDataList`
+- `searchBarButtonItemDidTapped`
+
 ##### **WHSIncidentReportingAddNewHazardsViewController** - handles the adding of new hazards in incident reporting
 
 ###### **Methods and Calculated Variables**
@@ -4533,6 +4639,22 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `validateUsername`
 - `validatePassword`
 
+##### **WHSMSDSProductDetailsViewController** - handles the product details in msds
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `prepareForSegue: ... sender`
+- `connectionDidFinishLoading`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `mailComposeController: ... didFinishWithResult: ... error`
+- `fetchProductDetails`
+- `sanitizeJSON`
+- `reorderSanitizedJSON`
+
 ##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
 
 ###### **Methods and Calculated Variables**
@@ -4548,12 +4670,72 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `searchProducts`
 
 
+##### **WHSMSDSSearchViewController** - handles the searching in msds
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `prepareForSegue: ... sender`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `initializeSearchBarButtonItem`
+- `showNotEnoughQueryPhrase`
+- `initializeUserInputReceivers`
+- `searchBarButtonItemDidTapped`
+- `finishedSelectingSearchTypeHandler`
+- `finishedSelectingSearchFormatHandler`
+
 ##### **WHSManifestsReportPDFViewController** - handles the PDF display for manifests reports
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
 - `prepareForSegue`
+
+##### **WHSMenuViewController** - controls menu
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewWillLayoutSubviews`
+- `viewWillAppear`
+- `initializeTableViewPlaceholder`
+- `showNoPermissionPlaceholderInMenu`
+- `postURLConnectionDidFinishLoading: ... json: ... baseKey: ... targetKey`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... viewForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeMenuTableView`
+- `initializeMenuTableView`
+- `initializeDataSource`
+- `initializeDataSourceFromFlexiForm: ... allowedFieldsKey`
+- `initializeDataSourceFromAllowedFields: ... allowedFieldsKey`
+- `initializeDataSourceFromFlexiForm: ... callback`
+- `validateRequiredFields`
+- `setTableviewDefaultBackgroundColor`
+- `showNotEnoughRecordView`
+- `showNotEnoughRecordViewWithTitle: ... message: ... isGoingBack`
+- `fetchValidSubMenuItemListWithParentID`
+- `requestPathForFlexibleFormWithPageID: ... controlID: ... refKey`
+- `fetchFlexibleFormWithPageID: ... controlID: ... refKey`
+- `processRecordIDs: ... JSON`
+- `formatIDsToArrays`
+- `processValuesOnJSONWithKey: ... JSON: ... completionBlock`
+- `isNumberOfRecordsEnough: ... count`
+- `isNumberOfRecordsEnough: ... array`
+- `processPickerFromJSONWithKey: ... JSONDataList`
+- `formatPickedItems: ... dataToBeExtractedKey: ... indent`
+- `formatPickedItems: ... dataToBeExtractedKey: ... indent: .. indentationString`
+- `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
+- `formatPickedPersons: ... indentationString`
 
 ##### **WHSNoiseAssessmentSubTypePickerViewController** - handles the picker view for noise assessment sub types
 
@@ -4833,6 +5015,46 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showSWMSView`
 - `showSWPView`
 
+##### **WHSNotificationReceiverPickerViewController** - handles the picker in notification receiver
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddNotificationReceiversView`
+- `showEditNotificationReceiversView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`
+
+##### **WHSOfflineFormViewController** - shows the workers 
+
+###### **Methods and Calculated Variables**
+`viewDidLoad`
+`viewWillAppear`
+`initializeDataSource`
+`accessPermission`
+`tableView(...didSelectRowAt)`
+`tableView(...heightForRowAt)`
+
+##### **WHSOfflineFormsAuditsInspectionViewController** - handles the audits inspection in the offline forms section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `initializeDataSource`
+- `tableView(...didSelectRowAt)`
+
+##### **WHSOfflineFormsViewController** - handles the offline forms screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `initializeDataSource`
+- `showNoFormsDownloaded`
+- `downloadAll`
+- `tableView(...cellForRowAt)`
+- `tableView(...didSelectRowAt)`
+- `tableView(...heightForRowAt)`
+
+
 ##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
@@ -4956,10 +5178,48 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `updateDataSource`
 - `showTabView`
 
+##### **WHSPAPSearchViewController** - handles the searching in pap
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showTypePickerView`
+- `showSubTypePickerView`
+- `showStatusPickerView`
+- `showDatePickerWithIndexPath`
+- `searchBarButtonItemDidTapped`
+
 ##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
 
 ###### **Methods and Calculated Variables**
 - `showTabView`
+
+##### **WHSPAPTrainingTabViewController** - handles the pap training tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentView`
+- `showEmailReportView`
+- `showSignOffView`
+- `showEditDetailsView`
+- `showChecklistView`
+- `showAttendeesView`
+- `showActionsView`
 
 ##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
 
@@ -5013,6 +5273,181 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `initializeDataSource`
 - `saveOnlineSignature`
 
+##### **WHSPointsRaisedViewController** - controls the points raised
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `swipeableTableViewCell: ... didTriggerRightUtilityButtonWithIndex`
+- `swipeableTableViewCell: ... canSwipeToState`
+- `deletePointsData`
+- `initializeDataSource`
+- `showEditPointsRaisedView`
+- `cellRightUtitilityButtons`
+- `openAddRecordView`
+
+##### **WHSPoliciesDrillsEditRecordViewController** - handles the editing of record in policies drills
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSPoliciesDrillsViewController** - controls the policies drills
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchRecordsData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSPoliciesEditRecordViewController** - handles the editing of record in policies
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSPoliciesLegislationsEditRecordViewController** - handles the editing of record in the policies legislations
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPat`
+- `fetchDetailsData`
+- `initializeDataSource`
+- `getApplicableStates`
+- `getApplicableStatesIDs`
+- `getVerifiedStates`
+- `getVerifiedStatesIDs`
+
+##### **WHSPoliciesLegislationsViewController** - controls the policies legislations
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchRecordsData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSPoliciesPlansAddRecordViewController** - handles the adding of record in policies plans
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveDate`
+- `connectionDidFinishLoadin`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLocationAddress`
+- `saveDetailsData `
+- `fetchAutoNum`
+- `initializeDataSource`
+- `createJSON`
+- `showTypePickerView`
+- `showSubTypePickerView`
+- `showStatePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantLegislationsPickerView`
+- `showRelevantTrainingPickerView`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `clearTypeData`
+- `clearLocationTypeData`
+
+##### **WHSPoliciesPlansEditRecordViewController** - handles the editing of record in policies plans
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSPoliciesPlansViewController** - controls the policies plans
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchRecordsData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
+##### **WHSPoliciesProceduresViewController** - handles the procedures in policies
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showPoliciesView`
+- `showPlansAndProceduresView`
+- `showLegislationsView`
+- `showTrainingView`
+- `showDrillView`
+- `showComplaintsView`
+
 ##### **WHSPoliciesSearchResultsViewController** - handles the display of search results for policies
 
 ###### **Methods and Calculated Variables**
@@ -5024,6 +5459,32 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
+
+##### **WHSPoliciesTabViewController** - handles the policies tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showSignOffView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showActionsView`
+
+##### **WHSPoliciesTrainingEditRecordViewController** - handles the editing of record in policies training
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsData`
+- `initializeDataSource`
+- `getInternalExternal`
 
 ##### **WHSPoliciesTrainingViewController** - controls the policies training
 
@@ -5234,6 +5695,31 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 
+##### **WHSRegisterEditActionDetailsViewController** - handles the editing of action details in the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `saveActionButtonDidTapped`
+- `cellSwitchDidValueChanged`
+
+##### **WHSRegisterEditActionsViewController** - handles the editing of actions in register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `fetchDetails`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchActionDetailsData`
+- `initializeDataSource`
+- `formatNotificationReceivers`
+
 ##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
 
 ###### **Methods and Calculated Variables**
@@ -5284,6 +5770,10 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEditTestTypeView`
 - `openAddRecordView`
 - `editBarButtonItemDidTapped`
+
+##### **WHSRegistersSearchViewController** - handles the searching in registers
+
+###### **Methods and Calculated Variables**
 
 ##### **WHSRegistersViewController** - handles the viewing of the Registers screen
 
@@ -5394,6 +5884,49 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `didReceiveMemoryWarning`
 - `prepareForSegue`
 
+##### **WHSRiskAssessmentActionDetailsViewController** - handles the action details in the risk assessment
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `fetchActionDetails`
+- `initializeDataSource`
+
+##### **WHSRiskAssessmentActionManagerViewController** - handles the action manager in the risk assessment
+
+###### **Methods and Calculated Variables**
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `createInData`
+- `isValidObjectForIndex`
+- `transferActionData`
+- `showActionControlMeasurePickerView`
+
+##### **WHSRiskAssessmentAddActionViewController** - handles the adding of action in the risk assessment
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `cellSwitchDidValueChanged`
+- `saveActionButtonDidTapped`
+
+##### **WHSRiskAssessmentEditActionDetailsViewController** - handles the editing of action details in risk assessment
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `saveActionButtonDidTapped`
+- `cellSwitchDidValueChanged`
+
 ##### **WHSRiskAssessmentPicturesViewController** - handles the showing of pictures in the Risk Management section
 
 ###### **Methods and Calculated Variables**
@@ -5402,6 +5935,83 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `preferredCollectionViewFrame`
 - `processPictures`
 - `processHeadersAndDetails`
+
+##### **WHSRiskAssessmentViewController** - controls the risk assessment
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `prepareForSegue: ... sender`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `initializeMoreBarButtonItem`
+- `initializePanel`
+- `toggleMorePanelView`
+- `showPanelView`
+- `hidePanelView`
+- `initializePanelDataSource`
+- `fetchData`
+- `fetchAttachmentCount`
+- `fetchActionRecordCount`
+- `editRecordButtonDidTapped`
+- `viewPDFButtonDidTapped`
+- `disableMoreButton`
+- `disableEditRecord`
+- `disableViewPDF`
+- `disableAttachments`
+- `disableEmailReport`
+- `disableActions`
+
+##### **WHSRiskManagementAddActionViewController** - handles the adding of action in risk management
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView `
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `sendPOSTRequest`
+- `initializeDataSource`
+- `showCategoryPickerView`
+- `showControlMeasurePickerView`
+- `showStatusPickerView`
+- `showPriorityPickerView`
+- `showSendNotificationToPickerView`
+- `showDatePickerWithTitle: ... view`
+- `switchValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `clearControlMeasureData`
+- `isAllRequiredDataFilledUp`
+- `getRecipientIDs`
+- `createPOSTJSON`
+
+##### **WHSRiskManagementEditActionViewController** - handles the editing of action in risk management
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `fetchActionDetailsData`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
 
 ##### **WHSRiskManagementViewController** - handles the Risk Management screen
 
@@ -5416,6 +6026,164 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showNonChemicalRiskManagementView`
 - `initializeDataSource`
 
+##### **WHSSafeWorkManagementSystemActionDetailsViewController** - handles the action details of safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `initializeDataSource`
+- `fetchActionDetails`
+
+##### **WHSSafeWorkManagementSystemActionManagerViewController** - handles the action manager of safe work management system
+
+###### **Methods and Calculated Variables**
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `createInData`
+- `transferActionData`
+- `showActionTaskPickerView`
+
+##### **WHSSafeWorkManagementSystemActivityViewController** - handles the activity in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `fetchActivityData`
+- `initializeDataSource`
+
+##### **WHSSafeWorkManagementSystemAddActionViewController** -  handles the adding of action in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `saveActionButtonDidTapped`
+- `cellSwitchDidValueChanged`
+
+##### **WHSSafeWorkManagementSystemDetailViewController** - handles the detail in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `fetchDetailsData`
+- `initializeDataSource`
+
+##### **WHSSafeWorkManagementSystemEditActionDetailsViewController** - handles the editing of action details in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `saveActionButtonDidTapped`
+- `cellSwitchDidValueChanged`
+
+##### **WHSSafeWorkManagementSystemSearchResultsViewController** - handles the search results in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSSafeWorkManagementSystemSearchViewController** - handles the searching in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `initializeDataSource`
+- `showGenericPickerViewWithType`
+- `showRecordTypePickerView`
+- `showSearchResultsView`
+- `searchBarButtonItemDidTapped`
+
+##### **WHSSafeWorkManagementSystemTabViewController** - handles the safe work management system tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showSignOffView`
+- `showDetailsView`
+- `showActivityView`
+- `showTasksView`
+- `showActionsView`
+
+##### **WHSSafeWorkManagementSystemTaskViewController** - handles the tasks in safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... viewForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForHeaderInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `fetchTasksData`
+- `initializeDataSource`
+
+##### **WHSSafeWorkManagementSystemViewController** - controls the safe work management system
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchSWMSListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showSearchView`
+- `showTabView`
+
 ##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
 
 ###### **Methods and Calculated Variables**
@@ -5424,6 +6192,39 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`
+
+##### **WHSSafeWorkProceduresChecklistViewController** - handles the checklist in safe work procedures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `fetchChecklistData`
+- `initializeDataSource`
+
+##### **WHSSafeWorkProceduresDetailViewController** - handles the details in safe work procedures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `fetchDetailsData`
+- `initializeDataSource`
 
 ##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
 
@@ -5440,6 +6241,57 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `fetchSWPData`
 - `initializeDataSource`
 
+##### **WHSSafeWorkProceduresSearchResultsViewController** - handles the search results in safe work procedures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`
+
+##### **WHSSafeWorkProceduresSearchViewController** - handles the searching in safe work procedures
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showStatusPickerView`
+- `showDatePicker`
+- `showSearchResultsView`
+- `searchBarButtonItemDidTapped`
+
+##### **WHSSafeWorkProceduresTabViewController** - handles the safe work procedures tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `initializeDataSource`
+- `showPDFView`
+- `showSignOffView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showDetailsView`
+- `showSWPView`
+- `showChecklistView`
+- `showActionsView`
+
 ##### **WHSSafeWorkProceduresViewController** - shows share work procedures
 
 ###### **Methods and Calculated Variables**
@@ -5453,6 +6305,120 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `updateDataSource`
 - `showSearchView`
 - `showTabView`
+
+##### **WHSSafetyAddDetailsViewController** - handles the adding of details in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLocationAddressData`
+- `fetchAutoNum`
+- `saveRecordData`
+- `initializeDataSource`
+- `createJSON`
+- `showSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showDatePickerWithIndexPath`
+- `showFireFightingClassPickerView`
+- `showFireFightingRatingPickerView`
+- `showStatusPickerView`
+- `showCompetenciesPickerView`
+- `showTestingFrequencyPickerView`
+- `showServicingFrequencyPickerView`
+- `showWorkerPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantProceduresPickerView`
+- `showRelevantLegislationsPickeriew`
+- `showRelevantTrainingPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearSubTypeData`
+- `clearLocationData`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetyAddTestHistoryViewController** - handles the adding of test history in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath `
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `switchCellValueDidChanged`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAutoNum`
+- `saveTestHistoryData`
+- `initializeDataSource`
+- `createJSON`
+- `showTestTypePickerView`
+- `showWorkerPicker`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+
+##### **WHSSafetyEditDetailsViewController** - handles the editing of details in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `fetchDetailsDat`
+- `initializeDataSource`
+
+##### **WHSSafetyEditServiceHistoryViewController** - handles the editing of service history in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `registerActionDidSaved: ... responseData`
+- `registerActionSavingDidFailed: ... responseData`
+- `fetchServiceHistoryDetailsData`
+- `initializeDataSource`
+- `showServiceHistoryActions`
+- `showAttachmentsView`
+
+##### **WHSSafetyEditTestHistoryViewController** - handles the editing of test history in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `registerActionDidSaved: ... responseData`
+- `registerActionSavingDidFailed: ... responseData`
+- `fetchTestHistoryDetailsData`
+- `initializeDataSource`
+- `showTestHistoryActions`
+- `showAttachmentsView`
 
 ##### **WHSSafetyEmergencyWashingAddDetailsViewController** - handles the adding go details in the safety emergency washing section
 
@@ -5913,6 +6879,24 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showServiceHistoryView`
 - `showActionsView`
 
+##### **WHSSafetyPPEViewController** - handles the safety ppe
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchPPEListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`
+
 ##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
 
 ###### **Methods and Calculated Variables**
@@ -6038,6 +7022,21 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showEditTestHistoryDetailsView`
 - `openAddRecordView`
 
+
+##### **WHSSafetyViewController** - controls the safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showFireFightingEquipmentView`
+- `showEmergencyWashingView`
+- `showFireDetectionView`
+- `showFirstAidKitView`
+- `showSpillKitView`
+- `showPPEView`
 
 ##### **WHSSearchRecordViewController** - shows search record view
 
