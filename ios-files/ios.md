@@ -77,7 +77,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `clearLocation`
 - `clearType`
 - `showDateInput`
-.. 
+ 
 
 ##### **AISelectTemplateViewController** - handles the selection of the Risk Template
 
@@ -89,7 +89,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `numberOfSections(in tableView...)`
 - `tableView(...didSelectRowAt)`
 - `fetchFields`
-- `organizeFields`.. 
+- `organizeFields` 
 
 ##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
 
@@ -147,7 +147,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableDatasetCellDidTapAddData`
 - `tableDatasetCellDidUpdateData: ... tableData`
 - `locationManager: ... didChangeAuthorizationStatus`
-.. 
+ 
 
 ##### **GenericTableViewController** - handles generic table view types
 
@@ -158,7 +158,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableView: ... numberOfRowsInSection`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
-.. 
+ 
 
 ##### **MyStorageAddNewWorkerViewController** - handles the adding of new workers in my storage
 
@@ -176,7 +176,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `doneBarButtonTapped`
 - `textFieldFirstNameDidChange`
 - `textFieldLastNameDidChange`
-- `validateEnteredName`.. 
+- `validateEnteredName` 
 
 ##### **MyStorageCompatibilityViewControllerr** - handles the storage compatibility view
 
@@ -210,7 +210,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `notesButtonPressed`
 - `reportButtonPressed`
 - `pickDGClassFromDictionary`
-.. 
+ 
 
 ##### **MyStorageESQAddBatchViewController** - handles the batch adding in my storage edit stored quantity
 
@@ -246,7 +246,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `isAllRequiredDataFilledIn`
 - `trimLeadingTrailingWhitespace`
 - `finishedBatchRec`
-- `showSamplePOST`.. 
+- `showSamplePOST` 
 
 ##### **MyStorageESQAddPackSizeViewController** - handles the adding of pack size in my storage ESQ
 
@@ -279,7 +279,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
 - `trimLeadingTrailingWhiteSpace`
-.. 
+ 
 
 ##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
 
@@ -306,7 +306,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `didSelectAnExistingSupplier`
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
-- `trimLeadingTrailingWhiteSpace`.. 
+- `trimLeadingTrailingWhiteSpace` 
 
 ##### **MyStorageESQAddUnitSizesViewController** - handles the adding of unit sizes in my storage ESQ
 
@@ -326,7 +326,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `doneBarButtonItemDidTapped`
 - `textFieldTextDidChanged`
 - `isAllRequiredDataFilledIn`
-- `trimLeadingTrailingWhitespace`.. 
+- `trimLeadingTrailingWhitespace` 
 
 ##### **MyStorageESQBatchDetailsViewController** - handles the display of batch details for my storage ESQ
 
@@ -348,7 +348,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `initializeTableBatchInfo`
 - `JSONSanitizerWithData: ... keys`
 - `getID: ... index`
-- `getID: ... arrayList: ... index`.. 
+- `getID: ... arrayList: ... index` 
 
 ##### **MyStorageESQInputValueViewController** - handles the input values for my storage ESQ
 
@@ -372,7 +372,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `textFieldShouldReturn`
 - `doneBarButtonItemDidTapped`
 - `labelPreferredRateDidTapped`
-- `textFieldHiddenReceiverTextDidChange`.. 
+- `textFieldHiddenReceiverTextDidChange` 
 
 ##### **MyStorageEditStoredQuantityViewController** - handles the editing of stored quantities in my storage
 
@@ -429,7 +429,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `addNewBatchRecToDataSource`
 - `appendWorkerInfos`
 - `isElegibleForFetchingBatchDetails`
-.. 
+ 
 
 ##### **MyStorageManifestViewController** - handles the my storage manifest
 
@@ -470,7 +470,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `segmentedControlValueChanged`
 - `switchDidValueChanged`
 
-.. 
+ 
 
 ##### **MyStorageSummaryViewController** - handles the summary display of my storage
 
@@ -498,7 +498,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `connectionDidFinishLoading`
 - `connection: ... didFailWithError`
 - `toggledSwitch`
-- `fetchSummary`.. 
+- `fetchSummary` 
 
 ##### **NewDynamicTemplateViewController** - is a dynamic template used in different views such as the side menu
 
@@ -518,7 +518,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `toggleTableView`
 - `organizeTemplateFields`
 - `tableView: ... heightForRowAtIndexPath`
-- `tablePickerDidFinishedPicking: ... dataPicked`.. 
+- `tablePickerDidFinishedPicking: ... dataPicked` 
 
 ##### **SignOffTableViewController** - handles the view of signing off of items
 
@@ -541,7 +541,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewSignature`
 - `validToSave`
 - `isCompletelySigned`
-- `allowedToSign`.. 
+- `allowedToSign` 
 
 ##### **SignatureViewController** - handles the view that allows the user to write signatures
 
@@ -553,7 +553,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `supportedInterfaceOrientations`
 - `shouldAutorotate`
 - `clearSignature`
-- `doneSigning`.. 
+- `doneSigning` 
 
 ##### **SubmittedByTableViewController** - handles the view that displays submitted by
 
@@ -569,7 +569,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableView: ... didSelectRowAtIndexPath`
 - `connection: ... willSendRequest: ... redirectResponse`
 - `connection: ... didReceiveData`
-- `connectionDidFinishLoading`.. 
+- `connectionDidFinishLoading` 
 
 ##### **WHSSafetyAddServiceHistoryViewController** - handles the adding of service history in safety
 
@@ -599,19 +599,19 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 WHS2MenuViewController
 viewDidLoad
 prepare(for segue: UIStoryboardSegue, sender: Any?)
-.. 
+ 
 
 ##### **WHS2RecordViewController** - handles the display of Record screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 
-.. 
+ 
 
 ##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
 
@@ -630,7 +630,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAIAddRecordViewController** - handles the adding of records in audit and inspections
 
@@ -671,7 +671,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRelevantLegislationsPickeriew`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAIEditPointsRaisedViewController** - handles the editing of points raised in audit and inspections
 
@@ -685,7 +685,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchPointRaisedDetailsData`
 - `initializeDataSource`
 - `showPointRaisedActionsView`
-.. 
+ 
 
 ##### **WHSAIEditRecordViewController** - handles the editing of records in audit and inspections
 
@@ -695,7 +695,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSAIInspectionTypePickerViewController** - handles the inspection type picker in audit and inspections
 
@@ -704,7 +704,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddInspectionTypeView`
 - `showEditInspectionTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSAIPointsRaisedViewController** - handles the display of points raised view in audit and inspections
 
@@ -726,7 +726,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEditPointsRaisedView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAISearchResultsViewController** - handles the search results of audit and inspections
 
@@ -742,7 +742,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSAISearchViewController** - handles the searching of audit and inspections
 
@@ -764,7 +764,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDatePickerWithIndexPath`
 - `showStatusPickerView`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSAISplittedViewController** - handles the split view of audit and inspections
 
@@ -773,7 +773,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `tableView: … heightForRowAtIndexPath`
 - `initializeDataSource`
-- `tableView: … didSelectRowAtIndexPath`.. 
+- `tableView: … didSelectRowAtIndexPath` 
 
 ##### **WHSAITabViewController** - handles the audit and inspections tab
 
@@ -791,7 +791,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTasksObservedView`
 - `showChecklistView`
 - `showPointsRaisedView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSActionCategoryPickerViewController** - handles the action category picker
 
@@ -800,12 +800,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddActionCategoryView`
 - `showEditActionCategoryView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSActionDetails ManagerViewController** - handles the managing of action details
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSActionManagerViewController** - handles the manager for actions
 
@@ -833,7 +833,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveAction`
 - `saveActionButtonDidTapped`
 - `editActionButtonDidTapped`
-- `postURLConnectionDidFinished`.. 
+- `postURLConnectionDidFinished` 
 
 ##### **WHSActionViewController** - handles the display of the action view
 
@@ -853,7 +853,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSActionsMonitorRecordViewController** - handles the display of action monitor records
 
@@ -870,7 +870,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `updateDataSource`
 - `showSearchView`
 - `showEditActionView`
-.. 
+ 
 
 ##### **WHSActionsMonitorSearchResultsViewController** - handles the search results of actions monitor
 
@@ -887,7 +887,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showEditActionView.. 
+- `showEditActionView 
 
 ##### **WHSActionsMonitorSearchViewController** - handles the searching of actions monitor
 
@@ -910,7 +910,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionPriorityPickerView`
 - `showPersonResponsiblePickerView`
 - `showStatusPickerView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSAddAIInspectionSubTypeViewController** - handles the adding of inspection sub types in audit and inspections
 
@@ -929,7 +929,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddAIInspectionTypeViewController** - handles the adding of inspection types in audit and inspections
 
@@ -948,7 +948,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddActionCategoryViewController** - handles the adding of categories in actions
 
@@ -967,7 +967,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddAssetSubTypeViewController** - handles the adding of asset sub types
 
@@ -986,7 +986,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddAssetTypeViewController** - handles the adding of asset types
 
@@ -1005,7 +1005,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddAtmosphericMonitoringTypeViewController** - handles the adding of atmospheric monitoring types
 
@@ -1024,7 +1024,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddAttachmentsViewController** - handles the adding of attachments
 
@@ -1054,7 +1054,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connection: ... didReceiveResponse`
 - `connectionDidFinishLoading`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddAttendeeViewController** - handles the adding of attendees
 
@@ -1079,7 +1079,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showCompetenciesPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddCompetenciesViewController** - handles the adding of competencies
 
@@ -1104,7 +1104,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showLicencePickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddControlMeasureViewController** - handles the adding of control measures
 
@@ -1118,7 +1118,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `acSheet: ... clickedButtonAtIndex`
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddDynamicActionsViewController** - handles the adding of dynamic actions
 
@@ -1146,7 +1146,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
 - `showWorkerPickerView: ... isNotification`
 - `showNotificationReceiverPickerView`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddEmployeeDepartmentViewController** - handles the adding of employee departments
 
@@ -1165,7 +1165,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddEmployeeDivisionViewController** - handles the adding of employee divisions
 
@@ -1184,7 +1184,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddGenericViewController** - handles the adding of generic views
 
@@ -1203,7 +1203,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddInspectionTypeViewController** - handles the adding of inspection types
 
@@ -1222,7 +1222,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddLicenceViewController** - handles the adding of licences
 
@@ -1243,7 +1243,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `showLicenceCategoryPickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddLocationViewController** - handles the adding of location
 
@@ -1263,7 +1263,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `showStatePickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAddNoiseAssessmentSubTypeViewController** - handles the adding of noise assessment sub types
 
@@ -1283,7 +1283,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `createJSON`
-.. 
+ 
 
 ##### **WHSAddNoiseAssessmentTypeViewController** - handles the adding of noise assessment types
 
@@ -1302,7 +1302,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddNotificationReceiverViewController** - handles the adding of notification receivers
 
@@ -1321,7 +1321,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createPOSTJSON`.. 
+- `createPOSTJSON` 
 
 ##### **WHSAddPointsRaisedViewController** - handles the adding of points raised
 
@@ -1340,7 +1340,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSAddRecordViewController** - implementation that handles the adding of records
 
@@ -1354,7 +1354,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `needSwitchCell`
 - `saveButtonItemDidTapped`
 - `switchCellValueDidChanged`
-- `getPreferredIndexPath`.. 
+- `getPreferredIndexPath` 
 
 ##### **WHSAddWorkerViewController** - handles the adding of workers
 
@@ -1378,7 +1378,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `showEmployeeTypePickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAiInspectionSubTypePickerViewController** - handles the inspection sub type picker in audits and inspections
 
@@ -1387,7 +1387,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddInspectionSubTypeView`
 - `showEditInspectionSubTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSAssetSubTypePickerViewController** - handles the asset sub type picker
 
@@ -1396,7 +1396,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddView`
 - `showEditView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSAssetTypePickerViewController** - handles the picking of asset types
 
@@ -1405,7 +1405,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddView`
 - `showEditView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSAssetsAddDetailsViewController** - handles the adding of details in assets
 
@@ -1458,7 +1458,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `clearAssetSubType`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAssetsAddServiceHistoryViewController** - handles the adding of service history
 
@@ -1488,7 +1488,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAssetsAddTestHistoryViewController** - handles the adding of test history in assets
 
@@ -1525,14 +1525,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `saveSucceeded`
 - `saveFailed`
-.. 
+ 
 
 ##### **WHSAssetsClassifiedAddDetailsViewController** - handles the adding of details in classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`.. 
+- `tableView: ... estimatedHeightForRowAtIndexPath` 
 
 ##### **WHSAssetsClassifiedEditDetailsViewController** - handles the editing of details in classified assets
 
@@ -1540,7 +1540,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `tableView: ... didSelectRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`.. 
+- `tableView: ... estimatedHeightForRowAtIndexPath` 
 
 ##### **WHSAssetsClassifiedSearchResultsViewController** - handles the search results of classified assets
 
@@ -1550,13 +1550,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSAssetsClassifiedSearchViewController** - handles the searching of classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSAssetsClassifiedTabViewController** - handles the tab functions in classified assets
 
@@ -1572,7 +1572,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSAssetsClassifiedViewController** - handles the display of classified assets
 
@@ -1590,7 +1590,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsEditDetailsViewController** - handles the editing of details in assets
 
@@ -1601,7 +1601,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connection: ... didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSAssetsEditServiceHistoryViewController** - handles the editing of service history in assets
 
@@ -1616,7 +1616,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSAssetsEditTestHistoryViewController** - handles the editing of test history in assets
 
@@ -1631,7 +1631,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSAssetsElectricalAddDetailsViewController** - handles the adding of details in electrical assets
 
@@ -1641,13 +1641,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsElectricalAddServiceHistoryViewController** - handles the adding of service history in electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsElectricalEditDetailsViewController** - handles the editing of details in electrical assets
 
@@ -1658,13 +1658,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsElectricalEditServiceHistoryViewController** - handles the editing of service history in electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsElectricalSearchResultsViewController** - handles the search results for electrical assets
 
@@ -1674,13 +1674,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSAssetsElectricalSearchViewController** - handles the electrical search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList.. 
+- `showSearchResultsViewWithDataList 
 
 ##### **WHSAssetsElectricalTabViewController** - handles the electrical assets tab view
 
@@ -1696,7 +1696,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSAssetsElectricalViewController** - handles the display of electrical assets
 
@@ -1714,7 +1714,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsLiftingAddDetailsViewController** - handles the adding of details in lifting assets
 
@@ -1724,7 +1724,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsLiftingEditDetailsViewController** - handles the editing of details in lifting assets
 
@@ -1735,7 +1735,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsLiftingSearchResultsViewController** - handles the search results of lifting assets
 
@@ -1745,13 +1745,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSAssetsLiftingSearchViewController** - handles the search of lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSAssetsLiftingTabViewController** - handles the tab view for lifting assets
 
@@ -1767,7 +1767,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSAssetsLiftingViewController** - handles the display of lifting assets
 
@@ -1785,7 +1785,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsPlantAddDetailsViewController** - handles the adding of details in plant assets
 
@@ -1795,12 +1795,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsPlantAddServiceHistoryViewController** - handles the adding of service history in plant assets
 
 ###### **Methods and Calculated Variables**
-- `viewDidLoad`.. 
+- `viewDidLoad` 
 
 ##### **WHSAssetsPlantEditDetailsViewController** - handles the editing of details in plant assets
 
@@ -1811,14 +1811,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsPlantEditServiceHistoryViewController** - handles the editing of service history in plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`.. 
+- `prepareForSegue: ... sender` 
 
 ##### **WHSAssetsPlantSearchResultsViewController** - handles the search results of plant assets
 
@@ -1828,13 +1828,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSAssetsPlantSearchViewController** - handles the searching of plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSAssetsPlantTabViewController** - handles the tab view for plant assets
 
@@ -1850,7 +1850,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSAssetsPlantViewController** - handles the display of plant assets
 
@@ -1868,7 +1868,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsSearchRecordResultsViewController** - handles the search record results for assets
 
@@ -1879,7 +1879,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `searchRecords`
-- `fetchNextPage`.. 
+- `fetchNextPage` 
 
 ##### **WHSAssetsSearchRecordViewController** - handles the searching of records for assets
 
@@ -1897,7 +1897,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `textViewDidChange`
 - `initializeDataSource`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSAssetsServiceHistoryViewController** - handles the display of service history for assets
 
@@ -1911,7 +1911,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsTestHistoryViewController** - handles the display of test history for assets
 
@@ -1924,7 +1924,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistories`
 - `showTestHistoryDetailsView`
 - `showTestHistoryEditDetailsView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsVehiclesAddDetailsViewController** - handles the adding of details for vehicle assets
 
@@ -1934,7 +1934,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsVehiclesEditDetailsViewController** - handles the editing of details for vehicle assets
 
@@ -1945,7 +1945,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSAssetsVehiclesSearchRecordResultsViewController** - handles the search record results of vehicle assets
 
@@ -1955,13 +1955,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSAssetsVehiclesSearchRecordViewController** - handles the searching of vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSAssetsVehiclesTabViewController** - handles the tab view for vehicle assets
 
@@ -1977,7 +1977,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistory`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSAssetsVehiclesViewController** - handles the display of vehicle assets
 
@@ -1995,7 +1995,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAssetsViewController** - handles the display of assets
 
@@ -2010,7 +2010,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showElectricalEquipmentView`
 - `showPlantEquipmentView`
 - `showLiftingEquipmentView`
-- `showClassifiedEquipmentView`.. 
+- `showClassifiedEquipmentView` 
 
 ##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController** - handles the adding of monitoring history for atmospheric monitoring
 
@@ -2039,7 +2039,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showExposureLimitsPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSAtmosphericMonitoringAddRecordViewController** - handles the adding of records for atmospheric monitoring
 
@@ -2088,7 +2088,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isSelectedItemsExists: ... selectedItemTypeID`
 - `appendSelectedItemWithIDs: ... itemNames: ... itemTypeID`
 - `changeSelectedItemWithIDs: ... itemNames: ... itemTypeID`
-- `discardSelectedItemWithStringOfIDs`.. 
+- `discardSelectedItemWithStringOfIDs` 
 
 ##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController** - handles the editing of monitoring history for atmospheric monitoring
 
@@ -2101,7 +2101,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchMonitoringHistoryDetailsData`
 - `initializeDataSource`
 - `showMonitoringHistoryActionsView`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSAtmosphericMonitoringEditRecordViewController** - handles the editing of records for atmospheric monitoring
 
@@ -2113,7 +2113,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSAtmosphericMonitoringHistoryViewController** - handles the display of monitoring history for atmospheric monitoring
 
@@ -2127,7 +2127,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAtmosphericMonitoringTabViewController** - handles the logic of the atmospheric monitoring section
 
@@ -2143,7 +2143,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showEditDetailsView`
 - `showMonitoringHistoryView`
-- `showRegisterActionsView`.. 
+- `showRegisterActionsView` 
 
 ##### **WHSAtmosphericMonitoringTypePickerViewController** - handles the picking of an atmospheric monitoring type
 
@@ -2152,7 +2152,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddMonitoringTypeView`
 - `showEditMonitoringTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSAttachmentsViewController** - handles the showing of attatchments
 
@@ -2167,7 +2167,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `openAddRecordView`
-- `showEditAttachmentsView`.. 
+- `showEditAttachmentsView` 
 
 ##### **WHSAttendeesSearchResultsViewController** - handles the search results of atendees
 
@@ -2181,7 +2181,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `searchRecords`
 - `initializeDataSource`
-- `showEditAttendeesDetailsView`.. 
+- `showEditAttendeesDetailsView` 
 
 ##### **WHSAttendeesSearchViewController** - handles the searching of Atendees
 
@@ -2201,7 +2201,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTypePickerView`
 - `showResultPickerView`
 - `searchBarButtonItemDidTapped`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSAttendeesViewController** - shows the Attendees
 
@@ -2216,12 +2216,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchAttendeesData`
 - `initializeDataSource`
 - `showEditAttendeesDetailsView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAuditInspectionsDetailsViewController** - handles the showing of details in Audit Inspection
 
 ###### **Methods and Calculated Variables**
-.. 
+ 
 
 ##### **WHSAuditInspectionsRecordViewController** - handles the recording of Audit Inspections
 
@@ -2241,7 +2241,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSAutoHazardViewController** - handles the Auto Hazard view
 
@@ -2266,7 +2266,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `switchCellValueDidChanged`
 - `showSiteRAPicker`
-- `saveBarButtonItemDidTapped`.. 
+- `saveBarButtonItemDidTapped` 
 
 ##### **WHSCauseHazardsViewController** - handles the Cause Hazards view
 
@@ -2297,7 +2297,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsPickerView`
 - `showAgencyPickerView`
 - `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`.. 
+- `saveBarButtonItemDidTapped` 
 
 ##### **WHSChangePasswordViewController** - handles changing of the password
 
@@ -2319,7 +2319,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `updateNewApprovedPassword`
 - `validatePasswords: ... confirmNewPassword`
 - `updateStoredEncryptedPassword`
-- `handleChangePasswordResults`.. 
+- `handleChangePasswordResults` 
 
 ##### **WHSChecklistViewController** - handles the Checklist view
 
@@ -2377,7 +2377,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `titleForSection`
-- `showSectionPicker`.. 
+- `showSectionPicker` 
 
 ##### **WHSChemicalQChartChemicalSafetyViewController** - handles the Chemical Safety view of the ChemicalQ Chart section
 
@@ -2398,7 +2398,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `initializeCollectionViews`
 - `removeSubViewWithCell`
-- `processStorageLegends`.. 
+- `processStorageLegends` 
 
 ##### **WHSChemicalQChartDetailViewController** - shows the details view of the ChemicalQ Chart section
 
@@ -2408,7 +2408,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalQChartDetailsViewController** - shows the details of the ChemicalQ Chart
 
@@ -2425,7 +2425,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchDetailsData`
 - `initializeDataSource`
 - `showPDFView`
-- `getImageCellWithDequeuedCell: ... cellData`.. 
+- `getImageCellWithDequeuedCell: ... cellData` 
 
 ##### **WHSChemicalQChartHazardsViewController** - shows the hazards view in the ChemicalQ Chart section
 
@@ -2443,7 +2443,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
 - `initializeDataSource`
-- `initializeCollectionViews`.. 
+- `initializeCollectionViews` 
 
 ##### **WHSChemicalQChartOperationalSafetyViewController** - handles the Operational Safety view in the ChemicalQ Chart section
 
@@ -2463,7 +2463,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchOperationalSafetyDetailsData`
 - `initializeDataSource`
 - `initializeCollectionViews`
-- `getCellDataWithKey: ... titleKey: ... detailKey`.. 
+- `getCellDataWithKey: ... titleKey: ... detailKey` 
 
 ##### **WHSChemicalQChartSearchResultsViewController** - handles the search results in the ChemicalQ Chart section
 
@@ -2479,7 +2479,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSChemicalQChartSearchViewController** - handles searching in the ChemicalQ Chart section
 
@@ -2497,7 +2497,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showSearchResultsView`
 - `showGenericPickerViewWithType: ... returnedDataKey`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSChemicalQChartTabViewController** - logic behind the ChemicalQ Chart tab
 
@@ -2512,7 +2512,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsView`
 - `showChemicalSafetyView`
 - `showOperationalSafetyView`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalQChartViewController** - shows the ChemicalQ Chart screen
 
@@ -2526,7 +2526,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView``.. 
+- `showTabView`` 
 
 ##### **WHSChemicalRegisterProductDetailsViewController** - shows the product details in a Chemical Register 
 
@@ -2545,7 +2545,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchRegisterItemDetails`
 - `editStoredQuantityBarButtonItemDidTapped`
 - `sanitizeJSON`
-- `reorderSanitizedJSON`.. 
+- `reorderSanitizedJSON` 
 
 ##### **WHSChemicalRegisterViewController** - shows the Chemical Register screen
 
@@ -2574,7 +2574,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchStorageListData`
 - `reportButtonDidTapped`
 - `riskAssessmentButtonDidTapped`
-- `qChartButtonDidTapped`.. 
+- `qChartButtonDidTapped` 
 
 ##### **WHSChemicalRiskAssessmentConsequencesViewController** - handles the showing of consequences in the Chemical Risk Assessment
 
@@ -2589,7 +2589,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchConsequencesData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalRiskAssessmentCurrentControlsViewController** - handles the current controls of a Chemical Risk Assessment
 
@@ -2605,7 +2605,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchCurrentControlsData`
 - `initializeDataSource`
-- `segregateCurrentControlsData`.. 
+- `segregateCurrentControlsData` 
 
 ##### **WHSChemicalRiskAssessmentDetailsViewController** - shows the details of a Chemical Risk Assessment
 
@@ -2623,7 +2623,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForFooterInSection`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalRiskAssessmentHazardsConsequencesViewController** - handles the showing of the  hazards consequences screen in the chemical risk assessment section
 
@@ -2639,7 +2639,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
 - `fetchConsequencesData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalRiskAssessmentHazardsViewController** - handles the showing of the hazards screen in the chemical risk assessment section
 
@@ -2654,7 +2654,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalRiskAssessmentNewControlsViewController** - handles the showing of the new controls screen in the chemical risk assessment section
 
@@ -2670,7 +2670,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeAddBarButtonItem`
 - `showAddActionView`
 - `showEditActionView`
-- `addBarButtonItemDidTapped`.. 
+- `addBarButtonItemDidTapped` 
 
 ##### **WHSChemicalRiskAssessmentProductExposureLimitsViewController** - handles the showing of the product exposure limits in the chemical risk assessment screen
 
@@ -2679,7 +2679,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSChemicalRiskAssessmentProductViewController** - handles the showing of a product in the chemical risk assessment section
 
@@ -2698,7 +2698,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchProductData`
 - `initializeDataSource`
 - `showMSDSView`
-- `showExposureLimitsView`.. 
+- `showExposureLimitsView` 
 
 ##### **WHSChemicalRiskAssessmentSearchResultsViewController** - handles the showing of the search results in the chemical risk assessment section
 
@@ -2715,7 +2715,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSChemicalRiskAssessmentSearchViewController** - handles the search in the chemical risk assessment section
 
@@ -2732,7 +2732,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showGenericPickerViewWithType: ... pickerTitle: ... returnedDataKey`
 - `showStatusPickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSChemicalRiskAssessmentTabViewController** - handles the logic behind chemical risk assessment tab
 
@@ -2755,7 +2755,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsView`
 - `showConsequencesView`
 - `showCurrentControlsView`
-- `processTabFlags`.. 
+- `processTabFlags` 
 
 ##### **WHSChemicalRiskAssessmentViewController** - handles the showing of the chemical risk assessment screen
 
@@ -2772,7 +2772,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSChemicalRiskManagementViewController** - handles the showing of the chemical risk management screen
 
@@ -2783,7 +2783,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showRiskAssessmentView`
-- `showQChartView`.. 
+- `showQChartView` 
 
 ##### **WHSChemicalsViewController** - handles the showing of the chemicals screen
 
@@ -2801,7 +2801,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showManifestsView `
 - `showCompatibilitiesView`
 - `dismissedViewControllerWithStorageID`
-- `getStorageValueWithKey: ... index`.. 
+- `getStorageValueWithKey: ... index` 
 
 ##### **WHSCompatibilityLegendsViewController** - handles the showing of the compatibility legends
 
@@ -2813,14 +2813,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `cancelButtonDidTapped`
 - `initializeHeaderDetails`
-- `initializeLegendsDataSource`.. 
+- `initializeLegendsDataSource` 
 
 ##### **WHSCompatibilityPDFViewController** handles the showing of the compatibility PDF
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`.. 
+- `prepareForSegue: ... sender` 
 
 ##### **WHSCompatibilityProductDetailsViewController** - how does the showing of the product details in the compatibility section
 
@@ -2835,14 +2835,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `sanitizeJSON`
 - `reorderSanitizedJSON`
-- `fetchCompatibilityDetails`.. 
+- `fetchCompatibilityDetails` 
 
 ##### **WHSCompatibilityReportPDFViewController** - handles the showing of the compatibility report PDF
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`.. 
+- `prepareForSegue: ... sender` 
 
 ##### **WHSCompetenciesPickerViewController** - handles the picking of competencies
 
@@ -2851,7 +2851,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddCompetenciesView`
 - `showEditCompetenciesView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSConfinedSpacesActionViewController** - how was the showing of an action in the confined spaces section 
 
@@ -2870,7 +2870,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `showEditActionView`
 - `fetchActionsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSConfinedSpacesAddActionViewController** - handles the adding of an action in the  confined spaces section
 
@@ -2904,7 +2904,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showNotificationReceiverPickerView`
 - `showDatePickerWithIndexPath`
 - `switchCellValueDidChanged`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSConfinedSpacesAddEntryViewController** - handles the adding of an entry in the confined spaces section
 
@@ -2931,7 +2931,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPersonnelPickerView`
 - `showDatePickerWithIndexPath`
 - `showTimePickerWithIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSConfinedSpacesAddRecordViewController** - handles the adding of a record in the confined spaces section
 
@@ -2985,7 +2985,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `textViewDidChange`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSConfinedSpacesEditActionViewController** - handles the editing of an action in that confined spaces section
 
@@ -2996,7 +2996,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `fetchCSActionDetailsData`
 - `initializeDataSource`
-- `formatNotificationReceivers`.. 
+- `formatNotificationReceivers` 
 
 ##### **WHSConfinedSpacesEditEntryViewController** - handles the editing of an entry in the confined spaces section
 
@@ -3004,7 +3004,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSConfinedSpacesEditRecordViewController** - handles the editing of a record in the confined spaces section
 
@@ -3016,7 +3016,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
-- `presentDropdownList`.. 
+- `presentDropdownList` 
 
 ##### **WHSConfinedSpacesEntriesViewController** - handles the showing of the entries in the confined spaces section
 
@@ -3035,7 +3035,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `openAddRecordView`
 - `showEntryDetailsView`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSConfinedSpacesMonitoringHistoryViewController** - handles the showing of the history in the confined spaces monitoring section
 
@@ -3050,7 +3050,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
 - `openAddRecordView`
-- `showMonitoringTabView`.. 
+- `showMonitoringTabView` 
 
 ##### **WHSConfinedSpacesPermitDetailsViewController** - shows the details of a confined spaces permit
 
@@ -3071,7 +3071,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEntriesView`
 - `showAttachmentsView`
-- `showPDFView`.. 
+- `showPDFView` 
 
 ##### **WHSConfinedSpacesPermitsViewController** - shows the permits for confined spaces
 
@@ -3088,7 +3088,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchPermitsData`
 - `initializeDataSource`
-- `showPermitsView`.. 
+- `showPermitsView` 
 
 ##### **WHSConfinedSpacesTabViewController** - logic behind the Confined Spaces tab
 
@@ -3105,7 +3105,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showPermitsEntriesView`
 - `showMonitoringHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSControlMeasureTablePickerViewController** - handles the table picker view of the Control Measure section
 
@@ -3113,7 +3113,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `detailsView: … savedData`
 - `showAddControlMeasureView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSDetailsViewController** - handles the logic behind the details screen
 
@@ -3162,7 +3162,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `testSavedDataKey`
 - `indexPathForField`
-- `indexForField: ... inSection`.. 
+- `indexForField: ... inSection` 
 
 ##### **WHSDynamicActionsViewController** - handles the logic behind dynamic actions
 
@@ -3175,7 +3175,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
 - `openAddRecordView`
-- `didSaveAction: ... isNew`.. 
+- `didSaveAction: ... isNew` 
 
 ##### **WHSDynamicSignActionsViewController** - handles the logic behind dynamic sign actions
 
@@ -3192,7 +3192,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveActionIndex`
 - `createJSONForAction`
 - `checkAutoHazardWithRegID`
-- `isRequiredDataFilled`.. 
+- `isRequiredDataFilled` 
 
 ##### **WHSDynamicSigneesViewController** - handles the logic behind dynamic signees
 
@@ -3219,7 +3219,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPersonInvolvedTypeView`
 - `refreshActionedByFields`
 - `showSignatureViewController`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSDynamicTemplatesViewController** - handles the logic behind dynamic templates 
 
@@ -3262,43 +3262,43 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `uploadDTFile: ... sessionID: ... filename`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSEditAIInspectionSubTypeViewController** - handles the editing of an AI inspection subtype
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditAIInspectionTypeViewController** - handles the editing of an AI inspection type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditActionCategoryViewController** - handles the editing of an action category view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditAssetSubTypeViewController** - handles the editing of an asset subtype
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditAssetTypeViewController** - handles the editing of an asset type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditAtmosphericMonitoringTypeViewController** - Montrose the editing of an atmospheric monitoring tipe
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditAttachmentsViewController** - handles editing of an attachment
 
@@ -3317,7 +3317,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `numberOfPreviewItemsInPreviewController`
 - `previewController: ... previewItemAtIndex`
 - `showHUD`
-- `hideHUD`.. 
+- `hideHUD` 
 
 ##### **WHSEditAttendeeViewController** - handles editing of an attendee
 
@@ -3327,56 +3327,56 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchAttendeeDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditEmployeeDepartmentViewController** - handles editing a department of an employee
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditEmployeeDivisionViewController** - handles editing of an employee's division
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditGenericViewController** - handles editing a generic
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditInspectionTypeViewController** - handles the editing of an inspection type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `initializeDataSource`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSEditLicenceViewController** - handles the editing of a license
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditNoiseAssessmentSubTypeViewController** - handles the editing of a noice assessment subtype
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditNoiseAssessmentTypeViewController** - handles the editing a noise assessment type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditNotificationReceiverViewController** - handles editing a notification receiver
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEditPointsRaisedViewController** - handles editing points raised
 
@@ -3390,14 +3390,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `registerActionSavingDidFailed: ... responseData`
 - `fetchPointRaisedDetailsData`
 - `initializeDataSource`
-- `showPointRaisedActionsView`.. 
+- `showPointRaisedActionsView` 
 
 ##### **WHSEditWorkerViewController** - handles the editing of a worker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEmailReportViewController** - shows the email report screen
 
@@ -3414,7 +3414,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveAction`
 - `createJSON`
 - `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`.. 
+- `connectionDidFinishLoading` 
 
 ##### **WHSEmergencyProcedureViewController** - displays the emergency procedure screen
 
@@ -3427,7 +3427,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchEmergencyProceduresListData`
 - `initializeDataSource`
 - `generateHTML`
-- `showWebView`.. 
+- `showWebView` 
 
 ##### **WHSEmployeeAddServiceHistoryViewController** - handles adding a service history of an employee
 
@@ -3457,7 +3457,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `saveFailed`.. 
+- `saveFailed` 
 
 ##### **WHSEmployeeAddTestHistoryViewController** - adds an employee's test history
 
@@ -3486,14 +3486,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSaveFailedView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `saveFailed`.. 
+- `saveFailed` 
 
 ##### **WHSEmployeeContractorCompanyPickerViewController** - handles the picking of an employee's contractor company
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`.. 
+- `prepareForSegue: ... sender` 
 
 ##### **WHSEmployeeDepartmentPickerViewController** - handles the picking of an employee department
 
@@ -3502,7 +3502,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddEmployeeDeparmentView`
 - `showEditEmployeeDepartmentView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSEmployeeEditServiceHistoryViewController** - handles the editing of an employee's service history
 
@@ -3517,7 +3517,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSEmployeeEditTestHistoryViewController** - handles the editing of an employee's test history
 
@@ -3532,7 +3532,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions `
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSEmployeeServiceHistoryViewController** - shows the employee service history screen
 
@@ -3547,7 +3547,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `serviceHistorySavingDidFailed: ... responseData`
 - `initializeDataSource`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSEmployeeTestHistoryViewController** - handles the showing of the employee test history screen
 
@@ -3562,7 +3562,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `testHistorySavingDidFailed: ... responseData`
 - `initializeDataSource`
 - `showEditTestHistoryDetailsView `
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSEnvironmentalAtmosphericMonitoringSearchResultsViewController** - handles the showing of the search results in the environmental atmospheric monitoring section
 
@@ -3578,13 +3578,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSEnvironmentalAtmosphericMonitoringSearchViewController** - handles the showing of the search results in the environmental atmospheric monitoring section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSEnvironmentalAtmosphericMonitoringViewController** - handles the showing of the environmental atmospheric monitoring screen
 
@@ -3602,7 +3602,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSEnvironmentalConfinedSpacesSearchResultsViewController** - handles the showing of the search results in the environmental confined spaces section
 
@@ -3619,13 +3619,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `setCellTitlesForDisplay`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSEnvironmentalConfinedSpacesSearchViewController** - handles the searching in the environmental confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSEnvironmentalConfinedSpacesViewController** - handles the showing of the environmental confined spaces screen
 
@@ -3645,12 +3645,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPDFView`
 - `showEmailReportView`
 - `showSearchView`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSEnvironmentalDetailsViewController** - handles the showing of the details in the environmental section
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSEnvironmentalNoiseControlSearchResultsViewController** - handles the showing of the search results in the environmental noise control section
 
@@ -3666,13 +3666,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSEnvironmentalNoiseControlSearchViewController** - handles the searching in the environmental noise control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSEnvironmentalNoiseControlViewController** - handles the environmental noise control screen
 
@@ -3690,7 +3690,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSEnvironmentalSearchViewController** - handles the search in the environmental section
 
@@ -3708,7 +3708,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchResultsViewWithDataList`
 - `showStatusPickerView`
 - `showPersonResponsiblePickerView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSEnvironmentalViewController** - handles the environmental screen
 
@@ -3723,7 +3723,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showNoiseControlView`
 - `showConfinedSpaces`
 - `showAsbestosView`
-- `showCarcinogensView`.. 
+- `showCarcinogensView` 
 
 ##### **WHSExposureLimitsAddViewController** - handles the adding of an exposure limit
 
@@ -3746,7 +3746,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showExposureLimitTypePickerView`
 - `showSearchResultsViewWithSearchPhrase`
 - `searchBarButtonItemDidTapped`
-- `doneBarButtonItemDidTapped`.. 
+- `doneBarButtonItemDidTapped` 
 
 ##### **WHSExposureLimitsSearchResultsViewController** - handles the search results of the exposure limits section
 
@@ -3761,7 +3761,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchSubstanceListData`
 - `initializeDataSource`
 - `initializeDoneBarButtonItem`
-- `doneBarButtonItemDidTapped`.. 
+- `doneBarButtonItemDidTapped` 
 
 ##### **WHSExposureLimitsViewController** - handles the exposure limits screen 
 
@@ -3781,7 +3781,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddExposureLimitsView`
 - `openAddRecordView`
 - `doneBarButtonItemDidTapped`
-- `deleteBarButtonItemDidTapped`.. 
+- `deleteBarButtonItemDidTapped` 
 
 ##### **WHSFireFightingClassPickerViewController** - handles the picking of a class in the fire fighting section
 
@@ -3790,7 +3790,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddClassView`
 - `showEditClassView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSFireFightingRatingPickerViewController** - handles the picking of a rating in the firefighting section
 
@@ -3799,7 +3799,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddRatingView`
 - `showEditRatingView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSGenericPickerViewController** - the superclass of a generic picker view
 
@@ -3808,7 +3808,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddGenericView`
 - `showEditGenericView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSGroupedTableViewController** - handles the showing of a grouped table view
 
@@ -3823,7 +3823,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
 - `preselectedKeysContain`
-- `donePickingBarButtonItemDidTapped`.. 
+- `donePickingBarButtonItemDidTapped` 
 
 ##### **WHSHazardsAsbestosAddDetailsViewController** - handles the adding of the details in the hazards of asbestos section
 
@@ -3865,7 +3865,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `handleLocationData`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSHazardsAsbestosAddInspectionHistoryViewController** - handles the adding of inspection history in the hazards asbestos section
 
@@ -3888,7 +3888,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTestResultsPickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSHazardsAsbestosAddRemovalHistoryViewController** - handles the adding of the removal history in the hazards asbestos section
 
@@ -3912,7 +3912,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDatePicker: ... indexPath`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSHazardsAsbestosEditDetailsViewController** - handles the editing of the details in the hazards asbestos section
 
@@ -3923,7 +3923,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`
-- `createJSONData`.. 
+- `createJSONData` 
 
 ##### **WHSHazardsAsbestosEditInspectionHistoryViewController** - handles the editing of the inspection history in the hazards as Bestos section
 
@@ -3939,7 +3939,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `reloadActionsView`
 - `showActionsView`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSHazardsAsbestosEditRemovalHistoryViewController** - handles the editing of the removal history in the Hazards Asbestos section
 
@@ -3951,7 +3951,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `acSheet: ... clickedButtonAtIndex`
 - `fetchRemovalHistoryData`
 - `initializeDataSource`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSHazardsAsbestosInspectionHistoryViewController** - handles the showing of the inspection history in the Hazards Asbestos screen
 
@@ -3967,7 +3967,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchInspectionHistory`
 - `showEditRecordView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSHazardsAsbestosRemovalHistoryViewController** - handles the removal history of hazards asbestos
 
@@ -3981,14 +3981,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchRemovalHistory`
 - `showEditRecordView `
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSHazardsAsbestosSearchFormViewController** - handles the search form in hazards asbestos
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSHazardsAsbestosSearchResultsViewController** - handles the search results in hazards asbestos
 
@@ -4000,7 +4000,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSHazardsAsbestosTabViewController** - handles the hazards asbestos tab
 
@@ -4016,7 +4016,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showInspectionHistoryView`
 - `showRemovalHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSHazardsAsbestosViewController** - shows the Hazards Asbestos screen
 
@@ -4034,7 +4034,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSHazardsCarcinogensAddEmployeeExposureViewController** - handles the adding of employee exposure in hazards carcinogens
 
@@ -4058,7 +4058,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `disabledCellsIndexPaths`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSHazardsCarcinogensAddRecordViewController** - handles the adding of record in hazards carcinogens
 
@@ -4093,7 +4093,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isProductExists`
 - `appendProducts: ... productNames`
 - `existingProductList`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSHazardsCarcinogensEditEmployeeExposureViewController** - handles the editing of employee exposure in hazards carcinogens
 
@@ -4103,7 +4103,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchEmployeeExposureDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSHazardsCarcinogensEditRecordViewController** - handles editing of a record in the Hazards Carcinogens section
 
@@ -4113,7 +4113,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSHazardsCarcinogensEmployeeExposureViewController** - handles the employee exposure in hazards carcinogens
 
@@ -4128,14 +4128,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchEmployeeExposures`
 - `initializeDataSource`
 - `openEditRecordView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSHazardsCarcinogensSearchFormViewController** - handles the search form in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSHazardsCarcinogensSearchResultsViewController** - handles the search results in hazards carcinogens
 
@@ -4148,7 +4148,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`
-.. 
+ 
 
 ##### **WHSHazardsCarcinogensTabViewController** - handles the hazards carcinogens tab
 
@@ -4163,7 +4163,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showEditDetailsView`
 - `showEmployeeExposureView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSHazardsCarcinogensViewController** - controls the hazards carcinogens
 
@@ -4181,12 +4181,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSHazardsDetailsViewController** - handles the showing of the details in the hazards section
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSHazardsSearchFormViewController** - handles the showing of the search form in the Hazards section
 
@@ -4199,7 +4199,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
-- `showStatusPickerView`.. 
+- `showStatusPickerView` 
 
 ##### **WHSHazardsSearchResutlsViewController** - handles the showing of the search results in the Hazards section
 
@@ -4208,7 +4208,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `searchRecords`
-- `fetchNextPage`.. 
+- `fetchNextPage` 
 
 ##### **WHSHazardsViewController** - handles the showing of the Hazards screen
 
@@ -4218,7 +4218,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAsbestosView`
-- `showCarcinogensView`.. 
+- `showCarcinogensView` 
 
 ##### **WHSIRSearchResultsViewController** - handles the search results in IR
 
@@ -4232,7 +4232,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `searchRecords`
 - `initializeDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSIRSearchViewController** - handles the IR search
 
@@ -4254,7 +4254,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRiskRatingPickerView`
 - `showStatusPickerView`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSIncidentReportingAddNewHazardsViewController** - handles the adding of new hazards in incident reporting
 
@@ -4277,7 +4277,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `clearHazardData`.. 
+- `clearHazardData` 
 
 ##### **WHSIncidentReportingAddNewWitnessViewController** - handles the adding of new witness in incident reporting
 
@@ -4303,7 +4303,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showWorkerPickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `clearWitnessData`.. 
+- `clearWitnessData` 
 
 ##### **WHSIncidentReportingAddRecordViewController** - handles the adding of record in incident reporting
 
@@ -4381,7 +4381,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `setValuesForCell: ... fromData: ... usingParam`
 - `insertValue: ... forKeyPath: ... inData`
 - `insertValue: ... forKeyPath: ... inData`
-- `valueFromData: ... forKeyPath: ... withTransForm`.. 
+- `valueFromData: ... forKeyPath: ... withTransForm` 
 
 ##### **WHSIncidentReportingAddTypeViewController** - handles the adding of type in incident reporting
 
@@ -4400,18 +4400,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSIncidentReportingAdditionalDetailsViewController** - handles the additional details in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSIncidentReportingDetailsViewController** - handles the details in incident reporting
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSIncidentReportingEditAdditionalDetailsViewController** - handles the editing of additional details in incident reporting
 
@@ -4470,7 +4470,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isProductExists`
 - `appendProducts: ... productNames`
-- `existingProductList`.. 
+- `existingProductList` 
 
 ##### **WHSIncidentReportingEditDetailsViewController** - handles the editing of details in incident reporting
 
@@ -4489,7 +4489,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeWorkerDetails`
 - `initializeFirstReportDetails`
 - `initializeIntiialReportDetails`
-- `sendFetchRequest: ... delegate: ... dictionaryType`.. 
+- `sendFetchRequest: ... delegate: ... dictionaryType` 
 
 ##### **WHSIncidentReportingEditHazardsViewController** - handles the editing of a hazard in the incident reporting section
 
@@ -4500,13 +4500,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchHazardDetailsData`
 - `initializeDataSource`
-.. 
+ 
 
 ##### **WHSIncidentReportingEditTypeViewController** - handles the editing of a type in the Incident Reporting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSIncidentReportingEditWitnessViewController** - handles the editing of a witness in the Incident Reporting section
 
@@ -4516,7 +4516,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchWitnessDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSIncidentReportingHazardsViewController** - controls the WHS incident reporting hazards view
 
@@ -4536,7 +4536,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEditHazardView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSIncidentReportingIncidentAssessmentViewController** - handles the WHS incident reporting incident assessment view
 
@@ -4588,7 +4588,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `appendSelectedItemWithIDs`
 - `discardSelectedItemWithStringOfIDs`
 - `discardSelectedItemWithStringOfIDsChemical`
-- `dismissedViewWithRecords`.. 
+- `dismissedViewWithRecords` 
 
 ##### **WHSIncidentReportingRecordViewController** - shows the Incident Reporting Record screen
 
@@ -4607,7 +4607,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `openPDFView`
 - `showEmailReport`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSIncidentReportingTabViewController** - handles the incident reporting procedures tab
 
@@ -4632,7 +4632,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showWitnessessView`
 - `showTreatmentsView`
 - `showIncidentAssessmentDetailsView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSIncidentReportingTreatmentsDetailsViewController** - handles the WHS incident reporting treatments details view
 
@@ -4663,7 +4663,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showUnitPickerView`
 - `showDatePickerWithIndexPath`
 - `showDateTimePickerWithIndexPath`
-- `saveBarButtonItemDidTapped`.. 
+- `saveBarButtonItemDidTapped` 
 
 ##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
 
@@ -4672,7 +4672,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddIncidentReportingTypeView`
 - `showEditIncidentReportingTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSIncidentReportingWitnessesViewController** - handles the incident reporting witnesses view
 
@@ -4691,7 +4691,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `deleteWitnessData`
 - `initializeDataSource`
 - `showEditWitnessView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSInspectionTypePickerViewController** - handles the picker view for inspection types
 
@@ -4700,7 +4700,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddInspectionTypeView`
 - `showEditInspectionTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSLandingViewController** - handles the Landing screen
 
@@ -4723,7 +4723,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionsMonitorSearchResultsView`
 - `fetchDashboardInformations`
 - `fetchDynamicMenu`
-- `processDashboardData`.. 
+- `processDashboardData` 
 
 ##### **WHSLegislationsTabViewController** - handles the Legislations tab
 
@@ -4738,7 +4738,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showEmailReportView`
 - `showEditDetailsView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSLicencePickerViewController** - handles the License Picker
 
@@ -4747,7 +4747,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddLicenceView`
 - `showEditLicenceView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSLocationPickerViewController** - handles the picker view for location
 
@@ -4756,14 +4756,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddLocationView`
 - `showEditLocationView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSLocationTypePickerViewController** - handles the picker view for location types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddLocationView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSLoginViewController** - handles the Login screen and login in of a user
 
@@ -4783,7 +4783,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `validateUserCredentials`
 - `getResponseMessage`
 - `validateUsername`
-- `validatePassword`.. 
+- `validatePassword` 
 
 ##### **WHSMSDSProductDetailsViewController** - handles the product details in msds
 
@@ -4799,7 +4799,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `mailComposeController: ... didFinishWithResult: ... error`
 - `fetchProductDetails`
 - `sanitizeJSON`
-- `reorderSanitizedJSON`.. 
+- `reorderSanitizedJSON` 
 
 ##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
 
@@ -4814,7 +4814,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … heightForRowAtIndexPath`
 - `tableView: … didSelectRowAtIndexPath`
 - `searchProducts`
-.. 
+ 
 
 ##### **WHSMSDSSearchViewController** - handles the searching in msds
 
@@ -4834,14 +4834,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeUserInputReceivers`
 - `searchBarButtonItemDidTapped`
 - `finishedSelectingSearchTypeHandler`
-- `finishedSelectingSearchFormatHandler`.. 
+- `finishedSelectingSearchFormatHandler` 
 
 ##### **WHSManifestsReportPDFViewController** - handles the PDF display for manifests reports
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`.. 
+- `prepareForSegue` 
 
 ##### **WHSMenuViewController** - controls menu
 
@@ -4881,7 +4881,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `formatPickedItems: ... dataToBeExtractedKey: ... indent`
 - `formatPickedItems: ... dataToBeExtractedKey: ... indent: .. indentationString`
 - `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
-- `formatPickedPersons: ... indentationString`.. 
+- `formatPickedPersons: ... indentationString` 
 
 ##### **WHSNoiseAssessmentSubTypePickerViewController** - handles the picker view for noise assessment sub types
 
@@ -4890,7 +4890,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddSubTypeView`
 - `showEditSubTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSNoiseControlAddAssessmentViewController** - handles adding an assessment in the Noise Control section
 
@@ -4913,14 +4913,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSNoiseControlAddControlViewController** - handles the adding of a control in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`.. 
+- `prepareForSegue` 
 
 ##### **WHSNoiseControlAddRecordViewController** - handles the adding for noise control records
 
@@ -4978,7 +4978,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `setSelectedItemWithIDs`
 - `appendSelectedItemWithIDs`
 - `discardSelectedItemWithStringOfIDs`
-.. 
+ 
 
 ##### **WHSNoiseControlAssessmentDetailsViewController** - handles the showing of assessment details in the Noise Control section
 
@@ -4998,7 +4998,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddAssessmentView`
 - `showEditCommentView`
 - `cellRightUtitilityButtons`
-- `sanitizeAssessments`.. 
+- `sanitizeAssessments` 
 
 ##### **WHSNoiseControlEditAssessmentCommentViewController** - handles the editing of an assessment in the Noise Control section
 
@@ -5007,7 +5007,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `tableView: … cellForRowAtIndexPath`
 - `tableView: … heightForRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
 
@@ -5034,7 +5034,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showMeasurementLocalityPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-.. 
+ 
 
 ##### **WHSNoiseControlEditRecordViewController** - handles the editing of a record in Noise Control section
 
@@ -5044,7 +5044,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchNoiseControlDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSNoiseControlNewControlViewController** - handles the showing of the new control in the Noise Control section
 
@@ -5059,7 +5059,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `showEditRecordView`
 - `initializeDataSource`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSNoiseControlTabViewController** - handles the noise control tab
 
@@ -5076,7 +5076,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showEditMeasurementView`
 - `showAssessmentView`
-- `showNewControlsView`.. 
+- `showNewControlsView` 
 
 ##### **WHSNonChemicalRiskAssessmentAssessmentViewController** - handles the WHS nonchemical risk assessment assessment view
 
@@ -5092,7 +5092,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … heightForRowAtIndexPath`
 - `fetchAssessmentData`
 - `initializeDataSource`
-.. 
+ 
 
 ##### **WHSNonChemicalRiskAssessmentDetailsViewController** - handles the WHS nonchemical risk assessment details view
 
@@ -5110,13 +5110,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … heightForFooterInSection`
 - `tableView: … heightForRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSNonChemicalRiskAssessmentNewControlsViewController** - handles the new controls in non chemical risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`.. 
+- `tableView: ... didSelectRowAtIndexPath` 
 
 ##### **WHSNonChemicalRiskAssessmentSearchResultsViewController** - handles the search results in non chemical risk assessment
 
@@ -5132,14 +5132,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSNonChemicalRiskAssessmentSearchViewController** - handles the search in non chemical risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... didSelectRowAtIndexPath`
-- `showSearchResultsView`.. 
+- `showSearchResultsView` 
 
 ##### **WHSNonChemicalRiskAssessmentTabViewController** - handles the non chemical risk assessment tab
 
@@ -5163,7 +5163,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsView`
 - `showConsequencesView`
 - `showCurrentControlsView`
-- `processTabFlags`.. 
+- `processTabFlags` 
 
 ##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
 
@@ -5181,7 +5181,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPDFView`
 - `showEmailReportView`
 - `showTabView`
-.. 
+ 
 
 ##### **WHSNonChemicalRiskManagementViewController** - controls the non chemical risk management
 
@@ -5193,7 +5193,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showHATRiskAssessmentView`
 - `showSWMSView`
-- `showSWPView`.. 
+- `showSWPView` 
 
 ##### **WHSNonChemicalSafeWorkManagementSystemActionViewController** - handles the WHS nonchemical safe work management system action view
 
@@ -5203,7 +5203,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`
-.. 
+ 
 
 ##### **WHSNonChemicalSafeWorkManagementSystemAddActionViewController** - handles the WHS adding of action for nonchemical safe work management systems
 
@@ -5234,7 +5234,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `getRecipientIDs`
-- `createPOSTJSON`.. 
+- `createPOSTJSON` 
 
 ##### **WHSNonChemicalSafeWorkManagementSystemEditActionViewController** - handles the editing of actions for WHS nonchemical safe work management system
 
@@ -5244,7 +5244,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchActionDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSNonChemicalSafeWorkProceduresAddActionViewController** - handles the adding of action for the WHS nonchemical safe work procedures
 
@@ -5275,7 +5275,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `getRecipientIDs`
-- `createPOSTJSON`.. 
+- `createPOSTJSON` 
 
 ##### **WHSNonChemicalSafeWorkProceduresEditActionViewController** - handles the editing of actions for WHS nonchemical safe work procedures
 
@@ -5284,7 +5284,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `fetchActionDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSNotificationReceiverPickerViewController** - handles the picker in notification receiver
 
@@ -5293,7 +5293,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddNotificationReceiversView`
 - `showEditNotificationReceiversView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSOfflineFormViewController** - shows the workers 
 
@@ -5303,7 +5303,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 `initializeDataSource`
 `accessPermission`
 `tableView(...didSelectRowAt)`
-`tableView(...heightForRowAt)`.. 
+`tableView(...heightForRowAt)` 
 
 ##### **WHSOfflineFormsAuditsInspectionViewController** - handles the audits inspection in the offline forms section
 
@@ -5311,7 +5311,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewWillAppear`
 - `initializeDataSource`
-- `tableView(...didSelectRowAt)`.. 
+- `tableView(...didSelectRowAt)` 
 
 ##### **WHSOfflineFormsViewController** - handles the offline forms screen
 
@@ -5324,19 +5324,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView(...cellForRowAt)`
 - `tableView(...didSelectRowAt)`
 - `tableView(...heightForRowAt)`
-.. 
+ 
 
 ##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPAPComplaintsSearchViewController** handles the searching for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-.. 
+ 
 
 ##### **WHSPAPComplaintsTabViewController** - handles the PAP complaints tab
 
@@ -5354,7 +5354,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showChecklistView`
 - `showPointsRaisedView`
 - `showActionsView`
-.. 
+ 
 
 ##### **WHSPAPDetailsViewController** - handles the PAP details
 
@@ -5364,18 +5364,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... titleForHeaderInSection`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSPAPDrillsSearchResultsViewController** - handles the search results in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPAPDrillsSearchViewController** - handles the searching in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
 - `showSearchResultsViewWithDataList`
-.. 
+ 
 
 ##### **WHSPAPDrillsTabViewController** - handles the PAP drills tab
 
@@ -5391,18 +5391,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showEditDetailsView`
 - `showChecklistView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSPAPLegislationsSearchResultsViewController** - handles the search results in the PAP Legislations section
 
 ###### **Methods and Calculated Variables**
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPAPLegislationsSearchViewController** - handles the searching in the PAP Legislations section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSPAPPlansProceduresTabViewController** - handles the PAP plans procedures tab
 
@@ -5420,18 +5420,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showChecklistView`
 - `showEmergencyProcedureView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPAPPlansSearchViewController** - handles the searching in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSPAPSearchResultsViewController** - handles the search results in PAP
 
@@ -5447,7 +5447,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPAPSearchViewController** - handles the searching in pap
 
@@ -5468,12 +5468,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSubTypePickerView`
 - `showStatusPickerView`
 - `showDatePickerWithIndexPath`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
 
 ###### **Methods and Calculated Variables**
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPAPTrainingTabViewController** - handles the pap training tab
 
@@ -5490,12 +5490,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showChecklistView`
 - `showAttendeesView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
 
 ###### **Methods and Calculated Variables**
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSPDFAddSigneesViewController** - handles the PDF Add signees screen
 
@@ -5515,13 +5515,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignatureViewController`
 - `initializeDataSource`
 - `showPersonInvolvedTypeView`
-- `refreshActionedByFields`.. 
+- `refreshActionedByFields` 
 
 ##### **WHSPDFEditSigneeViewController** - handles the editing of the signee on a pdf
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSPDFSigneesViewController** - handles the showing of the PDF Signees screen
 
@@ -5542,7 +5542,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `tableView: … editActionsForRowAtIndexPath`
 - `initializeDataSource`
-- `saveOnlineSignature`.. 
+- `saveOnlineSignature` 
 
 ##### **WHSPDFViewController** - handles the pdf view
 
@@ -5574,7 +5574,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `downloadPDF`
 - `fetchPDF`
 - `directlyFetchPDF`
-- `loadPDFFileToWebView`.. 
+- `loadPDFFileToWebView` 
 
 ##### **WHSPointsRaisedViewController** - controls the points raised
 
@@ -5595,7 +5595,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEditPointsRaisedView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSPoliciesAddRecordViewController** - handles the adding of WHS policies records
 
@@ -5630,7 +5630,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
-- `clearTypeData`.. 
+- `clearTypeData` 
 
 ##### **WHSPoliciesComplaintsAddRecordViewController** - handles the adding of policies complaints records
 
@@ -5677,7 +5677,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
 - `clearLocationTypeData`
-.. 
+ 
 
 ##### **WHSPoliciesComplaintsEditRecordViewController** - handles the editing of policies complaints records
 
@@ -5687,7 +5687,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSPoliciesComplaintsViewController** - handles the policies complaints
 
@@ -5705,7 +5705,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSPoliciesDrillsAddRecordViewController** - handles the adding of policies drills records
 
@@ -5751,7 +5751,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
 - `clearLocationTypeData`
-.. 
+ 
 
 ##### **WHSPoliciesDrillsEditRecordViewController** - handles the editing of record in policies drills
 
@@ -5761,7 +5761,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSPoliciesDrillsViewController** - controls the policies drills
 
@@ -5779,7 +5779,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSPoliciesEditRecordViewController** - handles the editing of record in policies
 
@@ -5789,7 +5789,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSPoliciesLegislationsAddRecordViewController** - handles the adding of policies legislations records
 
@@ -5826,7 +5826,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
-- `clearTypeData`.. 
+- `clearTypeData` 
 
 ##### **WHSPoliciesLegislationsEditRecordViewController** - handles the editing of record in the policies legislations
 
@@ -5840,7 +5840,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `getApplicableStates`
 - `getApplicableStatesIDs`
 - `getVerifiedStates`
-- `getVerifiedStatesIDs`.. 
+- `getVerifiedStatesIDs` 
 
 ##### **WHSPoliciesLegislationsViewController** - controls the policies legislations
 
@@ -5858,7 +5858,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSPoliciesPlansAddRecordViewController** - handles the adding of record in policies plans
 
@@ -5899,7 +5899,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
-- `clearLocationTypeData`.. 
+- `clearLocationTypeData` 
 
 ##### **WHSPoliciesPlansEditRecordViewController** - handles the editing of record in policies plans
 
@@ -5909,7 +5909,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSPoliciesPlansViewController** - controls the policies plans
 
@@ -5927,7 +5927,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSPoliciesProceduresViewController** - handles the procedures in policies
 
@@ -5942,19 +5942,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showLegislationsView`
 - `showTrainingView`
 - `showDrillView`
-- `showComplaintsView`.. 
+- `showComplaintsView` 
 
 ##### **WHSPoliciesSearchResultsViewController** - handles the display of search results for policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSPoliciesSearchViewController** - handles the searching of policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSPoliciesTabViewController** - handles the policies tab
 
@@ -5969,7 +5969,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showEmailReportView`
 - `showEditDetailsView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSPoliciesTrainingAddRecordViewController** - handles the WHS adding of policies training records
 
@@ -6013,7 +6013,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
-- `clearLocationTypeData`.. 
+- `clearLocationTypeData` 
 
 ##### **WHSPoliciesTrainingEditRecordViewController** - handles the editing of record in policies training
 
@@ -6024,7 +6024,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`
-- `getInternalExternal`.. 
+- `getInternalExternal` 
 
 ##### **WHSPoliciesTrainingViewController** - controls the policies training
 
@@ -6042,7 +6042,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSPoliciesViewController** - controls the policies
 
@@ -6060,7 +6060,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSProductDetailsViewController** - handles the display of product details
 
@@ -6070,14 +6070,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `numberOfSectionsInTableView`
 - `tableView: … numberOfRowsInSection`
 - `tableView: … cellForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSProjectPickerViewController** - handles the project picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddProjectView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSRecordViewController** - handles showing of the Record screen
 
@@ -6114,7 +6114,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `openPDFView`
 - `openAddRecordView`
 - `moreOptionsBarButtonItemDidTapped`
-- `searchItem`.. 
+- `searchItem` 
 
 ##### **WHSRegisterActionDetailsViewController** - handles the action details in register
 
@@ -6125,14 +6125,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `initializeDataSource`
-- `fetchActionDetails`.. 
+- `fetchActionDetails` 
 
 ##### **WHSRegisterActionManagerViewController** - handles the action manager of the register
 
 ###### **Methods and Calculated Variables**
 - `tablePickerDidFinishedPicking: ... dataPicked`
 - `createInData`
-- `transferActionData`.. 
+- `transferActionData` 
 
 ##### **WHSRegisterActionsViewController** - handles the actions of the register
 
@@ -6150,7 +6150,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchActionsData`
 - `initializeDataSource`
 - `showEditRecordView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSRegisterAddActionViewController** - handles the adding of action in the register
 
@@ -6161,7 +6161,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`.. 
+- `cellSwitchDidValueChanged` 
 
 ##### **WHSRegisterAddActionsViewController** - handles the adding of actions in the register
 
@@ -6195,7 +6195,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `createJSON`.. 
+- `createJSON` 
 
 ##### **WHSRegisterAddServiceTypeViewController** - handles the adding of service type in the register
 
@@ -6214,7 +6214,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSRegisterAddTestTypeViewController** - handles the adding of test type in the register
 
@@ -6233,7 +6233,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSRegisterEditActionDetailsViewController** - handles the editing of action details in the register
 
@@ -6245,7 +6245,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`.. 
+- `cellSwitchDidValueChanged` 
 
 ##### **WHSRegisterEditActionsViewController** - handles the editing of actions in register
 
@@ -6258,19 +6258,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchActionDetailsData`
 - `initializeDataSource`
-- `formatNotificationReceivers`.. 
+- `formatNotificationReceivers` 
 
 ##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSRegisterEditTestTypeViewController** - handles the editing of a test type in the Registers section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSRegisterServiceTypePickerViewController** - handles the picking of a service type in Registers section
 
@@ -6279,7 +6279,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddServiceTypeView`
 - `showEditServiceTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSRegisterTestHistoryDetailsViewController** - handles the viewing of the details of the Register Test History
 
@@ -6288,7 +6288,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `processActionRecordCount`
 - `initializeEditDetailsView`
-- `showEditDetailsView`.. 
+- `showEditDetailsView` 
 
 ##### **WHSRegisterTestHistoryViewController**
 
@@ -6300,7 +6300,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … heightForRowAtIndexPath`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchTestHistories`
-- `showTestHistoryDetailsView`.. 
+- `showTestHistoryDetailsView` 
 
 ##### **WHSRegisterTestTypePickerViewController** - handles the picking of a Register Test Type
 
@@ -6309,11 +6309,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddTestTypeView`
 - `showEditTestTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSRegistersSearchViewController** - handles the searching in registers
 
-###### **Methods and Calculated Variables**.. 
+###### **Methods and Calculated Variables** 
 
 ##### **WHSRegistersViewController** - handles the viewing of the Registers screen
 
@@ -6329,7 +6329,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAssetsView`
 - `showSafetyView`
 - `showEnvironmentalView`
-- `showChemicalsView`.. 
+- `showChemicalsView` 
 
 ##### **WHSReportIncidentViewController** - handles the showing of the Report Incident Screen 
 
@@ -6415,14 +6415,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `clearLocationTypeData`
 - `clearDepartmentData`
-- `cellIndexForField`.. 
+- `cellIndexForField` 
 
 ##### **WHSRichTextEditorViewController** - handles the rich text editor
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`.. 
+- `prepareForSegue` 
 
 ##### **WHSRiskAssessmentActionDetailsViewController** - handles the action details in the risk assessment
 
@@ -6433,7 +6433,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchActionDetails`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSRiskAssessmentActionManagerViewController** - handles the action manager in the risk assessment
 
@@ -6442,7 +6442,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createInData`
 - `isValidObjectForIndex`
 - `transferActionData`
-- `showActionControlMeasurePickerView`.. 
+- `showActionControlMeasurePickerView` 
 
 ##### **WHSRiskAssessmentAddActionViewController** - handles the adding of action in the risk assessment
 
@@ -6453,7 +6453,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `cellSwitchDidValueChanged`
-- `saveActionButtonDidTapped`.. 
+- `saveActionButtonDidTapped` 
 
 ##### **WHSRiskAssessmentEditActionDetailsViewController** - handles the editing of action details in risk assessment
 
@@ -6465,7 +6465,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`.. 
+- `cellSwitchDidValueChanged` 
 
 ##### **WHSRiskAssessmentPicturesViewController** - handles the showing of pictures in the Risk Management section
 
@@ -6474,7 +6474,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeCollectionViews`
 - `preferredCollectionViewFrame`
 - `processPictures`
-- `processHeadersAndDetails`.. 
+- `processHeadersAndDetails` 
 
 ##### **WHSRiskAssessmentViewController** - controls the risk assessment
 
@@ -6509,7 +6509,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `disableViewPDF`
 - `disableAttachments`
 - `disableEmailReport`
-- `disableActions`.. 
+- `disableActions` 
 
 ##### **WHSRiskManagementAddActionViewController** - handles the adding of action in risk management
 
@@ -6541,7 +6541,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `clearControlMeasureData`
 - `isAllRequiredDataFilledUp`
 - `getRecipientIDs`
-- `createPOSTJSON`.. 
+- `createPOSTJSON` 
 
 ##### **WHSRiskManagementEditActionViewController** - handles the editing of action in risk management
 
@@ -6551,7 +6551,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `fetchActionDetailsData`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSRiskManagementViewController** - handles the Risk Management screen
 
@@ -6564,7 +6564,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `showChemicalRiskManagementView`
 - `showNonChemicalRiskManagementView`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkManagementSystemActionDetailsViewController** - handles the action details of safe work management system
 
@@ -6575,7 +6575,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `initializeDataSource`
-- `fetchActionDetails`.. 
+- `fetchActionDetails` 
 
 ##### **WHSSafeWorkManagementSystemActionManagerViewController** - handles the action manager of safe work management system
 
@@ -6583,7 +6583,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tablePickerDidFinishedPicking: ... dataPicked`
 - `createInData`
 - `transferActionData`
-- `showActionTaskPickerView`.. 
+- `showActionTaskPickerView` 
 
 ##### **WHSSafeWorkManagementSystemActivityViewController** - handles the activity in safe work management system
 
@@ -6601,7 +6601,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `fetchActivityData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkManagementSystemAddActionViewController** -  handles the adding of action in safe work management system
 
@@ -6612,7 +6612,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`.. 
+- `cellSwitchDidValueChanged` 
 
 ##### **WHSSafeWorkManagementSystemDetailViewController** - handles the detail in safe work management system
 
@@ -6630,7 +6630,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkManagementSystemEditActionDetailsViewController** - handles the editing of action details in safe work management system
 
@@ -6642,7 +6642,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`.. 
+- `cellSwitchDidValueChanged` 
 
 ##### **WHSSafeWorkManagementSystemSearchResultsViewController** - handles the search results in safe work management system
 
@@ -6658,7 +6658,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafeWorkManagementSystemSearchViewController** - handles the searching in safe work management system
 
@@ -6675,7 +6675,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showGenericPickerViewWithType`
 - `showRecordTypePickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSSafeWorkManagementSystemTabViewController** - handles the safe work management system tab
 
@@ -6691,7 +6691,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showActivityView`
 - `showTasksView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafeWorkManagementSystemTaskViewController** - handles the tasks in safe work management system
 
@@ -6708,7 +6708,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchTasksData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkManagementSystemViewController** - controls the safe work management system
 
@@ -6722,7 +6722,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
 
@@ -6731,7 +6731,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
-- `showEditActionView`.. 
+- `showEditActionView` 
 
 ##### **WHSSafeWorkProceduresChecklistViewController** - handles the checklist in safe work procedures
 
@@ -6746,7 +6746,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchChecklistData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkProceduresDetailViewController** - handles the details in safe work procedures
 
@@ -6764,7 +6764,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
 
@@ -6779,7 +6779,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForRowAtIndexPath`
 - `fetchSWPData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafeWorkProceduresSearchResultsViewController** - handles the search results in safe work procedures
 
@@ -6795,7 +6795,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafeWorkProceduresSearchViewController** - handles the searching in safe work procedures
 
@@ -6814,7 +6814,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showStatusPickerView`
 - `showDatePicker`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSSafeWorkProceduresTabViewController** - handles the safe work procedures tab
 
@@ -6830,7 +6830,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showSWPView`
 - `showChecklistView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafeWorkProceduresViewController** - shows share work procedures
 
@@ -6844,7 +6844,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetyAddDetailsViewController** - handles the adding of details in safety
 
@@ -6888,7 +6888,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `clearSubTypeData`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSSafetyAddTestHistoryViewController** - handles the adding of test history in safety
 
@@ -6916,7 +6916,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showStatusPickerView`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSSafetyEditDetailsViewController** - handles the editing of details in safety
 
@@ -6928,7 +6928,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsDat`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSafetyEditServiceHistoryViewController** - handles the editing of service history in safety
 
@@ -6943,7 +6943,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSSafetyEditTestHistoryViewController** - handles the editing of test history in safety
 
@@ -6958,7 +6958,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions`
-- `showAttachmentsView`.. 
+- `showAttachmentsView` 
 
 ##### **WHSSafetyEmergencyWashingAddDetailsViewController** - handles the adding go details in the safety emergency washing section
 
@@ -6968,14 +6968,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyEmergencyWashingAddTestHistoryViewController** - handles the adding of test history in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyEmergencyWashingEditDetailsViewController** - handles the editing of the details in the safety emergency washing section
 
@@ -6986,14 +6986,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
 - `tableView: … heightForRowAtIndexPath`
-.. 
+ 
 
 ##### **WHSSafetyEmergencyWashingEditTestHistoryViewController** - handles the editing of the history of safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyEmergencyWashingSearchResultsViewController** - handles the search results in the safety emergency washing section
 
@@ -7003,13 +7003,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetyEmergencyWashingSearchViewController** - handles searching in safety emergency washing 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSSafetyEmergencyWashingTabViewController** - logic for the safety emergency washing tab
 
@@ -7023,7 +7023,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafetyEmergencyWashingViewController** shows safety emergency washing screen
 
@@ -7042,35 +7042,35 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showTabView`
 - `openPDFView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyFireDetectionAddDetailsViewController** - handles the adding of details in the Safety Fire Detection section section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireDetectionAddTestHistoryViewController** - handles the adding of a test history in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireDetectionEditDetailsViewController** - handles the editing of the details in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireDetectionEditTestHistoryViewController** - handles the editing of a test history in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireDetectionSearchResultsViewController** - handles the search results in the Safety Fire Detection section
 
@@ -7080,13 +7080,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetyFireDetectionSearchViewController** - handles the search function in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSSafetyFireDetectionTabViewController** - handles the Safety fore detection screen
 
@@ -7100,7 +7100,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafetyFireDetectionViewController** - handles the display of the Safety Fire Detection screen
 
@@ -7119,7 +7119,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showTabView`
 - `openPDFView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyFireFightingAddDetailsViewController** - shows the add details screen in the safety fire fighting section
 
@@ -7129,14 +7129,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireFightingAddTestHistoryViewController** -shows the add test history screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireFightingEditDetailsViewController** - shows the edit details screen in the safety fire fighting section
 
@@ -7146,14 +7146,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireFightingEditTestHistoryViewController** - shows edit test history screen in safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFireFightingSearchResultsViewController** - shows the search results screen in the safety fire fighting section
 
@@ -7163,14 +7163,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetyFireFightingSearchViewController** - shows the search screen in safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-.. 
+ 
 
 ##### **WHSSafetyFireFightingTabViewController** - logic behind safety fire fighting tab
 
@@ -7184,7 +7184,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafetyFireFightingViewController** - shows safety fire fighting scree
 
@@ -7202,7 +7202,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyFirstAidAddDetailsViewController** - handles the adding of details in the Safety First Aid section
 
@@ -7212,7 +7212,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFirstAidAddTestHistoryViewController** - handles the adding of a test history in the Safety First Aid section
 
@@ -7220,7 +7220,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-.. 
+ 
 
 ##### **WHSSafetyFirstAidEditDetailsViewController** - handles the editing  of details in safety first aid
 
@@ -7230,14 +7230,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFirstAidEditTestHistoryViewController** - handles the editing of test history in safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyFirstAidSearchResultsViewController** - handles the search results in safety first aid
 
@@ -7247,13 +7247,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetyFirstAidSearchViewController** - handles searching in safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSSafetyFirstAidTabViewController** - handles the safety first aid tab 
 
@@ -7267,7 +7267,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafetyFirstAidViewController** - controls the safety first aid
 
@@ -7285,7 +7285,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyPPEAddDetailsViewController** - handles adding details in Safety PPEs
 
@@ -7297,7 +7297,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … heightForFooterInSection`
 - `tableView: … heightForRowAtIndexPath`
 
-.. 
+ 
 
 ##### **WHSSafetyPPEAddEmployeeViewController** - handles the adding of employee in safety ppe
 
@@ -7327,14 +7327,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDatePickerWithIndexPath`
 - `saveBarButtonItemDidTapped`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSSafetyPPEAddTestHistoryViewController** - handles adding test history of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyPPEEditDetailsViewController** - handles the editing of details in safety ppe
 
@@ -7344,7 +7344,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`.. 
+- `tableView: ... heightForRowAtIndexPath` 
 
 ##### **WHSSafetyPPEEditEmployeeViewController** - handles the editing of employee in safety ppe
 
@@ -7364,14 +7364,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEmployeeActionsView`
 - `showEmployeeTestHistoryView`
-- `showEmployeeServiceHistoryView`.. 
+- `showEmployeeServiceHistoryView` 
 
 ##### **WHSSafetyPPEEditTestHistoryViewController** - handles editing the test history of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetyPPEEmployeeViewController** - handles employee view of Safety PPEs
 
@@ -7385,7 +7385,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchEmployees`
 - `showEditPPEDetailsView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyPPESearchResultsViewController** - handles the search results of Safety PPEs
 
@@ -7396,13 +7396,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetyPPESearchViewController** - handles searching of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSSafetyPPETabViewController** - handles the safety ppe tab
 
@@ -7417,7 +7417,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmployeeView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafetyPPEViewController** - handles the safety ppe
 
@@ -7435,7 +7435,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
 
@@ -7449,7 +7449,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetySpillKitAddDetailsViewController** - shows add details screen in safety spill kit section
 
@@ -7459,14 +7459,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetySpillKitAddTestHistoryViewController** - shows ad test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetySpillKitEditDetailsViewController** - shows edit details screen of safety spill kit section
 
@@ -7476,7 +7476,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForHeaderInSection`
 - `tableView: … heightForFooterInSection`
-- `tableView: … heightForRowAtIndexPath`.. 
+- `tableView: … heightForRowAtIndexPath` 
 
 ##### **WHSSafetySpillKitEditTestHistoryViewController** - shows edit test history screen in safety spill kit section
 
@@ -7484,7 +7484,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `tableView: … estimatedHeightForRowAtIndexPath`
 - `tableView: … heightForRowAtIndexPath`
-.. 
+ 
 
 ##### **WHSSafetySpillKitSearchResultsViewController** - shows safety spill kit search results
 
@@ -7494,13 +7494,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: … didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSafetySpillKitSearchViewController** - shows safety spill kit search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSSafetySpillKitTabViewController** - logic for safety spill kit tab
 
@@ -7514,7 +7514,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`.. 
+- `showActionsView` 
 
 ##### **WHSSafetySpillKitViewController** - shows safety spill kit view
 
@@ -7532,7 +7532,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSafetyTabViewController** - handles the showing of the Safety view
 
@@ -7550,7 +7550,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showServiceHistoryView`
 - `showActionsView`
 - `showPDFView`
-- `showAttachmentView`.. 
+- `showAttachmentView` 
 
 ##### **WHSSafetyTestHistoryViewController** - handles the showing of the history in the Safety Test section
 
@@ -7561,7 +7561,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTestHistoryDetailsView`
 - `showEditTestHistoryDetailsView`
 - `openAddRecordView`
-.. 
+ 
 
 ##### **WHSSafetyViewController** - controls the safety
 
@@ -7576,7 +7576,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showFireDetectionView`
 - `showFirstAidKitView`
 - `showSpillKitView`
-- `showPPEView`.. 
+- `showPPEView` 
 
 ##### **WHSSearchRecordViewController** - shows search record view
 
@@ -7584,12 +7584,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `initializeSearchBarButtonItem`
 - `searchBarButtonItemDidTapped`
-- `showSearchResultsViewWithDataList`.. 
+- `showSearchResultsViewWithDataList` 
 
 ##### **WHSSearchResultsRecordViewController** - logic behind the search results record screen
 
 ###### **Methods and Calculated Variables**
-- `searchRecords`.. 
+- `searchRecords` 
 
 ##### **WHSSearchViewController** - logic behind the search screen
 
@@ -7599,7 +7599,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeSearchBarButtonItem`
 - `showDatePicker`
 - `searchBarButtonItemDidTapped`
-- `formatPickedItems`.. 
+- `formatPickedItems` 
 
 ##### **WHSSettingViewController** - handles and shows the Settings screen
 
@@ -7618,7 +7618,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `logoutButtonDidTapped`
 - `emailButtonDidTapped`
 - `callButtonDidTapped`
-- `switchValueDidChanged`.. 
+- `switchValueDidChanged` 
 
 ##### **WHSSideMenuViewController** - the logic behind the Side Manu of the app
 
@@ -7645,7 +7645,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `settingsButtonDidTapped`
 - `actionMonitorButtonDidTapped`
 - `offlineDocumentsButtonDidTapped`
-- `localFormsButtonTapped`.. 
+- `localFormsButtonTapped` 
 
 ##### **WHSSiteRAControlsViewController** - handles the Controls screen of the Site RA section
 
@@ -7672,7 +7672,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `textViewDidChange`
 - `initializeDataSource`
 - `initializeAddRecord`
-- `openAddRecordView`.. 
+- `openAddRecordView` 
 
 ##### **WHSSiteRAHazardsAddHazardViewController** - handles the adding of a hazard in the Site RA Hazards section
 
@@ -7695,7 +7695,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `clearHazardData`.. 
+- `clearHazardData` 
 
 ##### **WHSSiteRAHazardsViewController** - handles the Hazards screen in the Site RA section
 
@@ -7729,7 +7729,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `initializeDataSource`
 - `updateTemplateCell`
-- `updateHazardSection`.. 
+- `updateHazardSection` 
 
 ##### **WHSSiteRARiskDetailViewController** - handles the risk detail of the Site RA section
 
@@ -7760,7 +7760,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `acSheet: … clickedButtonAtIndex`
 - `saveRecordData`
 - `initializeDataSource`
-- `clearHazardData`.. 
+- `clearHazardData` 
 
 ##### **WHSSiteRARisksAddControlViewController** - logic for the screen that shows add risk control in site risk assessment view controller
 
@@ -7794,7 +7794,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeAddBarButtonItem`
 - `showAddActionView`
 - `showEditActionView`
-- `addBarButtonItemDidTapped`.. 
+- `addBarButtonItemDidTapped` 
 
 ##### **WHSSiteRARisksRatingViewController** - handles the risk rating screen of the Site RA section
 
@@ -7829,7 +7829,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `acSheet: … clickedButtonAtIndex`
 - `initializeStaticFields`
-- `initializeCustomFields`.. 
+- `initializeCustomFields` 
 
 ##### **WHSSiteRARisksTabViewController** - logic for the screen that shows the table view of risks in the site risks assessment section
 
@@ -7845,7 +7845,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionsView`
 - `showDetailsView`
 - `showControlsView`
-- `showRatingsView`.. 
+- `showRatingsView` 
 
 ##### **WHSSiteRARisksViewController** - logic behind the screen that shows the risks in the site risk assessment section
 
@@ -7863,7 +7863,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSiteRiskAsessmentSearchResultsViewController** - handles the search results of the Site Risk Assessment section
 
@@ -7879,7 +7879,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSiteRiskAssessmentAddRecordViewController** - logic behind the site risk assessment record screen
 
@@ -7922,7 +7922,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRelevantLegislationsPickeriew`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`.. 
+- `isAllRequiredDataFilledUp` 
 
 ##### **WHSSiteRiskAssessmentEditRecordViewController** - logic for site risk assessment edit record screen
 
@@ -7932,7 +7932,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: … didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`.. 
+- `initializeDataSource` 
 
 ##### **WHSSiteRiskAssessmentSearchViewController** - logic for site risk assessment search screen
 
@@ -7950,7 +7950,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showLocationPickerView`
 - `showStatusPickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`.. 
+- `searchBarButtonItemDidTapped` 
 
 ##### **WHSSiteRiskAssessmentTabViewController** - logic for site risk assessment tab view
 
@@ -7967,7 +7967,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionsView`
 - `showDetailsView`
 - `showHazardsView`
-- `showRisksView`.. 
+- `showRisksView` 
 
 ##### **WHSSiteRiskAssessmentViewController** - logic for site risk assessment screen
 
@@ -7985,14 +7985,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`.. 
+- `showTabView` 
 
 ##### **WHSSplitViewController** - logic behind split screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `supportedInterfaceOrientations`.. 
+- `supportedInterfaceOrientations` 
 
 ##### **WHSStartAuditViewController** - controls the view for start audit screen
 
@@ -8038,7 +8038,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `doneBarButtonItemDidTapped`
 - `uploadAttachment`
 - `clearDepartmentData`
-- `cellIndexForField`.. 
+- `cellIndexForField` 
 
 ##### **WHSStartupViewController** - shows the start up screen
 
@@ -8049,7 +8049,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `finishedValidatingUserCredentials`
 - `prepareForSegue`
 - `unwindToWHSStartupView`
-- `isAnExistingUserLoggedIn`.. 
+- `isAnExistingUserLoggedIn` 
 
 ##### **WHSTabViewController** - controls the tab view of the app
 
@@ -8059,7 +8059,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `initializeMoreOptionsBarButtonItem`
 - `presentMoreOptionsActionSheet`
-- `moreOptionsBarButtonItemDidTapped`.. 
+- `moreOptionsBarButtonItemDidTapped` 
 
 ##### **WHSTablePickerViewController** - logic behind table picker
 
@@ -8083,7 +8083,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showNoReferenceFetched`
 - `donePickingBarButtonItemDidTapped`
 - `editBarButtonItemDidTapped`
-- `deselectAllRows`.. 
+- `deselectAllRows` 
 
 ##### **WHSTemplatePickerViewController** - logic for template picker
 
@@ -8092,7 +8092,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddTemplateView`
 - `showEditTemplateView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 ##### **WHSUtilitiesViewController** - shows the utilities
 
@@ -8102,7 +8102,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `callNumber`
 - `sendEmail`
 - `sendEmail: … delegate`
-- `openWebsite`.. 
+- `openWebsite` 
 
 ##### **WHSViewController** - superclass of view controllers
 
@@ -8147,7 +8147,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `hideProgressHUD`
 - `getModuleAccessTypeWithID`
 - `getModuleAccessTypeWithMenuItem`
-- `moduleStateForAccessTypeString`.. 
+- `moduleStateForAccessTypeString` 
 
 ##### **WHSWebViewController** - controls web views
 
@@ -8155,7 +8155,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewDidLoad`
 - `viewDidAppear`
 - `prepareWebView`
-- `loadHTMLString: … baseURL`.. 
+- `loadHTMLString: … baseURL` 
 
 ##### **WHSWorkerTablePickerViewController** - shows the workers 
 
@@ -8164,6 +8164,6 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddWorkerView`
 - `showEditWorker`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`.. 
+- `editBarButtonItemDidTapped` 
 
 after uwu

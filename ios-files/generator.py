@@ -23,7 +23,7 @@ for filename in sorted(os.listdir(dirStr + "view-controllers")):
   with open(os.path.join(dirStr, "view-controllers", filename), "r", encoding='windows-1252') as vc:
     print (filename)
     iosFile.write(vc.read())
-    iosFile.write(".. \n\n")
+    iosFile.write(" \n\n")
     vc.close
 iosFile.close
 
