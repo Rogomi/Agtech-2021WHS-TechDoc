@@ -10,6 +10,9 @@ for filename in sorted(os.listdir(sourcedir)):
     print (filename)
     dire = dirStr + filename.replace(filename[len(filename) - 4 :], ".md")
     newfile = open(dire, "w")
-    newfile.write(vc.read())
+    content = vc.read()
+    content.strip()
+    # content.replace(" \n", "<br/>")
+    newfile.write(content)
 
     vc.close

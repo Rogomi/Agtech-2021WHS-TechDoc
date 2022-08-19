@@ -15,7 +15,7 @@ beforeFile.close
 
 print("generating vc ...")
 iosFile = open(ios, "a")
-iosFile.write("<br/>")
+iosFile.write("  \n")
 for filename in sorted(os.listdir(dirStr + "view-controllers")):
 
   if filename[len(filename) - 3 : ] != ".md":
@@ -23,7 +23,7 @@ for filename in sorted(os.listdir(dirStr + "view-controllers")):
   with open(os.path.join(dirStr, "view-controllers", filename), "r", encoding="latin-1") as vc:
     print (filename)
     iosFile.write(vc.read())
-    iosFile.write("<br/></br>")
+    iosFile.write(".. \n\n")
     vc.close
 iosFile.close
 
