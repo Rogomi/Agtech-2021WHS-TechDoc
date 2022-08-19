@@ -62,9 +62,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
     
 
 #### View Controllers
-  
-
-##### **AIMandatoryTableViewController** - handles AI Mandatory screen
+  <br/>##### **AIMandatoryTableViewController** - handles AI Mandatory screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -78,9 +76,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `clearLocation`
 - `clearType`
 - `showDateInput`
-
-
-##### **AISelectTemplateViewController** - handles the selection of the Risk Template
+<br/></br>##### **AISelectTemplateViewController** - handles the selection of the Risk Template
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -90,9 +86,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `numberOfSections(in tableView...)`
 - `tableView(...didSelectRowAt)`
 - `fetchFields`
-- `organizeFields`
-
-##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
+- `organizeFields`<br/></br>##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -148,9 +142,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableDatasetCellDidTapAddData`
 - `tableDatasetCellDidUpdateData: ... tableData`
 - `locationManager: ... didChangeAuthorizationStatus`
-
-
-##### **GenericTableViewController** - handles generic table view types
+<br/></br>##### **GenericTableViewController** - handles generic table view types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -159,9 +151,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableView: ... numberOfRowsInSection`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
-
-
-##### **MyStorageAddNewWorkerViewController** - handles the adding of new workers in my storage
+<br/></br>##### **MyStorageAddNewWorkerViewController** - handles the adding of new workers in my storage
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -177,9 +167,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `doneBarButtonTapped`
 - `textFieldFirstNameDidChange`
 - `textFieldLastNameDidChange`
-- `validateEnteredName`
-
-##### **MyStorageCompatibilityViewControllerr** - handles the storage compatibility view
+- `validateEnteredName`<br/></br>##### **MyStorageCompatibilityViewControllerr** - handles the storage compatibility view
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -211,9 +199,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `notesButtonPressed`
 - `reportButtonPressed`
 - `pickDGClassFromDictionary`
-
-
-##### **MyStorageESQAddBatchViewController** - handles the batch adding in my storage edit stored quantity
+<br/></br>##### **MyStorageESQAddBatchViewController** - handles the batch adding in my storage edit stored quantity
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -247,9 +233,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `isAllRequiredDataFilledIn`
 - `trimLeadingTrailingWhitespace`
 - `finishedBatchRec`
-- `showSamplePOST`
-
-##### **MyStorageESQAddPackSizeViewController** - handles the adding of pack size in my storage ESQ
+- `showSamplePOST`<br/></br>##### **MyStorageESQAddPackSizeViewController** - handles the adding of pack size in my storage ESQ
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -280,9 +264,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
 - `trimLeadingTrailingWhiteSpace`
-
-
-##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
+<br/></br>##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -307,9 +289,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `didSelectAnExistingSupplier`
 - `textFieldTextDidChanged`
 - `isAllRequiredInformationFilledIn`
-- `trimLeadingTrailingWhiteSpace`
-
-##### **MyStorageESQAddUnitSizesViewController** - handles the adding of unit sizes in my storage ESQ
+- `trimLeadingTrailingWhiteSpace`<br/></br>##### **MyStorageESQAddUnitSizesViewController** - handles the adding of unit sizes in my storage ESQ
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -327,9 +307,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `doneBarButtonItemDidTapped`
 - `textFieldTextDidChanged`
 - `isAllRequiredDataFilledIn`
-- `trimLeadingTrailingWhitespace`
-
-##### **MyStorageESQBatchDetailsViewController** - handles the display of batch details for my storage ESQ
+- `trimLeadingTrailingWhitespace`<br/></br>##### **MyStorageESQBatchDetailsViewController** - handles the display of batch details for my storage ESQ
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -349,9 +327,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `initializeTableBatchInfo`
 - `JSONSanitizerWithData: ... keys`
 - `getID: ... index`
-- `getID: ... arrayList: ... index`
-
-##### **MyStorageESQInputValueViewController** - handles the input values for my storage ESQ
+- `getID: ... arrayList: ... index`<br/></br>##### **MyStorageESQInputValueViewController** - handles the input values for my storage ESQ
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -373,9 +349,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `textFieldShouldReturn`
 - `doneBarButtonItemDidTapped`
 - `labelPreferredRateDidTapped`
-- `textFieldHiddenReceiverTextDidChange`
-
-##### **MyStorageEditStoredQuantityViewController** - handles the editing of stored quantities in my storage
+- `textFieldHiddenReceiverTextDidChange`<br/></br>##### **MyStorageEditStoredQuantityViewController** - handles the editing of stored quantities in my storage
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -430,9 +404,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `addNewBatchRecToDataSource`
 - `appendWorkerInfos`
 - `isElegibleForFetchingBatchDetails`
-
-
-##### **MyStorageManifestViewController** - handles the my storage manifest
+<br/></br>##### **MyStorageManifestViewController** - handles the my storage manifest
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -471,9 +443,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `segmentedControlValueChanged`
 - `switchDidValueChanged`
 
-
-
-##### **MyStorageSummaryViewController** - handles the summary display of my storage
+<br/></br>##### **MyStorageSummaryViewController** - handles the summary display of my storage
 
 ###### **Methods and Calculated Variables**
 - `initWithNibName: ... bundle`
@@ -499,9 +469,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `connectionDidFinishLoading`
 - `connection: ... didFailWithError`
 - `toggledSwitch`
-- `fetchSummary`
-
-##### **NewDynamicTemplateViewController** - is a dynamic template used in different views such as the side menu
+- `fetchSummary`<br/></br>##### **NewDynamicTemplateViewController** - is a dynamic template used in different views such as the side menu
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -519,9 +487,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `toggleTableView`
 - `organizeTemplateFields`
 - `tableView: ... heightForRowAtIndexPath`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-
-##### **SignOffTableViewController** - handles the view of signing off of items
+- `tablePickerDidFinishedPicking: ... dataPicked`<br/></br>##### **SignOffTableViewController** - handles the view of signing off of items
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -542,9 +508,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `viewSignature`
 - `validToSave`
 - `isCompletelySigned`
-- `allowedToSign`
-
-##### **SignatureViewController** - handles the view that allows the user to write signatures
+- `allowedToSign`<br/></br>##### **SignatureViewController** - handles the view that allows the user to write signatures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -554,9 +518,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `supportedInterfaceOrientations`
 - `shouldAutorotate`
 - `clearSignature`
-- `doneSigning`
-
-##### **SubmittedByTableViewController** - handles the view that displays submitted by
+- `doneSigning`<br/></br>##### **SubmittedByTableViewController** - handles the view that displays submitted by
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -570,9 +532,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableView: ... didSelectRowAtIndexPath`
 - `connection: ... willSendRequest: ... redirectResponse`
 - `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-
-##### **WHSSafetyAddServiceHistoryViewController** - handles the adding of service history in safety
+- `connectionDidFinishLoading`<br/></br>##### **WHSSafetyAddServiceHistoryViewController** - handles the adding of service history in safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -600,21 +560,15 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-WHS2MenuViewController
+- `isAllRequiredDataFilledUp`<br/></br>WHS2MenuViewController
 viewDidLoad
 prepare(for segue: UIStoryboardSegue, sender: Any?)
-
-
-##### **WHS2RecordViewController** - handles the display of Record screen
+<br/></br>##### **WHS2RecordViewController** - handles the display of Record screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 
-
-
-##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
+<br/></br>##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -631,9 +585,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAIAddRecordViewController** - handles the adding of records in audit and inspections
+- `createJSON`<br/></br>##### **WHSAIAddRecordViewController** - handles the adding of records in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -672,9 +624,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRelevantLegislationsPickeriew`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAIEditPointsRaisedViewController** - handles the editing of points raised in audit and inspections
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAIEditPointsRaisedViewController** - handles the editing of points raised in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -686,9 +636,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchPointRaisedDetailsData`
 - `initializeDataSource`
 - `showPointRaisedActionsView`
-
-
-##### **WHSAIEditRecordViewController** - handles the editing of records in audit and inspections
+<br/></br>##### **WHSAIEditRecordViewController** - handles the editing of records in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -696,18 +644,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSAIInspectionTypePickerViewController** - handles the inspection type picker in audit and inspections
+- `initializeDataSource`<br/></br>##### **WHSAIInspectionTypePickerViewController** - handles the inspection type picker in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddInspectionTypeView`
 - `showEditInspectionTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAIPointsRaisedViewController** - handles the display of points raised view in audit and inspections
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSAIPointsRaisedViewController** - handles the display of points raised view in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -727,9 +671,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEditPointsRaisedView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`
-
-##### **WHSAISearchResultsViewController** - handles the search results of audit and inspections
+- `openAddRecordView`<br/></br>##### **WHSAISearchResultsViewController** - handles the search results of audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -743,9 +685,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSAISearchViewController** - handles the searching of audit and inspections
+- `showTabView`<br/></br>##### **WHSAISearchViewController** - handles the searching of audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -765,18 +705,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDatePickerWithIndexPath`
 - `showStatusPickerView`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSAISplittedViewController** - handles the split view of audit and inspections
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSAISplittedViewController** - handles the split view of audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
 - `tableView: â¦ heightForRowAtIndexPath`
 - `initializeDataSource`
-- `tableView: â¦ didSelectRowAtIndexPath`
-
-##### **WHSAITabViewController** - handles the audit and inspections tab
+- `tableView: â¦ didSelectRowAtIndexPath`<br/></br>##### **WHSAITabViewController** - handles the audit and inspections tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -792,23 +728,17 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTasksObservedView`
 - `showChecklistView`
 - `showPointsRaisedView`
-- `showActionsView`
-
-##### **WHSActionCategoryPickerViewController** - handles the action category picker
+- `showActionsView`<br/></br>##### **WHSActionCategoryPickerViewController** - handles the action category picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddActionCategoryView`
 - `showEditActionCategoryView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSActionDetails ManagerViewController** - handles the managing of action details
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSActionDetails ManagerViewController** - handles the managing of action details
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`
-
-##### **WHSActionManagerViewController** - handles the manager for actions
+- `initializeDataSource`<br/></br>##### **WHSActionManagerViewController** - handles the manager for actions
 
 ###### **Methods and Calculated Variables**
 - `connection: ... didReceiveResponse`
@@ -834,9 +764,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveAction`
 - `saveActionButtonDidTapped`
 - `editActionButtonDidTapped`
-- `postURLConnectionDidFinished`
-
-##### **WHSActionViewController** - handles the display of the action view
+- `postURLConnectionDidFinished`<br/></br>##### **WHSActionViewController** - handles the display of the action view
 
 ###### **Methods and Calculated Variables**
 - `enableEditingActions`
@@ -854,9 +782,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSActionsMonitorRecordViewController** - handles the display of action monitor records
+- `initializeDataSource`<br/></br>##### **WHSActionsMonitorRecordViewController** - handles the display of action monitor records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -871,9 +797,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `updateDataSource`
 - `showSearchView`
 - `showEditActionView`
-
-
-##### **WHSActionsMonitorSearchResultsViewController** - handles the search results of actions monitor
+<br/></br>##### **WHSActionsMonitorSearchResultsViewController** - handles the search results of actions monitor
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -888,9 +812,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showEditActionView
-
-##### **WHSActionsMonitorSearchViewController** - handles the searching of actions monitor
+- `showEditActionView<br/></br>##### **WHSActionsMonitorSearchViewController** - handles the searching of actions monitor
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -911,9 +833,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionPriorityPickerView`
 - `showPersonResponsiblePickerView`
 - `showStatusPickerView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSAddAIInspectionSubTypeViewController** - handles the adding of inspection sub types in audit and inspections
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSAddAIInspectionSubTypeViewController** - handles the adding of inspection sub types in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -930,9 +850,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAIInspectionTypeViewController** - handles the adding of inspection types in audit and inspections
+- `createJSON`<br/></br>##### **WHSAddAIInspectionTypeViewController** - handles the adding of inspection types in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -949,9 +867,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddActionCategoryViewController** - handles the adding of categories in actions
+- `createJSON`<br/></br>##### **WHSAddActionCategoryViewController** - handles the adding of categories in actions
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -968,9 +884,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAssetSubTypeViewController** - handles the adding of asset sub types
+- `createJSON`<br/></br>##### **WHSAddAssetSubTypeViewController** - handles the adding of asset sub types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -987,9 +901,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAssetTypeViewController** - handles the adding of asset types
+- `createJSON`<br/></br>##### **WHSAddAssetTypeViewController** - handles the adding of asset types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1006,9 +918,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddAtmosphericMonitoringTypeViewController** - handles the adding of atmospheric monitoring types
+- `createJSON`<br/></br>##### **WHSAddAtmosphericMonitoringTypeViewController** - handles the adding of atmospheric monitoring types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1025,9 +935,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddAttachmentsViewController** - handles the adding of attachments
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddAttachmentsViewController** - handles the adding of attachments
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1055,9 +963,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connection: ... didReceiveResponse`
 - `connectionDidFinishLoading`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddAttendeeViewController** - handles the adding of attendees
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddAttendeeViewController** - handles the adding of attendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1080,9 +986,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showCompetenciesPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddCompetenciesViewController** - handles the adding of competencies
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddCompetenciesViewController** - handles the adding of competencies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1105,9 +1009,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showLicencePickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddControlMeasureViewController** - handles the adding of control measures
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddControlMeasureViewController** - handles the adding of control measures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1119,9 +1021,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `acSheet: ... clickedButtonAtIndex`
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddDynamicActionsViewController** - handles the adding of dynamic actions
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddDynamicActionsViewController** - handles the adding of dynamic actions
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1147,9 +1047,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
 - `showWorkerPickerView: ... isNotification`
 - `showNotificationReceiverPickerView`
-- `createJSON`
-
-##### **WHSAddEmployeeDepartmentViewController** - handles the adding of employee departments
+- `createJSON`<br/></br>##### **WHSAddEmployeeDepartmentViewController** - handles the adding of employee departments
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1166,9 +1064,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddEmployeeDivisionViewController** - handles the adding of employee divisions
+- `createJSON`<br/></br>##### **WHSAddEmployeeDivisionViewController** - handles the adding of employee divisions
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1185,9 +1081,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddGenericViewController** - handles the adding of generic views
+- `createJSON`<br/></br>##### **WHSAddGenericViewController** - handles the adding of generic views
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1204,9 +1098,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddInspectionTypeViewController** - handles the adding of inspection types
+- `createJSON`<br/></br>##### **WHSAddInspectionTypeViewController** - handles the adding of inspection types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1223,9 +1115,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddLicenceViewController** - handles the adding of licences
+- `createJSON`<br/></br>##### **WHSAddLicenceViewController** - handles the adding of licences
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1244,9 +1134,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `showLicenceCategoryPickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddLocationViewController** - handles the adding of location
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddLocationViewController** - handles the adding of location
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1264,9 +1152,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `showStatePickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAddNoiseAssessmentSubTypeViewController** - handles the adding of noise assessment sub types
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAddNoiseAssessmentSubTypeViewController** - handles the adding of noise assessment sub types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1284,9 +1170,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `createJSON`
-
-
-##### **WHSAddNoiseAssessmentTypeViewController** - handles the adding of noise assessment types
+<br/></br>##### **WHSAddNoiseAssessmentTypeViewController** - handles the adding of noise assessment types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1303,9 +1187,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddNotificationReceiverViewController** - handles the adding of notification receivers
+- `createJSON`<br/></br>##### **WHSAddNotificationReceiverViewController** - handles the adding of notification receivers
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1322,9 +1204,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createPOSTJSON`
-
-##### **WHSAddPointsRaisedViewController** - handles the adding of points raised
+- `createPOSTJSON`<br/></br>##### **WHSAddPointsRaisedViewController** - handles the adding of points raised
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1341,9 +1221,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSAddRecordViewController** - implementation that handles the adding of records
+- `createJSON`<br/></br>##### **WHSAddRecordViewController** - implementation that handles the adding of records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1355,9 +1233,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `needSwitchCell`
 - `saveButtonItemDidTapped`
 - `switchCellValueDidChanged`
-- `getPreferredIndexPath`
-
-##### **WHSAddWorkerViewController** - handles the adding of workers
+- `getPreferredIndexPath`<br/></br>##### **WHSAddWorkerViewController** - handles the adding of workers
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1379,36 +1255,28 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `showEmployeeTypePickerView`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAiInspectionSubTypePickerViewController** - handles the inspection sub type picker in audits and inspections
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAiInspectionSubTypePickerViewController** - handles the inspection sub type picker in audits and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddInspectionSubTypeView`
 - `showEditInspectionSubTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAssetSubTypePickerViewController** - handles the asset sub type picker
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSAssetSubTypePickerViewController** - handles the asset sub type picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddView`
 - `showEditView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAssetTypePickerViewController** - handles the picking of asset types
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSAssetTypePickerViewController** - handles the picking of asset types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddView`
 - `showEditView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAssetsAddDetailsViewController** - handles the adding of details in assets
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSAssetsAddDetailsViewController** - handles the adding of details in assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1459,9 +1327,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `clearAssetSubType`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAssetsAddServiceHistoryViewController** - handles the adding of service history
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAssetsAddServiceHistoryViewController** - handles the adding of service history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1489,9 +1355,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAssetsAddTestHistoryViewController** - handles the adding of test history in assets
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAssetsAddTestHistoryViewController** - handles the adding of test history in assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1526,24 +1390,18 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `saveSucceeded`
 - `saveFailed`
-
-
-##### **WHSAssetsClassifiedAddDetailsViewController** - handles the adding of details in classified assets
+<br/></br>##### **WHSAssetsClassifiedAddDetailsViewController** - handles the adding of details in classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-
-##### **WHSAssetsClassifiedEditDetailsViewController** - handles the editing of details in classified assets
+- `tableView: ... estimatedHeightForRowAtIndexPath`<br/></br>##### **WHSAssetsClassifiedEditDetailsViewController** - handles the editing of details in classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... didSelectRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-
-##### **WHSAssetsClassifiedSearchResultsViewController** - handles the search results of classified assets
+- `tableView: ... estimatedHeightForRowAtIndexPath`<br/></br>##### **WHSAssetsClassifiedSearchResultsViewController** - handles the search results of classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1551,15 +1409,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsClassifiedSearchViewController** - handles the searching of classified assets
+- `showTabView`<br/></br>##### **WHSAssetsClassifiedSearchViewController** - handles the searching of classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsClassifiedTabViewController** - handles the tab functions in classified assets
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSAssetsClassifiedTabViewController** - handles the tab functions in classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1573,9 +1427,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsClassifiedViewController** - handles the display of classified assets
+- `showActionsView`<br/></br>##### **WHSAssetsClassifiedViewController** - handles the display of classified assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1591,9 +1443,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsEditDetailsViewController** - handles the editing of details in assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsEditDetailsViewController** - handles the editing of details in assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1602,9 +1452,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connection: ... didReceiveData`
 - `connectionDidFinishLoading`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSAssetsEditServiceHistoryViewController** - handles the editing of service history in assets
+- `initializeDataSource`<br/></br>##### **WHSAssetsEditServiceHistoryViewController** - handles the editing of service history in assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1617,9 +1465,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`
-
-##### **WHSAssetsEditTestHistoryViewController** - handles the editing of test history in assets
+- `showAttachmentsView`<br/></br>##### **WHSAssetsEditTestHistoryViewController** - handles the editing of test history in assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1632,9 +1478,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions`
-- `showAttachmentsView`
-
-##### **WHSAssetsElectricalAddDetailsViewController** - handles the adding of details in electrical assets
+- `showAttachmentsView`<br/></br>##### **WHSAssetsElectricalAddDetailsViewController** - handles the adding of details in electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1642,15 +1486,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalAddServiceHistoryViewController** - handles the adding of service history in electrical assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsElectricalAddServiceHistoryViewController** - handles the adding of service history in electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalEditDetailsViewController** - handles the editing of details in electrical assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsElectricalEditDetailsViewController** - handles the editing of details in electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1659,15 +1499,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalEditServiceHistoryViewController** - handles the editing of service history in electrical assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsElectricalEditServiceHistoryViewController** - handles the editing of service history in electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsElectricalSearchResultsViewController** - handles the search results for electrical assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsElectricalSearchResultsViewController** - handles the search results for electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1675,15 +1511,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsElectricalSearchViewController** - handles the electrical search
+- `showTabView`<br/></br>##### **WHSAssetsElectricalSearchViewController** - handles the electrical search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList
-
-##### **WHSAssetsElectricalTabViewController** - handles the electrical assets tab view
+- `showSearchResultsViewWithDataList<br/></br>##### **WHSAssetsElectricalTabViewController** - handles the electrical assets tab view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1697,9 +1529,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsElectricalViewController** - handles the display of electrical assets
+- `showActionsView`<br/></br>##### **WHSAssetsElectricalViewController** - handles the display of electrical assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1715,9 +1545,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsLiftingAddDetailsViewController** - handles the adding of details in lifting assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsLiftingAddDetailsViewController** - handles the adding of details in lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1725,9 +1553,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsLiftingEditDetailsViewController** - handles the editing of details in lifting assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsLiftingEditDetailsViewController** - handles the editing of details in lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1736,9 +1562,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsLiftingSearchResultsViewController** - handles the search results of lifting assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsLiftingSearchResultsViewController** - handles the search results of lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1746,15 +1570,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsLiftingSearchViewController** - handles the search of lifting assets
+- `showTabView`<br/></br>##### **WHSAssetsLiftingSearchViewController** - handles the search of lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsLiftingTabViewController** - handles the tab view for lifting assets
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSAssetsLiftingTabViewController** - handles the tab view for lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1768,9 +1588,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsLiftingViewController** - handles the display of lifting assets
+- `showActionsView`<br/></br>##### **WHSAssetsLiftingViewController** - handles the display of lifting assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1786,9 +1604,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsPlantAddDetailsViewController** - handles the adding of details in plant assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsPlantAddDetailsViewController** - handles the adding of details in plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1796,14 +1612,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsPlantAddServiceHistoryViewController** - handles the adding of service history in plant assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsPlantAddServiceHistoryViewController** - handles the adding of service history in plant assets
 
 ###### **Methods and Calculated Variables**
-- `viewDidLoad`
-
-##### **WHSAssetsPlantEditDetailsViewController** - handles the editing of details in plant assets
+- `viewDidLoad`<br/></br>##### **WHSAssetsPlantEditDetailsViewController** - handles the editing of details in plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1812,16 +1624,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsPlantEditServiceHistoryViewController** - handles the editing of service history in plant assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsPlantEditServiceHistoryViewController** - handles the editing of service history in plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`
-
-##### **WHSAssetsPlantSearchResultsViewController** - handles the search results of plant assets
+- `prepareForSegue: ... sender`<br/></br>##### **WHSAssetsPlantSearchResultsViewController** - handles the search results of plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1829,15 +1637,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsPlantSearchViewController** - handles the searching of plant assets
+- `showTabView`<br/></br>##### **WHSAssetsPlantSearchViewController** - handles the searching of plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsPlantTabViewController** - handles the tab view for plant assets
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSAssetsPlantTabViewController** - handles the tab view for plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1851,9 +1655,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSAssetsPlantViewController** - handles the display of plant assets
+- `showActionsView`<br/></br>##### **WHSAssetsPlantViewController** - handles the display of plant assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1869,9 +1671,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsSearchRecordResultsViewController** - handles the search record results for assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsSearchRecordResultsViewController** - handles the search record results for assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1880,9 +1680,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `searchRecords`
-- `fetchNextPage`
-
-##### **WHSAssetsSearchRecordViewController** - handles the searching of records for assets
+- `fetchNextPage`<br/></br>##### **WHSAssetsSearchRecordViewController** - handles the searching of records for assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1898,9 +1696,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `textViewDidChange`
 - `initializeDataSource`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSAssetsServiceHistoryViewController** - handles the display of service history for assets
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSAssetsServiceHistoryViewController** - handles the display of service history for assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1912,9 +1708,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`
-
-##### **WHSAssetsTestHistoryViewController** - handles the display of test history for assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsTestHistoryViewController** - handles the display of test history for assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1925,9 +1719,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistories`
 - `showTestHistoryDetailsView`
 - `showTestHistoryEditDetailsView`
-- `openAddRecordView`
-
-##### **WHSAssetsVehiclesAddDetailsViewController** - handles the adding of details for vehicle assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsVehiclesAddDetailsViewController** - handles the adding of details for vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1935,9 +1727,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsVehiclesEditDetailsViewController** - handles the editing of details for vehicle assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsVehiclesEditDetailsViewController** - handles the editing of details for vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1946,9 +1736,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSAssetsVehiclesSearchRecordResultsViewController** - handles the search record results of vehicle assets
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSAssetsVehiclesSearchRecordResultsViewController** - handles the search record results of vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1956,15 +1744,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSAssetsVehiclesSearchRecordViewController** - handles the searching of vehicle assets
+- `showTabView`<br/></br>##### **WHSAssetsVehiclesSearchRecordViewController** - handles the searching of vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAssetsVehiclesTabViewController** - handles the tab view for vehicle assets
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSAssetsVehiclesTabViewController** - handles the tab view for vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1978,9 +1762,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showTestHistoryView`
 - `showServiceHistory`
-- `showActionsView`
-
-##### **WHSAssetsVehiclesViewController** - handles the display of vehicle assets
+- `showActionsView`<br/></br>##### **WHSAssetsVehiclesViewController** - handles the display of vehicle assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -1996,9 +1778,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSAssetsViewController** - handles the display of assets
+- `openAddRecordView`<br/></br>##### **WHSAssetsViewController** - handles the display of assets
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2011,9 +1791,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showElectricalEquipmentView`
 - `showPlantEquipmentView`
 - `showLiftingEquipmentView`
-- `showClassifiedEquipmentView`
-
-##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController** - handles the adding of monitoring history for atmospheric monitoring
+- `showClassifiedEquipmentView`<br/></br>##### **WHSAtmosphericMonitoringAddMonitoringHistoryViewController** - handles the adding of monitoring history for atmospheric monitoring
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2040,9 +1818,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showExposureLimitsPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSAtmosphericMonitoringAddRecordViewController** - handles the adding of records for atmospheric monitoring
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAtmosphericMonitoringAddRecordViewController** - handles the adding of records for atmospheric monitoring
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2089,9 +1865,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isSelectedItemsExists: ... selectedItemTypeID`
 - `appendSelectedItemWithIDs: ... itemNames: ... itemTypeID`
 - `changeSelectedItemWithIDs: ... itemNames: ... itemTypeID`
-- `discardSelectedItemWithStringOfIDs`
-
-##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController** - handles the editing of monitoring history for atmospheric monitoring
+- `discardSelectedItemWithStringOfIDs`<br/></br>##### **WHSAtmosphericMonitoringEditMonitoringHistoryViewController** - handles the editing of monitoring history for atmospheric monitoring
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2102,9 +1876,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchMonitoringHistoryDetailsData`
 - `initializeDataSource`
 - `showMonitoringHistoryActionsView`
-- `showAttachmentsView`
-
-##### **WHSAtmosphericMonitoringEditRecordViewController** - handles the editing of records for atmospheric monitoring
+- `showAttachmentsView`<br/></br>##### **WHSAtmosphericMonitoringEditRecordViewController** - handles the editing of records for atmospheric monitoring
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2114,9 +1886,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSAtmosphericMonitoringHistoryViewController** - handles the display of monitoring history for atmospheric monitoring
+- `initializeDataSource`<br/></br>##### **WHSAtmosphericMonitoringHistoryViewController** - handles the display of monitoring history for atmospheric monitoring
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2128,9 +1898,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
-- `openAddRecordView`
-
-##### **WHSAtmosphericMonitoringTabViewController** - handles the logic of the atmospheric monitoring section
+- `openAddRecordView`<br/></br>##### **WHSAtmosphericMonitoringTabViewController** - handles the logic of the atmospheric monitoring section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2144,18 +1912,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showEditDetailsView`
 - `showMonitoringHistoryView`
-- `showRegisterActionsView`
-
-##### **WHSAtmosphericMonitoringTypePickerViewController** - handles the picking of an atmospheric monitoring type
+- `showRegisterActionsView`<br/></br>##### **WHSAtmosphericMonitoringTypePickerViewController** - handles the picking of an atmospheric monitoring type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddMonitoringTypeView`
 - `showEditMonitoringTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSAttachmentsViewController** - handles the showing of attatchments
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSAttachmentsViewController** - handles the showing of attatchments
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2168,9 +1932,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `openAddRecordView`
-- `showEditAttachmentsView`
-
-##### **WHSAttendeesSearchResultsViewController** - handles the search results of atendees
+- `showEditAttachmentsView`<br/></br>##### **WHSAttendeesSearchResultsViewController** - handles the search results of atendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2182,9 +1944,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `searchRecords`
 - `initializeDataSource`
-- `showEditAttendeesDetailsView`
-
-##### **WHSAttendeesSearchViewController** - handles the searching of Atendees
+- `showEditAttendeesDetailsView`<br/></br>##### **WHSAttendeesSearchViewController** - handles the searching of Atendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2202,9 +1962,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTypePickerView`
 - `showResultPickerView`
 - `searchBarButtonItemDidTapped`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSAttendeesViewController** - shows the Attendees
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSAttendeesViewController** - shows the Attendees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2217,14 +1975,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchAttendeesData`
 - `initializeDataSource`
 - `showEditAttendeesDetailsView`
-- `openAddRecordView`
-
-##### **WHSAuditInspectionsDetailsViewController** - handles the showing of details in Audit Inspection
+- `openAddRecordView`<br/></br>##### **WHSAuditInspectionsDetailsViewController** - handles the showing of details in Audit Inspection
 
 ###### **Methods and Calculated Variables**
-
-
-##### **WHSAuditInspectionsRecordViewController** - handles the recording of Audit Inspections
+<br/></br>##### **WHSAuditInspectionsRecordViewController** - handles the recording of Audit Inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2242,9 +1996,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSAutoHazardViewController** - handles the Auto Hazard view
+- `openAddRecordView`<br/></br>##### **WHSAutoHazardViewController** - handles the Auto Hazard view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2267,9 +2019,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `createJSON`
 - `switchCellValueDidChanged`
 - `showSiteRAPicker`
-- `saveBarButtonItemDidTapped`
-
-##### **WHSCauseHazardsViewController** - handles the Cause Hazards view
+- `saveBarButtonItemDidTapped`<br/></br>##### **WHSCauseHazardsViewController** - handles the Cause Hazards view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2298,9 +2048,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsPickerView`
 - `showAgencyPickerView`
 - `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-
-##### **WHSChangePasswordViewController** - handles changing of the password
+- `saveBarButtonItemDidTapped`<br/></br>##### **WHSChangePasswordViewController** - handles changing of the password
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2320,9 +2068,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `updateNewApprovedPassword`
 - `validatePasswords: ... confirmNewPassword`
 - `updateStoredEncryptedPassword`
-- `handleChangePasswordResults`
-
-##### **WHSChecklistViewController** - handles the Checklist view
+- `handleChangePasswordResults`<br/></br>##### **WHSChecklistViewController** - handles the Checklist view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2378,9 +2124,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `titleForSection`
-- `showSectionPicker`
-
-##### **WHSChemicalQChartChemicalSafetyViewController** - handles the Chemical Safety view of the ChemicalQ Chart section
+- `showSectionPicker`<br/></br>##### **WHSChemicalQChartChemicalSafetyViewController** - handles the Chemical Safety view of the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2399,9 +2143,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `initializeCollectionViews`
 - `removeSubViewWithCell`
-- `processStorageLegends`
-
-##### **WHSChemicalQChartDetailViewController** - shows the details view of the ChemicalQ Chart section
+- `processStorageLegends`<br/></br>##### **WHSChemicalQChartDetailViewController** - shows the details view of the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2409,9 +2151,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSChemicalQChartDetailsViewController** - shows the details of the ChemicalQ Chart
+- `initializeDataSource`<br/></br>##### **WHSChemicalQChartDetailsViewController** - shows the details of the ChemicalQ Chart
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2426,9 +2166,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchDetailsData`
 - `initializeDataSource`
 - `showPDFView`
-- `getImageCellWithDequeuedCell: ... cellData`
-
-##### **WHSChemicalQChartHazardsViewController** - shows the hazards view in the ChemicalQ Chart section
+- `getImageCellWithDequeuedCell: ... cellData`<br/></br>##### **WHSChemicalQChartHazardsViewController** - shows the hazards view in the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2444,9 +2182,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
 - `initializeDataSource`
-- `initializeCollectionViews`
-
-##### **WHSChemicalQChartOperationalSafetyViewController** - handles the Operational Safety view in the ChemicalQ Chart section
+- `initializeCollectionViews`<br/></br>##### **WHSChemicalQChartOperationalSafetyViewController** - handles the Operational Safety view in the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2464,9 +2200,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchOperationalSafetyDetailsData`
 - `initializeDataSource`
 - `initializeCollectionViews`
-- `getCellDataWithKey: ... titleKey: ... detailKey`
-
-##### **WHSChemicalQChartSearchResultsViewController** - handles the search results in the ChemicalQ Chart section
+- `getCellDataWithKey: ... titleKey: ... detailKey`<br/></br>##### **WHSChemicalQChartSearchResultsViewController** - handles the search results in the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2480,9 +2214,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSChemicalQChartSearchViewController** - handles searching in the ChemicalQ Chart section
+- `showTabView`<br/></br>##### **WHSChemicalQChartSearchViewController** - handles searching in the ChemicalQ Chart section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2498,9 +2230,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showSearchResultsView`
 - `showGenericPickerViewWithType: ... returnedDataKey`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSChemicalQChartTabViewController** - logic behind the ChemicalQ Chart tab
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSChemicalQChartTabViewController** - logic behind the ChemicalQ Chart tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2513,9 +2243,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsView`
 - `showChemicalSafetyView`
 - `showOperationalSafetyView`
-- `initializeDataSource`
-
-##### **WHSChemicalQChartViewController** - shows the ChemicalQ Chart screen
+- `initializeDataSource`<br/></br>##### **WHSChemicalQChartViewController** - shows the ChemicalQ Chart screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2527,9 +2255,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView``
-
-##### **WHSChemicalRegisterProductDetailsViewController** - shows the product details in a Chemical Register 
+- `showTabView``<br/></br>##### **WHSChemicalRegisterProductDetailsViewController** - shows the product details in a Chemical Register 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2546,9 +2272,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchRegisterItemDetails`
 - `editStoredQuantityBarButtonItemDidTapped`
 - `sanitizeJSON`
-- `reorderSanitizedJSON`
-
-##### **WHSChemicalRegisterViewController** - shows the Chemical Register screen
+- `reorderSanitizedJSON`<br/></br>##### **WHSChemicalRegisterViewController** - shows the Chemical Register screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2575,9 +2299,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchStorageListData`
 - `reportButtonDidTapped`
 - `riskAssessmentButtonDidTapped`
-- `qChartButtonDidTapped`
-
-##### **WHSChemicalRiskAssessmentConsequencesViewController** - handles the showing of consequences in the Chemical Risk Assessment
+- `qChartButtonDidTapped`<br/></br>##### **WHSChemicalRiskAssessmentConsequencesViewController** - handles the showing of consequences in the Chemical Risk Assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2590,9 +2312,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchConsequencesData`
-- `initializeDataSource`
-
-##### **WHSChemicalRiskAssessmentCurrentControlsViewController** - handles the current controls of a Chemical Risk Assessment
+- `initializeDataSource`<br/></br>##### **WHSChemicalRiskAssessmentCurrentControlsViewController** - handles the current controls of a Chemical Risk Assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2606,9 +2326,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchCurrentControlsData`
 - `initializeDataSource`
-- `segregateCurrentControlsData`
-
-##### **WHSChemicalRiskAssessmentDetailsViewController** - shows the details of a Chemical Risk Assessment
+- `segregateCurrentControlsData`<br/></br>##### **WHSChemicalRiskAssessmentDetailsViewController** - shows the details of a Chemical Risk Assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2624,9 +2342,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForFooterInSection`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSChemicalRiskAssessmentHazardsConsequencesViewController** - handles the showing of the  hazards consequences screen in the chemical risk assessment section
+- `initializeDataSource`<br/></br>##### **WHSChemicalRiskAssessmentHazardsConsequencesViewController** - handles the showing of the  hazards consequences screen in the chemical risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2640,9 +2356,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
 - `fetchConsequencesData`
-- `initializeDataSource`
-
-##### **WHSChemicalRiskAssessmentHazardsViewController** - handles the showing of the hazards screen in the chemical risk assessment section
+- `initializeDataSource`<br/></br>##### **WHSChemicalRiskAssessmentHazardsViewController** - handles the showing of the hazards screen in the chemical risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2655,9 +2369,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchHazardsData`
-- `initializeDataSource`
-
-##### **WHSChemicalRiskAssessmentNewControlsViewController** - handles the showing of the new controls screen in the chemical risk assessment section
+- `initializeDataSource`<br/></br>##### **WHSChemicalRiskAssessmentNewControlsViewController** - handles the showing of the new controls screen in the chemical risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2671,18 +2383,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeAddBarButtonItem`
 - `showAddActionView`
 - `showEditActionView`
-- `addBarButtonItemDidTapped`
-
-##### **WHSChemicalRiskAssessmentProductExposureLimitsViewController** - handles the showing of the product exposure limits in the chemical risk assessment screen
+- `addBarButtonItemDidTapped`<br/></br>##### **WHSChemicalRiskAssessmentProductExposureLimitsViewController** - handles the showing of the product exposure limits in the chemical risk assessment screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSChemicalRiskAssessmentProductViewController** - handles the showing of a product in the chemical risk assessment section
+- `initializeDataSource`<br/></br>##### **WHSChemicalRiskAssessmentProductViewController** - handles the showing of a product in the chemical risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2699,9 +2407,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchProductData`
 - `initializeDataSource`
 - `showMSDSView`
-- `showExposureLimitsView`
-
-##### **WHSChemicalRiskAssessmentSearchResultsViewController** - handles the showing of the search results in the chemical risk assessment section
+- `showExposureLimitsView`<br/></br>##### **WHSChemicalRiskAssessmentSearchResultsViewController** - handles the showing of the search results in the chemical risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2716,9 +2422,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSChemicalRiskAssessmentSearchViewController** - handles the search in the chemical risk assessment section
+- `showTabView`<br/></br>##### **WHSChemicalRiskAssessmentSearchViewController** - handles the search in the chemical risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2733,9 +2437,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showGenericPickerViewWithType: ... pickerTitle: ... returnedDataKey`
 - `showStatusPickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSChemicalRiskAssessmentTabViewController** - handles the logic behind chemical risk assessment tab
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSChemicalRiskAssessmentTabViewController** - handles the logic behind chemical risk assessment tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2756,9 +2458,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsView`
 - `showConsequencesView`
 - `showCurrentControlsView`
-- `processTabFlags`
-
-##### **WHSChemicalRiskAssessmentViewController** - handles the showing of the chemical risk assessment screen
+- `processTabFlags`<br/></br>##### **WHSChemicalRiskAssessmentViewController** - handles the showing of the chemical risk assessment screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2773,9 +2473,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`
-
-##### **WHSChemicalRiskManagementViewController** - handles the showing of the chemical risk management screen
+- `showTabView`<br/></br>##### **WHSChemicalRiskManagementViewController** - handles the showing of the chemical risk management screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2784,9 +2482,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showRiskAssessmentView`
-- `showQChartView`
-
-##### **WHSChemicalsViewController** - handles the showing of the chemicals screen
+- `showQChartView`<br/></br>##### **WHSChemicalsViewController** - handles the showing of the chemicals screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2802,9 +2498,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showManifestsView `
 - `showCompatibilitiesView`
 - `dismissedViewControllerWithStorageID`
-- `getStorageValueWithKey: ... index`
-
-##### **WHSCompatibilityLegendsViewController** - handles the showing of the compatibility legends
+- `getStorageValueWithKey: ... index`<br/></br>##### **WHSCompatibilityLegendsViewController** - handles the showing of the compatibility legends
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2814,16 +2508,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `cancelButtonDidTapped`
 - `initializeHeaderDetails`
-- `initializeLegendsDataSource`
-
-##### **WHSCompatibilityPDFViewController** handles the showing of the compatibility PDF
+- `initializeLegendsDataSource`<br/></br>##### **WHSCompatibilityPDFViewController** handles the showing of the compatibility PDF
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`
-
-##### **WHSCompatibilityProductDetailsViewController** - how does the showing of the product details in the compatibility section
+- `prepareForSegue: ... sender`<br/></br>##### **WHSCompatibilityProductDetailsViewController** - how does the showing of the product details in the compatibility section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2836,25 +2526,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `sanitizeJSON`
 - `reorderSanitizedJSON`
-- `fetchCompatibilityDetails`
-
-##### **WHSCompatibilityReportPDFViewController** - handles the showing of the compatibility report PDF
+- `fetchCompatibilityDetails`<br/></br>##### **WHSCompatibilityReportPDFViewController** - handles the showing of the compatibility report PDF
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`
-
-##### **WHSCompetenciesPickerViewController** - handles the picking of competencies
+- `prepareForSegue: ... sender`<br/></br>##### **WHSCompetenciesPickerViewController** - handles the picking of competencies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddCompetenciesView`
 - `showEditCompetenciesView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSConfinedSpacesActionViewController** - how was the showing of an action in the confined spaces section 
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSConfinedSpacesActionViewController** - how was the showing of an action in the confined spaces section 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2871,9 +2555,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `showEditActionView`
 - `fetchActionsData`
-- `initializeDataSource`
-
-##### **WHSConfinedSpacesAddActionViewController** - handles the adding of an action in the  confined spaces section
+- `initializeDataSource`<br/></br>##### **WHSConfinedSpacesAddActionViewController** - handles the adding of an action in the  confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2905,9 +2587,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showNotificationReceiverPickerView`
 - `showDatePickerWithIndexPath`
 - `switchCellValueDidChanged`
-- `initializeDataSource`
-
-##### **WHSConfinedSpacesAddEntryViewController** - handles the adding of an entry in the confined spaces section
+- `initializeDataSource`<br/></br>##### **WHSConfinedSpacesAddEntryViewController** - handles the adding of an entry in the confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2932,9 +2612,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPersonnelPickerView`
 - `showDatePickerWithIndexPath`
 - `showTimePickerWithIndexPath`
-- `initializeDataSource`
-
-##### **WHSConfinedSpacesAddRecordViewController** - handles the adding of a record in the confined spaces section
+- `initializeDataSource`<br/></br>##### **WHSConfinedSpacesAddRecordViewController** - handles the adding of a record in the confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2986,9 +2664,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `textViewDidChange`
 - `fetchAutoNum`
 - `fetchLocationAddressData`
-- `initializeDataSource`
-
-##### **WHSConfinedSpacesEditActionViewController** - handles the editing of an action in that confined spaces section
+- `initializeDataSource`<br/></br>##### **WHSConfinedSpacesEditActionViewController** - handles the editing of an action in that confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -2997,17 +2673,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `fetchCSActionDetailsData`
 - `initializeDataSource`
-- `formatNotificationReceivers`
-
-##### **WHSConfinedSpacesEditEntryViewController** - handles the editing of an entry in the confined spaces section
+- `formatNotificationReceivers`<br/></br>##### **WHSConfinedSpacesEditEntryViewController** - handles the editing of an entry in the confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSConfinedSpacesEditRecordViewController** - handles the editing of a record in the confined spaces section
+- `initializeDataSource`<br/></br>##### **WHSConfinedSpacesEditRecordViewController** - handles the editing of a record in the confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3017,9 +2689,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
-- `presentDropdownList`
-
-##### **WHSConfinedSpacesEntriesViewController** - handles the showing of the entries in the confined spaces section
+- `presentDropdownList`<br/></br>##### **WHSConfinedSpacesEntriesViewController** - handles the showing of the entries in the confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3036,9 +2706,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `openAddRecordView`
 - `showEntryDetailsView`
-- `initializeDataSource`
-
-##### **WHSConfinedSpacesMonitoringHistoryViewController** - handles the showing of the history in the confined spaces monitoring section
+- `initializeDataSource`<br/></br>##### **WHSConfinedSpacesMonitoringHistoryViewController** - handles the showing of the history in the confined spaces monitoring section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3051,9 +2719,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchMonitoringHistories`
 - `showEditMonitoringHistoryViewController`
 - `openAddRecordView`
-- `showMonitoringTabView`
-
-##### **WHSConfinedSpacesPermitDetailsViewController** - shows the details of a confined spaces permit
+- `showMonitoringTabView`<br/></br>##### **WHSConfinedSpacesPermitDetailsViewController** - shows the details of a confined spaces permit
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3072,9 +2738,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEntriesView`
 - `showAttachmentsView`
-- `showPDFView`
-
-##### **WHSConfinedSpacesPermitsViewController** - shows the permits for confined spaces
+- `showPDFView`<br/></br>##### **WHSConfinedSpacesPermitsViewController** - shows the permits for confined spaces
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3089,9 +2753,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchPermitsData`
 - `initializeDataSource`
-- `showPermitsView`
-
-##### **WHSConfinedSpacesTabViewController** - logic behind the Confined Spaces tab
+- `showPermitsView`<br/></br>##### **WHSConfinedSpacesTabViewController** - logic behind the Confined Spaces tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3106,17 +2768,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showPermitsEntriesView`
 - `showMonitoringHistoryView`
-- `showActionsView`
-
-##### **WHSControlMeasureTablePickerViewController** - handles the table picker view of the Control Measure section
+- `showActionsView`<br/></br>##### **WHSControlMeasureTablePickerViewController** - handles the table picker view of the Control Measure section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `detailsView: â¦ savedData`
 - `showAddControlMeasureView`
-- `openAddRecordView`
-
-##### **WHSDetailsViewController** - handles the logic behind the details screen
+- `openAddRecordView`<br/></br>##### **WHSDetailsViewController** - handles the logic behind the details screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3163,9 +2821,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `testSavedDataKey`
 - `indexPathForField`
-- `indexForField: ... inSection`
-
-##### **WHSDynamicActionsViewController** - handles the logic behind dynamic actions
+- `indexForField: ... inSection`<br/></br>##### **WHSDynamicActionsViewController** - handles the logic behind dynamic actions
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3176,9 +2832,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
 - `openAddRecordView`
-- `didSaveAction: ... isNew`
-
-##### **WHSDynamicSignActionsViewController** - handles the logic behind dynamic sign actions
+- `didSaveAction: ... isNew`<br/></br>##### **WHSDynamicSignActionsViewController** - handles the logic behind dynamic sign actions
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3193,9 +2847,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveActionIndex`
 - `createJSONForAction`
 - `checkAutoHazardWithRegID`
-- `isRequiredDataFilled`
-
-##### **WHSDynamicSigneesViewController** - handles the logic behind dynamic signees
+- `isRequiredDataFilled`<br/></br>##### **WHSDynamicSigneesViewController** - handles the logic behind dynamic signees
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3220,9 +2872,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPersonInvolvedTypeView`
 - `refreshActionedByFields`
 - `showSignatureViewController`
-- `initializeDataSource`
-
-##### **WHSDynamicTemplatesViewController** - handles the logic behind dynamic templates 
+- `initializeDataSource`<br/></br>##### **WHSDynamicTemplatesViewController** - handles the logic behind dynamic templates 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3263,45 +2913,31 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `uploadDTFile: ... sessionID: ... filename`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSEditAIInspectionSubTypeViewController** - handles the editing of an AI inspection subtype
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSEditAIInspectionSubTypeViewController** - handles the editing of an AI inspection subtype
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditAIInspectionTypeViewController** - handles the editing of an AI inspection type
+- `initializeDataSource`<br/></br>##### **WHSEditAIInspectionTypeViewController** - handles the editing of an AI inspection type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditActionCategoryViewController** - handles the editing of an action category view
+- `initializeDataSource`<br/></br>##### **WHSEditActionCategoryViewController** - handles the editing of an action category view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditAssetSubTypeViewController** - handles the editing of an asset subtype
+- `initializeDataSource`<br/></br>##### **WHSEditAssetSubTypeViewController** - handles the editing of an asset subtype
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditAssetTypeViewController** - handles the editing of an asset type
+- `initializeDataSource`<br/></br>##### **WHSEditAssetTypeViewController** - handles the editing of an asset type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditAtmosphericMonitoringTypeViewController** - Montrose the editing of an atmospheric monitoring tipe
+- `initializeDataSource`<br/></br>##### **WHSEditAtmosphericMonitoringTypeViewController** - Montrose the editing of an atmospheric monitoring tipe
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditAttachmentsViewController** - handles editing of an attachment
+- `initializeDataSource`<br/></br>##### **WHSEditAttachmentsViewController** - handles editing of an attachment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3318,9 +2954,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `numberOfPreviewItemsInPreviewController`
 - `previewController: ... previewItemAtIndex`
 - `showHUD`
-- `hideHUD`
-
-##### **WHSEditAttendeeViewController** - handles editing of an attendee
+- `hideHUD`<br/></br>##### **WHSEditAttendeeViewController** - handles editing of an attendee
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3328,58 +2962,40 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchAttendeeDetailsData`
-- `initializeDataSource`
+- `initializeDataSource`<br/></br>##### **WHSEditEmployeeDepartmentViewController** - handles editing a department of an employee
 
-##### **WHSEditEmployeeDepartmentViewController** - handles editing a department of an employee
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeDataSource`<br/></br>##### **WHSEditEmployeeDivisionViewController** - handles editing of an employee's division
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeDataSource`<br/></br>##### **WHSEditGenericViewController** - handles editing a generic
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeDataSource`<br/></br>##### **WHSEditInspectionTypeViewController** - handles the editing of an inspection type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `initializeDataSource`
-
-##### **WHSEditEmployeeDivisionViewController** - handles editing of an employee's division
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditGenericViewController** - handles editing a generic
+- `createJSON`<br/></br>##### **WHSEditLicenceViewController** - handles the editing of a license
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditInspectionTypeViewController** - handles the editing of an inspection type
+- `initializeDataSource`<br/></br>##### **WHSEditNoiseAssessmentSubTypeViewController** - handles the editing of a noice assessment subtype
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-- `createJSON`
-
-##### **WHSEditLicenceViewController** - handles the editing of a license
+- `initializeDataSource`<br/></br>##### **WHSEditNoiseAssessmentTypeViewController** - handles the editing a noise assessment type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditNoiseAssessmentSubTypeViewController** - handles the editing of a noice assessment subtype
+- `initializeDataSource`<br/></br>##### **WHSEditNotificationReceiverViewController** - handles editing a notification receiver
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditNoiseAssessmentTypeViewController** - handles the editing a noise assessment type
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditNotificationReceiverViewController** - handles editing a notification receiver
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSEditPointsRaisedViewController** - handles editing points raised
+- `initializeDataSource`<br/></br>##### **WHSEditPointsRaisedViewController** - handles editing points raised
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3391,16 +3007,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `registerActionSavingDidFailed: ... responseData`
 - `fetchPointRaisedDetailsData`
 - `initializeDataSource`
-- `showPointRaisedActionsView`
-
-##### **WHSEditWorkerViewController** - handles the editing of a worker
+- `showPointRaisedActionsView`<br/></br>##### **WHSEditWorkerViewController** - handles the editing of a worker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
-- `initializeDataSource`
-
-##### **WHSEmailReportViewController** - shows the email report screen
+- `initializeDataSource`<br/></br>##### **WHSEmailReportViewController** - shows the email report screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3415,9 +3027,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveAction`
 - `createJSON`
 - `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-
-##### **WHSEmergencyProcedureViewController** - displays the emergency procedure screen
+- `connectionDidFinishLoading`<br/></br>##### **WHSEmergencyProcedureViewController** - displays the emergency procedure screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3428,9 +3038,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchEmergencyProceduresListData`
 - `initializeDataSource`
 - `generateHTML`
-- `showWebView`
-
-##### **WHSEmployeeAddServiceHistoryViewController** - handles adding a service history of an employee
+- `showWebView`<br/></br>##### **WHSEmployeeAddServiceHistoryViewController** - handles adding a service history of an employee
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3458,9 +3066,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `saveFailed`
-
-##### **WHSEmployeeAddTestHistoryViewController** - adds an employee's test history
+- `saveFailed`<br/></br>##### **WHSEmployeeAddTestHistoryViewController** - adds an employee's test history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3487,25 +3093,19 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSaveFailedView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `saveFailed`
-
-##### **WHSEmployeeContractorCompanyPickerViewController** - handles the picking of an employee's contractor company
+- `saveFailed`<br/></br>##### **WHSEmployeeContractorCompanyPickerViewController** - handles the picking of an employee's contractor company
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue: ... sender`
-
-##### **WHSEmployeeDepartmentPickerViewController** - handles the picking of an employee department
+- `prepareForSegue: ... sender`<br/></br>##### **WHSEmployeeDepartmentPickerViewController** - handles the picking of an employee department
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddEmployeeDeparmentView`
 - `showEditEmployeeDepartmentView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSEmployeeEditServiceHistoryViewController** - handles the editing of an employee's service history
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSEmployeeEditServiceHistoryViewController** - handles the editing of an employee's service history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3518,9 +3118,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`
-
-##### **WHSEmployeeEditTestHistoryViewController** - handles the editing of an employee's test history
+- `showAttachmentsView`<br/></br>##### **WHSEmployeeEditTestHistoryViewController** - handles the editing of an employee's test history
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3533,9 +3131,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions `
-- `showAttachmentsView`
-
-##### **WHSEmployeeServiceHistoryViewController** - shows the employee service history screen
+- `showAttachmentsView`<br/></br>##### **WHSEmployeeServiceHistoryViewController** - shows the employee service history screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3548,9 +3144,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `serviceHistorySavingDidFailed: ... responseData`
 - `initializeDataSource`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`
-
-##### **WHSEmployeeTestHistoryViewController** - handles the showing of the employee test history screen
+- `openAddRecordView`<br/></br>##### **WHSEmployeeTestHistoryViewController** - handles the showing of the employee test history screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3563,9 +3157,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `testHistorySavingDidFailed: ... responseData`
 - `initializeDataSource`
 - `showEditTestHistoryDetailsView `
-- `openAddRecordView`
-
-##### **WHSEnvironmentalAtmosphericMonitoringSearchResultsViewController** - handles the showing of the search results in the environmental atmospheric monitoring section
+- `openAddRecordView`<br/></br>##### **WHSEnvironmentalAtmosphericMonitoringSearchResultsViewController** - handles the showing of the search results in the environmental atmospheric monitoring section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3579,15 +3171,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSEnvironmentalAtmosphericMonitoringSearchViewController** - handles the showing of the search results in the environmental atmospheric monitoring section
+- `showTabView`<br/></br>##### **WHSEnvironmentalAtmosphericMonitoringSearchViewController** - handles the showing of the search results in the environmental atmospheric monitoring section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSEnvironmentalAtmosphericMonitoringViewController** - handles the showing of the environmental atmospheric monitoring screen
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSEnvironmentalAtmosphericMonitoringViewController** - handles the showing of the environmental atmospheric monitoring screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3603,9 +3191,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSEnvironmentalConfinedSpacesSearchResultsViewController** - handles the showing of the search results in the environmental confined spaces section
+- `openAddRecordView`<br/></br>##### **WHSEnvironmentalConfinedSpacesSearchResultsViewController** - handles the showing of the search results in the environmental confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3620,15 +3206,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `setCellTitlesForDisplay`
-- `showTabView`
-
-##### **WHSEnvironmentalConfinedSpacesSearchViewController** - handles the searching in the environmental confined spaces section
+- `showTabView`<br/></br>##### **WHSEnvironmentalConfinedSpacesSearchViewController** - handles the searching in the environmental confined spaces section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSEnvironmentalConfinedSpacesViewController** - handles the showing of the environmental confined spaces screen
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSEnvironmentalConfinedSpacesViewController** - handles the showing of the environmental confined spaces screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3646,14 +3228,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPDFView`
 - `showEmailReportView`
 - `showSearchView`
-- `showTabView`
-
-##### **WHSEnvironmentalDetailsViewController** - handles the showing of the details in the environmental section
+- `showTabView`<br/></br>##### **WHSEnvironmentalDetailsViewController** - handles the showing of the details in the environmental section
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`
-
-##### **WHSEnvironmentalNoiseControlSearchResultsViewController** - handles the showing of the search results in the environmental noise control section
+- `initializeDataSource`<br/></br>##### **WHSEnvironmentalNoiseControlSearchResultsViewController** - handles the showing of the search results in the environmental noise control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3667,15 +3245,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSEnvironmentalNoiseControlSearchViewController** - handles the searching in the environmental noise control section
+- `showTabView`<br/></br>##### **WHSEnvironmentalNoiseControlSearchViewController** - handles the searching in the environmental noise control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSEnvironmentalNoiseControlViewController** - handles the environmental noise control screen
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSEnvironmentalNoiseControlViewController** - handles the environmental noise control screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3691,9 +3265,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSEnvironmentalSearchViewController** - handles the search in the environmental section
+- `openAddRecordView`<br/></br>##### **WHSEnvironmentalSearchViewController** - handles the search in the environmental section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3709,9 +3281,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchResultsViewWithDataList`
 - `showStatusPickerView`
 - `showPersonResponsiblePickerView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSEnvironmentalViewController** - handles the environmental screen
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSEnvironmentalViewController** - handles the environmental screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3724,9 +3294,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showNoiseControlView`
 - `showConfinedSpaces`
 - `showAsbestosView`
-- `showCarcinogensView`
-
-##### **WHSExposureLimitsAddViewController** - handles the adding of an exposure limit
+- `showCarcinogensView`<br/></br>##### **WHSExposureLimitsAddViewController** - handles the adding of an exposure limit
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3747,9 +3315,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showExposureLimitTypePickerView`
 - `showSearchResultsViewWithSearchPhrase`
 - `searchBarButtonItemDidTapped`
-- `doneBarButtonItemDidTapped`
-
-##### **WHSExposureLimitsSearchResultsViewController** - handles the search results of the exposure limits section
+- `doneBarButtonItemDidTapped`<br/></br>##### **WHSExposureLimitsSearchResultsViewController** - handles the search results of the exposure limits section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3762,9 +3328,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchSubstanceListData`
 - `initializeDataSource`
 - `initializeDoneBarButtonItem`
-- `doneBarButtonItemDidTapped`
-
-##### **WHSExposureLimitsViewController** - handles the exposure limits screen 
+- `doneBarButtonItemDidTapped`<br/></br>##### **WHSExposureLimitsViewController** - handles the exposure limits screen 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3782,36 +3346,28 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddExposureLimitsView`
 - `openAddRecordView`
 - `doneBarButtonItemDidTapped`
-- `deleteBarButtonItemDidTapped`
-
-##### **WHSFireFightingClassPickerViewController** - handles the picking of a class in the fire fighting section
+- `deleteBarButtonItemDidTapped`<br/></br>##### **WHSFireFightingClassPickerViewController** - handles the picking of a class in the fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddClassView`
 - `showEditClassView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSFireFightingRatingPickerViewController** - handles the picking of a rating in the firefighting section
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSFireFightingRatingPickerViewController** - handles the picking of a rating in the firefighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddRatingView`
 - `showEditRatingView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSGenericPickerViewController** - the superclass of a generic picker view
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSGenericPickerViewController** - the superclass of a generic picker view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddGenericView`
 - `showEditGenericView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSGroupedTableViewController** - handles the showing of a grouped table view
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSGroupedTableViewController** - handles the showing of a grouped table view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3824,9 +3380,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... didSelectRowAtIndexPath`
 - `preselectedKeysContain`
-- `donePickingBarButtonItemDidTapped`
-
-##### **WHSHazardsAsbestosAddDetailsViewController** - handles the adding of the details in the hazards of asbestos section
+- `donePickingBarButtonItemDidTapped`<br/></br>##### **WHSHazardsAsbestosAddDetailsViewController** - handles the adding of the details in the hazards of asbestos section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3866,9 +3420,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `handleLocationData`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSHazardsAsbestosAddInspectionHistoryViewController** - handles the adding of inspection history in the hazards asbestos section
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSHazardsAsbestosAddInspectionHistoryViewController** - handles the adding of inspection history in the hazards asbestos section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3889,9 +3441,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTestResultsPickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSHazardsAsbestosAddRemovalHistoryViewController** - handles the adding of the removal history in the hazards asbestos section
+- `createJSON`<br/></br>##### **WHSHazardsAsbestosAddRemovalHistoryViewController** - handles the adding of the removal history in the hazards asbestos section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3913,9 +3463,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDatePicker: ... indexPath`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSHazardsAsbestosEditDetailsViewController** - handles the editing of the details in the hazards asbestos section
+- `createJSON`<br/></br>##### **WHSHazardsAsbestosEditDetailsViewController** - handles the editing of the details in the hazards asbestos section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3924,9 +3472,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`
-- `createJSONData`
-
-##### **WHSHazardsAsbestosEditInspectionHistoryViewController** - handles the editing of the inspection history in the hazards as Bestos section
+- `createJSONData`<br/></br>##### **WHSHazardsAsbestosEditInspectionHistoryViewController** - handles the editing of the inspection history in the hazards as Bestos section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3940,9 +3486,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `reloadActionsView`
 - `showActionsView`
-- `showAttachmentsView`
-
-##### **WHSHazardsAsbestosEditRemovalHistoryViewController** - handles the editing of the removal history in the Hazards Asbestos section
+- `showAttachmentsView`<br/></br>##### **WHSHazardsAsbestosEditRemovalHistoryViewController** - handles the editing of the removal history in the Hazards Asbestos section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3952,9 +3496,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `acSheet: ... clickedButtonAtIndex`
 - `fetchRemovalHistoryData`
 - `initializeDataSource`
-- `showAttachmentsView`
-
-##### **WHSHazardsAsbestosInspectionHistoryViewController** - handles the showing of the inspection history in the Hazards Asbestos screen
+- `showAttachmentsView`<br/></br>##### **WHSHazardsAsbestosInspectionHistoryViewController** - handles the showing of the inspection history in the Hazards Asbestos screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3968,9 +3510,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchInspectionHistory`
 - `showEditRecordView`
-- `openAddRecordView`
-
-##### **WHSHazardsAsbestosRemovalHistoryViewController** - handles the removal history of hazards asbestos
+- `openAddRecordView`<br/></br>##### **WHSHazardsAsbestosRemovalHistoryViewController** - handles the removal history of hazards asbestos
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3982,16 +3522,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchRemovalHistory`
 - `showEditRecordView `
-- `openAddRecordView`
-
-##### **WHSHazardsAsbestosSearchFormViewController** - handles the search form in hazards asbestos
+- `openAddRecordView`<br/></br>##### **WHSHazardsAsbestosSearchFormViewController** - handles the search form in hazards asbestos
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSHazardsAsbestosSearchResultsViewController** - handles the search results in hazards asbestos
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSHazardsAsbestosSearchResultsViewController** - handles the search results in hazards asbestos
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4001,9 +3537,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSHazardsAsbestosTabViewController** - handles the hazards asbestos tab
+- `showTabView`<br/></br>##### **WHSHazardsAsbestosTabViewController** - handles the hazards asbestos tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4017,9 +3551,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showInspectionHistoryView`
 - `showRemovalHistoryView`
-- `showActionsView`
-
-##### **WHSHazardsAsbestosViewController** - shows the Hazards Asbestos screen
+- `showActionsView`<br/></br>##### **WHSHazardsAsbestosViewController** - shows the Hazards Asbestos screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4035,9 +3567,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSHazardsCarcinogensAddEmployeeExposureViewController** - handles the adding of employee exposure in hazards carcinogens
+- `openAddRecordView`<br/></br>##### **WHSHazardsCarcinogensAddEmployeeExposureViewController** - handles the adding of employee exposure in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4059,9 +3589,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `disabledCellsIndexPaths`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSHazardsCarcinogensAddRecordViewController** - handles the adding of record in hazards carcinogens
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSHazardsCarcinogensAddRecordViewController** - handles the adding of record in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4094,9 +3622,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isProductExists`
 - `appendProducts: ... productNames`
 - `existingProductList`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSHazardsCarcinogensEditEmployeeExposureViewController** - handles the editing of employee exposure in hazards carcinogens
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSHazardsCarcinogensEditEmployeeExposureViewController** - handles the editing of employee exposure in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4104,9 +3630,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchEmployeeExposureDetailsData`
-- `initializeDataSource`
-
-##### **WHSHazardsCarcinogensEditRecordViewController** - handles editing of a record in the Hazards Carcinogens section
+- `initializeDataSource`<br/></br>##### **WHSHazardsCarcinogensEditRecordViewController** - handles editing of a record in the Hazards Carcinogens section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4114,9 +3638,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSHazardsCarcinogensEmployeeExposureViewController** - handles the employee exposure in hazards carcinogens
+- `initializeDataSource`<br/></br>##### **WHSHazardsCarcinogensEmployeeExposureViewController** - handles the employee exposure in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4129,16 +3651,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchEmployeeExposures`
 - `initializeDataSource`
 - `openEditRecordView`
-- `openAddRecordView`
-
-##### **WHSHazardsCarcinogensSearchFormViewController** - handles the search form in hazards carcinogens
+- `openAddRecordView`<br/></br>##### **WHSHazardsCarcinogensSearchFormViewController** - handles the search form in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSHazardsCarcinogensSearchResultsViewController** - handles the search results in hazards carcinogens
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSHazardsCarcinogensSearchResultsViewController** - handles the search results in hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4149,9 +3667,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showTabView`
-
-
-##### **WHSHazardsCarcinogensTabViewController** - handles the hazards carcinogens tab
+<br/></br>##### **WHSHazardsCarcinogensTabViewController** - handles the hazards carcinogens tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4164,9 +3680,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showEditDetailsView`
 - `showEmployeeExposureView`
-- `showActionsView`
-
-##### **WHSHazardsCarcinogensViewController** - controls the hazards carcinogens
+- `showActionsView`<br/></br>##### **WHSHazardsCarcinogensViewController** - controls the hazards carcinogens
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4182,14 +3696,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSHazardsDetailsViewController** - handles the showing of the details in the hazards section
+- `openAddRecordView`<br/></br>##### **WHSHazardsDetailsViewController** - handles the showing of the details in the hazards section
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`
-
-##### **WHSHazardsSearchFormViewController** - handles the showing of the search form in the Hazards section
+- `initializeDataSource`<br/></br>##### **WHSHazardsSearchFormViewController** - handles the showing of the search form in the Hazards section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4200,18 +3710,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `textViewDidChange`
 - `initializeDataSource`
-- `showStatusPickerView`
-
-##### **WHSHazardsSearchResutlsViewController** - handles the showing of the search results in the Hazards section
+- `showStatusPickerView`<br/></br>##### **WHSHazardsSearchResutlsViewController** - handles the showing of the search results in the Hazards section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `searchRecords`
-- `fetchNextPage`
-
-##### **WHSHazardsViewController** - handles the showing of the Hazards screen
+- `fetchNextPage`<br/></br>##### **WHSHazardsViewController** - handles the showing of the Hazards screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4219,9 +3725,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAsbestosView`
-- `showCarcinogensView`
-
-##### **WHSIRSearchResultsViewController** - handles the search results in IR
+- `showCarcinogensView`<br/></br>##### **WHSIRSearchResultsViewController** - handles the search results in IR
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4233,9 +3737,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `searchRecords`
 - `initializeDataSource`
-- `showTabView`
-
-##### **WHSIRSearchViewController** - handles the IR search
+- `showTabView`<br/></br>##### **WHSIRSearchViewController** - handles the IR search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4255,9 +3757,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRiskRatingPickerView`
 - `showStatusPickerView`
 - `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSIncidentReportingAddNewHazardsViewController** - handles the adding of new hazards in incident reporting
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSIncidentReportingAddNewHazardsViewController** - handles the adding of new hazards in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4278,9 +3778,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `clearHazardData`
-
-##### **WHSIncidentReportingAddNewWitnessViewController** - handles the adding of new witness in incident reporting
+- `clearHazardData`<br/></br>##### **WHSIncidentReportingAddNewWitnessViewController** - handles the adding of new witness in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4304,9 +3802,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showWorkerPickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `clearWitnessData`
-
-##### **WHSIncidentReportingAddRecordViewController** - handles the adding of record in incident reporting
+- `clearWitnessData`<br/></br>##### **WHSIncidentReportingAddRecordViewController** - handles the adding of record in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4382,9 +3878,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `setValuesForCell: ... fromData: ... usingParam`
 - `insertValue: ... forKeyPath: ... inData`
 - `insertValue: ... forKeyPath: ... inData`
-- `valueFromData: ... forKeyPath: ... withTransForm`
-
-##### **WHSIncidentReportingAddTypeViewController** - handles the adding of type in incident reporting
+- `valueFromData: ... forKeyPath: ... withTransForm`<br/></br>##### **WHSIncidentReportingAddTypeViewController** - handles the adding of type in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4401,20 +3895,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `createJSON`
-
-##### **WHSIncidentReportingAdditionalDetailsViewController** - handles the additional details in incident reporting
+- `createJSON`<br/></br>##### **WHSIncidentReportingAdditionalDetailsViewController** - handles the additional details in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSIncidentReportingDetailsViewController** - handles the details in incident reporting
+- `initializeDataSource`<br/></br>##### **WHSIncidentReportingDetailsViewController** - handles the details in incident reporting
 
 ###### **Methods and Calculated Variables**
-- `initializeDataSource`
-
-##### **WHSIncidentReportingEditAdditionalDetailsViewController** - handles the editing of additional details in incident reporting
+- `initializeDataSource`<br/></br>##### **WHSIncidentReportingEditAdditionalDetailsViewController** - handles the editing of additional details in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4471,9 +3959,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isProductExists`
 - `appendProducts: ... productNames`
-- `existingProductList`
-
-##### **WHSIncidentReportingEditDetailsViewController** - handles the editing of details in incident reporting
+- `existingProductList`<br/></br>##### **WHSIncidentReportingEditDetailsViewController** - handles the editing of details in incident reporting
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4490,9 +3976,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeWorkerDetails`
 - `initializeFirstReportDetails`
 - `initializeIntiialReportDetails`
-- `sendFetchRequest: ... delegate: ... dictionaryType`
-
-##### **WHSIncidentReportingEditHazardsViewController** - handles the editing of a hazard in the incident reporting section
+- `sendFetchRequest: ... delegate: ... dictionaryType`<br/></br>##### **WHSIncidentReportingEditHazardsViewController** - handles the editing of a hazard in the incident reporting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4501,15 +3985,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchHazardDetailsData`
 - `initializeDataSource`
-
-
-##### **WHSIncidentReportingEditTypeViewController** - handles the editing of a type in the Incident Reporting section
+<br/></br>##### **WHSIncidentReportingEditTypeViewController** - handles the editing of a type in the Incident Reporting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSIncidentReportingEditWitnessViewController** - handles the editing of a witness in the Incident Reporting section
+- `initializeDataSource`<br/></br>##### **WHSIncidentReportingEditWitnessViewController** - handles the editing of a witness in the Incident Reporting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4517,9 +3997,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchWitnessDetailsData`
-- `initializeDataSource`
-
-##### **WHSIncidentReportingHazardsViewController** - controls the WHS incident reporting hazards view
+- `initializeDataSource`<br/></br>##### **WHSIncidentReportingHazardsViewController** - controls the WHS incident reporting hazards view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4537,9 +4015,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEditHazardView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`
-
-##### **WHSIncidentReportingIncidentAssessmentViewController** - handles the WHS incident reporting incident assessment view
+- `openAddRecordView`<br/></br>##### **WHSIncidentReportingIncidentAssessmentViewController** - handles the WHS incident reporting incident assessment view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4589,9 +4065,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `appendSelectedItemWithIDs`
 - `discardSelectedItemWithStringOfIDs`
 - `discardSelectedItemWithStringOfIDsChemical`
-- `dismissedViewWithRecords`
-
-##### **WHSIncidentReportingRecordViewController** - shows the Incident Reporting Record screen
+- `dismissedViewWithRecords`<br/></br>##### **WHSIncidentReportingRecordViewController** - shows the Incident Reporting Record screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4608,9 +4082,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `openPDFView`
 - `showEmailReport`
-- `openAddRecordView`
-
-##### **WHSIncidentReportingTabViewController** - handles the incident reporting procedures tab
+- `openAddRecordView`<br/></br>##### **WHSIncidentReportingTabViewController** - handles the incident reporting procedures tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4633,9 +4105,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showWitnessessView`
 - `showTreatmentsView`
 - `showIncidentAssessmentDetailsView`
-- `showActionsView`
-
-##### **WHSIncidentReportingTreatmentsDetailsViewController** - handles the WHS incident reporting treatments details view
+- `showActionsView`<br/></br>##### **WHSIncidentReportingTreatmentsDetailsViewController** - handles the WHS incident reporting treatments details view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4664,18 +4134,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showUnitPickerView`
 - `showDatePickerWithIndexPath`
 - `showDateTimePickerWithIndexPath`
-- `saveBarButtonItemDidTapped`
-
-##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
+- `saveBarButtonItemDidTapped`<br/></br>##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddIncidentReportingTypeView`
 - `showEditIncidentReportingTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSIncidentReportingWitnessesViewController** - handles the incident reporting witnesses view
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSIncidentReportingWitnessesViewController** - handles the incident reporting witnesses view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4692,18 +4158,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `deleteWitnessData`
 - `initializeDataSource`
 - `showEditWitnessView`
-- `openAddRecordView`
-
-##### **WHSInspectionTypePickerViewController** - handles the picker view for inspection types
+- `openAddRecordView`<br/></br>##### **WHSInspectionTypePickerViewController** - handles the picker view for inspection types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddInspectionTypeView`
 - `showEditInspectionTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSLandingViewController** - handles the Landing screen
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSLandingViewController** - handles the Landing screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4724,9 +4186,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionsMonitorSearchResultsView`
 - `fetchDashboardInformations`
 - `fetchDynamicMenu`
-- `processDashboardData`
-
-##### **WHSLegislationsTabViewController** - handles the Legislations tab
+- `processDashboardData`<br/></br>##### **WHSLegislationsTabViewController** - handles the Legislations tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4739,34 +4199,26 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showEmailReportView`
 - `showEditDetailsView`
-- `showActionsView`
-
-##### **WHSLicencePickerViewController** - handles the License Picker
+- `showActionsView`<br/></br>##### **WHSLicencePickerViewController** - handles the License Picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddLicenceView`
 - `showEditLicenceView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSLocationPickerViewController** - handles the picker view for location
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSLocationPickerViewController** - handles the picker view for location
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddLocationView`
 - `showEditLocationView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSLocationTypePickerViewController** - handles the picker view for location types
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSLocationTypePickerViewController** - handles the picker view for location types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddLocationView`
-- `openAddRecordView`
-
-##### **WHSLoginViewController** - handles the Login screen and login in of a user
+- `openAddRecordView`<br/></br>##### **WHSLoginViewController** - handles the Login screen and login in of a user
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4784,9 +4236,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `validateUserCredentials`
 - `getResponseMessage`
 - `validateUsername`
-- `validatePassword`
-
-##### **WHSMSDSProductDetailsViewController** - handles the product details in msds
+- `validatePassword`<br/></br>##### **WHSMSDSProductDetailsViewController** - handles the product details in msds
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4800,9 +4250,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `mailComposeController: ... didFinishWithResult: ... error`
 - `fetchProductDetails`
 - `sanitizeJSON`
-- `reorderSanitizedJSON`
-
-##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
+- `reorderSanitizedJSON`<br/></br>##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4815,9 +4263,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ heightForRowAtIndexPath`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `searchProducts`
-
-
-##### **WHSMSDSSearchViewController** - handles the searching in msds
+<br/></br>##### **WHSMSDSSearchViewController** - handles the searching in msds
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4835,16 +4281,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeUserInputReceivers`
 - `searchBarButtonItemDidTapped`
 - `finishedSelectingSearchTypeHandler`
-- `finishedSelectingSearchFormatHandler`
-
-##### **WHSManifestsReportPDFViewController** - handles the PDF display for manifests reports
+- `finishedSelectingSearchFormatHandler`<br/></br>##### **WHSManifestsReportPDFViewController** - handles the PDF display for manifests reports
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`
-
-##### **WHSMenuViewController** - controls menu
+- `prepareForSegue`<br/></br>##### **WHSMenuViewController** - controls menu
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -4882,18 +4324,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `formatPickedItems: ... dataToBeExtractedKey: ... indent`
 - `formatPickedItems: ... dataToBeExtractedKey: ... indent: .. indentationString`
 - `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
-- `formatPickedPersons: ... indentationString`
-
-##### **WHSNoiseAssessmentSubTypePickerViewController** - handles the picker view for noise assessment sub types
+- `formatPickedPersons: ... indentationString`<br/></br>##### **WHSNoiseAssessmentSubTypePickerViewController** - handles the picker view for noise assessment sub types
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddSubTypeView`
 - `showEditSubTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSNoiseControlAddAssessmentViewController** - handles adding an assessment in the Noise Control section
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSNoiseControlAddAssessmentViewController** - handles adding an assessment in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4914,16 +4352,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSNoiseControlAddControlViewController** - handles the adding of a control in the Noise Control section
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSNoiseControlAddControlViewController** - handles the adding of a control in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`
-
-##### **WHSNoiseControlAddRecordViewController** - handles the adding for noise control records
+- `prepareForSegue`<br/></br>##### **WHSNoiseControlAddRecordViewController** - handles the adding for noise control records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4979,9 +4413,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `setSelectedItemWithIDs`
 - `appendSelectedItemWithIDs`
 - `discardSelectedItemWithStringOfIDs`
-
-
-##### **WHSNoiseControlAssessmentDetailsViewController** - handles the showing of assessment details in the Noise Control section
+<br/></br>##### **WHSNoiseControlAssessmentDetailsViewController** - handles the showing of assessment details in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4999,18 +4431,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddAssessmentView`
 - `showEditCommentView`
 - `cellRightUtitilityButtons`
-- `sanitizeAssessments`
-
-##### **WHSNoiseControlEditAssessmentCommentViewController** - handles the editing of an assessment in the Noise Control section
+- `sanitizeAssessments`<br/></br>##### **WHSNoiseControlEditAssessmentCommentViewController** - handles the editing of an assessment in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `tableView: â¦ cellForRowAtIndexPath`
 - `tableView: â¦ heightForRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
+- `initializeDataSource`<br/></br>##### **WHSNoiseControlEditMeasurementViewController** - handles the editing of noise control measurement
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5035,9 +4463,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showMeasurementLocalityPickerView`
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
-
-
-##### **WHSNoiseControlEditRecordViewController** - handles the editing of a record in Noise Control section
+<br/></br>##### **WHSNoiseControlEditRecordViewController** - handles the editing of a record in Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5045,9 +4471,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchNoiseControlDetailsData`
-- `initializeDataSource`
-
-##### **WHSNoiseControlNewControlViewController** - handles the showing of the new control in the Noise Control section
+- `initializeDataSource`<br/></br>##### **WHSNoiseControlNewControlViewController** - handles the showing of the new control in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5060,9 +4484,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `showEditRecordView`
 - `initializeDataSource`
-- `openAddRecordView`
-
-##### **WHSNoiseControlTabViewController** - handles the noise control tab
+- `openAddRecordView`<br/></br>##### **WHSNoiseControlTabViewController** - handles the noise control tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5077,9 +4499,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showEditMeasurementView`
 - `showAssessmentView`
-- `showNewControlsView`
-
-##### **WHSNonChemicalRiskAssessmentAssessmentViewController** - handles the WHS nonchemical risk assessment assessment view
+- `showNewControlsView`<br/></br>##### **WHSNonChemicalRiskAssessmentAssessmentViewController** - handles the WHS nonchemical risk assessment assessment view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5093,9 +4513,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ heightForRowAtIndexPath`
 - `fetchAssessmentData`
 - `initializeDataSource`
-
-
-##### **WHSNonChemicalRiskAssessmentDetailsViewController** - handles the WHS nonchemical risk assessment details view
+<br/></br>##### **WHSNonChemicalRiskAssessmentDetailsViewController** - handles the WHS nonchemical risk assessment details view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5111,15 +4529,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ heightForFooterInSection`
 - `tableView: â¦ heightForRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSNonChemicalRiskAssessmentNewControlsViewController** - handles the new controls in non chemical risk assessment
+- `initializeDataSource`<br/></br>##### **WHSNonChemicalRiskAssessmentNewControlsViewController** - handles the new controls in non chemical risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-
-##### **WHSNonChemicalRiskAssessmentSearchResultsViewController** - handles the search results in non chemical risk assessment
+- `tableView: ... didSelectRowAtIndexPath`<br/></br>##### **WHSNonChemicalRiskAssessmentSearchResultsViewController** - handles the search results in non chemical risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5133,16 +4547,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSNonChemicalRiskAssessmentSearchViewController** - handles the search in non chemical risk assessment
+- `showTabView`<br/></br>##### **WHSNonChemicalRiskAssessmentSearchViewController** - handles the search in non chemical risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... didSelectRowAtIndexPath`
-- `showSearchResultsView`
-
-##### **WHSNonChemicalRiskAssessmentTabViewController** - handles the non chemical risk assessment tab
+- `showSearchResultsView`<br/></br>##### **WHSNonChemicalRiskAssessmentTabViewController** - handles the non chemical risk assessment tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5164,9 +4574,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardsView`
 - `showConsequencesView`
 - `showCurrentControlsView`
-- `processTabFlags`
-
-##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
+- `processTabFlags`<br/></br>##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5182,9 +4590,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPDFView`
 - `showEmailReportView`
 - `showTabView`
-
-
-##### **WHSNonChemicalRiskManagementViewController** - controls the non chemical risk management
+<br/></br>##### **WHSNonChemicalRiskManagementViewController** - controls the non chemical risk management
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5194,9 +4600,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showHATRiskAssessmentView`
 - `showSWMSView`
-- `showSWPView`
-
-##### **WHSNonChemicalSafeWorkManagementSystemActionViewController** - handles the WHS nonchemical safe work management system action view
+- `showSWPView`<br/></br>##### **WHSNonChemicalSafeWorkManagementSystemActionViewController** - handles the WHS nonchemical safe work management system action view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5204,9 +4608,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNewControlsData`
 - `showAddActionView`
 - `showEditActionView`
-
-
-##### **WHSNonChemicalSafeWorkManagementSystemAddActionViewController** - handles the WHS adding of action for nonchemical safe work management systems
+<br/></br>##### **WHSNonChemicalSafeWorkManagementSystemAddActionViewController** - handles the WHS adding of action for nonchemical safe work management systems
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5235,9 +4637,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `getRecipientIDs`
-- `createPOSTJSON`
-
-##### **WHSNonChemicalSafeWorkManagementSystemEditActionViewController** - handles the editing of actions for WHS nonchemical safe work management system
+- `createPOSTJSON`<br/></br>##### **WHSNonChemicalSafeWorkManagementSystemEditActionViewController** - handles the editing of actions for WHS nonchemical safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5245,9 +4645,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchActionDetailsData`
-- `initializeDataSource`
-
-##### **WHSNonChemicalSafeWorkProceduresAddActionViewController** - handles the adding of action for the WHS nonchemical safe work procedures
+- `initializeDataSource`<br/></br>##### **WHSNonChemicalSafeWorkProceduresAddActionViewController** - handles the adding of action for the WHS nonchemical safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5276,27 +4674,21 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
 - `getRecipientIDs`
-- `createPOSTJSON`
-
-##### **WHSNonChemicalSafeWorkProceduresEditActionViewController** - handles the editing of actions for WHS nonchemical safe work procedures
+- `createPOSTJSON`<br/></br>##### **WHSNonChemicalSafeWorkProceduresEditActionViewController** - handles the editing of actions for WHS nonchemical safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `connectionDidFinishLoading`
 - `fetchActionDetailsData`
-- `initializeDataSource`
-
-##### **WHSNotificationReceiverPickerViewController** - handles the picker in notification receiver
+- `initializeDataSource`<br/></br>##### **WHSNotificationReceiverPickerViewController** - handles the picker in notification receiver
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddNotificationReceiversView`
 - `showEditNotificationReceiversView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSOfflineFormViewController** - shows the workers 
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSOfflineFormViewController** - shows the workers 
 
 ###### **Methods and Calculated Variables**
 `viewDidLoad`
@@ -5304,17 +4696,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 `initializeDataSource`
 `accessPermission`
 `tableView(...didSelectRowAt)`
-`tableView(...heightForRowAt)`
-
-##### **WHSOfflineFormsAuditsInspectionViewController** - handles the audits inspection in the offline forms section
+`tableView(...heightForRowAt)`<br/></br>##### **WHSOfflineFormsAuditsInspectionViewController** - handles the audits inspection in the offline forms section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewWillAppear`
 - `initializeDataSource`
-- `tableView(...didSelectRowAt)`
-
-##### **WHSOfflineFormsViewController** - handles the offline forms screen
+- `tableView(...didSelectRowAt)`<br/></br>##### **WHSOfflineFormsViewController** - handles the offline forms screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5325,21 +4713,15 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView(...cellForRowAt)`
 - `tableView(...didSelectRowAt)`
 - `tableView(...heightForRowAt)`
-
-
-##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
+<br/></br>##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
-- `showTabView`
-
-##### **WHSPAPComplaintsSearchViewController** handles the searching for the PAP Complaints section
+- `showTabView`<br/></br>##### **WHSPAPComplaintsSearchViewController** handles the searching for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-
-
-##### **WHSPAPComplaintsTabViewController** - handles the PAP complaints tab
+<br/></br>##### **WHSPAPComplaintsTabViewController** - handles the PAP complaints tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5355,9 +4737,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showChecklistView`
 - `showPointsRaisedView`
 - `showActionsView`
-
-
-##### **WHSPAPDetailsViewController** - handles the PAP details
+<br/></br>##### **WHSPAPDetailsViewController** - handles the PAP details
 
 ###### **Methods and Calculated Variables**
 - `numberOfSectionsInTableView`
@@ -5365,20 +4745,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... titleForHeaderInSection`
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSPAPDrillsSearchResultsViewController** - handles the search results in the PAP Drills section
+- `initializeDataSource`<br/></br>##### **WHSPAPDrillsSearchResultsViewController** - handles the search results in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
-- `showTabView`
-
-##### **WHSPAPDrillsSearchViewController** - handles the searching in the PAP Drills section
+- `showTabView`<br/></br>##### **WHSPAPDrillsSearchViewController** - handles the searching in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
 - `showSearchResultsViewWithDataList`
-
-
-##### **WHSPAPDrillsTabViewController** - handles the PAP drills tab
+<br/></br>##### **WHSPAPDrillsTabViewController** - handles the PAP drills tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5392,20 +4766,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showEditDetailsView`
 - `showChecklistView`
-- `showActionsView`
-
-##### **WHSPAPLegislationsSearchResultsViewController** - handles the search results in the PAP Legislations section
+- `showActionsView`<br/></br>##### **WHSPAPLegislationsSearchResultsViewController** - handles the search results in the PAP Legislations section
 
 ###### **Methods and Calculated Variables**
-- `showTabView`
-
-##### **WHSPAPLegislationsSearchViewController** - handles the searching in the PAP Legislations section
+- `showTabView`<br/></br>##### **WHSPAPLegislationsSearchViewController** - handles the searching in the PAP Legislations section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSPAPPlansProceduresTabViewController** - handles the PAP plans procedures tab
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPAPPlansProceduresTabViewController** - handles the PAP plans procedures tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5421,20 +4789,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showChecklistView`
 - `showEmergencyProcedureView`
-- `showActionsView`
-
-##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
+- `showActionsView`<br/></br>##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
-- `showTabView`
-
-##### **WHSPAPPlansSearchViewController** - handles the searching in the PAP Plans section 
+- `showTabView`<br/></br>##### **WHSPAPPlansSearchViewController** - handles the searching in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSPAPSearchResultsViewController** - handles the search results in PAP
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPAPSearchResultsViewController** - handles the search results in PAP
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5448,9 +4810,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSPAPSearchViewController** - handles the searching in pap
+- `showTabView`<br/></br>##### **WHSPAPSearchViewController** - handles the searching in pap
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5469,14 +4829,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSubTypePickerView`
 - `showStatusPickerView`
 - `showDatePickerWithIndexPath`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
 
 ###### **Methods and Calculated Variables**
-- `showTabView`
-
-##### **WHSPAPTrainingTabViewController** - handles the pap training tab
+- `showTabView`<br/></br>##### **WHSPAPTrainingTabViewController** - handles the pap training tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5491,14 +4847,10 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showChecklistView`
 - `showAttendeesView`
-- `showActionsView`
-
-##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
+- `showActionsView`<br/></br>##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
 
 ###### **Methods and Calculated Variables**
-- `showSearchResultsViewWithDataList`
-
-##### **WHSPDFAddSigneesViewController** - handles the PDF Add signees screen
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPDFAddSigneesViewController** - handles the PDF Add signees screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5516,15 +4868,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignatureViewController`
 - `initializeDataSource`
 - `showPersonInvolvedTypeView`
-- `refreshActionedByFields`
-
-##### **WHSPDFEditSigneeViewController** - handles the editing of the signee on a pdf
+- `refreshActionedByFields`<br/></br>##### **WHSPDFEditSigneeViewController** - handles the editing of the signee on a pdf
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSPDFSigneesViewController** - handles the showing of the PDF Signees screen
+- `initializeDataSource`<br/></br>##### **WHSPDFSigneesViewController** - handles the showing of the PDF Signees screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5543,9 +4891,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `tableView: â¦ editActionsForRowAtIndexPath`
 - `initializeDataSource`
-- `saveOnlineSignature`
-
-##### **WHSPDFViewController** - handles the pdf view
+- `saveOnlineSignature`<br/></br>##### **WHSPDFViewController** - handles the pdf view
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -5575,9 +4921,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `downloadPDF`
 - `fetchPDF`
 - `directlyFetchPDF`
-- `loadPDFFileToWebView`
-
-##### **WHSPointsRaisedViewController** - controls the points raised
+- `loadPDFFileToWebView`<br/></br>##### **WHSPointsRaisedViewController** - controls the points raised
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5596,9 +4940,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEditPointsRaisedView`
 - `cellRightUtitilityButtons`
-- `openAddRecordView`
-
-##### **WHSPoliciesAddRecordViewController** - handles the adding of WHS policies records
+- `openAddRecordView`<br/></br>##### **WHSPoliciesAddRecordViewController** - handles the adding of WHS policies records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5631,9 +4973,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
-- `clearTypeData`
-
-##### **WHSPoliciesComplaintsAddRecordViewController** - handles the adding of policies complaints records
+- `clearTypeData`<br/></br>##### **WHSPoliciesComplaintsAddRecordViewController** - handles the adding of policies complaints records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5678,9 +5018,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
 - `clearLocationTypeData`
-
-
-##### **WHSPoliciesComplaintsEditRecordViewController** - handles the editing of policies complaints records
+<br/></br>##### **WHSPoliciesComplaintsEditRecordViewController** - handles the editing of policies complaints records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5688,9 +5026,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSPoliciesComplaintsViewController** - handles the policies complaints
+- `initializeDataSource`<br/></br>##### **WHSPoliciesComplaintsViewController** - handles the policies complaints
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5706,9 +5042,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSPoliciesDrillsAddRecordViewController** - handles the adding of policies drills records
+- `openAddRecordView`<br/></br>##### **WHSPoliciesDrillsAddRecordViewController** - handles the adding of policies drills records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5752,9 +5086,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
 - `clearLocationTypeData`
-
-
-##### **WHSPoliciesDrillsEditRecordViewController** - handles the editing of record in policies drills
+<br/></br>##### **WHSPoliciesDrillsEditRecordViewController** - handles the editing of record in policies drills
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5762,9 +5094,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSPoliciesDrillsViewController** - controls the policies drills
+- `initializeDataSource`<br/></br>##### **WHSPoliciesDrillsViewController** - controls the policies drills
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5780,9 +5110,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSPoliciesEditRecordViewController** - handles the editing of record in policies
+- `openAddRecordView`<br/></br>##### **WHSPoliciesEditRecordViewController** - handles the editing of record in policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5790,9 +5118,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSPoliciesLegislationsAddRecordViewController** - handles the adding of policies legislations records
+- `initializeDataSource`<br/></br>##### **WHSPoliciesLegislationsAddRecordViewController** - handles the adding of policies legislations records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5827,9 +5153,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
-- `clearTypeData`
-
-##### **WHSPoliciesLegislationsEditRecordViewController** - handles the editing of record in the policies legislations
+- `clearTypeData`<br/></br>##### **WHSPoliciesLegislationsEditRecordViewController** - handles the editing of record in the policies legislations
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5841,9 +5165,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `getApplicableStates`
 - `getApplicableStatesIDs`
 - `getVerifiedStates`
-- `getVerifiedStatesIDs`
-
-##### **WHSPoliciesLegislationsViewController** - controls the policies legislations
+- `getVerifiedStatesIDs`<br/></br>##### **WHSPoliciesLegislationsViewController** - controls the policies legislations
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5859,9 +5181,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSPoliciesPlansAddRecordViewController** - handles the adding of record in policies plans
+- `openAddRecordView`<br/></br>##### **WHSPoliciesPlansAddRecordViewController** - handles the adding of record in policies plans
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5900,9 +5220,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
-- `clearLocationTypeData`
-
-##### **WHSPoliciesPlansEditRecordViewController** - handles the editing of record in policies plans
+- `clearLocationTypeData`<br/></br>##### **WHSPoliciesPlansEditRecordViewController** - handles the editing of record in policies plans
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5910,9 +5228,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSPoliciesPlansViewController** - controls the policies plans
+- `initializeDataSource`<br/></br>##### **WHSPoliciesPlansViewController** - controls the policies plans
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5928,9 +5244,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSPoliciesProceduresViewController** - handles the procedures in policies
+- `openAddRecordView`<br/></br>##### **WHSPoliciesProceduresViewController** - handles the procedures in policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5943,21 +5257,15 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showLegislationsView`
 - `showTrainingView`
 - `showDrillView`
-- `showComplaintsView`
-
-##### **WHSPoliciesSearchResultsViewController** - handles the display of search results for policies
+- `showComplaintsView`<br/></br>##### **WHSPoliciesSearchResultsViewController** - handles the display of search results for policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showTabView`
-
-##### **WHSPoliciesSearchViewController** - handles the searching of policies
+- `showTabView`<br/></br>##### **WHSPoliciesSearchViewController** - handles the searching of policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSPoliciesTabViewController** - handles the policies tab
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPoliciesTabViewController** - handles the policies tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5970,9 +5278,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSignOffView`
 - `showEmailReportView`
 - `showEditDetailsView`
-- `showActionsView`
-
-##### **WHSPoliciesTrainingAddRecordViewController** - handles the WHS adding of policies training records
+- `showActionsView`<br/></br>##### **WHSPoliciesTrainingAddRecordViewController** - handles the WHS adding of policies training records
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6014,9 +5320,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `isAllRequiredDataFilledUp`
 - `clearTypeData`
-- `clearLocationTypeData`
-
-##### **WHSPoliciesTrainingEditRecordViewController** - handles the editing of record in policies training
+- `clearLocationTypeData`<br/></br>##### **WHSPoliciesTrainingEditRecordViewController** - handles the editing of record in policies training
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6025,9 +5329,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsData`
 - `initializeDataSource`
-- `getInternalExternal`
-
-##### **WHSPoliciesTrainingViewController** - controls the policies training
+- `getInternalExternal`<br/></br>##### **WHSPoliciesTrainingViewController** - controls the policies training
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6043,9 +5345,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSPoliciesViewController** - controls the policies
+- `openAddRecordView`<br/></br>##### **WHSPoliciesViewController** - controls the policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6061,9 +5361,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSProductDetailsViewController** - handles the display of product details
+- `openAddRecordView`<br/></br>##### **WHSProductDetailsViewController** - handles the display of product details
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6071,16 +5369,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `numberOfSectionsInTableView`
 - `tableView: â¦ numberOfRowsInSection`
 - `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSProjectPickerViewController** - handles the project picker
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSProjectPickerViewController** - handles the project picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddProjectView`
-- `openAddRecordView`
-
-##### **WHSRecordViewController** - handles showing of the Record screen
+- `openAddRecordView`<br/></br>##### **WHSRecordViewController** - handles showing of the Record screen
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -6115,9 +5409,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `openPDFView`
 - `openAddRecordView`
 - `moreOptionsBarButtonItemDidTapped`
-- `searchItem`
-
-##### **WHSRegisterActionDetailsViewController** - handles the action details in register
+- `searchItem`<br/></br>##### **WHSRegisterActionDetailsViewController** - handles the action details in register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6126,16 +5418,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `initializeDataSource`
-- `fetchActionDetails`
-
-##### **WHSRegisterActionManagerViewController** - handles the action manager of the register
+- `fetchActionDetails`<br/></br>##### **WHSRegisterActionManagerViewController** - handles the action manager of the register
 
 ###### **Methods and Calculated Variables**
 - `tablePickerDidFinishedPicking: ... dataPicked`
 - `createInData`
-- `transferActionData`
-
-##### **WHSRegisterActionsViewController** - handles the actions of the register
+- `transferActionData`<br/></br>##### **WHSRegisterActionsViewController** - handles the actions of the register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6151,9 +5439,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchActionsData`
 - `initializeDataSource`
 - `showEditRecordView`
-- `openAddRecordView`
-
-##### **WHSRegisterAddActionViewController** - handles the adding of action in the register
+- `openAddRecordView`<br/></br>##### **WHSRegisterAddActionViewController** - handles the adding of action in the register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6162,9 +5448,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`
-
-##### **WHSRegisterAddActionsViewController** - handles the adding of actions in the register
+- `cellSwitchDidValueChanged`<br/></br>##### **WHSRegisterAddActionsViewController** - handles the adding of actions in the register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6196,9 +5480,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `createJSON`
-
-##### **WHSRegisterAddServiceTypeViewController** - handles the adding of service type in the register
+- `createJSON`<br/></br>##### **WHSRegisterAddServiceTypeViewController** - handles the adding of service type in the register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6215,9 +5497,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSRegisterAddTestTypeViewController** - handles the adding of test type in the register
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSRegisterAddTestTypeViewController** - handles the adding of test type in the register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6234,9 +5514,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `createJSON`
 - `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSRegisterEditActionDetailsViewController** - handles the editing of action details in the register
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSRegisterEditActionDetailsViewController** - handles the editing of action details in the register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6246,9 +5524,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`
-
-##### **WHSRegisterEditActionsViewController** - handles the editing of actions in register
+- `cellSwitchDidValueChanged`<br/></br>##### **WHSRegisterEditActionsViewController** - handles the editing of actions in register
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6259,39 +5535,29 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchActionDetailsData`
 - `initializeDataSource`
-- `formatNotificationReceivers`
-
-##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
+- `formatNotificationReceivers`<br/></br>##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSRegisterEditTestTypeViewController** - handles the editing of a test type in the Registers section
+- `initializeDataSource`<br/></br>##### **WHSRegisterEditTestTypeViewController** - handles the editing of a test type in the Registers section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `initializeDataSource`
-
-##### **WHSRegisterServiceTypePickerViewController** - handles the picking of a service type in Registers section
+- `initializeDataSource`<br/></br>##### **WHSRegisterServiceTypePickerViewController** - handles the picking of a service type in Registers section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddServiceTypeView`
 - `showEditServiceTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSRegisterTestHistoryDetailsViewController** - handles the viewing of the details of the Register Test History
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSRegisterTestHistoryDetailsViewController** - handles the viewing of the details of the Register Test History
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `connectionDidFinishLoading`
 - `processActionRecordCount`
 - `initializeEditDetailsView`
-- `showEditDetailsView`
-
-##### **WHSRegisterTestHistoryViewController**
+- `showEditDetailsView`<br/></br>##### **WHSRegisterTestHistoryViewController**
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6301,22 +5567,16 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ heightForRowAtIndexPath`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchTestHistories`
-- `showTestHistoryDetailsView`
-
-##### **WHSRegisterTestTypePickerViewController** - handles the picking of a Register Test Type
+- `showTestHistoryDetailsView`<br/></br>##### **WHSRegisterTestTypePickerViewController** - handles the picking of a Register Test Type
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddTestTypeView`
 - `showEditTestTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSRegistersSearchViewController** - handles the searching in registers
 
-##### **WHSRegistersSearchViewController** - handles the searching in registers
-
-###### **Methods and Calculated Variables**
-
-##### **WHSRegistersViewController** - handles the viewing of the Registers screen
+###### **Methods and Calculated Variables**<br/></br>##### **WHSRegistersViewController** - handles the viewing of the Registers screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6330,9 +5590,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAssetsView`
 - `showSafetyView`
 - `showEnvironmentalView`
-- `showChemicalsView`
-
-##### **WHSReportIncidentViewController** - handles the showing of the Report Incident Screen 
+- `showChemicalsView`<br/></br>##### **WHSReportIncidentViewController** - handles the showing of the Report Incident Screen 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6416,16 +5674,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `clearLocationTypeData`
 - `clearDepartmentData`
-- `cellIndexForField`
-
-##### **WHSRichTextEditorViewController** - handles the rich text editor
+- `cellIndexForField`<br/></br>##### **WHSRichTextEditorViewController** - handles the rich text editor
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`
-
-##### **WHSRiskAssessmentActionDetailsViewController** - handles the action details in the risk assessment
+- `prepareForSegue`<br/></br>##### **WHSRiskAssessmentActionDetailsViewController** - handles the action details in the risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6434,18 +5688,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchActionDetails`
-- `initializeDataSource`
-
-##### **WHSRiskAssessmentActionManagerViewController** - handles the action manager in the risk assessment
+- `initializeDataSource`<br/></br>##### **WHSRiskAssessmentActionManagerViewController** - handles the action manager in the risk assessment
 
 ###### **Methods and Calculated Variables**
 - `tablePickerDidFinishedPicking: ... dataPicked`
 - `createInData`
 - `isValidObjectForIndex`
 - `transferActionData`
-- `showActionControlMeasurePickerView`
-
-##### **WHSRiskAssessmentAddActionViewController** - handles the adding of action in the risk assessment
+- `showActionControlMeasurePickerView`<br/></br>##### **WHSRiskAssessmentAddActionViewController** - handles the adding of action in the risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6454,9 +5704,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `cellSwitchDidValueChanged`
-- `saveActionButtonDidTapped`
-
-##### **WHSRiskAssessmentEditActionDetailsViewController** - handles the editing of action details in risk assessment
+- `saveActionButtonDidTapped`<br/></br>##### **WHSRiskAssessmentEditActionDetailsViewController** - handles the editing of action details in risk assessment
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6466,18 +5714,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`
-
-##### **WHSRiskAssessmentPicturesViewController** - handles the showing of pictures in the Risk Management section
+- `cellSwitchDidValueChanged`<br/></br>##### **WHSRiskAssessmentPicturesViewController** - handles the showing of pictures in the Risk Management section
 
 ###### **Methods and Calculated Variables**
 - `collectionCellIdentifier`
 - `initializeCollectionViews`
 - `preferredCollectionViewFrame`
 - `processPictures`
-- `processHeadersAndDetails`
-
-##### **WHSRiskAssessmentViewController** - controls the risk assessment
+- `processHeadersAndDetails`<br/></br>##### **WHSRiskAssessmentViewController** - controls the risk assessment
 
 ###### **Methods and Calculated Variables**
 - `initWithCoder`
@@ -6510,9 +5754,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `disableViewPDF`
 - `disableAttachments`
 - `disableEmailReport`
-- `disableActions`
-
-##### **WHSRiskManagementAddActionViewController** - handles the adding of action in risk management
+- `disableActions`<br/></br>##### **WHSRiskManagementAddActionViewController** - handles the adding of action in risk management
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6542,9 +5784,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `clearControlMeasureData`
 - `isAllRequiredDataFilledUp`
 - `getRecipientIDs`
-- `createPOSTJSON`
-
-##### **WHSRiskManagementEditActionViewController** - handles the editing of action in risk management
+- `createPOSTJSON`<br/></br>##### **WHSRiskManagementEditActionViewController** - handles the editing of action in risk management
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6552,9 +5792,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `fetchActionDetailsData`
 - `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-
-##### **WHSRiskManagementViewController** - handles the Risk Management screen
+- `initializeDataSource`<br/></br>##### **WHSRiskManagementViewController** - handles the Risk Management screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6565,9 +5803,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `showChemicalRiskManagementView`
 - `showNonChemicalRiskManagementView`
-- `initializeDataSource`
-
-##### **WHSSafeWorkManagementSystemActionDetailsViewController** - handles the action details of safe work management system
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemActionDetailsViewController** - handles the action details of safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6576,17 +5812,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... cellForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `initializeDataSource`
-- `fetchActionDetails`
-
-##### **WHSSafeWorkManagementSystemActionManagerViewController** - handles the action manager of safe work management system
+- `fetchActionDetails`<br/></br>##### **WHSSafeWorkManagementSystemActionManagerViewController** - handles the action manager of safe work management system
 
 ###### **Methods and Calculated Variables**
 - `tablePickerDidFinishedPicking: ... dataPicked`
 - `createInData`
 - `transferActionData`
-- `showActionTaskPickerView`
-
-##### **WHSSafeWorkManagementSystemActivityViewController** - handles the activity in safe work management system
+- `showActionTaskPickerView`<br/></br>##### **WHSSafeWorkManagementSystemActivityViewController** - handles the activity in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6602,9 +5834,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `fetchActivityData`
-- `initializeDataSource`
-
-##### **WHSSafeWorkManagementSystemAddActionViewController** -  handles the adding of action in safe work management system
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemAddActionViewController** -  handles the adding of action in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6613,9 +5843,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`
-
-##### **WHSSafeWorkManagementSystemDetailViewController** - handles the detail in safe work management system
+- `cellSwitchDidValueChanged`<br/></br>##### **WHSSafeWorkManagementSystemDetailViewController** - handles the detail in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6631,9 +5859,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSSafeWorkManagementSystemEditActionDetailsViewController** - handles the editing of action details in safe work management system
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemEditActionDetailsViewController** - handles the editing of action details in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6643,9 +5869,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`
-
-##### **WHSSafeWorkManagementSystemSearchResultsViewController** - handles the search results in safe work management system
+- `cellSwitchDidValueChanged`<br/></br>##### **WHSSafeWorkManagementSystemSearchResultsViewController** - handles the search results in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6659,9 +5883,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafeWorkManagementSystemSearchViewController** - handles the searching in safe work management system
+- `showTabView`<br/></br>##### **WHSSafeWorkManagementSystemSearchViewController** - handles the searching in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6676,9 +5898,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showGenericPickerViewWithType`
 - `showRecordTypePickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSSafeWorkManagementSystemTabViewController** - handles the safe work management system tab
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSSafeWorkManagementSystemTabViewController** - handles the safe work management system tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6692,9 +5912,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showActivityView`
 - `showTasksView`
-- `showActionsView`
-
-##### **WHSSafeWorkManagementSystemTaskViewController** - handles the tasks in safe work management system
+- `showActionsView`<br/></br>##### **WHSSafeWorkManagementSystemTaskViewController** - handles the tasks in safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6709,9 +5927,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchTasksData`
-- `initializeDataSource`
-
-##### **WHSSafeWorkManagementSystemViewController** - controls the safe work management system
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemViewController** - controls the safe work management system
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6723,18 +5939,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView`
-
-##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
+- `showTabView`<br/></br>##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
-- `showEditActionView`
-
-##### **WHSSafeWorkProceduresChecklistViewController** - handles the checklist in safe work procedures
+- `showEditActionView`<br/></br>##### **WHSSafeWorkProceduresChecklistViewController** - handles the checklist in safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6747,9 +5959,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
 - `fetchChecklistData`
-- `initializeDataSource`
-
-##### **WHSSafeWorkProceduresDetailViewController** - handles the details in safe work procedures
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresDetailViewController** - handles the details in safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6765,9 +5975,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... heightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6780,9 +5988,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForRowAtIndexPath`
 - `fetchSWPData`
-- `initializeDataSource`
-
-##### **WHSSafeWorkProceduresSearchResultsViewController** - handles the search results in safe work procedures
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresSearchResultsViewController** - handles the search results in safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6796,9 +6002,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafeWorkProceduresSearchViewController** - handles the searching in safe work procedures
+- `showTabView`<br/></br>##### **WHSSafeWorkProceduresSearchViewController** - handles the searching in safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6815,9 +6019,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showStatusPickerView`
 - `showDatePicker`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSSafeWorkProceduresTabViewController** - handles the safe work procedures tab
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSSafeWorkProceduresTabViewController** - handles the safe work procedures tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6831,9 +6033,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showSWPView`
 - `showChecklistView`
-- `showActionsView`
-
-##### **WHSSafeWorkProceduresViewController** - shows share work procedures
+- `showActionsView`<br/></br>##### **WHSSafeWorkProceduresViewController** - shows share work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6845,9 +6045,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView`
-
-##### **WHSSafetyAddDetailsViewController** - handles the adding of details in safety
+- `showTabView`<br/></br>##### **WHSSafetyAddDetailsViewController** - handles the adding of details in safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6889,9 +6087,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `handleAutoNumData`
 - `clearSubTypeData`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSSafetyAddTestHistoryViewController** - handles the adding of test history in safety
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSSafetyAddTestHistoryViewController** - handles the adding of test history in safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6917,9 +6113,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showStatusPickerView`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSSafetyEditDetailsViewController** - handles the editing of details in safety
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSSafetyEditDetailsViewController** - handles the editing of details in safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6929,9 +6123,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: ... didSelectRowAtIndexPath`
 - `fetchDetailsDat`
-- `initializeDataSource`
-
-##### **WHSSafetyEditServiceHistoryViewController** - handles the editing of service history in safety
+- `initializeDataSource`<br/></br>##### **WHSSafetyEditServiceHistoryViewController** - handles the editing of service history in safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6944,9 +6136,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchServiceHistoryDetailsData`
 - `initializeDataSource`
 - `showServiceHistoryActions`
-- `showAttachmentsView`
-
-##### **WHSSafetyEditTestHistoryViewController** - handles the editing of test history in safety
+- `showAttachmentsView`<br/></br>##### **WHSSafetyEditTestHistoryViewController** - handles the editing of test history in safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6959,9 +6149,20 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchTestHistoryDetailsData`
 - `initializeDataSource`
 - `showTestHistoryActions`
-- `showAttachmentsView`
+- `showAttachmentsView`<br/></br>##### **WHSSafetyEmergencyWashingAddDetailsViewController** - handles the adding go details in the safety emergency washing section
 
-##### **WHSSafetyEmergencyWashingAddDetailsViewController** - handles the adding go details in the safety emergency washing section
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyEmergencyWashingAddTestHistoryViewController** - handles the adding of test history in the safety emergency washing section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyEmergencyWashingEditDetailsViewController** - handles the editing of the details in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6970,33 +6171,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ heightForHeaderInSection`
 - `tableView: â¦ heightForFooterInSection`
 - `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyEmergencyWashingAddTestHistoryViewController** - handles the adding of test history in the safety emergency washing section
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyEmergencyWashingEditDetailsViewController** - handles the editing of the details in the safety emergency washing section
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-
-##### **WHSSafetyEmergencyWashingEditTestHistoryViewController** - handles the editing of the history of safety emergency washing section
+<br/></br>##### **WHSSafetyEmergencyWashingEditTestHistoryViewController** - handles the editing of the history of safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyEmergencyWashingSearchResultsViewController** - handles the search results in the safety emergency washing section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyEmergencyWashingSearchResultsViewController** - handles the search results in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7004,15 +6184,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafetyEmergencyWashingSearchViewController** - handles searching in safety emergency washing 
+- `showTabView`<br/></br>##### **WHSSafetyEmergencyWashingSearchViewController** - handles searching in safety emergency washing 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSSafetyEmergencyWashingTabViewController** - logic for the safety emergency washing tab
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSSafetyEmergencyWashingTabViewController** - logic for the safety emergency washing tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7024,9 +6200,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSSafetyEmergencyWashingViewController** shows safety emergency washing screen
+- `showActionsView`<br/></br>##### **WHSSafetyEmergencyWashingViewController** shows safety emergency washing screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7043,37 +6217,27 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showTabView`
 - `openPDFView`
-- `openAddRecordView`
-
-##### **WHSSafetyFireDetectionAddDetailsViewController** - handles the adding of details in the Safety Fire Detection section section
+- `openAddRecordView`<br/></br>##### **WHSSafetyFireDetectionAddDetailsViewController** - handles the adding of details in the Safety Fire Detection section section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFireDetectionAddTestHistoryViewController** - handles the adding of a test history in the Safety Fire Detection section
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireDetectionAddTestHistoryViewController** - handles the adding of a test history in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFireDetectionEditDetailsViewController** - handles the editing of the details in the Safety Fire Detection section
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireDetectionEditDetailsViewController** - handles the editing of the details in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFireDetectionEditTestHistoryViewController** - handles the editing of a test history in the Safety Fire Detection section
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireDetectionEditTestHistoryViewController** - handles the editing of a test history in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFireDetectionSearchResultsViewController** - handles the search results in the Safety Fire Detection section
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireDetectionSearchResultsViewController** - handles the search results in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7081,15 +6245,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafetyFireDetectionSearchViewController** - handles the search function in the Safety Fire Detection section
+- `showTabView`<br/></br>##### **WHSSafetyFireDetectionSearchViewController** - handles the search function in the Safety Fire Detection section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSSafetyFireDetectionTabViewController** - handles the Safety fore detection screen
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSSafetyFireDetectionTabViewController** - handles the Safety fore detection screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7101,9 +6261,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSSafetyFireDetectionViewController** - handles the display of the Safety Fire Detection screen
+- `showActionsView`<br/></br>##### **WHSSafetyFireDetectionViewController** - handles the display of the Safety Fire Detection screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7120,9 +6278,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showTabView`
 - `openPDFView`
-- `openAddRecordView`
-
-##### **WHSSafetyFireFightingAddDetailsViewController** - shows the add details screen in the safety fire fighting section
+- `openAddRecordView`<br/></br>##### **WHSSafetyFireFightingAddDetailsViewController** - shows the add details screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7130,16 +6286,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForHeaderInSection`
 - `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyFireFightingAddTestHistoryViewController** -shows the add test history screen in the safety fire fighting section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireFightingAddTestHistoryViewController** -shows the add test history screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyFireFightingEditDetailsViewController** - shows the edit details screen in the safety fire fighting section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireFightingEditDetailsViewController** - shows the edit details screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7147,16 +6299,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForHeaderInSection`
 - `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyFireFightingEditTestHistoryViewController** - shows edit test history screen in safety fire fighting section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireFightingEditTestHistoryViewController** - shows edit test history screen in safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyFireFightingSearchResultsViewController** - shows the search results screen in the safety fire fighting section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFireFightingSearchResultsViewController** - shows the search results screen in the safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7164,16 +6312,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafetyFireFightingSearchViewController** - shows the search screen in safety fire fighting section
+- `showTabView`<br/></br>##### **WHSSafetyFireFightingSearchViewController** - shows the search screen in safety fire fighting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-
-
-##### **WHSSafetyFireFightingTabViewController** - logic behind safety fire fighting tab
+<br/></br>##### **WHSSafetyFireFightingTabViewController** - logic behind safety fire fighting tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7185,9 +6329,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSSafetyFireFightingViewController** - shows safety fire fighting scree
+- `showActionsView`<br/></br>##### **WHSSafetyFireFightingViewController** - shows safety fire fighting scree
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7203,9 +6345,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSSafetyFirstAidAddDetailsViewController** - handles the adding of details in the Safety First Aid section
+- `openAddRecordView`<br/></br>##### **WHSSafetyFirstAidAddDetailsViewController** - handles the adding of details in the Safety First Aid section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7213,17 +6353,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFirstAidAddTestHistoryViewController** - handles the adding of a test history in the Safety First Aid section
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFirstAidAddTestHistoryViewController** - handles the adding of a test history in the Safety First Aid section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForRowAtIndexPath`
-
-
-##### **WHSSafetyFirstAidEditDetailsViewController** - handles the editing  of details in safety first aid
+<br/></br>##### **WHSSafetyFirstAidEditDetailsViewController** - handles the editing  of details in safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7231,16 +6367,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFirstAidEditTestHistoryViewController** - handles the editing of test history in safety first aid
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFirstAidEditTestHistoryViewController** - handles the editing of test history in safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyFirstAidSearchResultsViewController** - handles the search results in safety first aid
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyFirstAidSearchResultsViewController** - handles the search results in safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7248,15 +6380,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafetyFirstAidSearchViewController** - handles searching in safety first aid
+- `showTabView`<br/></br>##### **WHSSafetyFirstAidSearchViewController** - handles searching in safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSSafetyFirstAidTabViewController** - handles the safety first aid tab 
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSSafetyFirstAidTabViewController** - handles the safety first aid tab 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7268,9 +6396,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSSafetyFirstAidViewController** - controls the safety first aid
+- `showActionsView`<br/></br>##### **WHSSafetyFirstAidViewController** - controls the safety first aid
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7286,9 +6412,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSSafetyPPEAddDetailsViewController** - handles adding details in Safety PPEs
+- `openAddRecordView`<br/></br>##### **WHSSafetyPPEAddDetailsViewController** - handles adding details in Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7298,9 +6422,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ heightForFooterInSection`
 - `tableView: â¦ heightForRowAtIndexPath`
 
-
-
-##### **WHSSafetyPPEAddEmployeeViewController** - handles the adding of employee in safety ppe
+<br/></br>##### **WHSSafetyPPEAddEmployeeViewController** - handles the adding of employee in safety ppe
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7328,16 +6450,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDatePickerWithIndexPath`
 - `saveBarButtonItemDidTapped`
 - `clearLocationData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSSafetyPPEAddTestHistoryViewController** - handles adding test history of Safety PPEs
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSSafetyPPEAddTestHistoryViewController** - handles adding test history of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyPPEEditDetailsViewController** - handles the editing of details in safety ppe
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyPPEEditDetailsViewController** - handles the editing of details in safety ppe
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7345,9 +6463,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: ... estimatedHeightForRowAtIndexPath`
 - `tableView: ... heightForHeaderInSection`
 - `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-
-##### **WHSSafetyPPEEditEmployeeViewController** - handles the editing of employee in safety ppe
+- `tableView: ... heightForRowAtIndexPath`<br/></br>##### **WHSSafetyPPEEditEmployeeViewController** - handles the editing of employee in safety ppe
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7365,16 +6481,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `showEmployeeActionsView`
 - `showEmployeeTestHistoryView`
-- `showEmployeeServiceHistoryView`
-
-##### **WHSSafetyPPEEditTestHistoryViewController** - handles editing the test history of Safety PPEs
+- `showEmployeeServiceHistoryView`<br/></br>##### **WHSSafetyPPEEditTestHistoryViewController** - handles editing the test history of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetyPPEEmployeeViewController** - handles employee view of Safety PPEs
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetyPPEEmployeeViewController** - handles employee view of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7386,9 +6498,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchEmployees`
 - `showEditPPEDetailsView`
-- `openAddRecordView`
-
-##### **WHSSafetyPPESearchResultsViewController** - handles the search results of Safety PPEs
+- `openAddRecordView`<br/></br>##### **WHSSafetyPPESearchResultsViewController** - handles the search results of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7397,15 +6507,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafetyPPESearchViewController** - handles searching of Safety PPEs
+- `showTabView`<br/></br>##### **WHSSafetyPPESearchViewController** - handles searching of Safety PPEs
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSSafetyPPETabViewController** - handles the safety ppe tab
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSSafetyPPETabViewController** - handles the safety ppe tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7418,9 +6524,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmployeeView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSSafetyPPEViewController** - handles the safety ppe
+- `showActionsView`<br/></br>##### **WHSSafetyPPEViewController** - handles the safety ppe
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7436,9 +6540,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
+- `openAddRecordView`<br/></br>##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7450,9 +6552,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchServiceHistories`
 - `showEditServiceHistoryDetailsView`
-- `openAddRecordView`
-
-##### **WHSSafetySpillKitAddDetailsViewController** - shows add details screen in safety spill kit section
+- `openAddRecordView`<br/></br>##### **WHSSafetySpillKitAddDetailsViewController** - shows add details screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7460,16 +6560,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForHeaderInSection`
 - `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetySpillKitAddTestHistoryViewController** - shows ad test history screen in safety spill kit section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetySpillKitAddTestHistoryViewController** - shows ad test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetySpillKitEditDetailsViewController** - shows edit details screen of safety spill kit section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetySpillKitEditDetailsViewController** - shows edit details screen of safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7477,17 +6573,13 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForHeaderInSection`
 - `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-
-##### **WHSSafetySpillKitEditTestHistoryViewController** - shows edit test history screen in safety spill kit section
+- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSSafetySpillKitEditTestHistoryViewController** - shows edit test history screen in safety spill kit section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForRowAtIndexPath`
-
-
-##### **WHSSafetySpillKitSearchResultsViewController** - shows safety spill kit search results
+<br/></br>##### **WHSSafetySpillKitSearchResultsViewController** - shows safety spill kit search results
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7495,15 +6587,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSafetySpillKitSearchViewController** - shows safety spill kit search
+- `showTabView`<br/></br>##### **WHSSafetySpillKitSearchViewController** - shows safety spill kit search
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSSafetySpillKitTabViewController** - logic for safety spill kit tab
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSSafetySpillKitTabViewController** - logic for safety spill kit tab
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7515,9 +6603,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showDetailsView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`
-
-##### **WHSSafetySpillKitViewController** - shows safety spill kit view
+- `showActionsView`<br/></br>##### **WHSSafetySpillKitViewController** - shows safety spill kit view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7533,9 +6619,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmailReportView`
 - `showSearchView`
 - `showTabView`
-- `openAddRecordView`
-
-##### **WHSSafetyTabViewController** - handles the showing of the Safety view
+- `openAddRecordView`<br/></br>##### **WHSSafetyTabViewController** - handles the showing of the Safety view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7551,9 +6635,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showServiceHistoryView`
 - `showActionsView`
 - `showPDFView`
-- `showAttachmentView`
-
-##### **WHSSafetyTestHistoryViewController** - handles the showing of the history in the Safety Test section
+- `showAttachmentView`<br/></br>##### **WHSSafetyTestHistoryViewController** - handles the showing of the history in the Safety Test section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7562,9 +6644,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTestHistoryDetailsView`
 - `showEditTestHistoryDetailsView`
 - `openAddRecordView`
-
-
-##### **WHSSafetyViewController** - controls the safety
+<br/></br>##### **WHSSafetyViewController** - controls the safety
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7577,22 +6657,16 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showFireDetectionView`
 - `showFirstAidKitView`
 - `showSpillKitView`
-- `showPPEView`
-
-##### **WHSSearchRecordViewController** - shows search record view
+- `showPPEView`<br/></br>##### **WHSSearchRecordViewController** - shows search record view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `initializeSearchBarButtonItem`
 - `searchBarButtonItemDidTapped`
-- `showSearchResultsViewWithDataList`
-
-##### **WHSSearchResultsRecordViewController** - logic behind the search results record screen
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSSearchResultsRecordViewController** - logic behind the search results record screen
 
 ###### **Methods and Calculated Variables**
-- `searchRecords`
-
-##### **WHSSearchViewController** - logic behind the search screen
+- `searchRecords`<br/></br>##### **WHSSearchViewController** - logic behind the search screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7600,9 +6674,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeSearchBarButtonItem`
 - `showDatePicker`
 - `searchBarButtonItemDidTapped`
-- `formatPickedItems`
-
-##### **WHSSettingViewController** - handles and shows the Settings screen
+- `formatPickedItems`<br/></br>##### **WHSSettingViewController** - handles and shows the Settings screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7619,9 +6691,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `logoutButtonDidTapped`
 - `emailButtonDidTapped`
 - `callButtonDidTapped`
-- `switchValueDidChanged`
-
-##### **WHSSideMenuViewController** - the logic behind the Side Manu of the app
+- `switchValueDidChanged`<br/></br>##### **WHSSideMenuViewController** - the logic behind the Side Manu of the app
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7646,9 +6716,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `settingsButtonDidTapped`
 - `actionMonitorButtonDidTapped`
 - `offlineDocumentsButtonDidTapped`
-- `localFormsButtonTapped`
-
-##### **WHSSiteRAControlsViewController** - handles the Controls screen of the Site RA section
+- `localFormsButtonTapped`<br/></br>##### **WHSSiteRAControlsViewController** - handles the Controls screen of the Site RA section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7673,9 +6741,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `textViewDidChange`
 - `initializeDataSource`
 - `initializeAddRecord`
-- `openAddRecordView`
-
-##### **WHSSiteRAHazardsAddHazardViewController** - handles the adding of a hazard in the Site RA Hazards section
+- `openAddRecordView`<br/></br>##### **WHSSiteRAHazardsAddHazardViewController** - handles the adding of a hazard in the Site RA Hazards section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7696,9 +6762,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showHazardSubTypePickerView`
 - `saveBarButtonItemDidTapped`
 - `isAllRequiredDataFilledUp`
-- `clearHazardData`
-
-##### **WHSSiteRAHazardsViewController** - handles the Hazards screen in the Site RA section
+- `clearHazardData`<br/></br>##### **WHSSiteRAHazardsViewController** - handles the Hazards screen in the Site RA section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7730,9 +6794,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `saveBarButtonItemDidTapped`
 - `initializeDataSource`
 - `updateTemplateCell`
-- `updateHazardSection`
-
-##### **WHSSiteRARiskDetailViewController** - handles the risk detail of the Site RA section
+- `updateHazardSection`<br/></br>##### **WHSSiteRARiskDetailViewController** - handles the risk detail of the Site RA section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7761,9 +6823,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `acSheet: â¦ clickedButtonAtIndex`
 - `saveRecordData`
 - `initializeDataSource`
-- `clearHazardData`
-
-##### **WHSSiteRARisksAddControlViewController** - logic for the screen that shows add risk control in site risk assessment view controller
+- `clearHazardData`<br/></br>##### **WHSSiteRARisksAddControlViewController** - logic for the screen that shows add risk control in site risk assessment view controller
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7795,9 +6855,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeAddBarButtonItem`
 - `showAddActionView`
 - `showEditActionView`
-- `addBarButtonItemDidTapped`
-
-##### **WHSSiteRARisksRatingViewController** - handles the risk rating screen of the Site RA section
+- `addBarButtonItemDidTapped`<br/></br>##### **WHSSiteRARisksRatingViewController** - handles the risk rating screen of the Site RA section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7830,9 +6888,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `isAllRequiredDataFilledUp`
 - `acSheet: â¦ clickedButtonAtIndex`
 - `initializeStaticFields`
-- `initializeCustomFields`
-
-##### **WHSSiteRARisksTabViewController** - logic for the screen that shows the table view of risks in the site risks assessment section
+- `initializeCustomFields`<br/></br>##### **WHSSiteRARisksTabViewController** - logic for the screen that shows the table view of risks in the site risks assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7846,9 +6902,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionsView`
 - `showDetailsView`
 - `showControlsView`
-- `showRatingsView`
-
-##### **WHSSiteRARisksViewController** - logic behind the screen that shows the risks in the site risk assessment section
+- `showRatingsView`<br/></br>##### **WHSSiteRARisksViewController** - logic behind the screen that shows the risks in the site risk assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7864,9 +6918,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`
-
-##### **WHSSiteRiskAsessmentSearchResultsViewController** - handles the search results of the Site Risk Assessment section
+- `showTabView`<br/></br>##### **WHSSiteRiskAsessmentSearchResultsViewController** - handles the search results of the Site Risk Assessment section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7880,9 +6932,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `fetchNextPage`
 - `initializeDataSource`
 - `updateDataSource`
-- `showTabView`
-
-##### **WHSSiteRiskAssessmentAddRecordViewController** - logic behind the site risk assessment record screen
+- `showTabView`<br/></br>##### **WHSSiteRiskAssessmentAddRecordViewController** - logic behind the site risk assessment record screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7923,9 +6973,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showRelevantLegislationsPickeriew`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-
-##### **WHSSiteRiskAssessmentEditRecordViewController** - logic for site risk assessment edit record screen
+- `isAllRequiredDataFilledUp`<br/></br>##### **WHSSiteRiskAssessmentEditRecordViewController** - logic for site risk assessment edit record screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7933,9 +6981,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchDetailsData`
-- `initializeDataSource`
-
-##### **WHSSiteRiskAssessmentSearchViewController** - logic for site risk assessment search screen
+- `initializeDataSource`<br/></br>##### **WHSSiteRiskAssessmentSearchViewController** - logic for site risk assessment search screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7951,9 +6997,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showLocationPickerView`
 - `showStatusPickerView`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`
-
-##### **WHSSiteRiskAssessmentTabViewController** - logic for site risk assessment tab view
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSSiteRiskAssessmentTabViewController** - logic for site risk assessment tab view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7968,9 +7012,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showActionsView`
 - `showDetailsView`
 - `showHazardsView`
-- `showRisksView`
-
-##### **WHSSiteRiskAssessmentViewController** - logic for site risk assessment screen
+- `showRisksView`<br/></br>##### **WHSSiteRiskAssessmentViewController** - logic for site risk assessment screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7986,16 +7028,12 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `showPDFView`
 - `showEmailReportView`
-- `showTabView`
-
-##### **WHSSplitViewController** - logic behind split screen
+- `showTabView`<br/></br>##### **WHSSplitViewController** - logic behind split screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `supportedInterfaceOrientations`
-
-##### **WHSStartAuditViewController** - controls the view for start audit screen
+- `supportedInterfaceOrientations`<br/></br>##### **WHSStartAuditViewController** - controls the view for start audit screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -8039,9 +7077,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `doneBarButtonItemDidTapped`
 - `uploadAttachment`
 - `clearDepartmentData`
-- `cellIndexForField`
-
-##### **WHSStartupViewController** - shows the start up screen
+- `cellIndexForField`<br/></br>##### **WHSStartupViewController** - shows the start up screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -8050,9 +7086,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `finishedValidatingUserCredentials`
 - `prepareForSegue`
 - `unwindToWHSStartupView`
-- `isAnExistingUserLoggedIn`
-
-##### **WHSTabViewController** - controls the tab view of the app
+- `isAnExistingUserLoggedIn`<br/></br>##### **WHSTabViewController** - controls the tab view of the app
 
 ###### **Methods and Calculated Variables**
 - `processTabFlags`
@@ -8060,9 +7094,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `viewWillAppear`
 - `initializeMoreOptionsBarButtonItem`
 - `presentMoreOptionsActionSheet`
-- `moreOptionsBarButtonItemDidTapped`
-
-##### **WHSTablePickerViewController** - logic behind table picker
+- `moreOptionsBarButtonItemDidTapped`<br/></br>##### **WHSTablePickerViewController** - logic behind table picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -8084,18 +7116,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showNoReferenceFetched`
 - `donePickingBarButtonItemDidTapped`
 - `editBarButtonItemDidTapped`
-- `deselectAllRows`
-
-##### **WHSTemplatePickerViewController** - logic for template picker
+- `deselectAllRows`<br/></br>##### **WHSTemplatePickerViewController** - logic for template picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddTemplateView`
 - `showEditTemplateView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-##### **WHSUtilitiesViewController** - shows the utilities
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSUtilitiesViewController** - shows the utilities
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -8103,9 +7131,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `callNumber`
 - `sendEmail`
 - `sendEmail: â¦ delegate`
-- `openWebsite`
-
-##### **WHSViewController** - superclass of view controllers
+- `openWebsite`<br/></br>##### **WHSViewController** - superclass of view controllers
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -8148,26 +7174,20 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `hideProgressHUD`
 - `getModuleAccessTypeWithID`
 - `getModuleAccessTypeWithMenuItem`
-- `moduleStateForAccessTypeString`
-
-##### **WHSWebViewController** - controls web views
+- `moduleStateForAccessTypeString`<br/></br>##### **WHSWebViewController** - controls web views
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `viewDidAppear`
 - `prepareWebView`
-- `loadHTMLString: â¦ baseURL`
-
-##### **WHSWorkerTablePickerViewController** - shows the workers 
+- `loadHTMLString: â¦ baseURL`<br/></br>##### **WHSWorkerTablePickerViewController** - shows the workers 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showAddWorkerView`
 - `showEditWorker`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`
-
-   Bud1           `  ø                                           ò       H S A d d A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @                                              @                                                @                                                @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $   # - A I M a n d a t o r y T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - A I S e l e c t T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # - D y n a m i c F o r m T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A   .ÿÿÿÿÿÿ      - G e n e r i c T a b l e V i e w C o n t r o l l e r . t x tIlocblob      ¯   .ÿÿÿÿÿÿ     ( - M y S t o r a g e A d d N e w W o r k e r V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     ) - M y S t o r a g e C o m p a t i b i l i t y V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     . - M y S t o r a g e E d i t S t o r e d Q u a n t i t y V i e w C o n t r o l l e r . t x tIlocblob     ù   .ÿÿÿÿÿÿ     ' - M y S t o r a g e E S Q A d d B a t c h V i e w C o n t r o l l e r . t x tIlocblob     g   .ÿÿÿÿÿÿ     * - M y S t o r a g e E S Q A d d P a c k S i z e V i e w C o n t r o l l e r . t x tIlocblob      A   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d S u p p l i e r s V i e w C o n t r o l l e r . t x tIlocblob      ¯   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d U n i t S i z e s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q B a t c h D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ) - M y S t o r a g e E S Q I n p u t V a l u e V i e w C o n t r o l l e r . t x tIlocblob     ù   ÿÿÿÿÿÿ     $ - M y S t o r a g e M a n i f e s t V i e w C o n t r o l l e r . t x tIlocblob     g   ÿÿÿÿÿÿ     # - M y S t o r a g e S u m m a r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     % - N e w D y n a m i c T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - S i g n a t u r e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - S i g n O f f T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - S u b m i t t e d B y T a b l e V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S   S a f e t y A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ      - W H S 2 M e n u V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ      - W H S 2 R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n C a t e g o r y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S A c t i o n D e t a i l s   M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     # - W H S A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     1 - W H S A c t i o n s M o n i t o r S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ      - W H S A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     ' - W H S A d d A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     , - W H S A d d A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ) - W H S A d d A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     % - W H S A d d A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     " - W H S A d d A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     2 - W H S A d d A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     $ - W H S A d d A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ                                                                                                                                                                                         %   % - W H S A d d C o m p e t e n c i e s V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d C o n t r o l M e a s u r e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     + - W H S A d d E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ       - W H S A d d G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     ' - W H S A d d I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ       - W H S A d d L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     ! - W H S A d d L o c a t i o n V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S A d d N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     , - W H S A d d N o i s e A s s e s s m e n t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     - - W H S A d d N o t i f i c a t i o n R e c e i v e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     % - W H S A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d W o r k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     ' - W H S A I A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ! - W H S A I A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     ( - W H S A I E d i t P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     " - W H S A I E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     / - W H S A i I n s p e c t i o n S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     , - W H S A I I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     $ - W H S A I P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     % - W H S A I S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A I S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ       - W H S A I S p l i t t e d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - W H S A I T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     & - W H S A s s e t s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S A s s e t s A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S A s s e t s A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     0 - W H S A s s e t s C l a s s i f i e d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     1 - W H S A s s e t s C l a s s i f i e d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S A s s e t s C l a s s i f i e d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S A s s e t s C l a s s i f i e d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S A s s e t s C l a s s i f i e d T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S A s s e t s C l a s s i f i e d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S A s s e t s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S A s s e t s E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ             "   0 - W H S A s s e t s E l e c t r i c a l A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     7 - W H S A s s e t s E l e c t r i c a l A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     1 - W H S A s s e t s E l e c t r i c a l E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     8 - W H S A s s e t s E l e c t r i c a l E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     3 - W H S A s s e t s E l e c t r i c a l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     , - W H S A s s e t s E l e c t r i c a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     ) - W H S A s s e t s E l e c t r i c a l T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ     & - W H S A s s e t s E l e c t r i c a l V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     - - W H S A s s e t s L i f t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     . - W H S A s s e t s L i f t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     0 - W H S A s s e t s L i f t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     ) - W H S A s s e t s L i f t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     & - W H S A s s e t s L i f t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     # - W H S A s s e t s L i f t i n g V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     + - W H S A s s e t s P l a n t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     2 - W H S A s s e t s P l a n t A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     , - W H S A s s e t s P l a n t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     3 - W H S A s s e t s P l a n t E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     . - W H S A s s e t s P l a n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     ' - W H S A s s e t s P l a n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     $ - W H S A s s e t s P l a n t T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     ! - W H S A s s e t s P l a n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     / - W H S A s s e t s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     ( - W H S A s s e t s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S A s s e t s S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ' - W H S A s s e t s T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     ( - W H S A s s e t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S A s s e t s V e h i c l e s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S A s s e t s V e h i c l e s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     0 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ' - W H S A s s e t s V e h i c l e s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     $ - W H S A s s e t s V e h i c l e s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A s s e t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ  Ilocblob       þÿÿÿÿÿÿ             !   ? - W H S A t m o s p h e r i c M o n i t o r i n g A d d M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S A t m o s p h e r i c M o n i t o r i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     @ - W H S A t m o s p h e r i c M o n i t o r i n g E d i t M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     2 - W H S A t m o s p h e r i c M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S A t m o s p h e r i c M o n i t o r i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     , - W H S A t t e n d e e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     % - W H S A t t e n d e e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ      - W H S A t t e n d e e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     - - W H S A u d i t I n s p e c t i o n s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     , - W H S A u d i t I n s p e c t i o n s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ       - W H S A u t o H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     " - W H S C a u s e H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     $ - W H S C h a n g e P a s s w o r d V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ      - W H S C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     2 - W H S C h e m i c a l Q C h a r t C h e m i c a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     5 - W H S C h e m i c a l Q C h a r t O p e r a t i o n a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob      A  	^ÿÿÿÿÿÿ     1 - W H S C h e m i c a l Q C h a r t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	^ÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     ' - W H S C h e m i c a l Q C h a r t T a b V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     $ - W H S C h e m i c a l Q C h a r t V i e w C o n t r o l l e r . t x tIlocblob     ù  	^ÿÿÿÿÿÿ     4 - W H S C h e m i c a l R e g i s t e r P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  	^ÿÿÿÿÿÿ     & - W H S C h e m i c a l R e g i s t e r V i e w C o n t r o l l e r . t x tIlocblob      A  	Îÿÿÿÿÿÿ     8 - W H S C h e m i c a l R i s k A s s e s s m e n t C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	Îÿÿÿÿÿÿ     ; - W H S C h e m i c a l R i s k A s s e s s m e n t C u r r e n t C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     ? - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob     ù  	Îÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  	Îÿÿÿÿÿÿ             "   A - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  
+- `editBarButtonItemDidTapped`<br/></br>   Bud1           `  ø                                           ò       H S A d d A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @                                              @                                                @                                                @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $   # - A I M a n d a t o r y T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - A I S e l e c t T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # - D y n a m i c F o r m T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A   .ÿÿÿÿÿÿ      - G e n e r i c T a b l e V i e w C o n t r o l l e r . t x tIlocblob      ¯   .ÿÿÿÿÿÿ     ( - M y S t o r a g e A d d N e w W o r k e r V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     ) - M y S t o r a g e C o m p a t i b i l i t y V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     . - M y S t o r a g e E d i t S t o r e d Q u a n t i t y V i e w C o n t r o l l e r . t x tIlocblob     ù   .ÿÿÿÿÿÿ     ' - M y S t o r a g e E S Q A d d B a t c h V i e w C o n t r o l l e r . t x tIlocblob     g   .ÿÿÿÿÿÿ     * - M y S t o r a g e E S Q A d d P a c k S i z e V i e w C o n t r o l l e r . t x tIlocblob      A   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d S u p p l i e r s V i e w C o n t r o l l e r . t x tIlocblob      ¯   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d U n i t S i z e s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q B a t c h D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ) - M y S t o r a g e E S Q I n p u t V a l u e V i e w C o n t r o l l e r . t x tIlocblob     ù   ÿÿÿÿÿÿ     $ - M y S t o r a g e M a n i f e s t V i e w C o n t r o l l e r . t x tIlocblob     g   ÿÿÿÿÿÿ     # - M y S t o r a g e S u m m a r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     % - N e w D y n a m i c T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - S i g n a t u r e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - S i g n O f f T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - S u b m i t t e d B y T a b l e V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S   S a f e t y A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ      - W H S 2 M e n u V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ      - W H S 2 R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n C a t e g o r y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S A c t i o n D e t a i l s   M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     # - W H S A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     1 - W H S A c t i o n s M o n i t o r S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ      - W H S A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     ' - W H S A d d A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     , - W H S A d d A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ) - W H S A d d A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     % - W H S A d d A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     " - W H S A d d A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     2 - W H S A d d A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     $ - W H S A d d A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ                                                                                                                                                                                         %   % - W H S A d d C o m p e t e n c i e s V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d C o n t r o l M e a s u r e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     + - W H S A d d E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ       - W H S A d d G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     ' - W H S A d d I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ       - W H S A d d L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     ! - W H S A d d L o c a t i o n V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S A d d N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     , - W H S A d d N o i s e A s s e s s m e n t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     - - W H S A d d N o t i f i c a t i o n R e c e i v e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     % - W H S A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d W o r k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     ' - W H S A I A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ! - W H S A I A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     ( - W H S A I E d i t P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     " - W H S A I E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     / - W H S A i I n s p e c t i o n S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     , - W H S A I I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     $ - W H S A I P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     % - W H S A I S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A I S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ       - W H S A I S p l i t t e d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - W H S A I T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     & - W H S A s s e t s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S A s s e t s A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S A s s e t s A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     0 - W H S A s s e t s C l a s s i f i e d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     1 - W H S A s s e t s C l a s s i f i e d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S A s s e t s C l a s s i f i e d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S A s s e t s C l a s s i f i e d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S A s s e t s C l a s s i f i e d T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S A s s e t s C l a s s i f i e d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S A s s e t s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S A s s e t s E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ             "   0 - W H S A s s e t s E l e c t r i c a l A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     7 - W H S A s s e t s E l e c t r i c a l A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     1 - W H S A s s e t s E l e c t r i c a l E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     8 - W H S A s s e t s E l e c t r i c a l E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     3 - W H S A s s e t s E l e c t r i c a l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     , - W H S A s s e t s E l e c t r i c a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     ) - W H S A s s e t s E l e c t r i c a l T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ     & - W H S A s s e t s E l e c t r i c a l V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     - - W H S A s s e t s L i f t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     . - W H S A s s e t s L i f t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     0 - W H S A s s e t s L i f t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     ) - W H S A s s e t s L i f t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     & - W H S A s s e t s L i f t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     # - W H S A s s e t s L i f t i n g V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     + - W H S A s s e t s P l a n t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     2 - W H S A s s e t s P l a n t A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     , - W H S A s s e t s P l a n t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     3 - W H S A s s e t s P l a n t E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     . - W H S A s s e t s P l a n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     ' - W H S A s s e t s P l a n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     $ - W H S A s s e t s P l a n t T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     ! - W H S A s s e t s P l a n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     / - W H S A s s e t s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     ( - W H S A s s e t s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S A s s e t s S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ' - W H S A s s e t s T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     ( - W H S A s s e t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S A s s e t s V e h i c l e s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S A s s e t s V e h i c l e s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     0 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ' - W H S A s s e t s V e h i c l e s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     $ - W H S A s s e t s V e h i c l e s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A s s e t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ  Ilocblob       þÿÿÿÿÿÿ             !   ? - W H S A t m o s p h e r i c M o n i t o r i n g A d d M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S A t m o s p h e r i c M o n i t o r i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     @ - W H S A t m o s p h e r i c M o n i t o r i n g E d i t M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     2 - W H S A t m o s p h e r i c M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S A t m o s p h e r i c M o n i t o r i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     , - W H S A t t e n d e e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     % - W H S A t t e n d e e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ      - W H S A t t e n d e e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     - - W H S A u d i t I n s p e c t i o n s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     , - W H S A u d i t I n s p e c t i o n s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ       - W H S A u t o H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     " - W H S C a u s e H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     $ - W H S C h a n g e P a s s w o r d V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ      - W H S C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     2 - W H S C h e m i c a l Q C h a r t C h e m i c a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     5 - W H S C h e m i c a l Q C h a r t O p e r a t i o n a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob      A  	^ÿÿÿÿÿÿ     1 - W H S C h e m i c a l Q C h a r t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	^ÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     ' - W H S C h e m i c a l Q C h a r t T a b V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     $ - W H S C h e m i c a l Q C h a r t V i e w C o n t r o l l e r . t x tIlocblob     ù  	^ÿÿÿÿÿÿ     4 - W H S C h e m i c a l R e g i s t e r P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  	^ÿÿÿÿÿÿ     & - W H S C h e m i c a l R e g i s t e r V i e w C o n t r o l l e r . t x tIlocblob      A  	Îÿÿÿÿÿÿ     8 - W H S C h e m i c a l R i s k A s s e s s m e n t C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	Îÿÿÿÿÿÿ     ; - W H S C h e m i c a l R i s k A s s e s s m e n t C u r r e n t C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     ? - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob     ù  	Îÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  	Îÿÿÿÿÿÿ             "   A - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  
 >ÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t V i e w C o n t r o l l e r . t x tIlocblob       
 >ÿÿÿÿÿÿ     9 - W H S C h e m i c a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       
 >ÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  
@@ -8193,6 +7213,4 @@ Nÿÿÿÿÿÿ     & - W H S E d i t P o i n t s R a i s e d V i e w C o n t r o 
 ¾ÿÿÿÿÿÿ     5 - W H S E m p l o y e e C o n t r a c t o r C o m p a n y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S E m p l o y e e D e p a r t m e n t P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     0 - W H S E m p l o y e e E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     - - W H S E m p l o y e e E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     , - W H S E m p l o y e e S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ) - W H S E m p l o y e e T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     E - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     > - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     8 - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     > - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     7 - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     1 - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S E n v i r o n m e n t a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     < - W H S E n v i r o n m e n t a l N o i s e C o n t r o l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     5 - W H S E n v i r o n m e n t a l N o i s e C o n t r o l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ                 ) - W H S E n v i r o n m e n t a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S E n v i r o n m e n t a l V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     ' - W H S E x p o s u r e L i m i t s A d d V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     1 - W H S E x p o s u r e L i m i t s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     $ - W H S E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     - - W H S F i r e F i g h t i n g C l a s s P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     . - W H S F i r e F i g h t i n g R a t i n g P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     # - W H S G e n e r i c P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     " - W H S G r o u p e d T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     / - W H S H a z a r d s A s b e s t o s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     9 - W H S H a z a r d s A s b e s t o s A d d I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     6 - W H S H a z a r d s A s b e s t o s A d d R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     0 - W H S H a z a r d s A s b e s t o s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     : - W H S H a z a r d s A s b e s t o s E d i t I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     7 - W H S H a z a r d s A s b e s t o s E d i t R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     6 - W H S H a z a r d s A s b e s t o s I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     3 - W H S H a z a r d s A s b e s t o s R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     / - W H S H a z a r d s A s b e s t o s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     2 - W H S H a z a r d s A s b e s t o s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     ( - W H S H a z a r d s A s b e s t o s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     % - W H S H a z a r d s A s b e s t o s V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ     ; - W H S H a z a r d s C a r c i n o g e n s A d d E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     1 - W H S H a z a r d s C a r c i n o g e n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     < - W H S H a z a r d s C a r c i n o g e n s E d i t E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     2 - W H S H a z a r d s C a r c i n o g e n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     8 - W H S H a z a r d s C a r c i n o g e n s E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     2 - W H S H a z a r d s C a r c i n o g e n s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     5 - W H S H a z a r d s C a r c i n o g e n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Ëÿÿÿÿÿÿÿÿ   + - W H S H a z a r d s C a r c i n o g e n s T a b V i e w C o n t r o l l e r . t x tIlocblob     o  Ëÿÿÿÿÿÿÿÿ   ( - W H S H a z a r d s C a r c i n o g e n s V i e w C o n t r o l l e r . t x tIlocblob     Ý  Ëÿÿÿÿÿÿÿÿ   $ - W H S H a z a r d s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     ' - W H S H a z a r d s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ   e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ             "    - W H S H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     8 - W H S I n c i d e n t R e p o r t i n g A d d i t i o n a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     K  Ëÿÿÿÿÿÿÿÿ   4 - W H S I n c i d e n t R e p o r t i n g A d d N e w H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     ¹  Ëÿÿÿÿÿÿÿÿ   4 - W H S I n c i d e n t R e p o r t i n g A d d N e w W i t n e s s V i e w C o n t r o l l e r . t x tIlocblob     '  Ëÿÿÿÿÿÿÿÿ   0 - W H S I n c i d e n t R e p o r t i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ;ÿÿÿÿÿÿÿÿ   . - W H S I n c i d e n t R e p o r t i n g A d d T y p e V i e w C o n t r o l l e r . t x tIlocblob     o  ;ÿÿÿÿÿÿÿÿ   . - W H S I n c i d e n t R e p o r t i n g D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Ý  ;ÿÿÿÿÿÿÿÿ   < - W H S I n c i d e n t R e p o r t i n g E d i t A d d i t i o n a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     K  ;ÿÿÿÿÿÿÿÿ   2 - W H S I n c i d e n t R e p o r t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ¹  ;ÿÿÿÿÿÿÿÿ   2 - W H S I n c i d e n t R e p o r t i n g E d i t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     / - W H S I n c i d e n t R e p o r t i n g E d i t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     2 - W H S I n c i d e n t R e p o r t i n g E d i t W i t n e s s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     . - W H S I n c i d e n t R e p o r t i n g H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob       9ÿÿÿÿÿÿÿÿ   9 - W H S I n c i d e n t R e p o r t i n g I n c i d e n t A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   - - W H S I n c i d e n t R e p o r t i n g R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     * - W H S I n c i d e n t R e p o r t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       Ùÿÿÿÿÿÿÿÿ   8 - W H S I n c i d e n t R e p o r t i n g T r e a t m e n t s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       )ÿÿÿÿÿÿÿÿ   1 - W H S I n c i d e n t R e p o r t i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     0 - W H S I n c i d e n t R e p o r t i n g W i t n e s s e s V i e w C o n t r o l l e r . t x tIlocblob       yÿÿÿÿÿÿÿÿ   * - W H S I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     % - W H S I R S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  îÿÿÿÿÿÿ      - W H S I R S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ      - W H S L a n d i n g V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     % - W H S L e g i s l a t i o n s T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     # - W H S L i c e n c e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     $ - W H S L o c a t i o n P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  ^ÿÿÿÿÿÿ     ( - W H S L o c a t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  ^ÿÿÿÿÿÿ      - W H S L o g i n V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     ( - W H S M a n i f e s t s R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob     ±  ^ÿÿÿÿÿÿ      - W H S M e n u V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ( - W H S M S D S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  Îÿÿÿÿÿÿ     ' - W H S M S D S S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     C  Îÿÿÿÿÿÿ       - W H S M S D S S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ±  Îÿÿÿÿÿÿ     2 - W H S N o i s e A s s e s s m e n t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ   l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ                , - W H S N o i s e C o n t r o l A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S N o i s e C o n t r o l A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S N o i s e C o n t r o l A s s e s s m e n t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     7 - W H S N o i s e C o n t r o l E d i t A s s e s s m e n t C o m m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     1 - W H S N o i s e C o n t r o l E d i t M e a s u r e m e n t V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l N e w C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     % - W H S N o i s e C o n t r o l T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     9 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob       Éÿÿÿÿÿÿÿÿ   6 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   : - W H S N o n C h e m i c a l R i s k A s s e s s m e n t N e w C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob     '  ;ÿÿÿÿÿÿÿÿ   < - W H S N o n C h e m i c a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       «ÿÿÿÿÿÿÿÿ   5 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     o  «ÿÿÿÿÿÿÿÿ   2 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob     Ý  «ÿÿÿÿÿÿÿÿ   / - W H S N o n C h e m i c a l R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     / - W H S N o n C h e m i c a l R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob     K  «ÿÿÿÿÿÿÿÿ   ? - W H S N o n C h e m i c a l S a f e W o r k M a n a g e m e n t S y s t e m A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       iÿÿÿÿÿÿÿÿ   B - W H S N o n C h e m i c a l S a f e W o r k M a n a g e m e n t S y s t e m A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ¹ÿÿÿÿÿÿÿÿ   C - W H S N o n C h e m i c a l S a f e W o r k M a n a g e m e n t S y s t e m E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       	ÿÿÿÿÿÿÿÿ   < - W H S N o n C h e m i c a l S a f e W o r k P r o c e d u r e s A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       Yÿÿÿÿÿÿÿÿ   = - W H S N o n C h e m i c a l S a f e W o r k P r o c e d u r e s E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ©ÿÿÿÿÿÿÿÿ   0 - W H S N o t i f i c a t i o n R e c e i v e r P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  >ÿÿÿÿÿÿ     2 - W H S O f f l i n e F o r m s A u d i t s I n s p e c t i o n V i e w C o n t r o l l e r . t x tIlocblob     C  >ÿÿÿÿÿÿ     " - W H S O f f l i n e F o r m s V i e w C o n t r o l l e r . t x tIlocblob     ±  >ÿÿÿÿÿÿ     ! - W H S O f f l i n e F o r m V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     0 - W H S P A P C o m p l a i n t s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     ) - W H S P A P C o m p l a i n t s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     & - W H S P A P C o m p l a i n t s T a b V i e w C o n t r o l l e r . t x tIlocblob     ¹  «ÿÿÿÿÿÿÿÿ     - W H S P A P D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     '  «ÿÿÿÿÿÿÿÿ   , - W H S P A P D r i l l s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     % - W H S P A P D r i l l s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ  ÿÿ   l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ             $   2 - W H S P A P L e g i s l a t i o n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S P A P L e g i s l a t i o n s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     + - W H S P A P P l a n s P r o c e d u r e s T a b V i e w C o n t r o l l e r . t x tIlocblob     Õ   .ÿÿÿÿÿÿ     + - W H S P A P P l a n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S P A P P l a n s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S P A P S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     C   .ÿÿÿÿÿÿ      - W H S P A P S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     Õ  ®ÿÿÿÿÿÿ     . - W H S P A P T r a i n i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     $ - W H S P A P T r a i n i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     C  ®ÿÿÿÿÿÿ     & - W H S P A P T r a n i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     # - W H S P D F A d d S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     # - W H S P D F E d i t S i g n e e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ       - W H S P D F S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ      - W H S P D F V i e w C o n t r o l l e r . t x tIlocblob       ùÿÿÿÿÿÿÿÿ   " - W H S P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     ±  ®ÿÿÿÿÿÿ     ' - W H S P o l i c i e s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Iÿÿÿÿÿÿÿÿ   1 - W H S P o l i c i e s C o m p l a i n t s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   2 - W H S P o l i c i e s C o m p l a i n t s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       éÿÿÿÿÿÿÿÿ   ( - W H S P o l i c i e s C o m p l a i n t s V i e w C o n t r o l l e r . t x tIlocblob       9ÿÿÿÿÿÿÿÿ   - - W H S P o l i c i e s D r i l l s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   . - W H S P o l i c i e s D r i l l s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     $ - W H S P o l i c i e s D r i l l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     ( - W H S P o l i c i e s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     3 - W H S P o l i c i e s L e g i s l a t i o n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Ùÿÿÿÿÿÿÿÿ   4 - W H S P o l i c i e s L e g i s l a t i o n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     * - W H S P o l i c i e s L e g i s l a t i o n s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S P o l i c i e s P l a n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     - - W H S P o l i c i e s P l a n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     # - W H S P o l i c i e s P l a n s V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     ( - W H S P o l i c i e s P r o c e d u r e s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S P o l i c i e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     Õ  þÿÿÿÿÿÿ     $ - W H S P o l i c i e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     ! - W H S P o l i c i e s T a b V i e w C o n t r o l l e r . t x tIlocblob     C  þÿÿÿÿÿÿ     / - W H S P o l i c i e s T r a i n i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     0 - W H S P o l i c i e s T r a i n i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ±  þÿÿÿÿÿÿ     & - W H S P o l i c i e s T r a i n i n g V i e w C o n t r o l l e r . t x tIlocblob     ±   .ÿÿÿÿÿÿ  ÿÿ             #   $ - W H S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     # - W H S P r o j e c t P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ      - W H S R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     + - W H S R e g i s t e r A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ   ÿÿÿÿÿÿ     + - W H S R e g i s t e r A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     C   ÿÿÿÿÿÿ     % - W H S R e g i s t e r A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ±   ÿÿÿÿÿÿ     ( - W H S R e g i s t e r A d d A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ' - W H S R e g i s t e r A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     , - W H S R e g i s t e r A d d S e r v i c e T y p e V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     ) - W H S R e g i s t e r A d d T e s t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     / - W H S R e g i s t e r E d i t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  nÿÿÿÿÿÿ     ) - W H S R e g i s t e r E d i t A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     C  nÿÿÿÿÿÿ     - - W H S R e g i s t e r E d i t S e r v i c e T y p e V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     * - W H S R e g i s t e r E d i t T e s t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     / - W H S R e g i s t e r S e r v i c e T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     % - W H S R e g i s t e r s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ±  nÿÿÿÿÿÿ      - W H S R e g i s t e r s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     0 - W H S R e g i s t e r T e s t H i s t o r y D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     ) - W H S R e g i s t e r T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     , - W H S R e g i s t e r T e s t T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     $ - W H S R e p o r t I n c i d e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     $ - W H S R i c h T e x t E d i t o r V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     1 - W H S R i s k A s s e s s m e n t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     1 - W H S R i s k A s s e s s m e n t A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  Þÿÿÿÿÿÿ     - - W H S R i s k A s s e s s m e n t A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     C  Þÿÿÿÿÿÿ     5 - W H S R i s k A s s e s s m e n t E d i t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ±  Þÿÿÿÿÿÿ     , - W H S R i s k A s s e s s m e n t P i c t u r e s V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     $ - W H S R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     - - W H S R i s k M a n a g e m e n t A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  Nÿÿÿÿÿÿ     . - W H S R i s k M a n a g e m e n t E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     C  Nÿÿÿÿÿÿ     $ - W H S R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     & - W H S S a f e t y A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ±  Nÿÿÿÿÿÿ     * - W H S S a f e t y A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     ' - W H S S a f e t y E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  ¾ÿÿÿÿÿÿ     . - W H S S a f e t y E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     C  ¾ÿÿÿÿÿÿ   i e w C o n t r o l l e r . t x tIlocblob     ±   .ÿÿÿÿÿÿ  ÿÿ                6 - W H S S a f e t y E m e r g e n c y W a s h i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     : - W H S S a f e t y E m e r g e n c y W a s h i n g A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     7 - W H S S a f e t y E m e r g e n c y W a s h i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ; - W H S S a f e t y E m e r g e n c y W a s h i n g E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     9 - W H S S a f e t y E m e r g e n c y W a s h i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     2 - W H S S a f e t y E m e r g e n c y W a s h i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S S a f e t y E m e r g e n c y W a s h i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     , - W H S S a f e t y E m e r g e n c y W a s h i n g V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r e D e t e c t i o n A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     7 - W H S S a f e t y F i r e D e t e c t i o n A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     4 - W H S S a f e t y F i r e D e t e c t i o n E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     8 - W H S S a f e t y F i r e D e t e c t i o n E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     6 - W H S S a f e t y F i r e D e t e c t i o n S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     / - W H S S a f e t y F i r e D e t e c t i o n S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S S a f e t y F i r e D e t e c t i o n T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S S a f e t y F i r e D e t e c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r e F i g h t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     6 - W H S S a f e t y F i r e F i g h t i n g A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r e F i g h t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     7 - W H S S a f e t y F i r e F i g h t i n g E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S S a f e t y F i r e F i g h t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S S a f e t y F i r e F i g h t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S S a f e t y F i r e F i g h t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     ( - W H S S a f e t y F i r e F i g h t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     . - W H S S a f e t y F i r s t A i d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r s t A i d A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     / - W H S S a f e t y F i r s t A i d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r s t A i d E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     1 - W H S S a f e t y F i r s t A i d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     * - W H S S a f e t y F i r s t A i d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ' - W H S S a f e t y F i r s t A i d T a b V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿ             !   ) - W H S S a f e t y P P E A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     * - W H S S a f e t y P P E A d d E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     - - W H S S a f e t y P P E A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     * - W H S S a f e t y P P E E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     + - W H S S a f e t y P P E E d i t E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     . - W H S S a f e t y P P E E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S S a f e t y P P E E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     , - W H S S a f e t y P P E S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     % - W H S S a f e t y P P E S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ     " - W H S S a f e t y P P E T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ      - W H S S a f e t y P P E V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S S a f e t y S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     . - W H S S a f e t y S p i l l K i t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     2 - W H S S a f e t y S p i l l K i t A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S S a f e t y S p i l l K i t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     3 - W H S S a f e t y S p i l l K i t E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     1 - W H S S a f e t y S p i l l K i t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     * - W H S S a f e t y S p i l l K i t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     ' - W H S S a f e t y S p i l l K i t T a b V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     $ - W H S S a f e t y S p i l l K i t V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ      - W H S S a f e t y T a b V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ' - W H S S a f e t y T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ      - W H S S a f e t y V i e w C o n t r o l l e r . t x tIlocblob     Õ  .ÿÿÿÿÿÿ     ; - W H S S a f e W o r k M a n a g e m e n t S y s t e m A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     C  .ÿÿÿÿÿÿ     ; - W H S S a f e W o r k M a n a g e m e n t S y s t e m A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     ±  .ÿÿÿÿÿÿ     6 - W H S S a f e W o r k M a n a g e m e n t S y s t e m A c t i v i t y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S S a f e W o r k M a n a g e m e n t S y s t e m A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     4 - W H S S a f e W o r k M a n a g e m e n t S y s t e m D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     ? - W H S S a f e W o r k M a n a g e m e n t S y s t e m E d i t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     ; - W H S S a f e W o r k M a n a g e m e n t S y s t e m S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S S a f e W o r k M a n a g e m e n t S y s t e m S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     1 - W H S S a f e W o r k M a n a g e m e n t S y s t e m T a b V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     2 - W H S S a f e W o r k M a n a g e m e n t S y s t e m T a s k V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ  blob       îÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿ                . - W H S S a f e W o r k P r o c e d u r e s A c t i o n V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     1 - W H S S a f e W o r k P r o c e d u r e s C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     . - W H S S a f e W o r k P r o c e d u r e s D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ     , - W H S S a f e W o r k P r o c e d u r e s L i s t V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     5 - W H S S a f e W o r k P r o c e d u r e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ     . - W H S S a f e W o r k P r o c e d u r e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     + - W H S S a f e W o r k P r o c e d u r e s T a b V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     ( - W H S S a f e W o r k P r o c e d u r e s V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     " - W H S S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     ) - W H S S e a r c h R e s u l t s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ      - W H S S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S S e t t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - W H S S i d e M e n u V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     $ - W H S S i t e R A C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S S i t e R A H a z a r d s A d d H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i            ! - W H S A d d A t t e n d e e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ        + - W H S A s s e t s E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ        % - W H S A s s e t T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        7 - W H S C h e m i c a l R i s k A s s e s s m e n t N e w C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob      A  
 >ÿÿÿÿÿÿ        & - W H S E d i t A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     	   / - W H S E n v i r o n m e n t a l N o i s e C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     
    * - W H S H a z a r d s S e a r c h R e s u t l s V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ        / - W H S N o i s e C o n t r o l A d d A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ        " - W H S P A P D r i l l s T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   
-    - W H S P o l i c i e s V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ        + - W H S S a f e t y E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i            E  `  ø       0  @  P  p         °  À  Ð  à  ð                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           DSDB                                 `                                                   @                                             @                                                @       cblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i
-
-after uwu
+    - W H S P o l i c i e s V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ        + - W H S S a f e t y E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i            E  `  ø       0  @  P  p         °  À  Ð  à  ð                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           DSDB                                 `                                                   @                                             @                                                @       cblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i<br/></br>after uwu

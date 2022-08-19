@@ -15,12 +15,12 @@ beforeFile.close
 
 print("generating vc ...")
 iosFile = open(ios, "a")
-iosFile.write("\n\n")
+iosFile.write("<br/>")
 for filename in sorted(os.listdir(dirStr + "view-controllers")):
   with open(os.path.join(dirStr, "view-controllers", filename), "r", encoding ="latin-1") as vc:
     print (filename)
     iosFile.write(vc.read())
-    iosFile.write("\n\n")
+    iosFile.write("<br/></br>")
     vc.close
 iosFile.close
 print("generating after vc ...")
