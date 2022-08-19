@@ -1,0 +1,39 @@
+##### **WHSMenuViewController** - controls menu
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewWillLayoutSubviews`
+- `viewWillAppear`
+- `initializeTableViewPlaceholder`
+- `showNoPermissionPlaceholderInMenu`
+- `postURLConnectionDidFinishLoading: ... json: ... baseKey: ... targetKey`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... viewForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `initializeMenuTableView`
+- `initializeMenuTableView`
+- `initializeDataSource`
+- `initializeDataSourceFromFlexiForm: ... allowedFieldsKey`
+- `initializeDataSourceFromAllowedFields: ... allowedFieldsKey`
+- `initializeDataSourceFromFlexiForm: ... callback`
+- `validateRequiredFields`
+- `setTableviewDefaultBackgroundColor`
+- `showNotEnoughRecordView`
+- `showNotEnoughRecordViewWithTitle: ... message: ... isGoingBack`
+- `fetchValidSubMenuItemListWithParentID`
+- `requestPathForFlexibleFormWithPageID: ... controlID: ... refKey`
+- `fetchFlexibleFormWithPageID: ... controlID: ... refKey`
+- `processRecordIDs: ... JSON`
+- `formatIDsToArrays`
+- `processValuesOnJSONWithKey: ... JSON: ... completionBlock`
+- `isNumberOfRecordsEnough: ... count`
+- `isNumberOfRecordsEnough: ... array`
+- `processPickerFromJSONWithKey: ... JSONDataList`
+- `formatPickedItems: ... dataToBeExtractedKey: ... indent`
+- `formatPickedItems: ... dataToBeExtractedKey: ... indent: .. indentationString`
+- `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
+- `formatPickedPersons: ... indentationString`

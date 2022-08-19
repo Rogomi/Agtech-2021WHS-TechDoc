@@ -1,0 +1,31 @@
+##### **WHSPDFViewController** - handles the pdf view
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewDidAppear`
+- `viewWillDisappear`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `webView: … decidePolicyForNavigationAction`
+- `webView: … didFinishNavigation`
+- `mailComposeController: … didFinishWithResult`
+- `initializeNavigationBarButtonItems`
+- `showFileNotFoundView`
+- `showExperiencedErrorView`
+- `showCantEmailView`
+- `externalButtonDidTapped`
+- `openPDFExternally`
+- `emailPDF`
+- `moreButtonTapped`
+- `signOff`
+- `deletePDF`
+- `createJSON`
+- `logPDF`
+- `logPDFdelete`
+- `downloadPDF`
+- `fetchPDF`
+- `directlyFetchPDF`
+- `loadPDFFileToWebView`

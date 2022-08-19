@@ -1,0 +1,8 @@
+##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showAddIncidentReportingTypeView`
+- `showEditIncidentReportingTypeView`
+- `openAddRecordView`
+- `editBarButtonItemDidTapped`

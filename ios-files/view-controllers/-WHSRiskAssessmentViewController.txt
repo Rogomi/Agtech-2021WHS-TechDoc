@@ -1,0 +1,34 @@
+##### **WHSRiskAssessmentViewController** - controls the risk assessment
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `prepareForSegue: ... sender`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `initializeMoreBarButtonItem`
+- `initializePanel`
+- `toggleMorePanelView`
+- `showPanelView`
+- `hidePanelView`
+- `initializePanelDataSource`
+- `fetchData`
+- `fetchAttachmentCount`
+- `fetchActionRecordCount`
+- `editRecordButtonDidTapped`
+- `viewPDFButtonDidTapped`
+- `disableMoreButton`
+- `disableEditRecord`
+- `disableViewPDF`
+- `disableAttachments`
+- `disableEmailReport`
+- `disableActions`
