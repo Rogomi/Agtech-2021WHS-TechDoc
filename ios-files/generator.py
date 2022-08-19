@@ -17,7 +17,8 @@ print("generating vc ...")
 iosFile = open(ios, "a")
 iosFile.write("<br/>")
 for filename in sorted(os.listdir(dirStr + "view-controllers")):
-  if filename == "today" or filename[len(filename) - 4 : ] != ".txt":
+
+  if filename[len(filename) - 3 : ] != ".md":
     continue
   with open(os.path.join(dirStr, "view-controllers", filename), "r", encoding="latin-1") as vc:
     print (filename)
@@ -25,6 +26,7 @@ for filename in sorted(os.listdir(dirStr + "view-controllers")):
     iosFile.write("<br/></br>")
     vc.close
 iosFile.close
+
 print("generating after vc ...")
 iosFile = open(ios, "a")
 afterFile = open(af, "r")
