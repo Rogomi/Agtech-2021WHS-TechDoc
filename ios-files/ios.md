@@ -62,31 +62,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
     
 
 #### View Controllers
-  <br/>##### **AIMandatoryTableViewController** - handles AI Mandatory screen
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `allRequiredFilled`
-- `tableView(... heightForRowAt)`
-- `tableView(didSelectRowAt)`
-- `textFieldShouldBeginEditing`
-- `textField(...shouldChangeCharactersIn)`
-- `getLocAddr`
-- `clearLocation`
-- `clearType`
-- `showDateInput`
-<br/></br>##### **AISelectTemplateViewController** - handles the selection of the Risk Template
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `toggleTopFive`
-- `fetchTemplate`
-- `numberOfSections(in tableView...)`
-- `tableView(...didSelectRowAt)`
-- `fetchFields`
-- `organizeFields`<br/></br>##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
+  <br/>##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -532,43 +508,7 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `tableView: ... didSelectRowAtIndexPath`
 - `connection: ... willSendRequest: ... redirectResponse`
 - `connection: ... didReceiveData`
-- `connectionDidFinishLoading`<br/></br>##### **WHSSafetyAddServiceHistoryViewController** - handles the adding of service history in safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchAutoNum`
-- `saveServiceHistoryData`
-- `initializeDataSource`
-- `createJSON`
-- `showRecordTypePickerView`
-- `showFaultServicedOrRepairedPickerView`
-- `showServiceHistoryTypePickerView`
-- `showServicedByPickerView`
-- `showDatePickerWithIndexPath`
-- `showStatusOrResultPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`<br/></br>WHS2MenuViewController
-viewDidLoad
-prepare(for segue: UIStoryboardSegue, sender: Any?)
-<br/></br>##### **WHS2RecordViewController** - handles the display of Record screen
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-
-<br/></br>##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
+- `connectionDidFinishLoading`<br/></br>##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3656,47 +3596,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsView`
-- `searchBarButtonItemDidTapped`<br/></br>##### **WHSHazardsCarcinogensSearchResultsViewController** - handles the search results in hazards carcinogens
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`
-<br/></br>##### **WHSHazardsCarcinogensTabViewController** - handles the hazards carcinogens tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showSignOffView`
-- `showEditDetailsView`
-- `showEmployeeExposureView`
-- `showActionsView`<br/></br>##### **WHSHazardsCarcinogensViewController** - controls the hazards carcinogens
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchCarcinogensListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSHazardsDetailsViewController** - handles the showing of the details in the hazards section
+- `searchBarButtonItemDidTapped`<br/></br>##### **WHSHazardsDetailsViewController** - handles the showing of the details in the hazards section
 
 ###### **Methods and Calculated Variables**
 - `initializeDataSource`<br/></br>##### **WHSHazardsSearchFormViewController** - handles the showing of the search form in the Hazards section
@@ -3725,258 +3625,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `initializeDataSource`
 - `showAsbestosView`
-- `showCarcinogensView`<br/></br>##### **WHSIRSearchResultsViewController** - handles the search results in IR
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `searchRecords`
-- `initializeDataSource`
-- `showTabView`<br/></br>##### **WHSIRSearchViewController** - handles the IR search
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `initializeDataSource`
-- `showDatePickerWithIndexPath`
-- `showIncidentTypePickerView`
-- `showRiskRatingPickerView`
-- `showStatusPickerView`
-- `showSearchResultsViewWithDataList`
-- `searchBarButtonItemDidTapped`<br/></br>##### **WHSIncidentReportingAddNewHazardsViewController** - handles the adding of new hazards in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveHazardData`
-- `initializeDataSource`
-- `createJSON`
-- `showHazardTypePickerView`
-- `showHazardSubTypePickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `clearHazardData`<br/></br>##### **WHSIncidentReportingAddNewWitnessViewController** - handles the adding of new witness in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking ... dataPicked`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchEmployeeDetails`
-- `saveWitnessData`
-- `initializeDataSource`
-- `updateDataSource`
-- `createJSON`
-- `showWorkerPickerView`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `clearWitnessData`<br/></br>##### **WHSIncidentReportingAddRecordViewController** - handles the adding of record in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `dateOnlyFormatFromDateString`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... viewForHeaderInSection`
-- `sectionTapped`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... estimatedHeightForHeaderInSection`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchFlexibleForm`
-- `fetchAutoNum`
-- `fetchProjectDetails`
-- `fetchLocationAddress`
-- `fetchEmployeeDetails`
-- `saveDetailsData`
-- `saveIRDetCData`
-- `saveIRAddDetData`
-- `saveIRDetRPData`
-- `saveIRAddDetNFData`
-- `initializeDataSourceWithCallback`
-- `initializeDataSource`
-- `updateEmployeeData`
-- `createIRDetJSON`
-- `createIRDetCJSON`
-- `createIRAddDetJSON`
-- `createIRDetRPJSON`
-- `createIRAddDetNFJSON`
-- `showTypePickerView`
-- `showDatePickerWithIndexPath`
-- `showDateTimePickerWithIndexPath`
-- `showProjectPickerView`
-- `showManagementSystemPicker`
-- `showPersonPickerView`
-- `showConsequenceRankingPicker`
-- `showPotentialOutcomePicker`
-- `showNotificationSeverityPicker`
-- `showEmployeeContractorsCompanyPickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showStatusPickerView`
-- `showWorkerPickerView`
-- `showImmediateTreatmentPicker`
-- `showGenderPickerView`
-- `showDivisionPickerView`
-- `showDepartmentPickerView`
-- `showJobTitlePickerView`
-- `showOccupationPickerView`
-- `showIndustryPickerView`
-- `showEmploymentCategoryPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `clearLocationTypeData`
-- `clearDivisionData`
-- `isSectionPersonInvolve`
-- `insertValuesFromCell: ... intoData: ... usingParam`
-- `setValuesForCell: ... fromData: ... usingParam`
-- `insertValue: ... forKeyPath: ... inData`
-- `insertValue: ... forKeyPath: ... inData`
-- `valueFromData: ... forKeyPath: ... withTransForm`<br/></br>##### **WHSIncidentReportingAddTypeViewController** - handles the adding of type in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveAssetType`
-- `initializeDataSource`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `createJSON`<br/></br>##### **WHSIncidentReportingAdditionalDetailsViewController** - handles the additional details in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `initializeDataSource`<br/></br>##### **WHSIncidentReportingDetailsViewController** - handles the details in incident reporting
-
-###### **Methods and Calculated Variables**
-- `initializeDataSource`<br/></br>##### **WHSIncidentReportingEditAdditionalDetailsViewController** - handles the editing of additional details in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `initializeDataSourceWithFields`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveData`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchFlexibleForm`
-- `fetchAdditionalDetailsData`
-- `fetchProjectDetails`
-- `saveAdditionalDetailsData`
-- `initializeDataSource`
-- `createJSON`
-- `showProjectPickerView`
-- `showAssetEquipmentTypePickerView`
-- `showAssetEquipmentPickerView`
-- `showAssetEquipmentListPickerView`
-- `showChemicalStoragePickerView`
-- `showChemicalPickerView`
-- `showChemicalListPickerView`
-- `showWorkerPickerView`
-- `showWorkersPickerView`
-- `showLossPickerView`
-- `showIncidentIdentifierPickerView`
-- `showEnvironmentalIncidentCategoryPickerViewWithRow`
-- `showDatePickerWithIndexPath`
-- `showNatureInjuryPickerView`
-- `showMechanismInjuryPickerView`
-- `showBodyPartsHarmedPickerView`
-- `showDutyStatusPickerView`
-- `showTimeStartPickerView`
-- `showRotatingShiftManagementPickerView`
-- `showShiftLengthPickerView`
-- `showProportionWorkedPickerView`
-- `showEmployeeSupervisionPickerView`
-- `showAgencyIncidentPickerView`
-- `getHeaderAndFooterHeightForSection`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isProductExists`
-- `appendProducts: ... productNames`
-- `existingProductList`<br/></br>##### **WHSIncidentReportingEditDetailsViewController** - handles the editing of details in incident reporting
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `fetchDetails`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `fetchIRDetCData`
-- `fetchIRAddDetData`
-- `fetchIRDetRPData`
-- `fetchIRAddDetNFData`
-- `initializeDataSource`
-- `initializeWorkerDetails`
-- `initializeFirstReportDetails`
-- `initializeIntiialReportDetails`
-- `sendFetchRequest: ... delegate: ... dictionaryType`<br/></br>##### **WHSIncidentReportingEditHazardsViewController** - handles the editing of a hazard in the incident reporting section
+- `showCarcinogensView`<br/></br>##### **WHSIncidentReportingEditHazardsViewController** - handles the editing of a hazard in the incident reporting section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -3997,75 +3646,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `connectionDidFinishLoading`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchWitnessDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSIncidentReportingHazardsViewController** - controls the WHS incident reporting hazards view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `viewWillDisappear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: â¦ didTriggerRightUtilityButtonWithIndex`
-- `fetchHazardsData`
-- `initializeDataSource`
-- `showEditHazardView`
-- `cellRightUtitilityButtons`
-- `openAddRecordView`<br/></br>##### **WHSIncidentReportingIncidentAssessmentViewController** - handles the WHS incident reporting incident assessment view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `fetchFlexibleForm`
-- `fetchIncidentAssessmentDetailsData`
-- `fetchRecommendedRiskSignificanceData`
-- `fetchIdentifiedHazardsData`
-- `saveIncidentAssessmentData`
-- `initializeDataSourceWithFields`
-- `initializeDataSource`
-- `createJSON`
-- `showIdentifiedHazardList`
-- `showAssetEquipmentTypePickerView`
-- `showAssetEquipmentPickerView`
-- `showAssetEquipmentListPickerView`
-- `showChemicalStoragePickerView`
-- `showChemicalPickerView`
-- `showChemicalListPickerView`
-- `showTrainingTypePickerView`
-- `showIncidentFrequencyPickerView`
-- `showAdverseEffectsPickerView`
-- `showHazardImpactPickerView`
-- `showRiskSignificancePickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isSelectedItemsExists`
-- `setSelectedItemWithIDs`
-- `changeSelectedItemWithIDs`
-- `appendSelectedItemWithIDs`
-- `discardSelectedItemWithStringOfIDs`
-- `discardSelectedItemWithStringOfIDsChemical`
-- `dismissedViewWithRecords`<br/></br>##### **WHSIncidentReportingRecordViewController** - shows the Incident Reporting Record screen
+- `initializeDataSource`<br/></br>##### **WHSIncidentReportingRecordViewController** - shows the Incident Reporting Record screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4082,90 +3663,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showSearchView`
 - `openPDFView`
 - `showEmailReport`
-- `openAddRecordView`<br/></br>##### **WHSIncidentReportingTabViewController** - handles the incident reporting procedures tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `connectionDidFinishLoading`
-- `fetchFlexForm`
-- `registerActionDidSaved`
-- `registerActionSavingDidFailed`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `showSignOffView`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showEditAdditionalDetailsView`
-- `showHazardsView`
-- `showWitnessessView`
-- `showTreatmentsView`
-- `showIncidentAssessmentDetailsView`
-- `showActionsView`<br/></br>##### **WHSIncidentReportingTreatmentsDetailsViewController** - handles the WHS incident reporting treatments details view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: â¦ didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `fetchTreatmentsDetailsData`
-- `fetchFlexibleForm`
-- `saveTreatmentData`
-- `initializeDataSource`
-- `createJSON`
-- `clearTimeLostDateData`
-- `showAttachmentsView`
-- `showTreatmentObtainedPickerView`
-- `showUnitPickerView`
-- `showDatePickerWithIndexPath`
-- `showDateTimePickerWithIndexPath`
-- `saveBarButtonItemDidTapped`<br/></br>##### **WHSIncidentReportingTypePickerViewController** - handles the picker view for incident reporting types
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddIncidentReportingTypeView`
-- `showEditIncidentReportingTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSIncidentReportingWitnessesViewController** - handles the incident reporting witnesses view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `swipeableTableViewCell: â¦ didTriggerRightUtilityButtonWithIndex`
-- `fetchWitnessesData`
-- `deleteWitnessData`
-- `initializeDataSource`
-- `showEditWitnessView`
-- `openAddRecordView`<br/></br>##### **WHSInspectionTypePickerViewController** - handles the picker view for inspection types
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddInspectionTypeView`
-- `showEditInspectionTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSLandingViewController** - handles the Landing screen
+- `openAddRecordView`<br/></br>##### **WHSLandingViewController** - handles the Landing screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4206,19 +3704,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddLicenceView`
 - `showEditLicenceView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSLocationPickerViewController** - handles the picker view for location
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddLocationView`
-- `showEditLocationView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSLocationTypePickerViewController** - handles the picker view for location types
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddLocationView`
-- `openAddRecordView`<br/></br>##### **WHSLoginViewController** - handles the Login screen and login in of a user
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSLoginViewController** - handles the Login screen and login in of a user
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4236,102 +3722,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `validateUserCredentials`
 - `getResponseMessage`
 - `validateUsername`
-- `validatePassword`<br/></br>##### **WHSMSDSProductDetailsViewController** - handles the product details in msds
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `prepareForSegue: ... sender`
-- `connectionDidFinishLoading`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `mailComposeController: ... didFinishWithResult: ... error`
-- `fetchProductDetails`
-- `sanitizeJSON`
-- `reorderSanitizedJSON`<br/></br>##### **WHSMSDSSearchResultsViewController** - handles the display of search results for MSDS
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `prepareForSegue`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `searchProducts`
-<br/></br>##### **WHSMSDSSearchViewController** - handles the searching in msds
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `prepareForSegue: ... sender`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `initializeSearchBarButtonItem`
-- `showNotEnoughQueryPhrase`
-- `initializeUserInputReceivers`
-- `searchBarButtonItemDidTapped`
-- `finishedSelectingSearchTypeHandler`
-- `finishedSelectingSearchFormatHandler`<br/></br>##### **WHSManifestsReportPDFViewController** - handles the PDF display for manifests reports
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `prepareForSegue`<br/></br>##### **WHSMenuViewController** - controls menu
-
-###### **Methods and Calculated Variables**
-- `initWithCoder`
-- `viewDidLoad`
-- `viewWillLayoutSubviews`
-- `viewWillAppear`
-- `initializeTableViewPlaceholder`
-- `showNoPermissionPlaceholderInMenu`
-- `postURLConnectionDidFinishLoading: ... json: ... baseKey: ... targetKey`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... viewForFooterInSection`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeMenuTableView`
-- `initializeMenuTableView`
-- `initializeDataSource`
-- `initializeDataSourceFromFlexiForm: ... allowedFieldsKey`
-- `initializeDataSourceFromAllowedFields: ... allowedFieldsKey`
-- `initializeDataSourceFromFlexiForm: ... callback`
-- `validateRequiredFields`
-- `setTableviewDefaultBackgroundColor`
-- `showNotEnoughRecordView`
-- `showNotEnoughRecordViewWithTitle: ... message: ... isGoingBack`
-- `fetchValidSubMenuItemListWithParentID`
-- `requestPathForFlexibleFormWithPageID: ... controlID: ... refKey`
-- `fetchFlexibleFormWithPageID: ... controlID: ... refKey`
-- `processRecordIDs: ... JSON`
-- `formatIDsToArrays`
-- `processValuesOnJSONWithKey: ... JSON: ... completionBlock`
-- `isNumberOfRecordsEnough: ... count`
-- `isNumberOfRecordsEnough: ... array`
-- `processPickerFromJSONWithKey: ... JSONDataList`
-- `formatPickedItems: ... dataToBeExtractedKey: ... indent`
-- `formatPickedItems: ... dataToBeExtractedKey: ... indent: .. indentationString`
-- `formatPickedDataset: ... dataToBeExtractedKey: ... indent: ... indentationString`
-- `formatPickedPersons: ... indentationString`<br/></br>##### **WHSNoiseAssessmentSubTypePickerViewController** - handles the picker view for noise assessment sub types
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddSubTypeView`
-- `showEditSubTypeView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSNoiseControlAddAssessmentViewController** - handles adding an assessment in the Noise Control section
+- `validatePassword`<br/></br>##### **WHSNoiseControlAddAssessmentViewController** - handles adding an assessment in the Noise Control section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4499,82 +3890,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEditDetailsView`
 - `showEditMeasurementView`
 - `showAssessmentView`
-- `showNewControlsView`<br/></br>##### **WHSNonChemicalRiskAssessmentAssessmentViewController** - handles the WHS nonchemical risk assessment assessment view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `fetchAssessmentData`
-- `initializeDataSource`
-<br/></br>##### **WHSNonChemicalRiskAssessmentDetailsViewController** - handles the WHS nonchemical risk assessment details view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ viewForHeaderInSection`
-- `sectionTapped`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForHeaderInSection`
-- `tableView: â¦ heightForFooterInSection`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSNonChemicalRiskAssessmentNewControlsViewController** - handles the new controls in non chemical risk assessment
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`<br/></br>##### **WHSNonChemicalRiskAssessmentSearchResultsViewController** - handles the search results in non chemical risk assessment
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`<br/></br>##### **WHSNonChemicalRiskAssessmentSearchViewController** - handles the search in non chemical risk assessment
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `showSearchResultsView`<br/></br>##### **WHSNonChemicalRiskAssessmentTabViewController** - handles the non chemical risk assessment tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchTabs`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showNewControlsView`
-- `showSignOffView`
-- `showDetailsView`
-- `showAssessmentView`
-- `showHazardsAndConsequencesView`
-- `showHazardsView`
-- `showConsequencesView`
-- `showCurrentControlsView`
-- `processTabFlags`<br/></br>##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
+- `showNewControlsView`<br/></br>##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4590,129 +3906,6 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showPDFView`
 - `showEmailReportView`
 - `showTabView`
-<br/></br>##### **WHSNonChemicalRiskManagementViewController** - controls the non chemical risk management
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `showHATRiskAssessmentView`
-- `showSWMSView`
-- `showSWPView`<br/></br>##### **WHSNonChemicalSafeWorkManagementSystemActionViewController** - handles the WHS nonchemical safe work management system action view
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `fetchNewControlsData`
-- `showAddActionView`
-- `showEditActionView`
-<br/></br>##### **WHSNonChemicalSafeWorkManagementSystemAddActionViewController** - handles the WHS adding of action for nonchemical safe work management systems
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `sendPOSTRequest`
-- `initializeDataSource`
-- `showCategoryPickerView`
-- `showStatusPickerView`
-- `showPriorityPickerView`
-- `showSendNotificationToPickerView`
-- `showDatePickerWithTitle`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `getRecipientIDs`
-- `createPOSTJSON`<br/></br>##### **WHSNonChemicalSafeWorkManagementSystemEditActionViewController** - handles the editing of actions for WHS nonchemical safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `fetchActionDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSNonChemicalSafeWorkProceduresAddActionViewController** - handles the adding of action for the WHS nonchemical safe work procedures
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `sendPOSTRequest`
-- `initializeDataSource`
-- `showCategoryPickerView`
-- `showControlMeasurePickerView`
-- `showStatusPickerView`
-- `showPriorityPickerView`
-- `showSendNotificationToPickerView`
-- `showDatePickerWithTitle`
-- `switchValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`
-- `getRecipientIDs`
-- `createPOSTJSON`<br/></br>##### **WHSNonChemicalSafeWorkProceduresEditActionViewController** - handles the editing of actions for WHS nonchemical safe work procedures
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `fetchActionDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSNotificationReceiverPickerViewController** - handles the picker in notification receiver
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showAddNotificationReceiversView`
-- `showEditNotificationReceiversView`
-- `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSOfflineFormViewController** - shows the workers 
-
-###### **Methods and Calculated Variables**
-`viewDidLoad`
-`viewWillAppear`
-`initializeDataSource`
-`accessPermission`
-`tableView(...didSelectRowAt)`
-`tableView(...heightForRowAt)`<br/></br>##### **WHSOfflineFormsAuditsInspectionViewController** - handles the audits inspection in the offline forms section
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `initializeDataSource`
-- `tableView(...didSelectRowAt)`<br/></br>##### **WHSOfflineFormsViewController** - handles the offline forms screen
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `initializeDataSource`
-- `showNoFormsDownloaded`
-- `downloadAll`
-- `tableView(...cellForRowAt)`
-- `tableView(...didSelectRowAt)`
-- `tableView(...heightForRowAt)`
 <br/></br>##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
@@ -4721,133 +3914,31 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `showSearchResultsViewWithDataList`
-<br/></br>##### **WHSPAPComplaintsTabViewController** - handles the PAP complaints tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentView`
-- `showEmailReportView`
-- `showSignOffView`
-- `showEditDetailsView`
-- `showChecklistView`
-- `showPointsRaisedView`
-- `showActionsView`
-<br/></br>##### **WHSPAPDetailsViewController** - handles the PAP details
-
-###### **Methods and Calculated Variables**
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`<br/></br>##### **WHSPAPDrillsSearchResultsViewController** - handles the search results in the PAP Drills section
+<br/></br>##### **WHSPAPDrillsSearchResultsViewController** - handles the search results in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
 - `showTabView`<br/></br>##### **WHSPAPDrillsSearchViewController** - handles the searching in the PAP Drills section
 
 ###### **Methods and Calculated Variables**
 - `showSearchResultsViewWithDataList`
-<br/></br>##### **WHSPAPDrillsTabViewController** - handles the PAP drills tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentView`
-- `showSignOffView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showChecklistView`
-- `showActionsView`<br/></br>##### **WHSPAPLegislationsSearchResultsViewController** - handles the search results in the PAP Legislations section
+<br/></br>##### **WHSPAPLegislationsSearchResultsViewController** - handles the search results in the PAP Legislations section
 
 ###### **Methods and Calculated Variables**
 - `showTabView`<br/></br>##### **WHSPAPLegislationsSearchViewController** - handles the searching in the PAP Legislations section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPAPPlansProceduresTabViewController** - handles the PAP plans procedures tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `tableView: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showSignOffView`
-- `showChecklistView`
-- `showEmergencyProcedureView`
-- `showActionsView`<br/></br>##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
 - `showTabView`<br/></br>##### **WHSPAPPlansSearchViewController** - handles the searching in the PAP Plans section 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPAPSearchResultsViewController** - handles the search results in PAP
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
 
 ###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`<br/></br>##### **WHSPAPSearchViewController** - handles the searching in pap
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `initializeDataSource`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showStatusPickerView`
-- `showDatePickerWithIndexPath`
-- `searchBarButtonItemDidTapped`<br/></br>##### **WHSPAPTrainingSearchResultsViewController** - handles the search results in the AP training section screen
-
-###### **Methods and Calculated Variables**
-- `showTabView`<br/></br>##### **WHSPAPTrainingTabViewController** - handles the pap training tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentView`
-- `showEmailReportView`
-- `showSignOffView`
-- `showEditDetailsView`
-- `showChecklistView`
-- `showAttendeesView`
-- `showActionsView`<br/></br>##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
+- `showTabView`<br/></br>##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
 
 ###### **Methods and Calculated Variables**
 - `showSearchResultsViewWithDataList`<br/></br>##### **WHSPDFAddSigneesViewController** - handles the PDF Add signees screen
@@ -4891,485 +3982,11 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `tableView: â¦ editActionsForRowAtIndexPath`
 - `initializeDataSource`
-- `saveOnlineSignature`<br/></br>##### **WHSPDFViewController** - handles the pdf view
-
-###### **Methods and Calculated Variables**
-- `initWithCoder`
-- `viewDidLoad`
-- `viewDidAppear`
-- `viewWillDisappear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `webView: â¦ decidePolicyForNavigationAction`
-- `webView: â¦ didFinishNavigation`
-- `mailComposeController: â¦ didFinishWithResult`
-- `initializeNavigationBarButtonItems`
-- `showFileNotFoundView`
-- `showExperiencedErrorView`
-- `showCantEmailView`
-- `externalButtonDidTapped`
-- `openPDFExternally`
-- `emailPDF`
-- `moreButtonTapped`
-- `signOff`
-- `deletePDF`
-- `createJSON`
-- `logPDF`
-- `logPDFdelete`
-- `downloadPDF`
-- `fetchPDF`
-- `directlyFetchPDF`
-- `loadPDFFileToWebView`<br/></br>##### **WHSPointsRaisedViewController** - controls the points raised
+- `saveOnlineSignature`<br/></br>##### **WHSPoliciesSearchViewController** - handles the searching of policies
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `swipeableTableViewCell: ... didTriggerRightUtilityButtonWithIndex`
-- `swipeableTableViewCell: ... canSwipeToState`
-- `deletePointsData`
-- `initializeDataSource`
-- `showEditPointsRaisedView`
-- `cellRightUtitilityButtons`
-- `openAddRecordView`<br/></br>##### **WHSPoliciesAddRecordViewController** - handles the adding of WHS policies records
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `saveDetailsData`
-- `fetchAutoNum`
-- `initializeDataSource`
-- `createJSON`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showStatePickerView`
-- `showDatePickerWithIndexPath`
-- `showStatusPickerView`
-- `showWebView`
-- `showRelevantLegislationsPickerView`
-- `showRelevantTrainingPickerView`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `clearTypeData`<br/></br>##### **WHSPoliciesComplaintsAddRecordViewController** - handles the adding of policies complaints records
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `fetchAutoNum`
-- `fetchLocationAddress`
-- `saveDetailsData`
-- `initializeDataSource`
-- `createJSON`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showStatePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showDatePickerWithIndexPath`
-- `showDateTimePickerWithIndexPath`
-- `showStatusPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantLegislationsPickerView`
-- `showRelevantTrainingPickerView`
-- `showCompetenciesPickerView`
-- `showInternalExternalPickerView`
-- `showWorkerPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `clearTypeData`
-- `clearLocationTypeData`
-<br/></br>##### **WHSPoliciesComplaintsEditRecordViewController** - handles the editing of policies complaints records
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSPoliciesComplaintsViewController** - handles the policies complaints
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `fetchRecordsData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSPoliciesDrillsAddRecordViewController** - handles the adding of policies drills records
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `fetchAutoNum`
-- `fetchLocationAddress`
-- `saveDetailsData`
-- `initializeDataSource`
-- `createJSON`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showStatePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showDatePickerWithIndexPath`
-- `showDateTimePickerWithIndexPath`
-- `showStatusPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantLegislationsPickerView`
-- `showRelevantTrainingPickerView`
-- `showCompetenciesPickerView`
-- `showInternalExternalPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `clearTypeData`
-- `clearLocationTypeData`
-<br/></br>##### **WHSPoliciesDrillsEditRecordViewController** - handles the editing of record in policies drills
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSPoliciesDrillsViewController** - controls the policies drills
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchRecordsData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSPoliciesEditRecordViewController** - handles the editing of record in policies
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSPoliciesLegislationsAddRecordViewController** - handles the adding of policies legislations records
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `saveDetailsData`
-- `fetchAutoNum`
-- `initializeDataSource`
-- `createJSON`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showAuthorityPickerView`
-- `showStatePickerView`
-- `showApplicableStatePickerView`
-- `showVerifiedStatePickerView`
-- `showDatePickerWithIndexPath`
-- `showStatusPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantTrainingPickerView`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `clearTypeData`<br/></br>##### **WHSPoliciesLegislationsEditRecordViewController** - handles the editing of record in the policies legislations
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPat`
-- `fetchDetailsData`
-- `initializeDataSource`
-- `getApplicableStates`
-- `getApplicableStatesIDs`
-- `getVerifiedStates`
-- `getVerifiedStatesIDs`<br/></br>##### **WHSPoliciesLegislationsViewController** - controls the policies legislations
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchRecordsData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSPoliciesPlansAddRecordViewController** - handles the adding of record in policies plans
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveResponse`
-- `connection: ... didReceiveDate`
-- `connectionDidFinishLoadin`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchLocationAddress`
-- `saveDetailsData `
-- `fetchAutoNum`
-- `initializeDataSource`
-- `createJSON`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showStatePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showDatePickerWithIndexPath`
-- `showStatusPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantLegislationsPickerView`
-- `showRelevantTrainingPickerView`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `clearTypeData`
-- `clearLocationTypeData`<br/></br>##### **WHSPoliciesPlansEditRecordViewController** - handles the editing of record in policies plans
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSPoliciesPlansViewController** - controls the policies plans
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchRecordsData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSPoliciesProceduresViewController** - handles the procedures in policies
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `showPoliciesView`
-- `showPlansAndProceduresView`
-- `showLegislationsView`
-- `showTrainingView`
-- `showDrillView`
-- `showComplaintsView`<br/></br>##### **WHSPoliciesSearchResultsViewController** - handles the display of search results for policies
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showTabView`<br/></br>##### **WHSPoliciesSearchViewController** - handles the searching of policies
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `showSearchResultsViewWithDataList`<br/></br>##### **WHSPoliciesTabViewController** - handles the policies tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showSignOffView`
-- `showEmailReportView`
-- `showEditDetailsView`
-- `showActionsView`<br/></br>##### **WHSPoliciesTrainingAddRecordViewController** - handles the WHS adding of policies training records
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: â¦ willSendRequest`
-- `connection: â¦ didReceiveResponse`
-- `connection: â¦ didReceiveData`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ titleForHeaderInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ estimatedHeightForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`
-- `tableView: â¦ didSelectRowAtIndexPath`
-- `textView: â¦ shouldChangeTextInRange`
-- `textViewDidChange`
-- `acSheet: â¦ clickedButtonAtIndex`
-- `fetchAutoNum`
-- `fetchLocationAddress`
-- `saveDetailsData`
-- `initializeDataSource`
-- `createJSON`
-- `showTypePickerView`
-- `showSubTypePickerView`
-- `showStatePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showDatePickerWithIndexPath`
-- `showDateTimePickerWithIndexPath`
-- `showStatusPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantLegislationsPickerView`
-- `showCompetenciesPickerView`
-- `showInternalExternalPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`
-- `clearTypeData`
-- `clearLocationTypeData`<br/></br>##### **WHSPoliciesTrainingEditRecordViewController** - handles the editing of record in policies training
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsData`
-- `initializeDataSource`
-- `getInternalExternal`<br/></br>##### **WHSPoliciesTrainingViewController** - controls the policies training
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchRecordsData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSPoliciesViewController** - controls the policies
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchRecordsData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSProductDetailsViewController** - handles the display of product details
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `didReceiveMemoryWarning`
-- `numberOfSectionsInTableView`
-- `tableView: â¦ numberOfRowsInSection`
-- `tableView: â¦ cellForRowAtIndexPath`
-- `tableView: â¦ heightForRowAtIndexPath`<br/></br>##### **WHSProjectPickerViewController** - handles the project picker
+- `showSearchResultsViewWithDataList`<br/></br>##### **WHSProjectPickerViewController** - handles the project picker
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5409,133 +4026,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `openPDFView`
 - `openAddRecordView`
 - `moreOptionsBarButtonItemDidTapped`
-- `searchItem`<br/></br>##### **WHSRegisterActionDetailsViewController** - handles the action details in register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`
-- `fetchActionDetails`<br/></br>##### **WHSRegisterActionManagerViewController** - handles the action manager of the register
-
-###### **Methods and Calculated Variables**
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `createInData`
-- `transferActionData`<br/></br>##### **WHSRegisterActionsViewController** - handles the actions of the register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `reloadViewFromSavedAction`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `registerActionDidSaved: ... responseData`
-- `registerActionSavingDidFailed: ... responseData`
-- `fetchActionsData`
-- `initializeDataSource`
-- `showEditRecordView`
-- `openAddRecordView`<br/></br>##### **WHSRegisterAddActionViewController** - handles the adding of action in the register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`<br/></br>##### **WHSRegisterAddActionsViewController** - handles the adding of actions in the register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchFlexibleForm`
-- `fetchAutoNum`
-- `saveAction`
-- `initializeDataSource`
-- `showActionTypePicker`
-- `showActionCategoryPickerView`
-- `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
-- `showWorkerPickerView: ... isNotification`
-- `showNotificationReceiverPickerView`
-- `showSaveSucceedAlertView`
-- `showSaveFailedAlertView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `createJSON`<br/></br>##### **WHSRegisterAddServiceTypeViewController** - handles the adding of service type in the register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveServiceTypeData`
-- `initializeDataSource`
-- `createJSON`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`<br/></br>##### **WHSRegisterAddTestTypeViewController** - handles the adding of test type in the register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `saveTestTypeData`
-- `initializeDataSource`
-- `createJSON`
-- `saveBarButtonItemDidTapped`
-- `isAllRequiredDataFilledUp`<br/></br>##### **WHSRegisterEditActionDetailsViewController** - handles the editing of action details in the register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`<br/></br>##### **WHSRegisterEditActionsViewController** - handles the editing of actions in register
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewDidAppear`
-- `fetchDetails`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchActionDetailsData`
-- `initializeDataSource`
-- `formatNotificationReceivers`<br/></br>##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
+- `searchItem`<br/></br>##### **WHSRegisterEditServiceTypeViewController** - handles the editing of a service type in the Register section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5574,9 +4065,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddTestTypeView`
 - `showEditTestTypeView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSRegistersSearchViewController** - handles the searching in registers
-
-###### **Methods and Calculated Variables**<br/></br>##### **WHSRegistersViewController** - handles the viewing of the Registers screen
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSRegistersViewController** - handles the viewing of the Registers screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5679,120 +4168,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `didReceiveMemoryWarning`
-- `prepareForSegue`<br/></br>##### **WHSRiskAssessmentActionDetailsViewController** - handles the action details in the risk assessment
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `fetchActionDetails`
-- `initializeDataSource`<br/></br>##### **WHSRiskAssessmentActionManagerViewController** - handles the action manager in the risk assessment
-
-###### **Methods and Calculated Variables**
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `createInData`
-- `isValidObjectForIndex`
-- `transferActionData`
-- `showActionControlMeasurePickerView`<br/></br>##### **WHSRiskAssessmentAddActionViewController** - handles the adding of action in the risk assessment
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `cellSwitchDidValueChanged`
-- `saveActionButtonDidTapped`<br/></br>##### **WHSRiskAssessmentEditActionDetailsViewController** - handles the editing of action details in risk assessment
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`<br/></br>##### **WHSRiskAssessmentPicturesViewController** - handles the showing of pictures in the Risk Management section
+- `prepareForSegue`<br/></br>##### **WHSRiskAssessmentPicturesViewController** - handles the showing of pictures in the Risk Management section
 
 ###### **Methods and Calculated Variables**
 - `collectionCellIdentifier`
 - `initializeCollectionViews`
 - `preferredCollectionViewFrame`
 - `processPictures`
-- `processHeadersAndDetails`<br/></br>##### **WHSRiskAssessmentViewController** - controls the risk assessment
-
-###### **Methods and Calculated Variables**
-- `initWithCoder`
-- `viewDidLoad`
-- `viewWillAppear`
-- `viewWillDisappear`
-- `prepareForSegue: ... sender`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `connection: ... willSendRequest`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `initializeMoreBarButtonItem`
-- `initializePanel`
-- `toggleMorePanelView`
-- `showPanelView`
-- `hidePanelView`
-- `initializePanelDataSource`
-- `fetchData`
-- `fetchAttachmentCount`
-- `fetchActionRecordCount`
-- `editRecordButtonDidTapped`
-- `viewPDFButtonDidTapped`
-- `disableMoreButton`
-- `disableEditRecord`
-- `disableViewPDF`
-- `disableAttachments`
-- `disableEmailReport`
-- `disableActions`<br/></br>##### **WHSRiskManagementAddActionViewController** - handles the adding of action in risk management
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView `
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `sendPOSTRequest`
-- `initializeDataSource`
-- `showCategoryPickerView`
-- `showControlMeasurePickerView`
-- `showStatusPickerView`
-- `showPriorityPickerView`
-- `showSendNotificationToPickerView`
-- `showDatePickerWithTitle: ... view`
-- `switchValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `clearControlMeasureData`
-- `isAllRequiredDataFilledUp`
-- `getRecipientIDs`
-- `createPOSTJSON`<br/></br>##### **WHSRiskManagementEditActionViewController** - handles the editing of action in risk management
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `fetchActionDetailsData`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`<br/></br>##### **WHSRiskManagementViewController** - handles the Risk Management screen
+- `processHeadersAndDetails`<br/></br>##### **WHSRiskManagementViewController** - handles the Risk Management screen
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5803,179 +4186,14 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `showChemicalRiskManagementView`
 - `showNonChemicalRiskManagementView`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemActionDetailsViewController** - handles the action details of safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `initializeDataSource`
-- `fetchActionDetails`<br/></br>##### **WHSSafeWorkManagementSystemActionManagerViewController** - handles the action manager of safe work management system
-
-###### **Methods and Calculated Variables**
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `createInData`
-- `transferActionData`
-- `showActionTaskPickerView`<br/></br>##### **WHSSafeWorkManagementSystemActivityViewController** - handles the activity in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... viewForHeaderInSection`
-- `sectionTapped`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `fetchActivityData`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemAddActionViewController** -  handles the adding of action in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`<br/></br>##### **WHSSafeWorkManagementSystemDetailViewController** - handles the detail in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... viewForHeaderInSection`
-- `sectionTapped`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemEditActionDetailsViewController** - handles the editing of action details in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `saveActionButtonDidTapped`
-- `cellSwitchDidValueChanged`<br/></br>##### **WHSSafeWorkManagementSystemSearchResultsViewController** - handles the search results in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`<br/></br>##### **WHSSafeWorkManagementSystemSearchViewController** - handles the searching in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `initializeDataSource`
-- `showGenericPickerViewWithType`
-- `showRecordTypePickerView`
-- `showSearchResultsView`
-- `searchBarButtonItemDidTapped`<br/></br>##### **WHSSafeWorkManagementSystemTabViewController** - handles the safe work management system tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showSignOffView`
-- `showDetailsView`
-- `showActivityView`
-- `showTasksView`
-- `showActionsView`<br/></br>##### **WHSSafeWorkManagementSystemTaskViewController** - handles the tasks in safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... viewForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForHeaderInSection`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `tableView: ... heightForRowAtIndexPath`
-- `fetchTasksData`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkManagementSystemViewController** - controls the safe work management system
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchSWMSListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showSearchView`
-- `showTabView`<br/></br>##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresActionViewController** - handles the actions in the Safe Work Procedures section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
 - `tableView: â¦ didSelectRowAtIndexPath`
 - `fetchNewControlsData`
 - `showAddActionView`
-- `showEditActionView`<br/></br>##### **WHSSafeWorkProceduresChecklistViewController** - handles the checklist in safe work procedures
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `fetchChecklistData`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresDetailViewController** - handles the details in safe work procedures
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... viewForHeaderInSection`
-- `sectionTapped`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... heightForHeaderInSection`
-- `fetchDetailsData`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
+- `showEditActionView`<br/></br>##### **WHSSafeWorkProceduresListViewController** handles the showing of the list of safe work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -5988,52 +4206,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `tableView: â¦ estimatedHeightForRowAtIndexPath`
 - `tableView: â¦ heightForRowAtIndexPath`
 - `fetchSWPData`
-- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresSearchResultsViewController** - handles the search results in safe work procedures
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `searchRecords`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showTabView`<br/></br>##### **WHSSafeWorkProceduresSearchViewController** - handles the searching in safe work procedures
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textViewDidChange`
-- `initializeDataSource`
-- `showStatusPickerView`
-- `showDatePicker`
-- `showSearchResultsView`
-- `searchBarButtonItemDidTapped`<br/></br>##### **WHSSafeWorkProceduresTabViewController** - handles the safe work procedures tab
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `initializeDataSource`
-- `showPDFView`
-- `showSignOffView`
-- `showAttachmentsView`
-- `showEmailReportView`
-- `showDetailsView`
-- `showSWPView`
-- `showChecklistView`
-- `showActionsView`<br/></br>##### **WHSSafeWorkProceduresViewController** - shows share work procedures
+- `initializeDataSource`<br/></br>##### **WHSSafeWorkProceduresViewController** - shows share work procedures
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6045,111 +4218,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `initializeDataSource`
 - `updateDataSource`
 - `showSearchView`
-- `showTabView`<br/></br>##### **WHSSafetyAddDetailsViewController** - handles the adding of details in safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `numberOfSectionsInTableView`
-- `tableView: ... numberOfRowsInSection`
-- `tableView: ... titleForHeaderInSection`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchLocationAddressData`
-- `fetchAutoNum`
-- `saveRecordData`
-- `initializeDataSource`
-- `createJSON`
-- `showSubTypePickerView`
-- `showLocationTypePickerView`
-- `showLocationPickerView`
-- `showDatePickerWithIndexPath`
-- `showFireFightingClassPickerView`
-- `showFireFightingRatingPickerView`
-- `showStatusPickerView`
-- `showCompetenciesPickerView`
-- `showTestingFrequencyPickerView`
-- `showServicingFrequencyPickerView`
-- `showWorkerPickerView`
-- `showRelevantPoliciesPickerView`
-- `showRelevantProceduresPickerView`
-- `showRelevantLegislationsPickeriew`
-- `showRelevantTrainingPickerView`
-- `switchCellValueDidChanged`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `clearSubTypeData`
-- `clearLocationData`
-- `isAllRequiredDataFilledUp`<br/></br>##### **WHSSafetyAddTestHistoryViewController** - handles the adding of test history in safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `connection: ... didReceiveResponse`
-- `connectionDidFinishLoading`
-- `tablePickerDidFinishedPicking: ... dataPicked`
-- `tableView: ... cellForRowAtIndexPath`
-- `tableView: ... estimatedHeightForRowAtIndexPath`
-- `tableView: ... heightForRowAtIndexPath `
-- `tableView: ... didSelectRowAtIndexPath`
-- `textView: ... shouldChangeTextInRange: ... replacementText`
-- `textViewDidChange`
-- `switchCellValueDidChanged`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchAutoNum`
-- `saveTestHistoryData`
-- `initializeDataSource`
-- `createJSON`
-- `showTestTypePickerView`
-- `showWorkerPicker`
-- `showDatePickerWithIndexPath`
-- `showStatusPickerView`
-- `saveBarButtonItemDidTapped`
-- `handleAutoNumData`
-- `isAllRequiredDataFilledUp`<br/></br>##### **WHSSafetyEditDetailsViewController** - handles the editing of details in safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connection: ... willSendRequest: ... redirectResponse`
-- `connection: ... didReceiveData`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `fetchDetailsDat`
-- `initializeDataSource`<br/></br>##### **WHSSafetyEditServiceHistoryViewController** - handles the editing of service history in safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `registerActionDidSaved: ... responseData`
-- `registerActionSavingDidFailed: ... responseData`
-- `fetchServiceHistoryDetailsData`
-- `initializeDataSource`
-- `showServiceHistoryActions`
-- `showAttachmentsView`<br/></br>##### **WHSSafetyEditTestHistoryViewController** - handles the editing of test history in safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `registerActionDidSaved: ... responseData`
-- `registerActionSavingDidFailed: ... responseData`
-- `fetchTestHistoryDetailsData`
-- `initializeDataSource`
-- `showTestHistoryActions`
-- `showAttachmentsView`<br/></br>##### **WHSSafetyEmergencyWashingAddDetailsViewController** - handles the adding go details in the safety emergency washing section
+- `showTabView`<br/></br>##### **WHSSafetyEmergencyWashingAddDetailsViewController** - handles the adding go details in the safety emergency washing section
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6524,23 +4593,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showEmployeeView`
 - `showTestHistoryView`
 - `showServiceHistoryView`
-- `showActionsView`<br/></br>##### **WHSSafetyPPEViewController** - handles the safety ppe
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewDidAppear`
-- `connectionDidFinishLoading`
-- `tableView: ... didSelectRowAtIndexPath`
-- `acSheet: ... clickedButtonAtIndex`
-- `fetchPPEListData`
-- `fetchNextPage`
-- `initializeDataSource`
-- `updateDataSource`
-- `showPDFView`
-- `showEmailReportView`
-- `showSearchView`
-- `showTabView`
-- `openAddRecordView`<br/></br>##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
+- `showActionsView`<br/></br>##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -6644,20 +4697,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showTestHistoryDetailsView`
 - `showEditTestHistoryDetailsView`
 - `openAddRecordView`
-<br/></br>##### **WHSSafetyViewController** - controls the safety
-
-###### **Methods and Calculated Variables**
-- `viewDidLoad`
-- `viewWillAppear`
-- `tableView: ... heightForRowAtIndexPath`
-- `tableView: ... didSelectRowAtIndexPath`
-- `initializeDataSource`
-- `showFireFightingEquipmentView`
-- `showEmergencyWashingView`
-- `showFireDetectionView`
-- `showFirstAidKitView`
-- `showSpillKitView`
-- `showPPEView`<br/></br>##### **WHSSearchRecordViewController** - shows search record view
+<br/></br>##### **WHSSearchRecordViewController** - shows search record view
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -7187,7 +5227,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 - `showAddWorkerView`
 - `showEditWorker`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>   Bud1           `  ø                                           ò       H S A d d A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @                                              @                                                @                                                @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $   # - A I M a n d a t o r y T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - A I S e l e c t T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # - D y n a m i c F o r m T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A   .ÿÿÿÿÿÿ      - G e n e r i c T a b l e V i e w C o n t r o l l e r . t x tIlocblob      ¯   .ÿÿÿÿÿÿ     ( - M y S t o r a g e A d d N e w W o r k e r V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     ) - M y S t o r a g e C o m p a t i b i l i t y V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     . - M y S t o r a g e E d i t S t o r e d Q u a n t i t y V i e w C o n t r o l l e r . t x tIlocblob     ù   .ÿÿÿÿÿÿ     ' - M y S t o r a g e E S Q A d d B a t c h V i e w C o n t r o l l e r . t x tIlocblob     g   .ÿÿÿÿÿÿ     * - M y S t o r a g e E S Q A d d P a c k S i z e V i e w C o n t r o l l e r . t x tIlocblob      A   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d S u p p l i e r s V i e w C o n t r o l l e r . t x tIlocblob      ¯   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d U n i t S i z e s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q B a t c h D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ) - M y S t o r a g e E S Q I n p u t V a l u e V i e w C o n t r o l l e r . t x tIlocblob     ù   ÿÿÿÿÿÿ     $ - M y S t o r a g e M a n i f e s t V i e w C o n t r o l l e r . t x tIlocblob     g   ÿÿÿÿÿÿ     # - M y S t o r a g e S u m m a r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     % - N e w D y n a m i c T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - S i g n a t u r e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - S i g n O f f T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - S u b m i t t e d B y T a b l e V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S   S a f e t y A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ      - W H S 2 M e n u V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ      - W H S 2 R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n C a t e g o r y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S A c t i o n D e t a i l s   M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     # - W H S A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     1 - W H S A c t i o n s M o n i t o r S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ      - W H S A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     ' - W H S A d d A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     , - W H S A d d A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ) - W H S A d d A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     % - W H S A d d A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     " - W H S A d d A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     2 - W H S A d d A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     $ - W H S A d d A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ                                                                                                                                                                                         %   % - W H S A d d C o m p e t e n c i e s V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d C o n t r o l M e a s u r e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     + - W H S A d d E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ       - W H S A d d G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     ' - W H S A d d I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ       - W H S A d d L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     ! - W H S A d d L o c a t i o n V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S A d d N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     , - W H S A d d N o i s e A s s e s s m e n t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     - - W H S A d d N o t i f i c a t i o n R e c e i v e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     % - W H S A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d W o r k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     ' - W H S A I A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ! - W H S A I A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     ( - W H S A I E d i t P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     " - W H S A I E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     / - W H S A i I n s p e c t i o n S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     , - W H S A I I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     $ - W H S A I P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     % - W H S A I S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A I S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ       - W H S A I S p l i t t e d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - W H S A I T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     & - W H S A s s e t s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S A s s e t s A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S A s s e t s A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     0 - W H S A s s e t s C l a s s i f i e d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     1 - W H S A s s e t s C l a s s i f i e d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S A s s e t s C l a s s i f i e d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S A s s e t s C l a s s i f i e d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S A s s e t s C l a s s i f i e d T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S A s s e t s C l a s s i f i e d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S A s s e t s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S A s s e t s E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ             "   0 - W H S A s s e t s E l e c t r i c a l A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     7 - W H S A s s e t s E l e c t r i c a l A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     1 - W H S A s s e t s E l e c t r i c a l E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     8 - W H S A s s e t s E l e c t r i c a l E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     3 - W H S A s s e t s E l e c t r i c a l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     , - W H S A s s e t s E l e c t r i c a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     ) - W H S A s s e t s E l e c t r i c a l T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ     & - W H S A s s e t s E l e c t r i c a l V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     - - W H S A s s e t s L i f t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     . - W H S A s s e t s L i f t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     0 - W H S A s s e t s L i f t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     ) - W H S A s s e t s L i f t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     & - W H S A s s e t s L i f t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     # - W H S A s s e t s L i f t i n g V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     + - W H S A s s e t s P l a n t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     2 - W H S A s s e t s P l a n t A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     , - W H S A s s e t s P l a n t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     3 - W H S A s s e t s P l a n t E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     . - W H S A s s e t s P l a n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     ' - W H S A s s e t s P l a n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     $ - W H S A s s e t s P l a n t T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     ! - W H S A s s e t s P l a n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     / - W H S A s s e t s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     ( - W H S A s s e t s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S A s s e t s S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ' - W H S A s s e t s T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     ( - W H S A s s e t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S A s s e t s V e h i c l e s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S A s s e t s V e h i c l e s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     0 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ' - W H S A s s e t s V e h i c l e s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     $ - W H S A s s e t s V e h i c l e s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A s s e t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ  Ilocblob       þÿÿÿÿÿÿ             !   ? - W H S A t m o s p h e r i c M o n i t o r i n g A d d M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S A t m o s p h e r i c M o n i t o r i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     @ - W H S A t m o s p h e r i c M o n i t o r i n g E d i t M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     2 - W H S A t m o s p h e r i c M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S A t m o s p h e r i c M o n i t o r i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     , - W H S A t t e n d e e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     % - W H S A t t e n d e e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ      - W H S A t t e n d e e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     - - W H S A u d i t I n s p e c t i o n s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     , - W H S A u d i t I n s p e c t i o n s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ       - W H S A u t o H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     " - W H S C a u s e H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     $ - W H S C h a n g e P a s s w o r d V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ      - W H S C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     2 - W H S C h e m i c a l Q C h a r t C h e m i c a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     5 - W H S C h e m i c a l Q C h a r t O p e r a t i o n a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob      A  	^ÿÿÿÿÿÿ     1 - W H S C h e m i c a l Q C h a r t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	^ÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     ' - W H S C h e m i c a l Q C h a r t T a b V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     $ - W H S C h e m i c a l Q C h a r t V i e w C o n t r o l l e r . t x tIlocblob     ù  	^ÿÿÿÿÿÿ     4 - W H S C h e m i c a l R e g i s t e r P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  	^ÿÿÿÿÿÿ     & - W H S C h e m i c a l R e g i s t e r V i e w C o n t r o l l e r . t x tIlocblob      A  	Îÿÿÿÿÿÿ     8 - W H S C h e m i c a l R i s k A s s e s s m e n t C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	Îÿÿÿÿÿÿ     ; - W H S C h e m i c a l R i s k A s s e s s m e n t C u r r e n t C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     ? - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob     ù  	Îÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  	Îÿÿÿÿÿÿ             "   A - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  
+- `editBarButtonItemDidTapped`<br/></br>   Bud1           `  ø                                           ö       H S A d d A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @                                              @                                                @                                                @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              $   # - A I M a n d a t o r y T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - A I S e l e c t T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # - D y n a m i c F o r m T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A   .ÿÿÿÿÿÿ      - G e n e r i c T a b l e V i e w C o n t r o l l e r . t x tIlocblob      ¯   .ÿÿÿÿÿÿ     ( - M y S t o r a g e A d d N e w W o r k e r V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     ) - M y S t o r a g e C o m p a t i b i l i t y V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ     . - M y S t o r a g e E d i t S t o r e d Q u a n t i t y V i e w C o n t r o l l e r . t x tIlocblob     ù   .ÿÿÿÿÿÿ     ' - M y S t o r a g e E S Q A d d B a t c h V i e w C o n t r o l l e r . t x tIlocblob     g   .ÿÿÿÿÿÿ     * - M y S t o r a g e E S Q A d d P a c k S i z e V i e w C o n t r o l l e r . t x tIlocblob      A   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d S u p p l i e r s V i e w C o n t r o l l e r . t x tIlocblob      ¯   ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q A d d U n i t S i z e s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     + - M y S t o r a g e E S Q B a t c h D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ) - M y S t o r a g e E S Q I n p u t V a l u e V i e w C o n t r o l l e r . t x tIlocblob     ù   ÿÿÿÿÿÿ     $ - M y S t o r a g e M a n i f e s t V i e w C o n t r o l l e r . t x tIlocblob     g   ÿÿÿÿÿÿ     # - M y S t o r a g e S u m m a r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     % - N e w D y n a m i c T e m p l a t e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - S i g n a t u r e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - S i g n O f f T a b l e V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     # - S u b m i t t e d B y T a b l e V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S   S a f e t y A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ      - W H S 2 M e n u V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ      - W H S 2 R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n C a t e g o r y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S A c t i o n D e t a i l s   M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     # - W H S A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     1 - W H S A c t i o n s M o n i t o r S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     * - W H S A c t i o n s M o n i t o r S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ      - W H S A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     ' - W H S A d d A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     , - W H S A d d A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ) - W H S A d d A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     % - W H S A d d A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     " - W H S A d d A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     2 - W H S A d d A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     $ - W H S A d d A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ                                                                                                                                                                                         %   % - W H S A d d C o m p e t e n c i e s V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d C o n t r o l M e a s u r e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S A d d D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     + - W H S A d d E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     ) - W H S A d d E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ       - W H S A d d G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     ' - W H S A d d I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ       - W H S A d d L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     ! - W H S A d d L o c a t i o n V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S A d d N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     , - W H S A d d N o i s e A s s e s s m e n t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     - - W H S A d d N o t i f i c a t i o n R e c e i v e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     % - W H S A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ      - W H S A d d W o r k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     ' - W H S A I A d d P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ! - W H S A I A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     ( - W H S A I E d i t P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     " - W H S A I E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     / - W H S A i I n s p e c t i o n S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     , - W H S A I I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     $ - W H S A I P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     % - W H S A I S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A I S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ       - W H S A I S p l i t t e d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ      - W H S A I T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     & - W H S A s s e t s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S A s s e t s A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S A s s e t s A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     0 - W H S A s s e t s C l a s s i f i e d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     1 - W H S A s s e t s C l a s s i f i e d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S A s s e t s C l a s s i f i e d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S A s s e t s C l a s s i f i e d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S A s s e t s C l a s s i f i e d T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S A s s e t s C l a s s i f i e d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S A s s e t s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S A s s e t s E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ             "   0 - W H S A s s e t s E l e c t r i c a l A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     7 - W H S A s s e t s E l e c t r i c a l A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     1 - W H S A s s e t s E l e c t r i c a l E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     8 - W H S A s s e t s E l e c t r i c a l E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     3 - W H S A s s e t s E l e c t r i c a l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     , - W H S A s s e t s E l e c t r i c a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     ) - W H S A s s e t s E l e c t r i c a l T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ     & - W H S A s s e t s E l e c t r i c a l V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     - - W H S A s s e t s L i f t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     . - W H S A s s e t s L i f t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     0 - W H S A s s e t s L i f t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     ) - W H S A s s e t s L i f t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     & - W H S A s s e t s L i f t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     # - W H S A s s e t s L i f t i n g V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     + - W H S A s s e t s P l a n t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     2 - W H S A s s e t s P l a n t A d d S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     , - W H S A s s e t s P l a n t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     3 - W H S A s s e t s P l a n t E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     . - W H S A s s e t s P l a n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     ' - W H S A s s e t s P l a n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     $ - W H S A s s e t s P l a n t T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     ! - W H S A s s e t s P l a n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     / - W H S A s s e t s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     ( - W H S A s s e t s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S A s s e t s S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ' - W H S A s s e t s T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     ( - W H S A s s e t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S A s s e t s V e h i c l e s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S A s s e t s V e h i c l e s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     0 - W H S A s s e t s V e h i c l e s S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ' - W H S A s s e t s V e h i c l e s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     $ - W H S A s s e t s V e h i c l e s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S A s s e t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ  Ilocblob       þÿÿÿÿÿÿ             !   ? - W H S A t m o s p h e r i c M o n i t o r i n g A d d M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S A t m o s p h e r i c M o n i t o r i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     @ - W H S A t m o s p h e r i c M o n i t o r i n g E d i t M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     2 - W H S A t m o s p h e r i c M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S A t m o s p h e r i c M o n i t o r i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S A t m o s p h e r i c M o n i t o r i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     , - W H S A t t e n d e e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     % - W H S A t t e n d e e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ      - W H S A t t e n d e e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     - - W H S A u d i t I n s p e c t i o n s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     , - W H S A u d i t I n s p e c t i o n s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ       - W H S A u t o H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     " - W H S C a u s e H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     $ - W H S C h a n g e P a s s w o r d V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ      - W H S C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     2 - W H S C h e m i c a l Q C h a r t C h e m i c a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     + - W H S C h e m i c a l Q C h a r t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     5 - W H S C h e m i c a l Q C h a r t O p e r a t i o n a l S a f e t y V i e w C o n t r o l l e r . t x tIlocblob      A  	^ÿÿÿÿÿÿ     1 - W H S C h e m i c a l Q C h a r t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	^ÿÿÿÿÿÿ     * - W H S C h e m i c a l Q C h a r t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     ' - W H S C h e m i c a l Q C h a r t T a b V i e w C o n t r o l l e r . t x tIlocblob       	^ÿÿÿÿÿÿ     $ - W H S C h e m i c a l Q C h a r t V i e w C o n t r o l l e r . t x tIlocblob     ù  	^ÿÿÿÿÿÿ     4 - W H S C h e m i c a l R e g i s t e r P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  	^ÿÿÿÿÿÿ     & - W H S C h e m i c a l R e g i s t e r V i e w C o n t r o l l e r . t x tIlocblob      A  	Îÿÿÿÿÿÿ     8 - W H S C h e m i c a l R i s k A s s e s s m e n t C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  	Îÿÿÿÿÿÿ     ; - W H S C h e m i c a l R i s k A s s e s s m e n t C u r r e n t C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t D e t a i l V i e w C o n t r o l l e r . t x tIlocblob       	Îÿÿÿÿÿÿ     ? - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s C o n s e q u e n c e s V i e w C o n t r o l l e r . t x tIlocblob     ù  	Îÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  	Îÿÿÿÿÿÿ             "   A - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  
 >ÿÿÿÿÿÿ     3 - W H S C h e m i c a l R i s k A s s e s s m e n t P r o d u c t V i e w C o n t r o l l e r . t x tIlocblob       
 >ÿÿÿÿÿÿ     9 - W H S C h e m i c a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       
 >ÿÿÿÿÿÿ     2 - W H S C h e m i c a l R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  
@@ -7198,7 +5238,7 @@ prepare(for segue: UIStoryboardSegue, sender: Any?)
 ®ÿÿÿÿÿÿ     * - W H S C o m p a t i b i l i t y L e g e n d s V i e w C o n t r o l l e r . t x tIlocblob       
 ®ÿÿÿÿÿÿ     & - W H S C o m p a t i b i l i t y P D F V i e w C o n t r o l l e r . t x tIlocblob     ù  
 ®ÿÿÿÿÿÿ     1 - W H S C o m p a t i b i l i t y P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  
-®ÿÿÿÿÿÿ     , - W H S C o m p a t i b i l i t y R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     ( - W H S C o m p e t e n c i e s P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     * - W H S C o n f i n e d S p a c e s A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S C o n f i n e d S p a c e s A d d E n t r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     . - W H S C o n f i n e d S p a c e s E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s E d i t E n t r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S C o n f i n e d S p a c e s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S C o n f i n e d S p a c e s E n t r i e s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S C o n f i n e d S p a c e s M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     1 - W H S C o n f i n e d S p a c e s P e r m i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S C o n f i n e d S p a c e s P e r m i t s V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S C o n f i n e d S p a c e s T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     / - W H S C o n t r o l M e a s u r e T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ      - W H S D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     $ - W H S D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     ( - W H S D y n a m i c S i g n A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S D y n a m i c S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S D y n a m i c T e m p l a t e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ( - W H S E d i t A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     - - W H S E d i t A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     * - W H S E d i t A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ  ÿÿÿÿ                $ - W H S S i t e R A R i s k s T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S S i t e R A R i s k s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     4 - W H S S i t e R i s k A s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     1 - W H S S i t e R i s k A s s e s s m e n t A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     2 - W H S S i t e R i s k A s s e s s m e n t E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S S i t e R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S S i t e R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     ( - W H S S i t e R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ      - W H S S p l i t V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ       - W H S S t a r t A u d i t V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ      - W H S S t a r t u p V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ! - W H S T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ      - W H S T a b V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     $ - W H S T e m p l a t e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ      - W H S U t i l i t i e s V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ      - W H S V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ      - W H S W e b V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     ' - W H S W o r k e r T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     0 W H S I n c i d e n t R e p o r t i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ) W H S I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # W H S L o c a t i o n P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ     ' W H S L o c a t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ     ' W H S M a n i f e s t s R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     & W H S M S D S S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     1 W H S N o i s e A s s e s s m e n t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     * W H S P o l i c i e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  îÿÿÿÿÿÿ     # W H S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ   e s P e r m i t s V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S C o n f i n e d S p a c e s T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     / - W H S C o n t r o l M e a s u r e T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ      - W H S D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     $ - W H S D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     ( - W H S D y n a m i c S i g n A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S D y n a m i c S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S D y n a m i c T e m p l a t e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ( - W H S E d i t A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     - - W H S E d i t A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     * - W H S E d i t A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ  ÿÿÿÿ             !   # - W H S E d i t A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     3 - W H S E d i t A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     % - W H S E d i t A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     " - W H S E d i t A t t e n d e e V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     , - W H S E d i t E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     * - W H S E d i t E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     ! - W H S E d i t G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      A  
+®ÿÿÿÿÿÿ     , - W H S C o m p a t i b i l i t y R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     ( - W H S C o m p e t e n c i e s P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     * - W H S C o n f i n e d S p a c e s A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S C o n f i n e d S p a c e s A d d E n t r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     . - W H S C o n f i n e d S p a c e s E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     - - W H S C o n f i n e d S p a c e s E d i t E n t r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     . - W H S C o n f i n e d S p a c e s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S C o n f i n e d S p a c e s E n t r i e s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S C o n f i n e d S p a c e s M o n i t o r i n g H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     1 - W H S C o n f i n e d S p a c e s P e r m i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S C o n f i n e d S p a c e s P e r m i t s V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     ' - W H S C o n f i n e d S p a c e s T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     / - W H S C o n t r o l M e a s u r e T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ      - W H S D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     $ - W H S D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     ( - W H S D y n a m i c S i g n A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S D y n a m i c S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S D y n a m i c T e m p l a t e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ( - W H S E d i t A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     - - W H S E d i t A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     * - W H S E d i t A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ  ÿÿÿÿ                $ - W H S S i t e R A R i s k s T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ! - W H S S i t e R A R i s k s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     4 - W H S S i t e R i s k A s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     1 - W H S S i t e R i s k A s s e s s m e n t A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     2 - W H S S i t e R i s k A s s e s s m e n t E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     . - W H S S i t e R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S S i t e R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     ( - W H S S i t e R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ      - W H S S p l i t V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ       - W H S S t a r t A u d i t V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ      - W H S S t a r t u p V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ! - W H S T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ      - W H S T a b V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     $ - W H S T e m p l a t e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ      - W H S U t i l i t i e s V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ      - W H S V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ      - W H S W e b V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     ' - W H S W o r k e r T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ      t o d a ylg1Scomp            t o d a ymoDDblob   ü²WÄA    t o d a ymodDblob   ü²WÄA    t o d a yph1Scomp           0 W H S I n c i d e n t R e p o r t i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     ) W H S I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     # W H S L o c a t i o n P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ     ' W H S L o c a t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ     ' W H S M a n i f e s t s R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     & W H S M S D S S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     1 W H S N o i s e A s s e s s m e n t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     * W H S P o l i c i e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  îÿÿÿÿÿÿ     # W H S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ   V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     / - W H S C o n t r o l M e a s u r e T a b l e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ      - W H S D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     $ - W H S D y n a m i c A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     ( - W H S D y n a m i c S i g n A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S D y n a m i c S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S D y n a m i c T e m p l a t e s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     ( - W H S E d i t A c t i o n C a t e g o r y V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     - - W H S E d i t A I I n s p e c t i o n S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     * - W H S E d i t A I I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ  ÿÿÿÿ             !   # - W H S E d i t A s s e t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     3 - W H S E d i t A t m o s p h e r i c M o n i t o r i n g T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ     % - W H S E d i t A t t a c h m e n t s V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     " - W H S E d i t A t t e n d e e V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     , - W H S E d i t E m p l o y e e D e p a r t m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     * - W H S E d i t E m p l o y e e D i v i s i o n V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     ! - W H S E d i t G e n e r i c V i e w C o n t r o l l e r . t x tIlocblob      A  
 Nÿÿÿÿÿÿ     ( - W H S E d i t I n s p e c t i o n T y p e V i e w C o n t r o l l e r . t x tIlocblob      ¯  
 Nÿÿÿÿÿÿ     ! - W H S E d i t L i c e n c e V i e w C o n t r o l l e r . t x tIlocblob       
 Nÿÿÿÿÿÿ     0 - W H S E d i t N o i s e A s s e s s m e n t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob       
@@ -7213,4 +5253,4 @@ Nÿÿÿÿÿÿ     & - W H S E d i t P o i n t s R a i s e d V i e w C o n t r o 
 ¾ÿÿÿÿÿÿ     5 - W H S E m p l o y e e C o n t r a c t o r C o m p a n y P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     . - W H S E m p l o y e e D e p a r t m e n t P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     0 - W H S E m p l o y e e E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     - - W H S E m p l o y e e E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     , - W H S E m p l o y e e S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     ) - W H S E m p l o y e e T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     E - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     > - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     8 - W H S E n v i r o n m e n t a l A t m o s p h e r i c M o n i t o r i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     > - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     7 - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     1 - W H S E n v i r o n m e n t a l C o n f i n e d S p a c e s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     * - W H S E n v i r o n m e n t a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     < - W H S E n v i r o n m e n t a l N o i s e C o n t r o l S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     5 - W H S E n v i r o n m e n t a l N o i s e C o n t r o l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ                 ) - W H S E n v i r o n m e n t a l S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S E n v i r o n m e n t a l V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     ' - W H S E x p o s u r e L i m i t s A d d V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     1 - W H S E x p o s u r e L i m i t s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     $ - W H S E x p o s u r e L i m i t s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     - - W H S F i r e F i g h t i n g C l a s s P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     . - W H S F i r e F i g h t i n g R a t i n g P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     # - W H S G e n e r i c P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     " - W H S G r o u p e d T a b l e V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     / - W H S H a z a r d s A s b e s t o s A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     9 - W H S H a z a r d s A s b e s t o s A d d I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     6 - W H S H a z a r d s A s b e s t o s A d d R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ     0 - W H S H a z a r d s A s b e s t o s E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     : - W H S H a z a r d s A s b e s t o s E d i t I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     7 - W H S H a z a r d s A s b e s t o s E d i t R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     6 - W H S H a z a r d s A s b e s t o s I n s p e c t i o n H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     3 - W H S H a z a r d s A s b e s t o s R e m o v a l H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     / - W H S H a z a r d s A s b e s t o s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     2 - W H S H a z a r d s A s b e s t o s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     ( - W H S H a z a r d s A s b e s t o s T a b V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     % - W H S H a z a r d s A s b e s t o s V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ     ; - W H S H a z a r d s C a r c i n o g e n s A d d E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ     1 - W H S H a z a r d s C a r c i n o g e n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     < - W H S H a z a r d s C a r c i n o g e n s E d i t E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     2 - W H S H a z a r d s C a r c i n o g e n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     8 - W H S H a z a r d s C a r c i n o g e n s E m p l o y e e E x p o s u r e V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     2 - W H S H a z a r d s C a r c i n o g e n s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     5 - W H S H a z a r d s C a r c i n o g e n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       Ëÿÿÿÿÿÿÿÿ   + - W H S H a z a r d s C a r c i n o g e n s T a b V i e w C o n t r o l l e r . t x tIlocblob     o  Ëÿÿÿÿÿÿÿÿ   ( - W H S H a z a r d s C a r c i n o g e n s V i e w C o n t r o l l e r . t x tIlocblob     Ý  Ëÿÿÿÿÿÿÿÿ   $ - W H S H a z a r d s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     ' - W H S H a z a r d s S e a r c h F o r m V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ   e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ             "    - W H S H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ     8 - W H S I n c i d e n t R e p o r t i n g A d d i t i o n a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     K  Ëÿÿÿÿÿÿÿÿ   4 - W H S I n c i d e n t R e p o r t i n g A d d N e w H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     ¹  Ëÿÿÿÿÿÿÿÿ   4 - W H S I n c i d e n t R e p o r t i n g A d d N e w W i t n e s s V i e w C o n t r o l l e r . t x tIlocblob     '  Ëÿÿÿÿÿÿÿÿ   0 - W H S I n c i d e n t R e p o r t i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ;ÿÿÿÿÿÿÿÿ   . - W H S I n c i d e n t R e p o r t i n g A d d T y p e V i e w C o n t r o l l e r . t x tIlocblob     o  ;ÿÿÿÿÿÿÿÿ   . - W H S I n c i d e n t R e p o r t i n g D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Ý  ;ÿÿÿÿÿÿÿÿ   < - W H S I n c i d e n t R e p o r t i n g E d i t A d d i t i o n a l D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     K  ;ÿÿÿÿÿÿÿÿ   2 - W H S I n c i d e n t R e p o r t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ¹  ;ÿÿÿÿÿÿÿÿ   2 - W H S I n c i d e n t R e p o r t i n g E d i t H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     / - W H S I n c i d e n t R e p o r t i n g E d i t T y p e V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ     2 - W H S I n c i d e n t R e p o r t i n g E d i t W i t n e s s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     . - W H S I n c i d e n t R e p o r t i n g H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob       9ÿÿÿÿÿÿÿÿ   9 - W H S I n c i d e n t R e p o r t i n g I n c i d e n t A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   - - W H S I n c i d e n t R e p o r t i n g R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     * - W H S I n c i d e n t R e p o r t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       Ùÿÿÿÿÿÿÿÿ   8 - W H S I n c i d e n t R e p o r t i n g T r e a t m e n t s D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       )ÿÿÿÿÿÿÿÿ   1 - W H S I n c i d e n t R e p o r t i n g T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     0 - W H S I n c i d e n t R e p o r t i n g W i t n e s s e s V i e w C o n t r o l l e r . t x tIlocblob       yÿÿÿÿÿÿÿÿ   * - W H S I n s p e c t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     % - W H S I R S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  îÿÿÿÿÿÿ      - W H S I R S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ      - W H S L a n d i n g V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     % - W H S L e g i s l a t i o n s T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     # - W H S L i c e n c e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ     $ - W H S L o c a t i o n P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  ^ÿÿÿÿÿÿ     ( - W H S L o c a t i o n T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     C  ^ÿÿÿÿÿÿ      - W H S L o g i n V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     ( - W H S M a n i f e s t s R e p o r t P D F V i e w C o n t r o l l e r . t x tIlocblob     ±  ^ÿÿÿÿÿÿ      - W H S M e n u V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ( - W H S M S D S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  Îÿÿÿÿÿÿ     ' - W H S M S D S S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     C  Îÿÿÿÿÿÿ       - W H S M S D S S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ±  Îÿÿÿÿÿÿ     2 - W H S N o i s e A s s e s s m e n t S u b T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ   l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ                , - W H S N o i s e C o n t r o l A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S N o i s e C o n t r o l A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     3 - W H S N o i s e C o n t r o l A s s e s s m e n t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     7 - W H S N o i s e C o n t r o l E d i t A s s e s s m e n t C o m m e n t V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     1 - W H S N o i s e C o n t r o l E d i t M e a s u r e m e n t V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     , - W H S N o i s e C o n t r o l N e w C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     % - W H S N o i s e C o n t r o l T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     9 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob       Éÿÿÿÿÿÿÿÿ   6 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   : - W H S N o n C h e m i c a l R i s k A s s e s s m e n t N e w C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob     '  ;ÿÿÿÿÿÿÿÿ   < - W H S N o n C h e m i c a l R i s k A s s e s s m e n t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       «ÿÿÿÿÿÿÿÿ   5 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     o  «ÿÿÿÿÿÿÿÿ   2 - W H S N o n C h e m i c a l R i s k A s s e s s m e n t T a b V i e w C o n t r o l l e r . t x tIlocblob     Ý  «ÿÿÿÿÿÿÿÿ   / - W H S N o n C h e m i c a l R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     / - W H S N o n C h e m i c a l R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob     K  «ÿÿÿÿÿÿÿÿ   ? - W H S N o n C h e m i c a l S a f e W o r k M a n a g e m e n t S y s t e m A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       iÿÿÿÿÿÿÿÿ   B - W H S N o n C h e m i c a l S a f e W o r k M a n a g e m e n t S y s t e m A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ¹ÿÿÿÿÿÿÿÿ   C - W H S N o n C h e m i c a l S a f e W o r k M a n a g e m e n t S y s t e m E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       	ÿÿÿÿÿÿÿÿ   < - W H S N o n C h e m i c a l S a f e W o r k P r o c e d u r e s A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       Yÿÿÿÿÿÿÿÿ   = - W H S N o n C h e m i c a l S a f e W o r k P r o c e d u r e s E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob       ©ÿÿÿÿÿÿÿÿ   0 - W H S N o t i f i c a t i o n R e c e i v e r P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  >ÿÿÿÿÿÿ     2 - W H S O f f l i n e F o r m s A u d i t s I n s p e c t i o n V i e w C o n t r o l l e r . t x tIlocblob     C  >ÿÿÿÿÿÿ     " - W H S O f f l i n e F o r m s V i e w C o n t r o l l e r . t x tIlocblob     ±  >ÿÿÿÿÿÿ     ! - W H S O f f l i n e F o r m V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     0 - W H S P A P C o m p l a i n t s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     ) - W H S P A P C o m p l a i n t s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  þÿÿÿÿÿÿ     & - W H S P A P C o m p l a i n t s T a b V i e w C o n t r o l l e r . t x tIlocblob     ¹  «ÿÿÿÿÿÿÿÿ     - W H S P A P D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     '  «ÿÿÿÿÿÿÿÿ   , - W H S P A P D r i l l s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  þÿÿÿÿÿÿ     % - W H S P A P D r i l l s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ  ÿÿ   l l e r . t x tIlocblob       ÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿÿÿ             $   2 - W H S P A P L e g i s l a t i o n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     + - W H S P A P L e g i s l a t i o n s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ù  þÿÿÿÿÿÿ     + - W H S P A P P l a n s P r o c e d u r e s T a b V i e w C o n t r o l l e r . t x tIlocblob     Õ   .ÿÿÿÿÿÿ     + - W H S P A P P l a n s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  þÿÿÿÿÿÿ     $ - W H S P A P P l a n s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  nÿÿÿÿÿÿ     & - W H S P A P S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     C   .ÿÿÿÿÿÿ      - W H S P A P S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     Õ  ®ÿÿÿÿÿÿ     . - W H S P A P T r a i n i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  nÿÿÿÿÿÿ     $ - W H S P A P T r a i n i n g T a b V i e w C o n t r o l l e r . t x tIlocblob     C  ®ÿÿÿÿÿÿ     & - W H S P A P T r a n i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     # - W H S P D F A d d S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     # - W H S P D F E d i t S i g n e e V i e w C o n t r o l l e r . t x tIlocblob     ù  nÿÿÿÿÿÿ       - W H S P D F S i g n e e s V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ      - W H S P D F V i e w C o n t r o l l e r . t x tIlocblob       ùÿÿÿÿÿÿÿÿ   " - W H S P o i n t s R a i s e d V i e w C o n t r o l l e r . t x tIlocblob     ±  ®ÿÿÿÿÿÿ     ' - W H S P o l i c i e s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Iÿÿÿÿÿÿÿÿ   1 - W H S P o l i c i e s C o m p l a i n t s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   2 - W H S P o l i c i e s C o m p l a i n t s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       éÿÿÿÿÿÿÿÿ   ( - W H S P o l i c i e s C o m p l a i n t s V i e w C o n t r o l l e r . t x tIlocblob       9ÿÿÿÿÿÿÿÿ   - - W H S P o l i c i e s D r i l l s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   . - W H S P o l i c i e s D r i l l s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     $ - W H S P o l i c i e s D r i l l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     ( - W H S P o l i c i e s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     3 - W H S P o l i c i e s L e g i s l a t i o n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Ùÿÿÿÿÿÿÿÿ   4 - W H S P o l i c i e s L e g i s l a t i o n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     * - W H S P o l i c i e s L e g i s l a t i o n s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S P o l i c i e s P l a n s A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     - - W H S P o l i c i e s P l a n s E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     # - W H S P o l i c i e s P l a n s V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     ( - W H S P o l i c i e s P r o c e d u r e s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     + - W H S P o l i c i e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     Õ  þÿÿÿÿÿÿ     $ - W H S P o l i c i e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  Þÿÿÿÿÿÿ     ! - W H S P o l i c i e s T a b V i e w C o n t r o l l e r . t x tIlocblob     C  þÿÿÿÿÿÿ     / - W H S P o l i c i e s T r a i n i n g A d d R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     C  îÿÿÿÿÿÿ     0 - W H S P o l i c i e s T r a i n i n g E d i t R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ±  þÿÿÿÿÿÿ     & - W H S P o l i c i e s T r a i n i n g V i e w C o n t r o l l e r . t x tIlocblob     ±   .ÿÿÿÿÿÿ  ÿÿ             #   $ - W H S P r o d u c t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ     # - W H S P r o j e c t P i c k e r V i e w C o n t r o l l e r . t x tIlocblob      ¯  Þÿÿÿÿÿÿ      - W H S R e c o r d V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     + - W H S R e g i s t e r A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ   ÿÿÿÿÿÿ     + - W H S R e g i s t e r A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     C   ÿÿÿÿÿÿ     % - W H S R e g i s t e r A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     ±   ÿÿÿÿÿÿ     ( - W H S R e g i s t e r A d d A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob        ÿÿÿÿÿÿ     ' - W H S R e g i s t e r A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     , - W H S R e g i s t e r A d d S e r v i c e T y p e V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     ) - W H S R e g i s t e r A d d T e s t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     / - W H S R e g i s t e r E d i t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  nÿÿÿÿÿÿ     ) - W H S R e g i s t e r E d i t A c t i o n s V i e w C o n t r o l l e r . t x tIlocblob     C  nÿÿÿÿÿÿ     - - W H S R e g i s t e r E d i t S e r v i c e T y p e V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     * - W H S R e g i s t e r E d i t T e s t T y p e V i e w C o n t r o l l e r . t x tIlocblob     ù  Þÿÿÿÿÿÿ     / - W H S R e g i s t e r S e r v i c e T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob     g  Þÿÿÿÿÿÿ     % - W H S R e g i s t e r s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     ±  nÿÿÿÿÿÿ      - W H S R e g i s t e r s V i e w C o n t r o l l e r . t x tIlocblob      A  Nÿÿÿÿÿÿ     0 - W H S R e g i s t e r T e s t H i s t o r y D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  Nÿÿÿÿÿÿ     ) - W H S R e g i s t e r T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     , - W H S R e g i s t e r T e s t T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     $ - W H S R e p o r t I n c i d e n t V i e w C o n t r o l l e r . t x tIlocblob     ù  Nÿÿÿÿÿÿ     $ - W H S R i c h T e x t E d i t o r V i e w C o n t r o l l e r . t x tIlocblob     g  Nÿÿÿÿÿÿ     1 - W H S R i s k A s s e s s m e n t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       nÿÿÿÿÿÿ     1 - W H S R i s k A s s e s s m e n t A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     Õ  Þÿÿÿÿÿÿ     - - W H S R i s k A s s e s s m e n t A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     C  Þÿÿÿÿÿÿ     5 - W H S R i s k A s s e s s m e n t E d i t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ±  Þÿÿÿÿÿÿ     , - W H S R i s k A s s e s s m e n t P i c t u r e s V i e w C o n t r o l l e r . t x tIlocblob      A  ¾ÿÿÿÿÿÿ     $ - W H S R i s k A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob       Þÿÿÿÿÿÿ     - - W H S R i s k M a n a g e m e n t A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  Nÿÿÿÿÿÿ     . - W H S R i s k M a n a g e m e n t E d i t A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     C  Nÿÿÿÿÿÿ     $ - W H S R i s k M a n a g e m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ¾ÿÿÿÿÿÿ     & - W H S S a f e t y A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ±  Nÿÿÿÿÿÿ     * - W H S S a f e t y A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Nÿÿÿÿÿÿ     ' - W H S S a f e t y E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     Õ  ¾ÿÿÿÿÿÿ     . - W H S S a f e t y E d i t S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     C  ¾ÿÿÿÿÿÿ   i e w C o n t r o l l e r . t x tIlocblob     ±   .ÿÿÿÿÿÿ  ÿÿ                6 - W H S S a f e t y E m e r g e n c y W a s h i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     : - W H S S a f e t y E m e r g e n c y W a s h i n g A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     7 - W H S S a f e t y E m e r g e n c y W a s h i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ¾ÿÿÿÿÿÿ     ; - W H S S a f e t y E m e r g e n c y W a s h i n g E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ¾ÿÿÿÿÿÿ     9 - W H S S a f e t y E m e r g e n c y W a s h i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  .ÿÿÿÿÿÿ     2 - W H S S a f e t y E m e r g e n c y W a s h i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  .ÿÿÿÿÿÿ     / - W H S S a f e t y E m e r g e n c y W a s h i n g T a b V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     , - W H S S a f e t y E m e r g e n c y W a s h i n g V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r e D e t e c t i o n A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  .ÿÿÿÿÿÿ     7 - W H S S a f e t y F i r e D e t e c t i o n A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  .ÿÿÿÿÿÿ     4 - W H S S a f e t y F i r e D e t e c t i o n E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     8 - W H S S a f e t y F i r e D e t e c t i o n E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     6 - W H S S a f e t y F i r e D e t e c t i o n S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     / - W H S S a f e t y F i r e D e t e c t i o n S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S S a f e t y F i r e D e t e c t i o n T a b V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     ) - W H S S a f e t y F i r e D e t e c t i o n V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r e F i g h t i n g A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     6 - W H S S a f e t y F i r e F i g h t i n g A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r e F i g h t i n g E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     7 - W H S S a f e t y F i r e F i g h t i n g E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     5 - W H S S a f e t y F i r e F i g h t i n g S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     . - W H S S a f e t y F i r e F i g h t i n g S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     + - W H S S a f e t y F i r e F i g h t i n g T a b V i e w C o n t r o l l e r . t x tIlocblob      A  ~ÿÿÿÿÿÿ     ( - W H S S a f e t y F i r e F i g h t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ~ÿÿÿÿÿÿ     . - W H S S a f e t y F i r s t A i d A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     2 - W H S S a f e t y F i r s t A i d A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     / - W H S S a f e t y F i r s t A i d E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  ~ÿÿÿÿÿÿ     3 - W H S S a f e t y F i r s t A i d E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     g  ~ÿÿÿÿÿÿ     1 - W H S S a f e t y F i r s t A i d S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      A  îÿÿÿÿÿÿ     * - W H S S a f e t y F i r s t A i d S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      ¯  îÿÿÿÿÿÿ     ' - W H S S a f e t y F i r s t A i d T a b V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿ             !   ) - W H S S a f e t y P P E A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ù  îÿÿÿÿÿÿ     * - W H S S a f e t y P P E A d d E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob     g  îÿÿÿÿÿÿ     - - W H S S a f e t y P P E A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ^ÿÿÿÿÿÿ     * - W H S S a f e t y P P E E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ     + - W H S S a f e t y P P E E d i t E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     . - W H S S a f e t y P P E E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       ^ÿÿÿÿÿÿ     ' - W H S S a f e t y P P E E m p l o y e e V i e w C o n t r o l l e r . t x tIlocblob     ù  ^ÿÿÿÿÿÿ     , - W H S S a f e t y P P E S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     g  ^ÿÿÿÿÿÿ     % - W H S S a f e t y P P E S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  Îÿÿÿÿÿÿ     " - W H S S a f e t y P P E T a b V i e w C o n t r o l l e r . t x tIlocblob      ¯  Îÿÿÿÿÿÿ      - W H S S a f e t y P P E V i e w C o n t r o l l e r . t x tIlocblob       ¾ÿÿÿÿÿÿ     * - W H S S a f e t y S e r v i c e H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     . - W H S S a f e t y S p i l l K i t A d d D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob       Îÿÿÿÿÿÿ     2 - W H S S a f e t y S p i l l K i t A d d T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ù  Îÿÿÿÿÿÿ     / - W H S S a f e t y S p i l l K i t E d i t D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     g  Îÿÿÿÿÿÿ     3 - W H S S a f e t y S p i l l K i t E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  >ÿÿÿÿÿÿ     1 - W H S S a f e t y S p i l l K i t S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob      ¯  >ÿÿÿÿÿÿ     * - W H S S a f e t y S p i l l K i t S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     ' - W H S S a f e t y S p i l l K i t T a b V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ     $ - W H S S a f e t y S p i l l K i t V i e w C o n t r o l l e r . t x tIlocblob     ù  >ÿÿÿÿÿÿ      - W H S S a f e t y T a b V i e w C o n t r o l l e r . t x tIlocblob     g  >ÿÿÿÿÿÿ     ' - W H S S a f e t y T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob      A  ®ÿÿÿÿÿÿ      - W H S S a f e t y V i e w C o n t r o l l e r . t x tIlocblob     Õ  .ÿÿÿÿÿÿ     ; - W H S S a f e W o r k M a n a g e m e n t S y s t e m A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     C  .ÿÿÿÿÿÿ     ; - W H S S a f e W o r k M a n a g e m e n t S y s t e m A c t i o n M a n a g e r V i e w C o n t r o l l e r . t x tIlocblob     ±  .ÿÿÿÿÿÿ     6 - W H S S a f e W o r k M a n a g e m e n t S y s t e m A c t i v i t y V i e w C o n t r o l l e r . t x tIlocblob       .ÿÿÿÿÿÿ     7 - W H S S a f e W o r k M a n a g e m e n t S y s t e m A d d A c t i o n V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     4 - W H S S a f e W o r k M a n a g e m e n t S y s t e m D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     ? - W H S S a f e W o r k M a n a g e m e n t S y s t e m E d i t A c t i o n D e t a i l s V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ     ; - W H S S a f e W o r k M a n a g e m e n t S y s t e m S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     4 - W H S S a f e W o r k M a n a g e m e n t S y s t e m S e a r c h V i e w C o n t r o l l e r . t x tIlocblob     Õ  ÿÿÿÿÿÿ     1 - W H S S a f e W o r k M a n a g e m e n t S y s t e m T a b V i e w C o n t r o l l e r . t x tIlocblob     C  ÿÿÿÿÿÿ     2 - W H S S a f e W o r k M a n a g e m e n t S y s t e m T a s k V i e w C o n t r o l l e r . t x tIlocblob     ±  ÿÿÿÿÿÿ  blob       îÿÿÿÿÿÿ  ÿÿÿÿÿÿ  ÿÿ                . - W H S S a f e W o r k P r o c e d u r e s A c t i o n V i e w C o n t r o l l e r . t x tIlocblob      ¯  ®ÿÿÿÿÿÿ     1 - W H S S a f e W o r k P r o c e d u r e s C h e c k l i s t V i e w C o n t r o l l e r . t x tIlocblob     Õ  ~ÿÿÿÿÿÿ     . - W H S S a f e W o r k P r o c e d u r e s D e t a i l V i e w C o n t r o l l e r . t x tIlocblob     C  ~ÿÿÿÿÿÿ     , - W H S S a f e W o r k P r o c e d u r e s L i s t V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     5 - W H S S a f e W o r k P r o c e d u r e s S e a r c h R e s u l t s V i e w C o n t r o l l e r . t x tIlocblob     ±  ~ÿÿÿÿÿÿ     . - W H S S a f e W o r k P r o c e d u r e s S e a r c h V i e w C o n t r o l l e r . t x tIlocblob       ~ÿÿÿÿÿÿ     + - W H S S a f e W o r k P r o c e d u r e s T a b V i e w C o n t r o l l e r . t x tIlocblob     Õ  îÿÿÿÿÿÿ     ( - W H S S a f e W o r k P r o c e d u r e s V i e w C o n t r o l l e r . t x tIlocblob       ®ÿÿÿÿÿÿ     " - W H S S e a r c h R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ®ÿÿÿÿÿÿ     ) - W H S S e a r c h R e s u l t s R e c o r d V i e w C o n t r o l l e r . t x tIlocblob     g  ®ÿÿÿÿÿÿ      - W H S S e a r c h V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ      - W H S S e t t i n g V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ      - W H S S i d e M e n u V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     $ - W H S S i t e R A C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     , - W H S S i t e R A H a z a r d s A d d H a z a r d V i e w C o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i            ! - W H S A d d A t t e n d e e V i e w C o n t r o l l e r . t x tIlocblob      ¯  ^ÿÿÿÿÿÿ        + - W H S A s s e t s E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob       þÿÿÿÿÿÿ        % - W H S A s s e t T y p e P i c k e r V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        7 - W H S C h e m i c a l R i s k A s s e s s m e n t N e w C o n t r o l s V i e w C o n t r o l l e r . t x tIlocblob      A  
 >ÿÿÿÿÿÿ        & - W H S E d i t A s s e t S u b T y p e V i e w C o n t r o l l e r . t x tIlocblob     g  nÿÿÿÿÿÿ     	   / - W H S E n v i r o n m e n t a l N o i s e C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ     
    * - W H S H a z a r d s S e a r c h R e s u t l s V i e w C o n t r o l l e r . t x tIlocblob       >ÿÿÿÿÿÿ        / - W H S N o i s e C o n t r o l A d d A s s e s s m e n t V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ        " - W H S P A P D r i l l s T a b V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿÿÿ   
-    - W H S P o l i c i e s V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ        + - W H S S a f e t y E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i            E  `  ø       0  @  P  p         °  À  Ð  à  ð                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           DSDB                                 `                                                   @                                             @                                                @       cblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i<br/></br>after uwu
+    - W H S P o l i c i e s V i e w C o n t r o l l e r . t x tIlocblob        .ÿÿÿÿÿÿ        + - W H S S a f e t y E d i t T e s t H i s t o r y V i e w C o n t r o l l e r . t x tIlocblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i            E  `  ø       0  @  P  p         °  À  Ð  à  ð                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           DSDB                                 `                                                   @                                             @                                                @       cblob     ±  ¾ÿÿÿÿÿÿ        $ - W H S S a f e t y F i r s t A i d V i e w C o n t r o l l e r . t x tIlocblob       îÿÿÿÿÿÿ        . - W H S S a f e W o r k M a n a g e m e n t S y s t e m V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ        ' - W H S S i t e R A R i s k s R a t i n g V i e w C o n t r o l l e r . t x tIlocblob       ÿÿÿÿÿÿ   o n t r o l l e r . t x tIlocblob     ù  ÿÿÿÿÿÿ     # - W H S S i t e R A H a z a r d s V i e w C o n t r o l l e r . t x tIlocblob     g  ÿÿÿÿÿÿ     & - W H S S i t e R A R i s k D e t a i l V i e w C o n t r o l l e r . t x tIlocblob      A  ÿÿÿÿÿÿ     + - W H S S i t e R A R i s k s A d d C o n t r o l V i e w C o n t r o l l e r . t x tIlocblob      ¯  ÿÿÿÿÿÿ   S p i l l K i<br/></br>
