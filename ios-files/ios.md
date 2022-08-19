@@ -62,7 +62,31 @@ Most of the third party libraries are installed using CocoaPods. They can be add
     
 
 #### View Controllers
-  <br/>##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
+  <br/>##### **AIMandatoryTableViewController** - handles AI Mandatory screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `allRequiredFilled`
+- `tableView(... heightForRowAt)`
+- `tableView(didSelectRowAt)`
+- `textFieldShouldBeginEditing`
+- `textField(...shouldChangeCharactersIn)`
+- `getLocAddr`
+- `clearLocation`
+- `clearType`
+- `showDateInput`
+<br/></br>##### **AISelectTemplateViewController** - handles the selection of the Risk Template
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `toggleTopFive`
+- `fetchTemplate`
+- `numberOfSections(in tableView...)`
+- `tableView(...didSelectRowAt)`
+- `fetchFields`
+- `organizeFields`<br/></br>##### **DynamicFormTableViewController** - is a dynamic table view that can be used in different forms such as start audit
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -536,7 +560,15 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `switchCellValueDidChanged`
 - `saveBarButtonItemDidTapped`
 - `handleAutoNumData`
-- `isAllRequiredDataFilledUp`<br/></br>##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
+- `isAllRequiredDataFilledUp`<br/></br>WHS2MenuViewController
+viewDidLoad
+prepare(for segue: UIStoryboardSegue, sender: Any?)
+<br/></br>##### **WHS2RecordViewController** - handles the display of Record screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+
+<br/></br>##### **WHSAIAddPointsRaisedViewController** - handles the adding of points raised in audit and inspections
 
 ###### **Methods and Calculated Variables**
 - `viewDidLoad`
@@ -4656,7 +4688,32 @@ Most of the third party libraries are installed using CocoaPods. They can be add
 - `showAddNotificationReceiversView`
 - `showEditNotificationReceiversView`
 - `openAddRecordView`
-- `editBarButtonItemDidTapped`<br/></br>##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
+- `editBarButtonItemDidTapped`<br/></br>##### **WHSOfflineFormViewController** - shows the workers 
+
+###### **Methods and Calculated Variables**
+`viewDidLoad`
+`viewWillAppear`
+`initializeDataSource`
+`accessPermission`
+`tableView(...didSelectRowAt)`
+`tableView(...heightForRowAt)`<br/></br>##### **WHSOfflineFormsAuditsInspectionViewController** - handles the audits inspection in the offline forms section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `initializeDataSource`
+- `tableView(...didSelectRowAt)`<br/></br>##### **WHSOfflineFormsViewController** - handles the offline forms screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `initializeDataSource`
+- `showNoFormsDownloaded`
+- `downloadAll`
+- `tableView(...cellForRowAt)`
+- `tableView(...didSelectRowAt)`
+- `tableView(...heightForRowAt)`
+<br/></br>##### **WHSPAPComplaintsSearchResultsViewController** - Handles the search results for the PAP Complaints section
 
 ###### **Methods and Calculated Variables**
 - `showTabView`<br/></br>##### **WHSPAPComplaintsSearchViewController** handles the searching for the PAP Complaints section
