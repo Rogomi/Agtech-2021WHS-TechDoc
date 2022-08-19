@@ -1,0 +1,45 @@
+##### **WHSPoliciesComplaintsAddRecordViewController** - handles the adding of policies complaints records
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `fetchAutoNum`
+- `fetchLocationAddress`
+- `saveDetailsData`
+- `initializeDataSource`
+- `createJSON`
+- `showTypePickerView`
+- `showSubTypePickerView`
+- `showStatePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showDatePickerWithIndexPath`
+- `showDateTimePickerWithIndexPath`
+- `showStatusPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantLegislationsPickerView`
+- `showRelevantTrainingPickerView`
+- `showCompetenciesPickerView`
+- `showInternalExternalPickerView`
+- `showWorkerPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `clearTypeData`
+- `clearLocationTypeData`

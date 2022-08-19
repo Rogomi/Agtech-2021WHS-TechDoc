@@ -13,16 +13,18 @@ iosFile.close()
 beforeFile.close
 
 
-# print("generating vc ...")
-# iosFile = open(ios, "a")
-# iosFile.write("<br/>")
-# for filename in sorted(os.listdir(dirStr + "view-controllers")):
-#   with open(os.path.join(dirStr, "view-controllers", filename), "r") as vc:
-#     print (filename)
-#     iosFile.write(vc.read())
-#     iosFile.write("<br/></br>")
-#     vc.close
-# iosFile.close
+print("generating vc ...")
+iosFile = open(ios, "a")
+iosFile.write("<br/>")
+for filename in sorted(os.listdir(dirStr + "view-controllers")):
+  if filename == "today":
+    continue
+  with open(os.path.join(dirStr, "view-controllers", filename), "r", encoding="latin-1") as vc:
+    print (filename)
+    iosFile.write(vc.read())
+    iosFile.write("<br/></br>")
+    vc.close
+iosFile.close
 print("generating after vc ...")
 iosFile = open(ios, "a")
 afterFile = open(af, "r")

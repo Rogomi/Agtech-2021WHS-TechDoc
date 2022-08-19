@@ -1,0 +1,33 @@
+##### **WHSSiteRARisksAddControlViewController** - logic for the screen that shows add risk control in site risk assessment view controller
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `searchBar: â¦ textDidChange`
+- `searchBarSearchButtonClicked`
+- `fetchControlsList`
+- `saveRecordData`
+- `createJSON`
+- `saveBarButtonItemDidTapped`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `switchCellValueDidChanged`
+- `showControlCategories`
+- `initializeDataSource`
+- `updateControlsList`
+- `filterListBySearchText`
+- `initializeAddBarButtonItem`
+- `showAddActionView`
+- `showEditActionView`
+- `addBarButtonItemDidTapped`

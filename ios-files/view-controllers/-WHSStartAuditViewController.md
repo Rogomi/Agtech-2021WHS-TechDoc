@@ -1,0 +1,45 @@
+##### **WHSStartAuditViewController** - controls the view for start audit screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `fetchFlexibleFormWithPageID`
+- `fetchOfflineConnection`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `fetchAutoNum`
+- `fetchLocationAddress`
+- `handleFlexi`
+- `handleAutoNumData`
+- `clearLocationTypeData`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `textView: â¦ shouldChangeTextInRange`
+- `textViewDidChange`
+- `showDateTimePickerWithIndexPath`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showWorkerPickerView`
+- `showDivisionPickerView`
+- `showDepartmentPickerView`
+- `showUploadOptions`
+- `showDocumentPicker`
+- `showImagePicker`
+- `setAllowedUTIs`
+- `documentPicker: â¦ didPickDocumentAtURL`
+- `documentPickerWasCancelled`
+- `refreshSelectedRow`
+- `imagePickerController: â¦ didFinishPickingMediaWithInfo`
+- `imagePickerControllerDidCancel`
+- `doneBarButtonItemDidTapped`
+- `uploadAttachment`
+- `clearDepartmentData`
+- `cellIndexForField`

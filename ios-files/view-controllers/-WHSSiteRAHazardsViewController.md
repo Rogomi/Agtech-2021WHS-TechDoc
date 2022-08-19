@@ -1,0 +1,33 @@
+##### **WHSSiteRAHazardsViewController** - handles the Hazards screen in the Site RA section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `initializeAddRecord`
+- `openAddRecordView`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `fetchDetailsHazardTemplateID`
+- `fetchTemplateName`
+- `fetchHazards`
+- `saveRecordData`
+- `tablePickerDidFinishedPicking`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `switchCellValueDidChanged`
+- `createJSON`
+- `showHazardTemplatePicker`
+- `textFieldDidChange`
+- `saveBarButtonItemDidTapped`
+- `initializeDataSource`
+- `updateTemplateCell`
+- `updateHazardSection`

@@ -1,0 +1,51 @@
+##### **WHSIncidentReportingIncidentAssessmentViewController** - handles the WHS incident reporting incident assessment view
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchIncidentAssessmentDetailsData`
+- `fetchRecommendedRiskSignificanceData`
+- `fetchIdentifiedHazardsData`
+- `saveIncidentAssessmentData`
+- `initializeDataSourceWithFields`
+- `initializeDataSource`
+- `createJSON`
+- `showIdentifiedHazardList`
+- `showAssetEquipmentTypePickerView`
+- `showAssetEquipmentPickerView`
+- `showAssetEquipmentListPickerView`
+- `showChemicalStoragePickerView`
+- `showChemicalPickerView`
+- `showChemicalListPickerView`
+- `showTrainingTypePickerView`
+- `showIncidentFrequencyPickerView`
+- `showAdverseEffectsPickerView`
+- `showHazardImpactPickerView`
+- `showRiskSignificancePickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isSelectedItemsExists`
+- `setSelectedItemWithIDs`
+- `changeSelectedItemWithIDs`
+- `appendSelectedItemWithIDs`
+- `discardSelectedItemWithStringOfIDs`
+- `discardSelectedItemWithStringOfIDsChemical`
+- `dismissedViewWithRecords`

@@ -1,0 +1,42 @@
+##### **WHSSiteRiskAssessmentAddRecordViewController** - logic behind the site risk assessment record screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: â¦ dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `fetchAutoNum`
+- `fetchLocationAddressData`
+- `fetchWorkerPhone`
+- `saveRecordData`
+- `initializeDataSource`
+- `clearTypeData`
+- `clearLocationTypeData`
+- `createJSON`
+- `showProjectPickerView`
+- `showInspectionTypePickerView`
+- `showInspectionSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showStatusPickerView`
+- `showDatePickerWithIndexPath`
+- `showWorkerPickerView`
+- `showDateTimePickerWithIndexPath`
+- `showRelevantPoliciesPickerView`
+- `showRelevantLegislationsPickeriew`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`

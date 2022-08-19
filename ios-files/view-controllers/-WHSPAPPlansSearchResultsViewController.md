@@ -1,0 +1,4 @@
+##### **WHSPAPPlansSearchResultsViewController** - handles the search results in the PAP Plans section 
+
+###### **Methods and Calculated Variables**
+- `showTabView`

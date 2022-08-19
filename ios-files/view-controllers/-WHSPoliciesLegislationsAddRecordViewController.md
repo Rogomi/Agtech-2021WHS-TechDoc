@@ -1,0 +1,36 @@
+##### **WHSPoliciesLegislationsAddRecordViewController** - handles the adding of policies legislations records
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: â¦ didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `saveDetailsData`
+- `fetchAutoNum`
+- `initializeDataSource`
+- `createJSON`
+- `showTypePickerView`
+- `showSubTypePickerView`
+- `showAuthorityPickerView`
+- `showStatePickerView`
+- `showApplicableStatePickerView`
+- `showVerifiedStatePickerView`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantTrainingPickerView`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `clearTypeData`

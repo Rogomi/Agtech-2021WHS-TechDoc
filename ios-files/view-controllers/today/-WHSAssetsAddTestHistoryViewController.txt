@@ -1,0 +1,35 @@
+##### **WHSAssetsAddTestHistoryViewController** - handles the adding of test history in assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveData`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAutoNum`
+- `saveTestHistoryData`
+- `setupTestFrequency`
+- `initializeDataSource`
+- `showTestTypePickerView`
+- `showItemsTestedPickerView`
+- `showWorkerPicker`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showSaveSucceededView`
+- `showSaveFailedView`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `switchCellValueDidChanged`
+- `createJSON`
+- `saveSucceeded`
+- `saveFailed`

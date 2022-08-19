@@ -1,0 +1,22 @@
+##### **WHSChemicalRiskAssessmentTabViewController** - handles the logic behind chemical risk assessment tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `showSignOffView`
+- `fetchProperTabs`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReport`
+- `showNewControlsView`
+- `showDetailsView`
+- `showProductView`
+- `showHazardsView`
+- `showConsequencesView`
+- `showCurrentControlsView`
+- `processTabFlags`

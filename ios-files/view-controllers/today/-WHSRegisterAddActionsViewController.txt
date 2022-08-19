@@ -1,0 +1,33 @@
+##### **WHSRegisterAddActionsViewController** - handles the adding of actions in the register
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchAutoNum`
+- `saveAction`
+- `initializeDataSource`
+- `showActionTypePicker`
+- `showActionCategoryPickerView`
+- `showGenericPickerViewWithTitle: ... recordType: ... dataReturnedKey`
+- `showWorkerPickerView: ... isNotification`
+- `showNotificationReceiverPickerView`
+- `showSaveSucceedAlertView`
+- `showSaveFailedAlertView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `createJSON`

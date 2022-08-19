@@ -1,0 +1,85 @@
+##### **WHSReportIncidentViewController** - handles the showing of the Report Incident Screen 
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `download`
+- `fetchOfflineConnection`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveResponse`
+- `connection: â¦ didReceiveData`
+- `handleFlexi`
+- `connectionDidFinishLoading`
+- `dateOnlyFormatFromDateString`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: â¦ numberOfRowsInSection`
+- `tableView: â¦ titleForHeaderInSection`
+- `tableView: â¦ viewForHeaderInSection`
+- `sectionTapped`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForHeaderInSection`
+- `tableView: â¦ heightForFooterInSection`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `textView: â¦ shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: â¦ clickedButtonAtIndex`
+- `fetchAutoNum`
+- `fetchFlexibleForm`
+- `fetchFlexibleFormWithPageID`
+- `fetchProjectDetails`
+- `fetchLocationAddress`
+- `fetchNotificationSeverity`
+- `fetchEmployeeDetails`
+- `saveDetailsData`
+- `uploadAttachment`
+- `uploadAttachments`
+- `initializeDataSource`
+- `updateEmployeeData`
+- `createJSON`
+- `showTypePickerView`
+- `showDatePickerWithIndexPath`
+- `showDateTimePickerWithIndexPath`
+- `showEmployeeContractorsCompanyPickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showPersonInvolvedTypeView`
+- `refreshPersonInvolvedFields`
+- `showWorkerPickerView`
+- `showPersonPickerView`
+- `showGenderPickerView`
+- `showDivisionPickerView`
+- `showDepartmentPickerView`
+- `showJobTitlePickerView`
+- `showOccupationPickerView`
+- `showIndustryPickerView`
+- `showEmploymentCategoryPickerView`
+- `showContractorListPicker`
+- `showPersonInvolvedPicker`
+- `showConsequenceRankingPicker`
+- `showPotentialOutcomePicker`
+- `showNotificationSeverityPicker`
+- `showNatureOfInjuryPicker`
+- `showBodyPartsHarmedPicker`
+- `showMechanismOfInjuryPicker`
+- `showImmediateTreatmentPicker`
+- `showHazardTypePicker`
+- `showUploadOptions`
+- `showDocumentPicker`
+- `showImagePicker`
+- `setAllowedUTIs`
+- `documentPicker: â¦ didPickDocumentAtURL`
+- `documentPickerWasCancelled`
+- `refreshSelectedRow`
+- `imagePickerController: â¦ didFinishPickingMediaWithInfo`
+- `imagePickerControllerDidCancel`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearLocationTypeData`
+- `clearDepartmentData`
+- `cellIndexForField`

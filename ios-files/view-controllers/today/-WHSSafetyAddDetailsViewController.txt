@@ -1,0 +1,43 @@
+##### **WHSSafetyAddDetailsViewController** - handles the adding of details in safety
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLocationAddressData`
+- `fetchAutoNum`
+- `saveRecordData`
+- `initializeDataSource`
+- `createJSON`
+- `showSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showDatePickerWithIndexPath`
+- `showFireFightingClassPickerView`
+- `showFireFightingRatingPickerView`
+- `showStatusPickerView`
+- `showCompetenciesPickerView`
+- `showTestingFrequencyPickerView`
+- `showServicingFrequencyPickerView`
+- `showWorkerPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantProceduresPickerView`
+- `showRelevantLegislationsPickeriew`
+- `showRelevantTrainingPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `clearSubTypeData`
+- `clearLocationData`
+- `isAllRequiredDataFilledUp`

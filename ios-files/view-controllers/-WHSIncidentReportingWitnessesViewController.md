@@ -1,0 +1,18 @@
+##### **WHSIncidentReportingWitnessesViewController** - handles the incident reporting witnesses view
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: â¦ willSendRequest`
+- `connection: â¦ didReceiveData`
+- `connectionDidFinishLoading`
+- `tableView: â¦ cellForRowAtIndexPath`
+- `tableView: â¦ estimatedHeightForRowAtIndexPath`
+- `tableView: â¦ heightForRowAtIndexPath`
+- `tableView: â¦ didSelectRowAtIndexPath`
+- `swipeableTableViewCell: â¦ didTriggerRightUtilityButtonWithIndex`
+- `fetchWitnessesData`
+- `deleteWitnessData`
+- `initializeDataSource`
+- `showEditWitnessView`
+- `openAddRecordView`
