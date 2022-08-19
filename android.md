@@ -45,39 +45,356 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 
 - **MainActivity** - is the main activity that contains the child fragments and sibling activities
     - `showVerification`
+    - `closeDrawer`
+    - `setupDrawer`
+    - `initToolBar`
+    - `setToolbarTransparentBackground`
+    - `setToolbarNormalBackground`
+    - `setTitle`
+    - `goToSettings`
+    - `getComponent`
+    - `initializeInjector`
+    - `goToVerificationPage`
 - **LoginActivity** - handles the login screen
+    - `continueAction`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `initializeInjector`
+    - `getComponent`
+    - `getCallingIntent`
 - **SearchActivity** - handles the search page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **SettingsActivity** - handles the settings page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **PdfViewerActivity** - handles the PDF viewer page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **HazardActivity** - handles the hazard page
+    - `getCallingIntent`
+    - `getCallingIntentTask`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getComponent`
+    - `getMainLayout`
+    - `initializeActivity`
+    - `initializeInjector`
+    - `initActionBar`
+    - `goToForm`
 - **EmailReportActivity** - handles the email report page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **ActionListActivity** - handles the action list page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **AddEditActionActivity** - handles the add, edit action page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+    - `getActionString`
 - **AttachmentDetailActivity** - handles the attachment details page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **AttachmentListActivity** - handles the attachment list page
+    - `getCallingIntent`
+    - `getCallingIntent` 
+    - `getCallingIntent` // three functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **ChangePasswordActivity** - handles the change password page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **ChemicalRegisterActivity** - handles the chemical registry page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **MsdsProductDetailActivity** - handles the product detail page
+    -  `getCallingIntent`
+    -  `getMainLayout`
+    -  `initActionBar`
+    -  `initializeInjector`
+    -  `initializeActivity`
+    -  `getComponent`
 - **MsdsSearchResultActivity** - handles the search result page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **RecordDetailActivity** - handles the record detail page
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getCallingIntent` // three functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **RecordSearchResultActivity** - handles the record search result page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **RecordTabsActivity** - handles the record tabs page
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getCallingIntent`  //four functions called getCallingIntent
+    - `initTabView`
+    - `initActionBar`
 - **ReferenceFormActivity** - contains the reference form
+    - `getCallingIntent`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **ReferenceListActivity** - handles the reference list page
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **TimeSheetActivity** - handles the time sheet page
+    - `getCallingIntent`
+    - `initPresenter`
+    - `initActionBar`
+    - `initAdapter`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+    - `renderTimeSheet`
+    - `getTimeSheets`
 - **BeaconTimeInActivity** - handles the beacon time in page
+    - `getCallingIntent`
+    - `initBluetoothScanner`
+    - `initActionBar`
+    - `initPresenter`
+    - `renderDeviceDetails`
+    - `checkPinStatus`
+    - `successTimeIn`
+    - `successTimeOut`
+    - `showPinDialog`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `onLeScan`
 - **NFCTimeInActivity** - handles the NFC time in page
+    - `getCallingIntent`
+    - `initScanner`
+    - `initActionBar`
+    - `initPresenter`
+    - `extractLinks`
+    - `renderDeviceDetails`
+    - `checkPinStatus`
+    - `successTimeIn`
+    - `showPinDialog`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
 - **QrTimeInActivity** - handles the QR time in page
+    - `getCallingIntent`
+    - `initScanner`
+    - `run`
+    - `initActionBar`
+    - `initPresenter`
+    - `renderDeviceDetails`
+    - `checkPinStatus`
+    - `successTimeIn`
+    - `successTimeOut`
+    - `showPinDialog`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
 - **TaskFormActivity** - handles the task form page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `setupUi`
+    - `bindFields`
+    - `getDetails`
+    - `saveTask`
+    - `showFileChooser`
+    - `calculateCost`
+    - `setReferenceFields`
+    - `initActionBar`
+    - `uploadAttachment`
+    - `getFileName`
+    - `getPath`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `UploadAttachmentTask`
+    - `doInBackground`
+    - `uploadToNetwork`
+    - `getMimeType`
+    - `createClient`
 - **MobileVerificationActivity** - handles the mobile verification page
+    - `getCallingIntent`
+    - `initPresenter`
+    - `valid`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
 - **SigneeFormActivity** - handles the signee form page
+    - `getCallingIntent`
+    - `sign`
+    - `initActionBar`
+    - `initPresenter`
+    - `initSignatureField`
+    - `saveSignature`
+    - `getSignatureFile`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
 - **SearchActivity** - handles the main search page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **RegisterActionFragment** - handles the register page
+    - `newInstance`
+    - `saveAction`
+    - `setupUi`
+    - `bindFields`
+    - `initialize`
+    - `renderFlexiFields`
+    - `errorFlex`
+    - `setReferenceFields`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderInitialReference`
+    - `callDetails`
+    - `renderCategoryReference`
+    - `renderControlMeasure`
+    - `renderActionDetail`
+    - `renderSuccessResult`
+    - `showIncidentActions`
+    - `isEdit`
+    - `getScreenContext`
 - **RiskAssessmentActionFragment** - handles the Risk Assessment Action page
+    - `Fragment newInstance // RiskAssessmentActionFragment`
+    - `saveAction`
+    - `setupUi`
+    - `bindFields`
+    - `initialize`
+    - `setReferenceFields`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderInitialReference`
+    - `callDetails`
+    - `renderCategoryReference`
+    - `renderActionDetail`
+    - `renderSuccessResult`
+    - `isEdit`
+    - `getScreenContext`
 - **SwmsActionFragment** - handles the SWMS Action page
+    - `Fragment newInstance // SwmsActionFragment
+    - `saveAction`
+    - `setupUi`
+    - `bindFields`
+    - `initialize`
+    - `setReferenceFields`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderInitialReference`
+    - `callDetails`
+    - `renderCategoryReference`
+    - `renderActionDetail`
+    - `renderSuccessResult`
+    - `isEdit`
+    - `getScreenContext`
 - **SearchActivity** - handles the main search page
+    - `getCallingIntent(`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
 - **ActionListFragment** - handles list of actions
+    - `Fragment newInstance // ActionListFragment
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `loadLocalAction`
+    - `renderActionList`
+    - `getScreenContext`
 - **AuditsAndInspectionFragment** - handles list of audits and inspections page
+    - `onCreateView`
+    - `initMenuView`
 - **BaseFragment** - contains snackbars and base fragment
     - `getComponent`
     - `getNavigator`
