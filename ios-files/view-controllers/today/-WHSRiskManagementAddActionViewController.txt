@@ -1,0 +1,31 @@
+##### **WHSRiskManagementAddActionViewController** - handles the adding of action in risk management
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView `
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `sendPOSTRequest`
+- `initializeDataSource`
+- `showCategoryPickerView`
+- `showControlMeasurePickerView`
+- `showStatusPickerView`
+- `showPriorityPickerView`
+- `showSendNotificationToPickerView`
+- `showDatePickerWithTitle: ... view`
+- `switchValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `clearControlMeasureData`
+- `isAllRequiredDataFilledUp`
+- `getRecipientIDs`
+- `createPOSTJSON`

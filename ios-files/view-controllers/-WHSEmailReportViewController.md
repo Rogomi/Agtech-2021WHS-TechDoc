@@ -1,0 +1,16 @@
+##### **WHSEmailReportViewController** - shows the email report screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `initializeDataSource`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `sendBarButtonItemDidTapped`
+- `saveAction`
+- `createJSON`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`

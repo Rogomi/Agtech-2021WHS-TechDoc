@@ -1,0 +1,14 @@
+##### **WHSNoiseControlNewControlViewController** - handles the showing of the new control in the Noise Control section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `showEditRecordView`
+- `initializeDataSource`
+- `openAddRecordView`

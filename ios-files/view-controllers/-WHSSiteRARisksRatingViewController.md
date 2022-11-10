@@ -1,0 +1,34 @@
+##### **WHSSiteRARisksRatingViewController** - handles the risk rating screen of the Site RA section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
+- `textViewDidChange`
+- `tableView: … heightForFooterInSection`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `fetchDetailsData`
+- `fetchUserCustomRM`
+- `refreshRecommendedRisk`
+- `saveRecordData`
+- `createJSON`
+- `showTablePickerWithListKey`
+- `showFrequencyOfExposure`
+- `showPossibilityOfExposure`
+- `showPotentialImpactLevel`
+- `showRiskSignificance`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `acSheet: … clickedButtonAtIndex`
+- `initializeStaticFields`
+- `initializeCustomFields`

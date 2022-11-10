@@ -1,0 +1,5 @@
+##### **WHSIncidentReportingEditTypeViewController** - handles the editing of a type in the Incident Reporting section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeDataSource`

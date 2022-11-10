@@ -1,0 +1,30 @@
+##### **WHSCauseHazardsViewController** - handles the Cause Hazards view
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `dismissedViewWithRecords`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `extView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchCauseAndHazardsData`
+- `fetchHazardsListData`
+- `saveCauseHazardsData`
+- `createJSON`
+- `showHazardsPickerView`
+- `showAgencyPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`

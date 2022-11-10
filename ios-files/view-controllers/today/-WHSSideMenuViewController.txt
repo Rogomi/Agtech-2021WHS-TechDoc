@@ -1,0 +1,26 @@
+##### **WHSSideMenuViewController** - the logic behind the Side Manu of the app
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `initializeSideMenuItems`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `selectMenuCell`
+- `fetchedMenuDataDidProcessed`
+- `initializeDataSource`
+- `updateButtonSettingsView`
+- `goBackToHome`
+- `homeButtonDidTapped`
+- `riskManagementButtonDidTapped`
+- `registersButtonDidTapped`
+- `policiesAndProceduresButtonDidTapped`
+- `incidentReportingButtonDidTapped`
+- `auditAndInspectionsButtonDidTapped`
+- `dynamicTemplatesButtonDidTapped`
+- `settingsButtonDidTapped`
+- `actionMonitorButtonDidTapped`
+- `offlineDocumentsButtonDidTapped`
+- `localFormsButtonTapped`

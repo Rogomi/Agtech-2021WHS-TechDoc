@@ -1,0 +1,53 @@
+##### **WHSConfinedSpacesAddRecordViewController** - handles the adding of a record in the confined spaces section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveConfinedSpaceDetailsData`
+- `createJSON`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `showConfinedSpaceTypePickerView`
+- `showConfinedSpaceSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showPurposeOfEntryPickerView`
+- `showFrequencyOfEntryPickerView`
+- `showStatusPickerView`
+- `showYesNoNotDeterminedPickerView`
+- `showCompetenciesPickerView`
+- `showRiskAssessmentPickerView`
+- `showJSAPickerView`
+- `showSWMSPickerView`
+- `showPPEPickerView`
+- `showMonitoringFrequencyPickerView`
+- `showPersonMonitoringPickerView`
+- `showPoliciesPickerView`
+- `showProceduresPickerView`
+- `showLegislationsPickerView`
+- `showTrainingPickerView`
+- `showPersonResponsiblePickerView`
+- `showOtherPersonResponsiblePickerView`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `isSelectedItemsExists: ... selectedItemTypeID`
+- `setSelectedItemWithIDs: ... itemNames: ... itemTypeID`
+- `appendSelectedItemWithIDs: ... itemNames: ... itemTypeID`
+- `discardSelectedItemWithStringOfIDs`
+- `textViewDidChange`
+- `fetchAutoNum`
+- `fetchLocationAddressData`
+- `initializeDataSource`

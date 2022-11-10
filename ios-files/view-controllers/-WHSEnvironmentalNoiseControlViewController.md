@@ -1,0 +1,17 @@
+##### **WHSEnvironmentalNoiseControlViewController** - handles the environmental noise control screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `fetchNoiseControlListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`

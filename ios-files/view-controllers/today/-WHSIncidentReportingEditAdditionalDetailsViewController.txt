@@ -1,0 +1,58 @@
+##### **WHSIncidentReportingEditAdditionalDetailsViewController** - handles the editing of additional details in incident reporting
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `initializeDataSourceWithFields`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveData`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchFlexibleForm`
+- `fetchAdditionalDetailsData`
+- `fetchProjectDetails`
+- `saveAdditionalDetailsData`
+- `initializeDataSource`
+- `createJSON`
+- `showProjectPickerView`
+- `showAssetEquipmentTypePickerView`
+- `showAssetEquipmentPickerView`
+- `showAssetEquipmentListPickerView`
+- `showChemicalStoragePickerView`
+- `showChemicalPickerView`
+- `showChemicalListPickerView`
+- `showWorkerPickerView`
+- `showWorkersPickerView`
+- `showLossPickerView`
+- `showIncidentIdentifierPickerView`
+- `showEnvironmentalIncidentCategoryPickerViewWithRow`
+- `showDatePickerWithIndexPath`
+- `showNatureInjuryPickerView`
+- `showMechanismInjuryPickerView`
+- `showBodyPartsHarmedPickerView`
+- `showDutyStatusPickerView`
+- `showTimeStartPickerView`
+- `showRotatingShiftManagementPickerView`
+- `showShiftLengthPickerView`
+- `showProportionWorkedPickerView`
+- `showEmployeeSupervisionPickerView`
+- `showAgencyIncidentPickerView`
+- `getHeaderAndFooterHeightForSection`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isProductExists`
+- `appendProducts: ... productNames`
+- `existingProductList`

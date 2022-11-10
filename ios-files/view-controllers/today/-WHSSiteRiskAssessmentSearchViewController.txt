@@ -1,0 +1,17 @@
+##### **WHSSiteRiskAssessmentSearchViewController** - logic for site risk assessment search screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showGenericPickerViewWithType`
+- `showLocationPickerView`
+- `showStatusPickerView`
+- `showSearchResultsView`
+- `searchBarButtonItemDidTapped`

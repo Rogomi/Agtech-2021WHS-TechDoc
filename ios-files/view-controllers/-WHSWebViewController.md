@@ -1,0 +1,7 @@
+##### **WHSWebViewController** - controls web views
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `prepareWebView`
+- `loadHTMLString: … baseURL`

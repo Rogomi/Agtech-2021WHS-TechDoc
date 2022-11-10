@@ -1,0 +1,15 @@
+##### **WHSSiteRiskAsessmentSearchResultsViewController** - handles the search results of the Site Risk Assessment section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `prepareForSegue`
+- `connectionDidFinishLoading`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `searchRecords`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showTabView`

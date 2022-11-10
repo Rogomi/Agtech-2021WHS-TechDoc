@@ -1,0 +1,44 @@
+##### **WHSViewController** - superclass of view controllers
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewWillDisappear`
+- `didReceiveMemoryWarning`
+- `supportedInterfaceOrientations`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: … didFailWithError`
+- `clearUserData`
+- `getActionsList`
+- `parseActionList`
+- `hamburgerBarButtonDidTapped`
+- `acSheet: … clickedButtonAtIndex`
+- `initializeNavigationBarTintColor`
+- `initializeNavigationBarWithTintColor`
+- `initializeNavigationTitle`
+- `initializeHamburger`
+- `showNoInternetConnectionView`
+- `showIncompleteDataView`
+- `showMessageWithTitle`
+- `showMessageWithTitleWithCompletion`
+- `addRightBarButtonItem`
+- `pushViewControllerWithBackButton`
+- `getMimeTypeForPath`
+- `goBackToHomeIfNoAccess`
+- `alertIfNoAccess`
+- `sendRequest`
+- `sendPOSTRequest`
+- `postURLConnectionDidFinishLoading`
+- `attributedStringAfterHTMLTagsRemovalFromString`
+- `stringAfterHTMLTagsBruteRemovalFromString`
+- `stringAfterRemovingBreaklineTags`
+- `stringByStrippingHTML`
+- `stringsSeparatedByComma`
+- `showProgressHUD`
+- `hideProgressHUD`
+- `getModuleAccessTypeWithID`
+- `getModuleAccessTypeWithMenuItem`
+- `moduleStateForAccessTypeString`

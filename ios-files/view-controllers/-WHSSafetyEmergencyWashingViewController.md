@@ -1,0 +1,18 @@
+##### **WHSSafetyEmergencyWashingViewController** shows safety emergency washing screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `fetchEmergencyWashingListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openPDFView`
+- `openAddRecordView`

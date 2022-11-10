@@ -1,0 +1,16 @@
+##### **WHSNonChemicalRiskAssessmentViewController** - shows the Non Chemical Risk Assessment screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `fetchNonChemicalRiskAssessmentListData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `showSearchView`
+- `showPDFView`
+- `showEmailReportView`
+- `showTabView`

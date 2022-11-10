@@ -1,0 +1,13 @@
+##### **WHSSafetyServiceHistoryViewController** - handles the display of Safety Service History 
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchServiceHistories`
+- `showEditServiceHistoryDetailsView`
+- `openAddRecordView`

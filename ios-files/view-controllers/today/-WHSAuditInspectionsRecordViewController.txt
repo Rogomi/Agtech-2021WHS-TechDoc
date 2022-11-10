@@ -1,0 +1,19 @@
+##### **WHSAuditInspectionsRecordViewController** - handles the recording of Audit Inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: ... didSelectRowAtIndexPath`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAIRecordsData`
+- `fetchNextPage`
+- `initializeDataSource`
+- `updateDataSource`
+- `fetchOffline`
+- `showPDFView`
+- `showEmailReportView`
+- `showSearchView`
+- `showTabView`
+- `openAddRecordView`

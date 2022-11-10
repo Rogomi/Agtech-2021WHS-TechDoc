@@ -1,0 +1,35 @@
+##### **MyStorageESQAddBatchViewController** - handles the batch adding in my storage edit stored quantity
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `doneEditing`
+- `cancelledEditing`
+- `initializeDataReceivers`
+- `initializeUI`
+- `initializeTableBatch`
+- `showAddSuppliers`
+- `showAddPackSizes`
+- `showAddUnitSizes`
+- `refreshTotalPrice`
+- `doneBarbuttonItemDidTapped`
+- `textFieldTextDidChanged`
+- `fetchSuppliers`
+- `fetchPackSizes`
+- `fetchUnitSizes`
+- `isAllRequiredDataFilledIn`
+- `trimLeadingTrailingWhitespace`
+- `finishedBatchRec`
+- `showSamplePOST`

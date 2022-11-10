@@ -1,0 +1,5 @@
+##### **WHSPAPPlansSearchViewController** - handles the searching in the PAP Plans section 
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`

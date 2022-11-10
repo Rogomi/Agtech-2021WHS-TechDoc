@@ -1,0 +1,40 @@
+##### **WHSPoliciesPlansAddRecordViewController** - handles the adding of record in policies plans
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveDate`
+- `connectionDidFinishLoadin`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchLocationAddress`
+- `saveDetailsData `
+- `fetchAutoNum`
+- `initializeDataSource`
+- `createJSON`
+- `showTypePickerView`
+- `showSubTypePickerView`
+- `showStatePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantLegislationsPickerView`
+- `showRelevantTrainingPickerView`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `clearTypeData`
+- `clearLocationTypeData`

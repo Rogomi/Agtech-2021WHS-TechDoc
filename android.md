@@ -1,0 +1,838 @@
+[Back](index.md)
+
+# WHS Android
+
+## Technical Documentation
+
+### GETTING STARTED
+
+### INSTALLATION AND DEVELOPMENT
+
+In order to start the development, first, you need to start Android Studio. Import the Agtech-2021WHS project and then wait for the build to finish.
+
+### PROGRAMMING LANGUAGE
+
+WHS uses Java for development
+
+### MINIMUM VERSION
+
+WHS can run on Android Systems with minimum SDK version 16 (Jellybean). It may encounter multiple issues on lower SDK versions.
+
+### APPLICATION ID
+com.au.whs.agtech
+
+### DEBUGGING
+
+We use Android Virtual Device in Android Studio in order to test the Native Apps in different screen sizes and SDK Versions.
+
+### THIRD-PARTY LIBRARIES
+
+Most of the third-party libraries are integrated using Gradle. They can be added by searching library names found in the Dependencies tab in the Project Structure window.
+
+#### Important Libraries
+
+- **Firebase/Crashlytics** - used to report crashes from Users that are not encountered during development and debugging.
+- **RxJava** - is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+- **Retrofit** - is type-safe REST client for Android and Java which aims to make it easier to consume RESTful web services.
+
+#### Main Utilities
+- **NetworkUtils** - a class where network related functions are placed
+- **ActionApi** - a class that contains action endpoints
+- **ApiConnection** - a class where API connection is configured
+- **AttachmentApi** - a class that contains attachment endpoints
+
+#### Activities/Fragments
+
+- **MainActivity** - is the main activity that contains the child fragments and sibling activities
+    - `showVerification`
+    - `closeDrawer`
+    - `setupDrawer`
+    - `initToolBar`
+    - `setToolbarTransparentBackground`
+    - `setToolbarNormalBackground`
+    - `setTitle`
+    - `goToSettings`
+    - `getComponent`
+    - `initializeInjector`
+    - `goToVerificationPage`
+- **LoginActivity** - handles the login screen
+    - `continueAction`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `initializeInjector`
+    - `getComponent`
+    - `getCallingIntent`
+- **SearchActivity** - handles the search page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **SettingsActivity** - handles the settings page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **PdfViewerActivity** - handles the PDF viewer page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **HazardActivity** - handles the hazard page
+    - `getCallingIntent`
+    - `getCallingIntentTask`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getComponent`
+    - `getMainLayout`
+    - `initializeActivity`
+    - `initializeInjector`
+    - `initActionBar`
+    - `goToForm`
+- **EmailReportActivity** - handles the email report page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **ActionListActivity** - handles the action list page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **AddEditActionActivity** - handles the add, edit action page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+    - `getActionString`
+- **AttachmentDetailActivity** - handles the attachment details page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **AttachmentListActivity** - handles the attachment list page
+    - `getCallingIntent`
+    - `getCallingIntent` 
+    - `getCallingIntent` // three functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **ChangePasswordActivity** - handles the change password page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **ChemicalRegisterActivity** - handles the chemical registry page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **MsdsProductDetailActivity** - handles the product detail page
+    -  `getCallingIntent`
+    -  `getMainLayout`
+    -  `initActionBar`
+    -  `initializeInjector`
+    -  `initializeActivity`
+    -  `getComponent`
+- **MsdsSearchResultActivity** - handles the search result page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **RecordDetailActivity** - handles the record detail page
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getCallingIntent` // three functions called getCallingIntent
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **RecordSearchResultActivity** - handles the record search result page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **RecordTabsActivity** - handles the record tabs page
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getCallingIntent`  //four functions called getCallingIntent
+    - `initTabView`
+    - `initActionBar`
+- **ReferenceFormActivity** - contains the reference form
+    - `getCallingIntent`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **ReferenceListActivity** - handles the reference list page
+    - `getCallingIntent`
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **TimeSheetActivity** - handles the time sheet page
+    - `getCallingIntent`
+    - `initPresenter`
+    - `initActionBar`
+    - `initAdapter`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+    - `renderTimeSheet`
+    - `getTimeSheets`
+- **BeaconTimeInActivity** - handles the beacon time in page
+    - `getCallingIntent`
+    - `initBluetoothScanner`
+    - `initActionBar`
+    - `initPresenter`
+    - `renderDeviceDetails`
+    - `checkPinStatus`
+    - `successTimeIn`
+    - `successTimeOut`
+    - `showPinDialog`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `onLeScan`
+- **NFCTimeInActivity** - handles the NFC time in page
+    - `getCallingIntent`
+    - `initScanner`
+    - `initActionBar`
+    - `initPresenter`
+    - `extractLinks`
+    - `renderDeviceDetails`
+    - `checkPinStatus`
+    - `successTimeIn`
+    - `showPinDialog`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+- **QrTimeInActivity** - handles the QR time in page
+    - `getCallingIntent`
+    - `initScanner`
+    - `run`
+    - `initActionBar`
+    - `initPresenter`
+    - `renderDeviceDetails`
+    - `checkPinStatus`
+    - `successTimeIn`
+    - `successTimeOut`
+    - `showPinDialog`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+- **TaskFormActivity** - handles the task form page
+    - `getCallingIntent`
+    - `getCallingIntent` // two functions called getCallingIntent
+    - `setupUi`
+    - `bindFields`
+    - `getDetails`
+    - `saveTask`
+    - `showFileChooser`
+    - `calculateCost`
+    - `setReferenceFields`
+    - `initActionBar`
+    - `uploadAttachment`
+    - `getFileName`
+    - `getPath`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `UploadAttachmentTask`
+    - `doInBackground`
+    - `uploadToNetwork`
+    - `getMimeType`
+    - `createClient`
+- **MobileVerificationActivity** - handles the mobile verification page
+    - `getCallingIntent`
+    - `initPresenter`
+    - `valid`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+- **SigneeFormActivity** - handles the signee form page
+    - `getCallingIntent`
+    - `sign`
+    - `initActionBar`
+    - `initPresenter`
+    - `initSignatureField`
+    - `saveSignature`
+    - `getSignatureFile`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+- **SearchActivity** - handles the main search page
+    - `getCallingIntent`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **RegisterActionFragment** - handles the register page
+    - `newInstance`
+    - `saveAction`
+    - `setupUi`
+    - `bindFields`
+    - `initialize`
+    - `renderFlexiFields`
+    - `errorFlex`
+    - `setReferenceFields`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderInitialReference`
+    - `callDetails`
+    - `renderCategoryReference`
+    - `renderControlMeasure`
+    - `renderActionDetail`
+    - `renderSuccessResult`
+    - `showIncidentActions`
+    - `isEdit`
+    - `getScreenContext`
+- **RiskAssessmentActionFragment** - handles the Risk Assessment Action page
+    - `Fragment newInstance // RiskAssessmentActionFragment`
+    - `saveAction`
+    - `setupUi`
+    - `bindFields`
+    - `initialize`
+    - `setReferenceFields`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderInitialReference`
+    - `callDetails`
+    - `renderCategoryReference`
+    - `renderActionDetail`
+    - `renderSuccessResult`
+    - `isEdit`
+    - `getScreenContext`
+- **SwmsActionFragment** - handles the SWMS Action page
+    - `Fragment newInstance // SwmsActionFragment
+    - `saveAction`
+    - `setupUi`
+    - `bindFields`
+    - `initialize`
+    - `setReferenceFields`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderInitialReference`
+    - `callDetails`
+    - `renderCategoryReference`
+    - `renderActionDetail`
+    - `renderSuccessResult`
+    - `isEdit`
+    - `getScreenContext`
+- **SearchActivity** - handles the main search page
+    - `getCallingIntent(`
+    - `getMainLayout`
+    - `initActionBar`
+    - `initializeInjector`
+    - `initializeActivity`
+    - `getComponent`
+- **ActionListFragment** - handles list of actions
+    - `Fragment newInstance // ActionListFragment
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `loadLocalAction`
+    - `renderActionList`
+    - `getScreenContext`
+- **AuditsAndInspectionFragment** - handles list of audits and inspections page
+    - `onCreateView`
+    - `initMenuView`
+- **BaseFragment** - contains snackbars and base fragment
+    - `getComponent`
+    - `getNavigator`
+    - `getMainActivity`
+    - `showOfflineSnackbar`
+    - `hideOfflineSnackbar`
+- **BasePreferenceFragment** - handles navigator and part of base fragment
+     - `getComponent`
+     - `getNavigator`
+- **ChangePasswordFragement** - handles change password
+     - `intialize`
+     - `validatePassword
+     - `getOldPassword`
+     - `triggerResult`
+     - `showLoading`
+     - `hideLoading`
+     - `showRetry`
+     - `hideRetry`
+     - `showError`
+     - `getConfirmPassword`
+     - `getNewPassword`
+     - `getScreenContext`
+- **ChangePinFragment** - handles changing of account pin
+     - `initialize`
+     - `validatePassword`
+     - `triggerResult`
+     - `showLoading`
+     - `hideLoading`
+     - `showRetry`
+     - `hideRetry`
+     - `showError`
+     - `getOldPin`
+     - `getConfirmPIN`
+     - `getNewPIN`
+     - `getScreenContext`
+- **DynamicTemplateFragment** - contains the template of application
+     - `initSignatureField`
+     - `populateSignatureField`
+     - `filterView`
+     - `setSingleChoiceItems`
+     - `setPositiveButton`
+     - `setVisibility`
+     - `sign`
+     - `initialize`
+     - `getNavigator`
+     - `isReadOnly`
+     - `showProgressDialog`
+     - `saveAction`
+     - `showProgressDialog` 
+     - `hideProgressDialog`
+     - `showRetry`
+     - `hideRetry`
+     - `showError`
+     - `renderAvailableTemplates`
+     - `getFileUploadField`
+     - `getPhotoField`
+     - `findViewById`
+     - `setVisibility`
+     - `setOnclickListener`
+     - `isPackageInstalled`
+     - `startActivityForResult`
+     - `takePhoto`
+     - `takeMultiplePhoto`
+     - `getPath`
+     - `getFilename`
+     - `getFileB`
+     - `addToLocalAttachment`
+     - `printStackTrace`
+     - `getSerializableExtra`
+     - `getStringExtra`
+     - `SetImageBitmap`
+     - `setVisibility`
+     - `notifyDataSetChange`
+     - `putExtra`
+     - `setResult`
+     - `getActivity`
+     - `isPackageInstalled`
+     - `getPackageInfo`
+     - `populateField`
+     - `getClassField`
+     - `inputField`
+     - `uploadResponse
+     - `uploadPhoto`
+     - `getMimeType`
+     - `createClient`
+     - `saveAction`
+- **EmailReportFragment** - handles email reporting
+     - `initialize`
+     - `sendReport`
+     - `showLoading`
+     - `hideLoading`
+     - `showRetry`
+     - `hideRetry`
+     - `showError`
+     - `getTo`
+     - `getObjects`
+     - `getCc`
+     - `getBcc`
+     - `getSubject`
+     - `getMessage`
+     - `renderDetails`
+     - `showSaveSuccess`
+     - `getScreenContext
+- **HomeFragment** - contains home page of application
+    - `getActivity`
+    - `getLocalClassName`
+    - `setHasOptionsMenu
+    - `initMenuView`
+    - `initialize`
+    - `refreshToken`
+    - `renderUser`
+    - `renderUserAccessControl`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `goToReportHazard`
+    - `goToReportAnIncident`
+    - `goToSds`
+    - `goToAudit`
+    - `getScreenContext`
+    - `getNavigator`
+    - `errorDownload`
+    - `downloadProgress`
+    - `endDownload`
+- **IncidentReportingFragment** - handles reporting of errors
+    - `initMenuView`
+- **LoginFragment** - handles login page
+    - `initialize`
+    - `login`
+    - `getUsername`
+    - `getPassword`
+    - `getPin`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showRetry`
+    - `showError`
+    - `validUser`
+    - `getScreenContext`
+    - `loginWith` 
+- **MenuListFragment** - handles the menu list page
+    - `selectPage`
+    - `getNavigator`
+    - `initMenu` 
+- **OfflinePdfFragment** - handles offline pdf viewer
+    - `updatePdfs`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+    - `checkForUpdates`
+    - `listSyncedDocuments`
+    - `offlinePdfResult`
+    - `showOfflinePdfAsSynced`
+- **OperationalSafetyFragment** - handles recording of data
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext` 
+- **PdfViewerFragment** - handles viewing of pdf files
+    - `initialize`
+    - `navigateToEmailIntent`
+    - `navigateToExternalPdfViewer`
+    - `downloadFile`
+    - `updateDocumentName`
+    - `showDownloadError`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderPdfLink`
+    - `offlinePdfResult`
+    - `getFileName`
+    - `displayDownloadNotification`
+    - `getScreenContext`
+- **PoliciesFragment** - handles policies of application
+    - `initMenuView` 
+- **RecordAssessmentFragment** - handles recording of assessment
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext`
+- **RecordDetailFragment** - handles recording of detail
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext` 
+- **RecordHazardFragment** - handles records of hazard
+    - `showSignatureList`
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoding`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext` 
+- **RecordIncidentWitnessFragment** - handles recording of incident witness
+    - `initRecordList`
+    - `setAdapterClickListener`
+    - `setDeleteClickListener`
+    - `showDeletePopUp`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `showDeleteSuccess`
+    - `getScreenContext` 
+- **RecordListFragment** - handles list of records
+    - `initRecordList`
+    - `setDeleteClickListener`
+    - `showDeletePopUp`
+    - `intialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `showDeleteSuccess`
+    - `getScreenContext`
+- **RecordQChartChemicalSafetyFragment** - handles recording of chemical safety
+    - `initRecordList`
+    - `initialize`
+    - `syncOffline`
+    - `fetchReferences`
+    - `goToSearchRecord`
+    - `initMenuDisplay`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderOfffline`
+    - `getOfflineModuleAction`
+    - `renderRecord`
+    - `saveOffline`
+    - `renderDetails`
+    - `showSaveSuccess`
+    - `renderReferenceList`
+    - `getScreenContext`
+- **RecordQChartDetailFragment** - handles Qchart detail recording
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext
+- **RecordQChartHazard** - handles recording of Qchart hazards
+    - `initRecordList`
+    - `initialize`
+    - `showSignatureList`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext` 
+- **RecordSearchResultFragment** - handles recording of search results
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError` 
+    - `renderRecord`
+    - `getScreenContext` 
+- **RecordTaskFragment** - Recording of tasks within the application
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext`  
+- **RegistersFragment** - Handles registration of accounts
+    - `initRecordList`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext`  
+- **RiskManagementFragment** - contains list of risk management policies
+    - `initMenuView` 
+- **SettingsFragment** - handles settings page
+    - `goToEmailIntent`
+    - `goToContactIntent`
+    - `setupUI`
+    - `logout`
+    - `goToChangePassword`
+    - `goToChangePin`
+    - `renderContact`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+- **SignatureListFragment** - contains list of signatures
+    - `initRecordList`
+- **SigneeFragment** - handles signing page
+    - `populateSignature`
+    - `initSignatureField`
+    - `populateSignatureField`
+    - `sign`
+    - `addSignee`
+    - `populateSignee`
+    - `save`
+    - `saveToDatabase`
+    - `initialize` 
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getFileUploadField`
+    - `getPhotoField`
+    - `takePhoto`
+    - `isPackageInstalled`
+    - `getIndexOfCategory`
+    - `uploadSignature`
+    - `renderRecord`
+    - `uploadResponse`
+    - `getMimeType`
+    - `createClient`
+    - `initializeInjector`
+    - `getScreenContext`
+    - `uploadAttachment`
+    - `random`
+- **SigneesAndActionsFragment** - handles signee and their actions in application
+    - `initMenuView`
+    - `uploadSignature`
+    - `saveCorrectiveActions
+    - `uploadFailed`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+    - `renderRecord`
+    - `uploadResponse`
+- **SignOffFragment** - handles the logging off page
+    - `sign`
+    - `navigateToUsers`
+    - `viewChecked`
+    - `viewAuthorised`
+    - `viewApproved`
+    - `viewReviewed`
+    - `renderRecord`
+    - `uploadResponse`
+    - `initialize`
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `uploadFile`
+    - `getScreenContext`
+- **StartAuditFragment** - handles the starting of audit
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `getScreenContext`
+    - `renderAuditTemplates`
+    - `renderTemplateFields`
+    - `showSaveSuccess`
+    - `setOnClickListener`
+    - `setupUi`
+    - `initializeFields`
+    - `initLocalValues`
+    - `bindFields`
+    - `setReferenceFields`
+    - `saveAction`
+    - `isPackageInstalled`
+    - `getFileName`
+    - `getFileUploadField`
+    - `addToAttachment`
+    - `renderFlexField`
+    - `errorFlex`
+    - `FileListener`
+    - `createClient`
+    - `renderOfflineTemplate`
+- **SwpDetailFragment** - contains details of SWP in the application
+    - `showLoading`
+    - `hideLoading`
+    - `showRetry`
+    - `hideRetry`
+    - `showError`
+    - `renderRecord`
+    - `getScreenContext
+#### **Model**
+
+The model houses the logic for the program, which is retrieved by the ViewModel upon its own receipt of input from the user through View.
+ 
+#### **View**
+
+View is the collection of visible elements, which also receives user input. This includes user interfaces (UI), animations and text. The content of View is not interacted with directly to change what is presented.
+#### **ViewModel**
+ViewModel is located between the View and Model layers. This is where the controls for interacting with View are housed, while binding is used to connect the UI elements in View to the controls in ViewModel.
+
+
+
+
+

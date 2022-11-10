@@ -1,0 +1,19 @@
+##### **WHSNoiseControlAssessmentDetailsViewController** - handles the showing of assessment details in the Noise Control section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
+- `deleteAssessment`
+- `initializeDataSource`
+- `showEditDetailsView`
+- `initializeAddRecordBarButtonItem`
+- `showAddAssessmentView`
+- `showEditCommentView`
+- `cellRightUtitilityButtons`
+- `sanitizeAssessments`

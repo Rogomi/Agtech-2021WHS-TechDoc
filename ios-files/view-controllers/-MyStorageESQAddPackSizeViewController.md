@@ -1,0 +1,31 @@
+##### **MyStorageESQAddPackSizeViewController** - handles the adding of pack size in my storage ESQ
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `textField: ... shouldChangeCharactersInRange: ... replacementString`
+- `doneEditing`
+- `cancelledEditing`
+- `fetchUnitSize`
+- `initializeUI`
+- `initializeTablePackSizeNew`
+- `refreshVisibleCells`
+- `showAddUnitSizes`
+- `initializeDataReceivers`
+- `doneBarButtonItemDidTapped`
+- `didSelectedUnit`
+- `textFieldTextDidChanged`
+- `isAllRequiredInformationFilledIn`
+- `trimLeadingTrailingWhiteSpace`

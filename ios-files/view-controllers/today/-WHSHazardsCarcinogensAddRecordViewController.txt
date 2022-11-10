@@ -1,0 +1,34 @@
+##### **WHSHazardsCarcinogensAddRecordViewController** - handles the adding of record in hazards carcinogens
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveCarcinogensDetails`
+- `fetchAutoNum`
+- `initializeDataSource`
+- `createJSON`
+- `activateTextView: ... indexPath`
+- `showProjectPickerView`
+- `showStatusPickerView`
+- `showProductStoragePickerView`
+- `showProductPickerView`
+- `showProductListPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isProductExists`
+- `appendProducts: ... productNames`
+- `existingProductList`
+- `isAllRequiredDataFilledUp`

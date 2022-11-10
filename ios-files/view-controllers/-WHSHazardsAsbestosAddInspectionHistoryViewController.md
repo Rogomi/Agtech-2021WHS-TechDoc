@@ -1,0 +1,22 @@
+##### **WHSHazardsAsbestosAddInspectionHistoryViewController** - handles the adding of inspection history in the hazards asbestos section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking ... dataPicked`
+- `connection: ... didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveInspectionHistory`
+- `initializeDataSource`
+- `showInspectionTypePicker`
+- `showTestResultsPickerView`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `createJSON`

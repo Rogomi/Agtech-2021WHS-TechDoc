@@ -1,0 +1,9 @@
+##### **WHSHazardsViewController** - handles the showing of the Hazards screen
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `initializeDataSource`
+- `showAsbestosView`
+- `showCarcinogensView`

@@ -1,0 +1,9 @@
+##### **WHSSafetyTestHistoryViewController** - handles the showing of the history in the Safety Test section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `fetchTestHistories`
+- `showTestHistoryDetailsView`
+- `showEditTestHistoryDetailsView`
+- `openAddRecordView`

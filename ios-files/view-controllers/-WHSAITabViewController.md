@@ -1,0 +1,17 @@
+##### **WHSAITabViewController** - handles the audit and inspections tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showPDFView`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showEditDetailsView`
+- `showTasksObservedView`
+- `showChecklistView`
+- `showPointsRaisedView`
+- `showActionsView`

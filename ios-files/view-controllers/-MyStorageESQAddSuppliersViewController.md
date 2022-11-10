@@ -1,0 +1,26 @@
+##### **MyStorageESQAddSuppliersViewController** - handles the adding of suppliers in my storage
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `didReceiveMemoryWarning`
+- `dealloc`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `connection: ... didFailWithError`
+- `fetchExistingSuppliers`
+- `initializeDataReceivers`
+- `initializeUI`
+- `initializeTableSupplyInfo`
+- `refreshVisibleCells`
+- `doneBarButtonItemDidTapped`
+- `didSelectAnExistingSupplier`
+- `textFieldTextDidChanged`
+- `isAllRequiredInformationFilledIn`
+- `trimLeadingTrailingWhiteSpace`

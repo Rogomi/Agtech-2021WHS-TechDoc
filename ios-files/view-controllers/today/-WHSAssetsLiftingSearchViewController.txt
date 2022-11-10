@@ -1,0 +1,5 @@
+##### **WHSAssetsLiftingSearchViewController** - handles the search of lifting assets
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `showSearchResultsViewWithDataList`

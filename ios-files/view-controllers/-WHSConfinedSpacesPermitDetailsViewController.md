@@ -1,0 +1,20 @@
+##### **WHSConfinedSpacesPermitDetailsViewController** - shows the details of a confined spaces permit
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `fetchConfinedSpacesDetailsData`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `returnNullIfNull`
+- `initializeDataSource`
+- `showEntriesView`
+- `showAttachmentsView`
+- `showPDFView`

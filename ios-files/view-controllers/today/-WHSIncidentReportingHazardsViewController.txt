@@ -1,0 +1,19 @@
+##### **WHSIncidentReportingHazardsViewController** - controls the WHS incident reporting hazards view
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `viewWillDisappear`
+- `connection: … willSendRequest`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `swipeableTableViewCell: … didTriggerRightUtilityButtonWithIndex`
+- `fetchHazardsData`
+- `initializeDataSource`
+- `showEditHazardView`
+- `cellRightUtitilityButtons`
+- `openAddRecordView`

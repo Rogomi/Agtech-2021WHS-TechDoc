@@ -1,0 +1,4 @@
+##### **WHSPAPTraningSearchViewController** - handles the searching in the AP training section
+
+###### **Methods and Calculated Variables**
+- `showSearchResultsViewWithDataList`

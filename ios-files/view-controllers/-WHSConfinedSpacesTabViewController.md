@@ -1,0 +1,16 @@
+##### **WHSConfinedSpacesTabViewController** - logic behind the Confined Spaces tab
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tableView: … didSelectRowAtIndexPath`
+- `acSheet: … clickedButtonAtIndex`
+- `showSignOffView`
+- `initializeDataSource`
+- `showAttachmentsView`
+- `showEmailReportView`
+- `showAssessmentView`
+- `showEditDetailsView`
+- `showPermitsEntriesView`
+- `showMonitoringHistoryView`
+- `showActionsView`

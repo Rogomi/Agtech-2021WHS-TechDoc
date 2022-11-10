@@ -1,0 +1,6 @@
+##### **WHSRichTextEditorViewController** - handles the rich text editor
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `didReceiveMemoryWarning`
+- `prepareForSegue`

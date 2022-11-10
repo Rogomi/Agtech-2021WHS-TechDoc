@@ -1,0 +1,13 @@
+##### **WHSSafetyPPEEmployeeViewController** - handles employee view of Safety PPEs
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchEmployees`
+- `showEditPPEDetailsView`
+- `openAddRecordView`

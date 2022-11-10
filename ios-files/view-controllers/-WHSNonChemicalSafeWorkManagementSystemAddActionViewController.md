@@ -1,0 +1,30 @@
+##### **WHSNonChemicalSafeWorkManagementSystemAddActionViewController** - handles the WHS adding of action for nonchemical safe work management systems
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: … didReceiveResponse`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textView: … shouldChangeTextInRange`
+- `textViewDidChange`
+- `acSheet: … clickedButtonAtIndex`
+- `sendPOSTRequest`
+- `initializeDataSource`
+- `showCategoryPickerView`
+- `showStatusPickerView`
+- `showPriorityPickerView`
+- `showSendNotificationToPickerView`
+- `showDatePickerWithTitle`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `getRecipientIDs`
+- `createPOSTJSON`

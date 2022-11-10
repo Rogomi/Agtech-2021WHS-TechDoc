@@ -1,0 +1,33 @@
+##### **WHSConfinedSpacesAddActionViewController** - handles the adding of an action in the  confined spaces section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `acSheet: ... clickedButtonAtIndex`
+- `saveBarButtonItemDidTapped`
+- `isAllRequiredDataFilledUp`
+- `saveConfinedSpaceDetailsData`
+- `createJSON`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `showActionCategoriesPicker`
+- `showActionStatusPicker`
+- `showActionPriorityPicker`
+- `showActionEmailPicker`
+- `showWorkerPickerView`
+- `showNotificationReceiverPickerView`
+- `showDatePickerWithIndexPath`
+- `switchCellValueDidChanged`
+- `initializeDataSource`

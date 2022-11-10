@@ -1,0 +1,26 @@
+##### **WHSDynamicSigneesViewController** - handles the logic behind dynamic signees
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... viewForHeaderInSection`
+- `tableView: ... viewForFooterInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `tableView: ... heightForHeaderInSection`
+- `tableView: ... heightForFooterInSection`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `saveBarButtonItemDidTapped`
+- `validToSave`
+- `didSelectUser`
+- `didFinishSigningWithImage`
+- `didTapAddSigneeView`
+- `didTapRemoveSigneeView`
+- `textViewDidChange`
+- `showPersonInvolvedTypeView`
+- `refreshActionedByFields`
+- `showSignatureViewController`
+- `initializeDataSource`

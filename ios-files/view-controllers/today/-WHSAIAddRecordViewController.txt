@@ -1,0 +1,40 @@
+##### **WHSAIAddRecordViewController** - handles the adding of records in audit and inspections
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `connection: ... willSendRequest`
+- `connection: ... didReceiveResponse`
+- `connection: ... didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: ... dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: ... numberOfRowsInSection`
+- `tableView: ... titleForHeaderInSection`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... didSelectRowAtIndexPath`
+- `textView: ... shouldChangeTextInRange: ... replacementText`
+- `textViewDidChange`
+- `acSheet: ... clickedButtonAtIndex`
+- `fetchAutoNum`
+- `fetchLocationAddressData`
+- `saveRecordData`
+- `initializeDataSource`
+- `clearTypeData`
+- `clearLocationTypeData`
+- `createJSON`
+- `registerForOfflineSaving`
+- `showInspectionTypePickerView`
+- `showInspectionSubTypePickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showStatusPickerView`
+- `showDatePickerWithIndexPath`
+- `showDateTimePickerWithIndexPath`
+- `showRelevantPoliciesPickerView`
+- `showRelevantLegislationsPickeriew`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`

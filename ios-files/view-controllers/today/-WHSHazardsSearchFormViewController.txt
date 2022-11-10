@@ -1,0 +1,12 @@
+##### **WHSHazardsSearchFormViewController** - handles the showing of the search form in the Hazards section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewWillAppear`
+- `tablePickerDidFinishedPicking`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `initializeDataSource`
+- `showStatusPickerView`

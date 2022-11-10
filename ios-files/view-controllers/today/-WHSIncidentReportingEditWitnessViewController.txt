@@ -1,0 +1,9 @@
+##### **WHSIncidentReportingEditWitnessViewController** - handles the editing of a witness in the Incident Reporting section
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connectionDidFinishLoading`
+- `tableView: … didSelectRowAtIndexPath`
+- `fetchWitnessDetailsData`
+- `initializeDataSource`

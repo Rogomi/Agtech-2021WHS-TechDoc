@@ -1,0 +1,56 @@
+##### **WHSNoiseControlAddRecordViewController** - handles the adding for noise control records
+
+###### **Methods and Calculated Variables**
+- `viewDidLoad`
+- `viewDidAppear`
+- `connection: … willSendRequest`
+- `connection: … didReceiveResponse`
+- `connection: … didReceiveData`
+- `connectionDidFinishLoading`
+- `tablePickerDidFinishedPicking: … dataPicked`
+- `numberOfSectionsInTableView`
+- `tableView: … numberOfRowsInSection`
+- `tableView: … titleForHeaderInSection`
+- `tableView: … cellForRowAtIndexPath`
+- `tableView: … estimatedHeightForRowAtIndexPath`
+- `tableView: … heightForRowAtIndexPath`
+- `tableView: … didSelectRowAtIndexPath`
+- `textViewDidChange`
+- `acSheet: … clickedButtonAtIndex`
+- `fetchAutoNum`
+- `fetchLocationAddressData`
+- `saveNoiseControlDetailsData`
+- `initializeDataSource`
+- `clearNoiseAssessmentData`
+- `clearLocationData`
+- `createJSON`
+- `showNoiseAssessmentTypePickerView`
+- `showNoiseAssessmentSubTypePickerView`
+- `showNoiseAssessmentCategoryPickerView`
+- `showLocationTypePickerView`
+- `showLocationPickerView`
+- `showAssetEquipmentTypePickerView`
+- `showAssetEquipmentPickerView`
+- `showAssetEquipmentListPickerView`
+- `showChemicalStoragePickerView`
+- `showChemicalPickerView`
+- `showChemicalListPickerView`
+- `showDatePickerWithIndexPath`
+- `showStatusPickerView`
+- `showYesNoNotDeterminedPickerView`
+- `showAudioMetricPickerView`
+- `showLinkRiskAssessmentPickerView`
+- `showLinkJSAPickerView`
+- `showLinkSWMSPickerView`
+- `showRelevantPoliciesPickerView`
+- `showRelevantProceduresPickerView`
+- `showRelevantLegislationsPickeriew`
+- `showRelevantTrainingPickerView`
+- `switchCellValueDidChanged`
+- `saveBarButtonItemDidTapped`
+- `handleAutoNumData`
+- `isAllRequiredDataFilledUp`
+- `isSelectedItemsExists`
+- `setSelectedItemWithIDs`
+- `appendSelectedItemWithIDs`
+- `discardSelectedItemWithStringOfIDs`

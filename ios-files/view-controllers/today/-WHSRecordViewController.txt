@@ -1,0 +1,36 @@
+##### **WHSRecordViewController** - handles showing of the Record screen
+
+###### **Methods and Calculated Variables**
+- `initWithCoder`
+- `viewDidLoad`
+- `viewWillLayoutSubviews`
+- `initializeTableViewPlaceholder`
+- `connection: ... willSendRequest: ... redirectResponse`
+- `connection: ... didReceiveData`
+- `tableView: ... cellForRowAtIndexPath`
+- `tableView: ... estimatedHeightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `tableView: ... heightForRowAtIndexPath`
+- `scrollViewDidEndDragging: ... willDecelerate`
+- `searchBarShouldBeginEditing`
+- `searchBarTextDidBeginEditing`
+- `searchBar: ... textDidChange`
+- `searchBarSearchButtonClicked`
+- `searchBarCancelButtonClicked`
+- `fetchRecords`
+- `fetchPDF`
+- `fetchNextPage`
+- `updateDataSource`
+- `initializePDFBarButtonItem`
+- `initializePDFBarButtonItem`
+- `initializeMoreOptionsBarButtonItem`
+- `presentMoreOptionsActionSheet`
+- `initializeAddRecord`
+- `showNoPermissionPlaceholder`
+- `showSearchBar`
+- `hideSearchBar`
+- `showSearchView`
+- `openPDFView`
+- `openAddRecordView`
+- `moreOptionsBarButtonItemDidTapped`
+- `searchItem`
